@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/neldardhen-system/neldar-system/"}
 ---
 
-
+# Neldar System
 *Old system [[Neldardhen System/Rules/Old v1 rules/The Neldardhen System (v1)\|The Neldardhen System (v1)]]*
 
 The System Goals and [[Neldardhen System/Philosophy\|Philosophy]].
@@ -26,6 +26,6 @@ Situational Rules
 For the Game Master - Storyteller
 - [[Neldardhen System/Rules/Inspirations and Level up\|Inspirations and Level up]]
 - [[Neldardhen System/Rules/Optional Rules\|Optional Rules]]
-- [[Neldardhen System/Coming from DnD-Pathfinder\|Coming from DnD-Pathfinder]]
+- [[Neldardhen System/Rules/Coming from DnD-Pathfinder\|Coming from DnD-Pathfinder]]
 
 List of [[Neldardhen System/Adventures/Adventures\|Adventures]]
