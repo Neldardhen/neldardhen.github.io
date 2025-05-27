@@ -17,7 +17,7 @@ Characters gains a [[Skill Feat\|Skill Feat]] at level 2 and every 3 levels afte
 Characters gains a [[Species Feat\|Species Feat]] at level 3 and every 3 levels after that.
 (3, 6, 9, 12, 15, 18)
 
-Characters gains a [[Species Feat\|Species Feat]] at level 4 and every 3 levels after that. (except at level 10)
+Characters gains a [[General Feat\|General Feat]] at level 4 and every 3 levels after that. (except at level 10)
 (4, 7, 13, 16, 19)
 
 Characters gains a [[Power Feat\|Power Feat]] at level 10 and 20.
