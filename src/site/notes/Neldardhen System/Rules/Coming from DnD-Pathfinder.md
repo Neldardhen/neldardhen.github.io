@@ -6,6 +6,8 @@
 # Coming from DnD or Pathfinder ?
 ## How to adapt
 How to adapt some rules for the [[Neldardhen System/Neldar System\|Neldar System]].
+
+You have a character idea with a specific DnD Race ? See if there is an equivalent Species in Neldardhen : [[DnD Specific/Races equivalence\|Races equivalence]].
 ## Short Rest
 - ->Resourcing Activities (see [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities\|Recovery, Rest and Resourcing Activities]])
 ## Saving Throws
@@ -22,8 +24,6 @@ Keeping balance -> Athletics check on Physics or Reaction Speed
 Resisting the effect of an attack -> Fighting check on Pain Tolerance 
 
 Constitution / Fortitude that mesure things that happen on a longer stretch of time (like becoming exhausted or drunk), instead of doing checks, simply reduces the endurance by a given or rolled amount and give an appropriate injury when the endurance reaches 0, ie someone gets the "Drunk" Injury after their endurance has been reduced to 0 due to drinking.
-
-
 
 ### Wisdom Saves / Will Saves
 To Resist a magical effect -> Raw magic check on Volition

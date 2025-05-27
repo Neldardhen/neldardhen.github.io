@@ -3,7 +3,7 @@
 ---
 
 # Best Die
-Game of dice played with a d12 in [[Neldardhen World/Endëa/Cultures_Nations/Places/Nelatar\|Nelatar]] and [[Neldardhen World/Endëa/Cultures_Nations/Places/Egerot\|Egerot]].
+[[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Games\|Game]] of dice played with a d12 in [[Neldardhen World/Endëa/Cultures_Nations/Places/Nelatar\|Nelatar]] and [[Neldardhen World/Endëa/Cultures_Nations/Places/Egerot\|Egerot]].
 
 Twelve sided dice are used in both Nelatar and Egerot, but where Nelatarens regards 1 as the best result this idea tends to shift when playing further to the East where 12 is seen as the best.
 
