@@ -3,22 +3,132 @@
     
         <url>
             <loc>/404.html</loc>
-            <lastmod>2025-05-27T13:01:03.408Z</lastmod>
+            <lastmod>2025-05-27T15:05:45.150Z</lastmod>
         </url>
     
         <url>
             <loc>/</loc>
-            <lastmod>2025-05-27T13:01:03.411Z</lastmod>
+            <lastmod>2025-05-27T15:05:45.190Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/adventures/mystery-in-ostorrome-handouts/</loc>
+            <lastmod>2025-05-27T15:05:45.190Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/adventures/mystery-in-ostorrome-locations/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/adventures/mystery-in-ostorrome-np-cs/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/adventures/mystery-in-ostorrome/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/character-creation/character-creation-origins/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/character-creation/character-creation-points-distribution/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/character-creation/character-creation-species/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/character-creation/character-creation/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/character-creation/playable-species-list/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/character-creation/quick-build-reference/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
         </url>
     
         <url>
             <loc>/neldardhen-system/neldar-system/</loc>
-            <lastmod>2025-05-27T13:01:03.411Z</lastmod>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/philosophy/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
         </url>
     
         <url>
             <loc>/neldardhen-system/rules/basics/</loc>
-            <lastmod>2025-05-27T13:01:03.411Z</lastmod>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/rules/combat-and-injuries/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/rules/coming-from-dn-d-pathfinder/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/rules/inspirations-and-level-up/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/rules/magical-items-and-crafting/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/rules/optional-rules/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/rules/recovery-rest-and-resourcing-activities/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/rules/rituals/</loc>
+            <lastmod>2025-05-27T15:05:45.191Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/rules/spells/</loc>
+            <lastmod>2025-05-27T15:05:45.192Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/rules/terrain-and-environment/</loc>
+            <lastmod>2025-05-27T15:05:45.192Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/neldardhen-system/rules/travel-speed/</loc>
+            <lastmod>2025-05-27T15:05:45.192Z</lastmod>
+        </url>
+    
+        <url>
+            <loc>/todo/</loc>
+            <lastmod>2025-05-27T15:05:45.192Z</lastmod>
         </url>
     
 </urlset>

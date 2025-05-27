@@ -1,0 +1,104 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Recovery, Rest and Resourcing Activities</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.d92311c2.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Digital Garden</h1>
+</a>
+</div>
+</nav>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<h1 id="recovery-rest-and-resourcing-activities" tabindex="-1">Recovery, Rest and Resourcing Activities</h1>
+<p>Rules for recovery in <a class="internal-link is-unresolved" href="/404" target="">The Neldardhen System (v1)</a> and <a class="internal-link" target="" data-note-icon="undefined" href="/neldardhen-system/neldar-system/">Neldar System</a>.</p>
+<h2 id="rest-and-needs" tabindex="-1">Rest and Needs</h2>
+<p><a class="tag" onclick="toggleTagSearch(this)" data-content="#Rest">#Rest</a>, <a class="tag" onclick="toggleTagSearch(this)" data-content="#Needs">#Needs</a><br>
+The main way to recover <em>focus</em>, <em>endurance</em> and <em>resilience</em> is by <em>Resting</em>.</p>
+<p>A <em>Rest</em> includes eating food for the day and sleeping. Once a <em>Rest</em> is done everyone check their needs and whether or not they have fulfilled them. Each need is linked to one part of the <em>Being</em> and will dictate which recovery die will be roll. If a need is unmet, the recovery die for the specific resource will be one category lower (a <strong>1d6</strong> would become a <strong>1d4</strong>).</p>
+<p>The result of the recovery die is added to the current value of the resource.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th><strong>Need</strong></th>
+<th><strong>Part of the Being</strong></th>
+<th><strong>Resource</strong></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Sunlight</td>
+<td>Mind</td>
+<td>Focus</td>
+<td>Fatigue</td>
+</tr>
+<tr>
+<td>Food and water</td>
+<td>Body</td>
+<td>Endurance</td>
+<td>Exhaustion</td>
+</tr>
+<tr>
+<td>Sleep and/or Dream</td>
+<td>Spirit</td>
+<td>Resilience</td>
+<td>Stress</td>
+</tr>
+</tbody>
+</table></div>
+<p>After each rest, the values of <em>fatigue</em>, <em>exhaustion</em> and <em>stress</em> level are <strong>divided by 2</strong> (rounded down.)<br>
+For each need that was not fulfiled, the <em>fatigue</em>, <em>exhaustion</em> or <em>stress</em> value is only decremented by <strong>1</strong>.</p>
+<blockquote>
+<p>Ayrina has a Mind score of 3, Body score of 5 and a Spirit score of 4. Her recovery dice are 2d6, 2d8 and 2d6 respectively.<br>
+She had spent the day exploring dark caves and passages, thus her need for sunlight was not met, but she had plenty to eat and was able to sleep.<br>
+This means that she will roll her full dice for her <em>endurance</em> (Body) and <em>resilience</em> (Spirit) : <strong>2d8</strong> and <strong>2d6</strong>, but for her <em>focus</em> (Mind) she will only be able to roll <strong>2d4</strong> (1 category of die less than her recovery dice of 2d6).</p>
+<p>At the end of the day she had : <strong>5</strong> <em>focus</em>, <strong>4</strong> <em>endurance</em> and <strong>6</strong> <em>resilience</em>. In the morning she will roll her recovery dice and regain :<br>
+Mind : <strong>2d4</strong>, she gets a total of <strong>3</strong> her new value of <em>focus</em> for the day is 8.<br>
+Body : <strong>2d8</strong>, she gets a total of <strong>9</strong> her new value of <em>endurance</em> for the day is 13.<br>
+Spirit : <strong>2d6</strong>, she gets a total of <strong>7</strong> her new value of <em>resilience</em> for the day is 12. (She cannot go over her resilience maximum which is 3 times her Spirit socre : <strong>12</strong>)</p>
+</blockquote>
+<h2 id="resourcing-activities" tabindex="-1">Resourcing Activities</h2>
+<p><a class="tag" onclick="toggleTagSearch(this)" data-content="#Resourcing_Activity">#Resourcing_Activity</a></p>
+<p>Some activities can replenish one resource for some cost. The cost can be other resources, time or simply money. Each resourcing activity is personal to each character, their cost and benefit may vary from character to character.</p>
+<p>One character might be greatly helped focusing by drinking coffee, but not really tolerate the acidity of the beverage thus gaining a <strong>+1d4</strong> <em>focus</em> and a <strong>-2</strong> <em>endurance</em> when drinking a cup.</p>
+<p>An other one might tolerate the acidity well but becoming a little bit agitated gaining a <strong>+1</strong>d4 to <em>focus</em> and a <strong>-2</strong> to <em>resilience</em>.</p>
+<p>A nice walk in nature might gives you a <strong>+1d4</strong> to <em>resilience</em> and a <strong>+2</strong> to <em>focus</em> while costing you only <strong>2</strong> <em>endurance</em>, but to complete this activity you need at least 1 hour and access to nature or a park.</p>
+<blockquote>
+<p><em><strong>Advice for GMs</strong></em><br>
+<em>As the adventure progress it is advised to emphasis to your players the discovery or creation of new Resourcing Activities for their characters. Activities that help them with their Permanent Injuries and tie into their character's narrative arc.</em><br>
+<em>The idea of this game is to keep going, healing what can be healed and learning to manage what cannot.</em></p>
+</blockquote>
+</main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>
