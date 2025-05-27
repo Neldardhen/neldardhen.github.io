@@ -47,4 +47,4 @@ Classes don't exist, instead player create their own specialisation by choosing 
 
 Class abilites are somewhat replaced by weapons special traits. A character with a skill high enough can start using the special traits of weapons associated with said skill.
 
-Skill-, Species- and General- Feats give an other layer of customisation to the characters (see [[Neldardhen System/Rules/Character Progression\|Character Progression]])
+Skill-, Species- and General- Feats give an other layer of customisation to the characters (see [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]])

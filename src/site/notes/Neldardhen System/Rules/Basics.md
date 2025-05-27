@@ -20,6 +20,8 @@ The value of an attribute is a type of die (d4, d6, d8, d10, d12). An increase i
 Each task will cost a creature one of three resources. #Focus which is the resource of the _Mind_, #endurance, the resource of the _Body_ and #resilience, the resource of the _Spirit_. The maximum of each resource cannot be higher than three times its corresponding Fundamental Value.
 
 ## Skills
+{ #75d8a0}
+
 
 There are 18 skills separated in three catagories linked to Mind, Body and Spirit.
 

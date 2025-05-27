@@ -9,7 +9,7 @@ The second step of [[Neldardhen System/Character Creation/Character Creation\|Ch
 ## Fundamental Values
 You have three fundamental values, your _Mind_, _Body_ and _Spirit_ and you have **12 points** to distribute between them. Each one may not be less than **1** or greater than **10**.
 
-Every time you gain a level, you will gain **2** additional points. (see [[Neldardhen System/Rules/Character Progression\|Character Progression]])
+Every time you gain a level, you will gain **2** additional points. (see [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]])
 
 Every even level, your maximum for your Fundamental values increases by **1**. (ie. at level 7 you would have a cap of 13. )
 
@@ -58,7 +58,7 @@ Increasing a skill from (**n-1**) to **n** costs **n points**. Increasing a skil
 | 4          | Expert       |                                                         |
 | 5          | Master       | You spend at least 10'000 hours practising this subject |
 
-Every time you gain a level, you will gain **10** additional points. (see [[Neldardhen System/Rules/Character Progression\|Character Progression]])
+Every time you gain a level, you will gain **10** additional points. (see [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]])
 
 **Specialities**
 You get **1** free specialisation in a skill of your choice at level 1.

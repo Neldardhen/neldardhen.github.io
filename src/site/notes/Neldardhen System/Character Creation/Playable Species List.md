@@ -30,7 +30,7 @@ List of available species for player characters with the [[Neldardhen System/Nel
 - ![Ara.png|50](/img/user/Images/Species/Ara.png) [[Neldardhen World/Species/Humans\|Humans]]
 - ![Kobold-head.png|50](/img/user/Images/Species/Kobold-head.png) [[Neldardhen World/Species/Kobolds\|Kobolds]]
 - ![tabaxibard-closeup.png|50](/img/user/Images/Species/tabaxibard-closeup.png) [[Neldardhen World/Species/Lynfaldir\|Lynfaldir]] 
-- ![Lorta-bust.png|50](/img/user/Images/Species/Lorta-bust.png) [[Clay Goblins/Orcs\|Orcs]] 
+- ![Lorta-bust.png|50](/img/user/Images/Species/Lorta-bust.png) [[Neldardhen World/Species/Orcs\|Orcs]] 
 - ![Alopea.png|50](/img/user/Images/Species/Alopea.png) [[Neldardhen World/Species/Vipeans\|Vipeans]] 
 
  
@@ -53,7 +53,7 @@ List of available species for player characters with the [[Neldardhen System/Nel
 - ![Gremn.png|50](/img/user/Images/Species/Gremn.png) [[Neldardhen World/Species/Gremns\|Gremns]]
 - [[Neldardhen World/Species/Hobgoblins\|Hobgoblins]] 
 - ![Agarwén.png|50](/img/user/Images/Species/Agarw%C3%A9n.png) [[Neldardhen World/Species/Agarwéns\|Agarwéns]]
-- ![Lorta-bust.png|50](/img/user/Images/Species/Lorta-bust.png) [[Clay Goblins/Orcs\|Orcs]] 
+- ![Lorta-bust.png|50](/img/user/Images/Species/Lorta-bust.png) [[Neldardhen World/Species/Orcs\|Orcs]] 
 - ![Arelion-archfey-closeup.png|50](/img/user/Images/Species/Arelion-archfey-closeup.png) [[Neldardhen World/Species/Tyndir\|Tyndir]] (sing. Tyndar) 
 - ![Umbran.png|50](/img/user/Images/Species/Umbran.png) [[Neldardhen World/Species/Umbrans\|Umbrans]] 
 - ![TheSeer-token.png|50](/img/user/Images/Species/TheSeer-token.png) [[Neldardhen World/Species/Shinrens\|Shinrens]] 

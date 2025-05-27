@@ -22,7 +22,7 @@ Each level, a character gains a number of points decided by the GM to spend in t
 
 They also gain points (**10** by default) to spend on their attributes and skills.
 
-At each new level they also gain a new Feat, (see [[Neldardhen System/Rules/Character Progression\|Character Progression]]).
+At each new level they also gain a new Feat, (see [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]]).
 ### Learning new skills
 
 While leveling up a player can only spend points in skills that their character already knows. Spending points in a new skill requires the character to have found a way to learn it. Finding books about a subject, a teacher or starting to spend time training with an other player character are all valid ways to learn a new skill.

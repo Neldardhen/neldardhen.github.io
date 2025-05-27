@@ -17,6 +17,7 @@ For the Players
 	- [[Neldardhen System/Rules/Alchemy\|Alchemy]] -> Allow to create Potions that can "store" magical effects
 	- [[Neldardhen System/Rules/Magical Items and Crafting\|Magical Items and Crafting]] -> Allow to create or enchant magical items
 	- [[Neldardhen System/Rules/Rituals\|Rituals]] -> Allow for stronger and longer lasting effects
+- [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]] after level 1.
 
 Situational Rules
 - [[Neldardhen System/Rules/Travel Speed\|Travel Speed]]

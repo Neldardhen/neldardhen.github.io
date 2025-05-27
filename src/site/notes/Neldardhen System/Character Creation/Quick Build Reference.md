@@ -3,6 +3,7 @@
 ---
 
 # Quick Build Reference
+Reference for the [[Neldardhen System/Character Creation/Character Creation\|Character Creation]] in the [[Neldardhen System/Neldar System\|Neldar System]].
 
 1. Choose your [[Neldardhen World/Species/Species\|Species]] (more info on what a Specie gives you : [[Neldardhen System/Character Creation/Character Creation - Species\|Character Creation - Species]]):
     1. a Your species type gives you some perks or handicap.

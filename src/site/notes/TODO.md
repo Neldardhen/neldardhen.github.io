@@ -14,7 +14,7 @@ Create Subspecies (Obsidian and Foundry) for
 	[[Neldardhen World/Species/Gemelians\|Gemelians]]
 	 [[Neldardhen World/Species/Tyndir\|Tyndir]]
 
-Create [[Neldardhen System/Rules/Character Progression\|Character Progression]] Rules 
+Create [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]] Rules 
 
 Create Feats (Obsidian and Foundry)
 > Species Feats
@@ -26,3 +26,7 @@ Create Feats (Obsidian and Foundry)
 - Debug Leather Armour not applying bonus to defense
 - Update Currency on Character Sheet for each member of the Party when sharing currency from the Party Overview Sheet.
 - Correct the style sheets (which one ?) to force background colour **and** text colour. Problem in some cases with dark mode.
+
+### Digital Garden
+- Publish Subspecies
+- Change Style
