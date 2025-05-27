@@ -1,0 +1,223 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Basics</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.d92311c2.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Digital Garden</h1>
+</a>
+</div>
+</nav>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<p>Basics rules of <a class="internal-link is-unresolved" href="/404" target="">Neldar System v2</a>.<br>
+Every character and creatures in the game have three Fundamental values representing their Being: <a class="tag" onclick="toggleTagSearch(this)" data-content="#Mind">#Mind</a>, <a class="tag" onclick="toggleTagSearch(this)" data-content="#Body">#Body</a> and <a class="tag" onclick="toggleTagSearch(this)" data-content="#Spirit">#Spirit</a>.</p>
+<p>For each of those, there are three Attributes.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th></th>
+<th><strong>Mind</strong></th>
+<th><strong>Body</strong></th>
+<th><strong>Spirit</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Active / Raw Strength</td>
+<td>Memory / Knowledge</td>
+<td>Physic</td>
+<td>Charisma</td>
+</tr>
+<tr>
+<td>Reactive / Finesse</td>
+<td>Wits</td>
+<td>Reaction Speed</td>
+<td>Manipulation / Insight</td>
+</tr>
+<tr>
+<td>Defensive</td>
+<td>Composure</td>
+<td>Pain Tolerance</td>
+<td>Volition</td>
+</tr>
+<tr>
+<td>The value of an attribute is a type of die (d4, d6, d8, d10, d12). An increase in the die category (from d6 -&gt; d8) can be bought with points at character creation or after a level up (see <a class="internal-link is-unresolved" href="/404" target="">Character Creation - Points Distribution</a>)</td>
+<td></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="resources" tabindex="-1">Resources</h2>
+<p>Each task will cost a creature one of three resources. <a class="tag" onclick="toggleTagSearch(this)" data-content="#Focus">#Focus</a> which is the resource of the <em>Mind</em>, <a class="tag" onclick="toggleTagSearch(this)" data-content="#endurance">#endurance</a>, the resource of the <em>Body</em> and <a class="tag" onclick="toggleTagSearch(this)" data-content="#resilience">#resilience</a>, the resource of the <em>Spirit</em>. The maximum of each resource cannot be higher than three times its corresponding Fundamental Value.</p>
+<h2 id="skills" tabindex="-1">Skills</h2>
+<p>There are 18 skills separated in three catagories linked to Mind, Body and Spirit.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th><strong>Mind</strong></th>
+<th><strong>Body</strong></th>
+<th><strong>Spirit</strong></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Arcane Magic</td>
+<td>Athletics</td>
+<td>Animal Affinity</td>
+</tr>
+<tr>
+<td>Rhetoric / Linguistic</td>
+<td>Craft</td>
+<td>Deception</td>
+</tr>
+<tr>
+<td>Culture / History</td>
+<td>Fighting</td>
+<td>Intimidation</td>
+</tr>
+<tr>
+<td>Investigation</td>
+<td>Performance</td>
+<td>Persuasion</td>
+</tr>
+<tr>
+<td>Research / Sciences</td>
+<td>Stealth</td>
+<td>Insight/Empathy</td>
+</tr>
+<tr>
+<td>Mysticism / Occultism</td>
+<td>Thievery</td>
+<td>Raw Magic</td>
+</tr>
+<tr>
+<td>Three of the skills are Defense skills, <strong>Aracane Magic</strong>, <strong>Fighting</strong> and <strong>Raw Magic</strong> are taken into account when defending against attacks or damage affecting the corresponding part of the being.</td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+<p>Each skill as a rank - ranks can be bought with points at character creation and after a level up (see <a class="internal-link is-unresolved" href="/404" target="">Character Creation - Points Distribution</a>).<br>
+A rank in a skill cannot be higher than the score in the Fundamental value (Mind, Body or Spirit)</p>
+<h3 id="skill-checks" tabindex="-1">Skill Checks</h3>
+<p>A skill check is done by combining a skill with an attribute. The rank of the skill determine the number of dice that can be bought and the attribute determine the type of the dice.</p>
+<p>The first die is always free, each additional die costs <strong>1</strong> point of resource (either <em>focus</em>, <em>endurance</em> or <em>resilience</em> depending on the skill used)<br>
+Additionally, if the skill check is linked to a speciality of the character, then the character gains 1 additional free die for the check.</p>
+<blockquote>
+<p>Example :</p>
+<p>Arinya wants to translate a stone tablet written in Ancient Laugsuil.<br>
+The GM asks for a roll of Linguistic on Memory / Knowledge.<br>
+She has a <strong>rank 2</strong> in Rhetoric / Linguistic and <strong>d6</strong> in Memory / Knowledge.<br>
+She has a <strong>specialisation</strong> in <em>Ancient Laugsuil</em>.</p>
+<p>She gets <strong>2d6</strong> for free thanks to <strong>1</strong> free die and her specialisation. However, the GM told her that the check would be quite hard. She decides to spend <strong>2</strong> <em>focus</em> points to get <strong>2</strong> additional dice.</p>
+<p>She can now roll <strong>4d6</strong> at the cost of <strong>2</strong> <em>focus</em></p>
+</blockquote>
+<h4 id="specialities" tabindex="-1">Specialities</h4>
+<p>A character can choose a free specialisation when they reach rank <strong>3</strong> in a particular skill.</p>
+<p>Additionally, some skills let you choose a speciality at ranks <strong>1</strong>. Those are Rhetoric / Linguistic, Culture / History, Research / Science, Athletics, Fighting and Performance.</p>
+<h4 id="pushing-past-your-limits" tabindex="-1">Pushing past your limits</h4>
+<p>If a character has a rank high enough in a skill to buy more dice, but not enough resources to do so, they can choose to buy dice of a category less (d6 -&gt; d4) for twice as much of one other resource.</p>
+<blockquote>
+<p>From our exemple before, let's say that Arinya has only <strong>1</strong> point of <strong>focus</strong> left. She would not be able to buy the <strong>2</strong> additional dice.<br>
+She could buy <strong>1</strong> additional <strong>d6</strong> for <strong>1</strong> <em>focus</em>, then decide to spend <strong>2</strong> points of <em>resilience</em> to buy an additional <strong>d4</strong>.</p>
+<p>She now would be able to roll <strong>3d6 + 1d4</strong> for <strong>1</strong> <em>focus</em> and <strong>2</strong> <em>resilience</em>.</p>
+</blockquote>
+<h3 id="fatigue-exhaustion-and-stress" tabindex="-1"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Fatigue">#Fatigue</a>, <a class="tag" onclick="toggleTagSearch(this)" data-content="#Exhaustion">#Exhaustion</a> and <a class="tag" onclick="toggleTagSearch(this)" data-content="#Stress">#Stress</a></h3>
+<p>It is still possible to do a task with no resources left, but this will instead increment the <em>Fatigue</em>, <em>Exhaustion</em> or <em>Stress</em> level and prompt a roll on the corresponding Injury table. (see <a class="internal-link is-unresolved" href="/404" target="">Injuries</a>).</p>
+<p>It is also the case if a creature takes damage on a resource (<em>focus</em>, <em>endurance</em> or <em>resilience</em>) which is already at 0.</p>
+<p>If the cost of the task or the damage received is greater than <strong>9</strong> then the <em>Fatigue</em>, <em>Exhaustion</em> or <em>Stress</em> level increments by <strong>2</strong>, similarly if the cost or damage is greater than <strong>19</strong> then the level increment by <strong>3</strong>, and so on and so forth.</p>
+<p>The <em>Fatigue</em>, <em>Exhaustion</em> or <em>Stress</em> level is subtracted from any roll made with the corresponding resources.</p>
+<blockquote>
+<p>Example</p>
+<p>Arinya has a <em>Stress</em> level of <strong>2</strong>. She wants to make a Deception check, lying to her friends pretending that everything is ok.</p>
+<p>She assembles her pool of dice and get to roll <strong>2d6</strong>, but she will have to subtract her <em>Stress</em> level from the total.</p>
+<p>She rolls <strong>2d6 - 2</strong> ;  she gets a <strong>3</strong> and a <strong>4</strong> on the dice for a total of  <strong>3 + 4 - 2 = 5</strong> !</p>
+</blockquote>
+<h3 id="critical-success-and-failure" tabindex="-1">Critical Success and Failure</h3>
+<p>A critical success occurs when the total of the dice is double or more than the set difficulty.<br>
+A critical failure on the other hand happens when the total roll is less than half of the set difficulty.</p>
+<h2 id="perception-checks" tabindex="-1">Perception Checks</h2>
+<p>Perception checks are always free. They use dice pools determined by the species of the character. (see <a class="internal-link is-unresolved" href="/404" target=""> Character Creation - Species - Senses</a>)</p>
+<h2 id="diffiiculty-for-g-ms" tabindex="-1">Diffiiculty (for GMs)</h2>
+<p>To set the difficulty of a skill set you can use this table :</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th></th>
+<th><strong>score</strong></th>
+<th>notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Trivial</td>
+<td>2+</td>
+<td>Garantee succeess when have either a specialty or buying 1 die.</td>
+</tr>
+<tr>
+<td>Very Easy</td>
+<td>4+</td>
+<td></td>
+</tr>
+<tr>
+<td>Easy</td>
+<td>6+</td>
+<td></td>
+</tr>
+<tr>
+<td>Medium</td>
+<td>8+</td>
+<td>Roughly 50% chace of succees with 2d6 or 2d8</td>
+</tr>
+<tr>
+<td>Hard</td>
+<td>12+</td>
+<td>Require to have at least 1 rank in the skill to succeed (or be very lucky with a d12 attribute)</td>
+</tr>
+<tr>
+<td>Very Hard</td>
+<td>16+</td>
+<td></td>
+</tr>
+<tr>
+<td>Impossible</td>
+<td>20+</td>
+<td></td>
+</tr>
+</tbody>
+</table></div>
+</main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>
