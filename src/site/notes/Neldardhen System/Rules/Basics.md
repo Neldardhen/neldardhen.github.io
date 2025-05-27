@@ -3,7 +3,7 @@
 ---
 
 
-Basics rules of  [[Neldardhen System/Neldar System v2\|Neldar System v2]].
+Basics rules of  [[Neldardhen System/Neldar System\|Neldar System]].
 Every character and creatures in the game have three Fundamental values representing their Being: #Mind, #Body and #Spirit.
 
 For each of those, there are three Attributes.
