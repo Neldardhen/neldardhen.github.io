@@ -18,42 +18,41 @@ East of the Palanian Continent, across the [[Neldardhen World/Endëa/Continents/
 
 #### North West
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Nelatar\|Nelatar]]
-	Nelataren
-	[[Neldardhen World/Endëa/Cultures_Nations/Places/Serna\|Serna]]
-	Ordelen
-	Vierna
-	Maralen
-	Avorel
-	
-	
+- Nelataren
+-  [Serna]]
+- Ordelen
+- Vierna
+- Maralen
+- Avorel
+
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Egerot\|Egerot]]
-	Capital
-	[[Percaras\|Percaras]]
-	The Haflings Hills
-	
+- Capital
+- [[Neldardhen World/Endëa/Cultures_Nations/Places/Percaras\|Percaras]]
+- The Haflings Hills
+
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Findelythrim Forest\|Findelythrim Forest]]
 #### Ancient Iris Empire
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Dogarot\|Dogarot]]
-	[[Neldardhen World/Endëa/Cultures_Nations/Places/Precaras\|Precaras]]
-	[[Lingwaino\|Lingwaino]]
+- [[Neldardhen World/Endëa/Cultures_Nations/Places/Percaras\|Percaras]]
+- [[Lingwaino\|Lingwaino]]
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Lobor\|Lobor]]
-	Alcarin
-	Roquenost
+- Alcarin
+- Roquenost
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Ered\|Ered]]
-	Enered
+- Enered
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Talarún\|Talarún]]
-	Macarmentë
-	[[Neldardhen World/Endëa/Cultures_Nations/Places/Ostorrómë\|Ostorrómë]]
+- Macarmentë
+- [[Neldardhen World/Endëa/Cultures_Nations/Places/Ostorrómë\|Ostorrómë]]
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Algassia\|Algassia]]
-	Anarost
-	Lísirin
-	[[Caraluin\|Caraluin]]
-	[[Angornéns Swamps\|Angornéns Swamps]]
+- Anarost
+- Lísirin
+- [[Caraluin\|Caraluin]]
+- [[Angornéns Swamps\|Angornéns Swamps]]
 #### The Northern Forests and plains
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Faelrim Forest\|Faelrim Forest]]
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Alfir\|Alfir]]
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Rhauwrim Forest\|Rhauwrim Forest]]
-	[[The City of Bronze\|The City of Bronze]]
+- [[The City of Bronze\|The City of Bronze]]
 [[The Plateau\|The Plateau]]
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Urîdzâyan\|Urîdzâyan]]
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Braig\|Braig]]
@@ -72,6 +71,5 @@ East of the Palanian Continent, across the [[Neldardhen World/Endëa/Continents/
 	Incaras
 	Inrast
 	[[Neldardhen World/Endëa/Cultures_Nations/Places/Silvola\|Silvola]]
-
 
 ### Other Places of Interest

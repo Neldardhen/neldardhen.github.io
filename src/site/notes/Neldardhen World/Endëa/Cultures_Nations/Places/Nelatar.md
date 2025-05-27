@@ -36,7 +36,7 @@ The Nelataran currency is the daer. It's a based 12 system (like their counting 
 
 
 ### Religion
-For a long time, Nelatar shared the same pantheon of gods and goddesses that [[Egerot \|Egerot ]]worship (the [[Neldardhen World/Endëa/Cultures_Nations/Religions/Chtoniens-Celestial Pantheon\|Chtoniens-Celestial Pantheon]]), but over time, the Temple of Ordel grew in power and tried to erased the others gods/goddess. They believe in the [[Neldardhen World/Cosmologies/The One World Cosmology\|The One World Cosmology]].
+For a long time, Nelatar shared the same pantheon of gods and goddesses that [[Egerot \|Egerot ]]worship (the [[Neldardhen World/Endëa/Cultures_Nations/Religions/Chtonien-Celestial Pantheon\|Chtonien-Celestial Pantheon]]), but over time, the Temple of Ordel grew in power and tried to erased the others gods/goddess. They believe in the [[Neldardhen World/Cosmologies/The One World Cosmology\|The One World Cosmology]].
 The Temple was fairly successful in doing so in the Capital and the Western Province.
 Over the past century, a significant resurgence in the beliefs and ancient practices as been seen in the Eastern Province.
 In reaction, the Temple of Ordel has made illegal any practice tied to the ancient gods and even pronouncing their name is forbidden.

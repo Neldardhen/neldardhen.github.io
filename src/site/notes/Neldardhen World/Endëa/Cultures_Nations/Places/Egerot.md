@@ -9,7 +9,7 @@ Egerot, situated on the North West of the Palanian Continetn, is mainly populate
 People used to speak Old Egerotian, the language as long been replaced by Nessegerian, but some scholars still study it.
 Some communities of Dwarves in the hills speaks Udolk.
 ### Religion
-The original pantheon worshipped by Egerot and Nelatar is the [[Neldardhen World/Endëa/Cultures_Nations/Religions/Chtoniens-Celestial Pantheon\|Chtoniens-Celestial Pantheon]].
+The original pantheon worshipped by Egerot and Nelatar is the [[Neldardhen World/Endëa/Cultures_Nations/Religions/Chtonien-Celestial Pantheon\|Chtonien-Celestial Pantheon]].
 Solia, the goddess of the sun associated with the number 3  is considered to be the stronger of all the gods and goddess therefore the number 3 is seen as being lucky.
 
 *Folklore*

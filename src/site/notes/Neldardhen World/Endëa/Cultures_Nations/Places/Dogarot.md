@@ -7,7 +7,7 @@ Situated on the West of the continent, Dogarot is one of the more powerful count
 
 Dogarot is currently ruled by an hereditary absolute monarch : The General-King Dagnir. Early in his reign, General-King Dagnir changed the focus for promoting his men from lineage to achievement. This change obviously upset the more ancient gnomes families of the kingdom. Some even says that it is only a poorly disguise way to unjustly favour humans
 
-The Thieves’ Guild of [[Percaras\|Percaras]], mainly formed by lower class non-human is facing harsher punishments in the later days. As a result, a large part of their members are trying to flee to [[Neldardhen World/Endëa/Cultures_Nations/Places/Egerot\|Egerot]] or the mountains of [[Neldardhen World/Endëa/Cultures_Nations/Places/Fulk-Gathol\|Fulk-Gathol]]. Still, a core group led by the human [[”Velvet”\|”Velvet”]] is staying strong, firmly believing in the ”Steal the rich, give to the poors” philosophy.
+The Thieves’ Guild of [[Neldardhen World/Endëa/Cultures_Nations/Places/Percaras\|Percaras]], mainly formed by lower class non-human is facing harsher punishments in the later days. As a result, a large part of their members are trying to flee to [[Neldardhen World/Endëa/Cultures_Nations/Places/Egerot\|Egerot]] or the mountains of [[Neldardhen World/Endëa/Cultures_Nations/Places/Fulk-Gathol\|Fulk-Gathol]]. Still, a core group led by the human [[”Velvet”\|”Velvet”]] is staying strong, firmly believing in the ”Steal the rich, give to the poors” philosophy.
 
 ### Languages
 People of Dogarot speaks West Palanian.
