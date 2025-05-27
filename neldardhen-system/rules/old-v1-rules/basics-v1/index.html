@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Basics (v1)</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.d92311c2.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Neldar</h1>
+</a>
+</div>
+</nav>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<h1 id="basics-v1" tabindex="-1">Basics (v1)</h1>
+<p>Basics rules of <a class="internal-link" target="" data-note-icon="undefined" href="/neldardhen-system/rules/old-v1-rules/the-neldardhen-system-v1/">The Neldardhen System (v1)</a>, up to date version can be found here : <a class="internal-link" target="" data-note-icon="undefined" href="/neldardhen-system/neldar-system/">Neldar System</a>.</p>
+<h2 id="this-is-an-outdated-version-see-neldardhen-system-rules-basics-basics" tabindex="-1">THIS IS AN OUTDATED VERSION see <a class="internal-link" target="" data-note-icon="undefined" href="/neldardhen-system/rules/basics/">Basics</a></h2>
+<p>Every character and creatures in the game have three Fundamental values representing their Being: <a class="tag" onclick="toggleTagSearch(this)" data-content="#Mind">#Mind</a>, <a class="tag" onclick="toggleTagSearch(this)" data-content="#Body">#Body</a> and <a class="tag" onclick="toggleTagSearch(this)" data-content="#Spirit">#Spirit</a>.</p>
+<p>For each of those, there are three Abilities.</p>
+<div class="table-wrapper"><table>
+<thead>
+<tr>
+<th></th>
+<th></th>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><strong>Mind</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Logic</td>
+<td>Overall reasoning ability and abstract thinking.</td>
+</tr>
+<tr>
+<td></td>
+<td>Education</td>
+<td>Access to and overall success in academia.</td>
+</tr>
+<tr>
+<td></td>
+<td>Memory</td>
+<td>Capacity to retain information.</td>
+</tr>
+<tr>
+<td><strong>Body</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Physic</td>
+<td>Overall strength and physical capacity.</td>
+</tr>
+<tr>
+<td></td>
+<td>Coordination</td>
+<td>Ability for precise movements and coordination with oneself or others.</td>
+</tr>
+<tr>
+<td></td>
+<td>Senses</td>
+<td>Sharpness of perceptions.</td>
+</tr>
+<tr>
+<td><strong>Spirit</strong></td>
+<td></td>
+<td></td>
+</tr>
+<tr>
+<td></td>
+<td>Wisdom</td>
+<td>Overall &quot;good sense&quot;, strongly linked to raw magic.</td>
+</tr>
+<tr>
+<td></td>
+<td>Empathy</td>
+<td>Capacity to understand others emotional state.</td>
+</tr>
+<tr>
+<td></td>
+<td>Charisma</td>
+<td>Capacity to impress others.</td>
+</tr>
+</tbody>
+</table></div>
+<h2 id="resources" tabindex="-1">Resources</h2>
+<p>Each task will cost a creature one of three resources. <a class="tag" onclick="toggleTagSearch(this)" data-content="#Focus">#Focus</a> which is the resource of the <em>Mind</em>, <a class="tag" onclick="toggleTagSearch(this)" data-content="#endurance">#endurance</a>, the resource of the <em>Body</em> and <a class="tag" onclick="toggleTagSearch(this)" data-content="#resilience">#resilience</a>, the resource of the <em>Spirit</em>. The maximum of each resource cannot be higher than two times its corresponding Fundamental Value.</p>
+<h2 id="competence-check" tabindex="-1">Competence Check</h2>
+<p>Linked to Mind, Body or Spirit are multiple Competences. Each one has a name, a score and a Cost. Every time a creature try to do something that has the potential of failing, a Competence check is made.<br>
+First add the score value of the Competence to the Ability that will be used. Each Competence has a default Ability, but in some cases an other Ability might be more appropriate. If a creature wants to throw its dagger with as much force as possible the ability used will be Physic, if on the other hand, the creature wants to carefully aim for a specific target then the Ability used would be Coordination. (A case could be made for the use of Senses if the success of this check depend on the creature successful perceiving the location of its target.)</p>
+<p>The Fundamental value is added along with any circumstantial bonuses or maluses in order to obtain the final score.</p>
+<p>The creature then roll 1d100, the check is a success if the result of the roll is less or equal to the final score of the Competence.</p>
+<blockquote>
+<p>Exemple :</p>
+<p>Arinya wants to translate a stone tablet written in Ancient Laugsuil.</p>
+<p>The GM tells Arinya's player that the check will be on Education, because the only time Arinya was exposed to Ancient Laugsuil was during her school days.</p>
+<p>Her competence in Ancient Laugsuil is 5, her Education is 8 and her Mind is 6 this gives her a final score of 5+8+6 = 19.</p>
+<p>Arinya's player roll 1d100 and gets a 89. It's a failure.</p>
+<p>Arinya spend 1 hour and 1 focus trying to translate the tablet but does not achieve her goal.</p>
+</blockquote>
+<h3 id="cost-fatigue-exhaustion-and-stress" tabindex="-1">Cost, <a class="tag" onclick="toggleTagSearch(this)" data-content="#Fatigue">#Fatigue</a>, <a class="tag" onclick="toggleTagSearch(this)" data-content="#Exhaustion">#Exhaustion</a> and <a class="tag" onclick="toggleTagSearch(this)" data-content="#Stress">#Stress</a></h3>
+<p>Each Competence has a cost in its corresponding resource (<em>focus</em>, <em>endurance</em> or <em>resilience</em>). For each action that is not instantaneous, like shooting a bow or trying to dodge or parry an attack, their cost is counting for up to 1 hour, if the activity last longer than 1 hour, the cost must be paid again.</p>
+<p>A task cost must be paid whether or not the it is successful.</p>
+<p>It is still possible to do a task with no resources left, but this will instead increment the <em>Fatigue</em>, <em>Exhaustion</em> or <em>Stress</em> level and prompt a roll on the corresponding Injury table. (see <a class="internal-link" target="" data-note-icon="undefined" href="/neldardhen-system/rules/old-v1-rules/combat-and-injuries-v1/#5a0385">Injuries</a>)</p>
+<h3 id="easy-success-and-effortless-success" tabindex="-1">Easy success and Effortless success</h3>
+<p>When you roll below half of your score you get an easy success and the cost of the task your were doing is divided by 2. If you roll below a fifth of your score, you get an effortless success and the cost of the task is reduced to 1.</p>
+</main>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>
