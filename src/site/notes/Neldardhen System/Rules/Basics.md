@@ -13,6 +13,7 @@ For each of those, there are three Attributes.
 | Active / Raw Strength | Memory / Knowledge | Physic         | Charisma               |
 | Reactive / Finesse    | Wits               | Reaction Speed | Manipulation / Insight |
 | Defensive             | Composure          | Pain Tolerance | Volition               |
+
 The value of an attribute is a type of die (d4, d6, d8, d10, d12). An increase in the die category (from d6 -> d8) can be bought with points at character creation or after a level up (see [[Neldardhen System/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]])
 ## Resources
 
