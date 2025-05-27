@@ -18,10 +18,7 @@ The [[Neldardhen World/Neldardhen\|Neldardhen Worlds]] are the settings in which
 ### Worlds
 - Main world [[Neldardhen World/Endëa/Endëa\|Endëa]]
 	-  [[Neldardhen World/Endëa/Continents/Palanian Continent\|Palanian Continent]]
-	- [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Cultures\|Cultures]]
+	- [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Iris Culture\|Iris Culture]]
 - [[Neldardhen System/Character Creation/Playable Species List\|Playable Species List]]
-
-- The Day World [[Neldardhen World/Amaurëa/Amaurëa\|Amaurëa]]
-- The Night World [[Neldardhen World/Nyalë/Nyalë\|Nyalë]]
 
 If you want to know what I'm currently working on, you can take a look at my [[TODO\|TODO]] list.
