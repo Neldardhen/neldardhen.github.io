@@ -17,7 +17,7 @@ Aranlindir lay eggs with hard shell.
 #### System Details
 Aranlindir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
 
-#Warm_Blooded, #Feathered, #Flying
+**Types** : warm-blooded, feathered, flying
 
 As an Aranlin, you gain a Resistance to **Anxiety** damage equals to half your Spirit score rounded down.
 
