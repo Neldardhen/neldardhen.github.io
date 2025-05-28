@@ -2,9 +2,7 @@
 {"dg-publish":true,"permalink":"/neldardhen-system/character-creation/character-creation-origins/"}
 ---
 
-
 # Character Creation - Origins
-
 Third step of [[Neldardhen System/Character Creation/Character Creation\|Character Creation]].
 Your origin will informed what kind of languages and cultures you have access to, that you can  select as your native ones. This is not a hard rule but is intended to serve as guidance. You can decide to be the child of immigrants who was raised in the culture of their ancestors rather than the culture of the place they are living in.  
 You can be, if you wish, a Lynfal adopted by Orc parents who live in Lobor, rare but possible.
@@ -13,9 +11,8 @@ Skills checks related to your native Culture or Language always have a modifier 
 
 Notes : Those are the Origins used if you play in the [[Neldardhen World/Neldardhen\|Neldardhen Worlds]] settings. Your GM might have made some custom ones if you play in an other settings.
 
-|                             |                                                                                                               |                                                                                               |
-| --------------------------- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | **Location / Country**      | **Culture(s)**                                                                                                | **Languag(es)**                                                                               |
+| --------------------------- | ------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------- |
 | [[Neldardhen World/Endëa/Cultures_Nations/Places/Nelatar\|Nelatar]]                 | Nelatar/ Egerot  <br>Subculture of [[Neldardhen World/Endëa/Cultures_Nations/Places/Serna\|Serna]]                                                                  | Nessegerian  <br>New Nessalian<br><br>Possibility of studying Old Nessalian                   |
 | [[Neldardhen World/Endëa/Cultures_Nations/Places/Egerot\|Egerot]]                  | Neletar/Egerot<br><br>Subculture of The [[Hills Halflings\|Hills Halflings]]<br><br>Subculture of the [[Exiled\|Exiled]] ([[Neldardhen World/Species/Dwarves\|Dwarves]]) | Nessegerian<br><br>Udolk (for the Exiled)                                                     |
 | [[Neldardhen World/Endëa/Cultures_Nations/Places/Fulk-Gathol\|Fulk-Gathol]]             | Fulk-Gathol                                                                                                   | Udolk                                                                                         |
