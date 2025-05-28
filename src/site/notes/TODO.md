@@ -29,4 +29,4 @@ Create Feats (Obsidian and Foundry)
 
 ### Digital Garden
 - Publish Subspecies
-- Change Style
+- ~~Change Style~~

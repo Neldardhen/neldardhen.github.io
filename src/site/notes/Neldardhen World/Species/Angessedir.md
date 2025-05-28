@@ -17,9 +17,9 @@ Angessedir lay eggs with hard shell. They typically hatch after 2 to 3 weeks. Th
 #### System Details
 Angessedir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
 
-#Cold_Blooded, #Scales, #Amphibian
+**Types** : cold-blooded, scales, amphibian
 
-As an Angessë, you are col-blooded, this means that your body adapt (to a point) to the temperature around you.
+As an Angessë, you are cold-blooded, this means that your body adapt (to a point) to the temperature around you.
 
 Creatures with Infrared perception have a harder time finding you, but you become slower when your body temperature drops below a certain point.
 
@@ -39,8 +39,6 @@ You gain a Resistance to **Acid** damage  equals to half your Body score rounde
 | Vision in the sun   | Good    | 4d6 | Hearing        | Neutral    | 3d6 |
 | Low light vision    | Bad     | 2d6 | Sense of Smell | Neutral    | 3d6 |
 | Infrared Perception | Neutral | 3d6 | Magic Affinity | Inexistant | 0   |
-
-
 ### Subspecies
 - [[Neldardhen World/Species/SubSpecies/Chameleon Angessedir\|Chameleon Angessedir]]
 - [[Neldardhen World/Species/SubSpecies/Draco Lizard Angessedir\|Draco Lizard Angessedir]]
