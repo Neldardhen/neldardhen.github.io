@@ -28,12 +28,12 @@ As an other example, flying Species (or Subspecies) have lighter bones than othe
 
 There are six main perception senses influenced by your species.
 
-|                         |                                                            |                    |                                        |
+| Sense                   | description                                                | Sense              | description                            |
 | ----------------------- | ---------------------------------------------------------- | ------------------ | -------------------------------------- |
 | **Vision in the sun**   | Perception of colours and details in well lit environment. | **Hearing**        | Perception of sounds and ultra-sounds. |
 | **Low light vision**    | Perception of movement and shape in low light.             | **Sense of smell** | Perception and distinction of smells.  |
 | **Infrared perception** | Perception of the difference in temperature.               | **Magic affinity** | Perception of magic.                   |
-|                         |                                                            |                    |                                        |
+
 
 ### Resistances, Vulnerabilities, Immunities
 Each Species usually gives one Resistance to a damage type. Some Subspecies gives a second Resistance or impart a Vulnerability. Immunities are extremely rare.

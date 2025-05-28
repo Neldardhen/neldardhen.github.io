@@ -95,7 +95,6 @@ The attack pool is reset after each Action taken.
 
 ### Damage Type{ #173746}
 
-#damage_type
 Each damage type affects one part of the _Being_ except for _poison_ who can affect all three.
 
 | **Mind (reduces focus)** | **Body (reduces endurance)** | **Spirit (reduces resilience)** |
@@ -107,9 +106,7 @@ Each damage type affects one part of the _Being_ except for _poison_ who can aff
 |                          | Acid                         |                                 |
 | Poison                   | Poison                       | Poison                          |
 
-### Resitances, Vulnerabilities and Immunities
-{ #abbeee}
-
+### Resitances, Vulnerabilities and Immunities{ #abbeee}
 
 Resistances, Vulnerabilities and Immunities are always linked to a damage type and usually granted by one's species or special feats.
 Resistances and Vulnerabilites comes with a value, generally a dynamic one like "Half your Body score" or "Equal to your level".  When applying resistances and vulnerability the value is removed from the total damage (in the casse of resistances) or added to it (in the case of vulnerabilities) before the damage is applied to the character.
@@ -121,9 +118,7 @@ Immunities reduce any damage of that type to 0.
 > Her opponent rolls the damage and get a result of **5** Bludgeoning + **2** Fire.
 > Her Resistance to Bludgeoning has a value of (8/2 = 4), so she will only take **5 - 4** = **1** Bludgeoning damage.
 > On the other hand, her Vulnerability to Fire has a value of (4/2 = 2) so she will take **2 + 2** = **4** Fire damage.
-## Injuries
-#Injuries, #injury, #Fatigue, #Exhaustion , #Stress { #5a0385}
-
+## Injuries{ #5a0385}
 
 Every times someone does a task without the necessary resources to pay the cost of said task their _Fatigue_, _Exhaustion_ or _Stress_ level increases by **1**, depending on the part of their _Being_ the skill is associated with.  
 It is also the case if a creature takes damage on a resource (_focus_, _endurance_ or _resilience_) which is already at 0.

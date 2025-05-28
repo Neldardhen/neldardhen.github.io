@@ -3,7 +3,7 @@
 ---
 
 # Rituals
-Rules for rituals casting in [[Neldardhen System/Rules/Old v1 rules/The Neldardhen System (v1)\|The Neldardhen System (v1)]] and [[Neldardhen System/Neldar System\|Neldar System]].
+Rules for rituals casting in the [[Neldardhen System/Neldar System\|Neldar System]].
 
 Rituals are more powerful spells with a more involved casting process. Rituals usually require more time, components and people to be cast.
 

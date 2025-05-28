@@ -7,7 +7,6 @@
 Rules for spellcasting in [[Neldardhen System/Neldar System\|Neldar System]].
 
 ## Arcane Magic
-#arcane_magic
 Arcane magic refers both to the study of magic and the structured approached to its practice (as opposed to Raw Magic). It is the type of magic the Player Characters can have access to if they choose to.
 A practitioner of magic can only have a limited number of active spells at any given time. This number is dictated by their rank in the Arcane Magic skill.
 
@@ -39,6 +38,5 @@ The target can choose to Deflect or Resist the effects of the spell unless the c
 Some runes might also have a **prerequisite**. This prerequisite represent the minimum rank in Arcane Magic that a spellcaster must have to be able to use this rune.
 
 ## Raw Magic
-#raw_magic
 Raw magic is the type of magic based on instinct and emotions. That's the type of magic used by creatures that are naturally magical. Raw magic, by nature is less structured and almost unpredictable.
 (It is an excuse for the GM to do whatever they what with creatures abilities ;) )
