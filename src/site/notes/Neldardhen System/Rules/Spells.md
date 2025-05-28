@@ -9,17 +9,13 @@ Rules for spellcasting in [[Neldardhen System/Neldar System\|Neldar System]].
 ## Arcane Magic
 #arcane_magic
 Arcane magic refers both to the study of magic and the structured approached to its practice (as opposed to Raw Magic). It is the type of magic the Player Characters can have access to if they choose to.
-
 A practitioner of magic can only have a limited number of active spells at any given time. This number is dictated by their rank in the Arcane Magic skill.
 
 > Number of parallel spells = Arcane Magic Rank
 
 Spells are constructed by combining different runes together. 
-
 ### Runes
-
 There exists 6 different type of runes :
-
 - **Verb** : Will inform how the spell will interact with the world.  
     - Damage : Will do damage depending on the Element and the Potency runes
     - Hinder : Will Hinder the Target(s) in some way. The exact effects depend on the Element rune.
@@ -32,9 +28,7 @@ There exists 6 different type of runes :
 - [[Neldardhen System/Rules/Runes/Target Rune\|Target]] : The number of creatures that can be targeted or the area of effect of the spell.
 - [[Neldardhen System/Rules/Runes/Sustain Rune\|Sustain]] (optional) : For a spell to last more than the number of turns provided, a Sustain rune is needed. The type of Sustain can be Active, requiring an action to be kept active, Passive only requiring the sustain cost to be paid, but no action or Movable allowing the use of an action to move the spell somewhere else in range. The sustain cost is the amount of focus that the spellcaster must pay to keep the spell active. It can be 5, 2 or 1 focus. If a spellcaster takes damages while sustaining a spell, they must succeed a Resist check to be able to keep it.
 
-#### Difficulty
-{ #bdc950}
-
+#### Difficulty{ #bdc950}
 
 In addition to its type and value, each runes also has a **difficulty cost**. The sum of the difficulty cost of the runes will dictate the total difficulty of the spell. The caster must roll equal or higher than that number to successfully cast the spell.
 
@@ -47,7 +41,4 @@ Some runes might also have a **prerequisite**. This prerequisite represent the m
 ## Raw Magic
 #raw_magic
 Raw magic is the type of magic based on instinct and emotions. That's the type of magic used by creatures that are naturally magical. Raw magic, by nature is less structured and almost unpredictable.
-
-###### Additional Tags
-
-#spell, #spells, #runes, #runes, #rune/verb, #rune/element, #rune/potency, #rune/target, #rune/range, #rune/sustain, #rune/verb/damage, #rune/verb/hinder, #rune/verb/protect, #rune/verb/enhance, #rune/verb/heal
+(It is an excuse for the GM to do whatever they what with creatures abilities ;) )
