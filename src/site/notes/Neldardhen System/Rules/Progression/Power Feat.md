@@ -14,11 +14,13 @@ For Feats gained at other levels see [[Neldardhen System/Rules/Progression/Chara
 ### Twin Spell
 **Prerequisite** : Mind score 10
 _Once per Day_
-
 When you cast a spell targeting a single creature, you can target a second one within **6m** of it for free.
 
 ## Level 20
 
 _Work In Progress_
 
-
+### Astal and Estrée's Blessing (The Star Twins' Blessing)
+**Prerequisite** : Mind score 20, Already have the Twin Spell Feat
+_At will_
+When you cast a spell targeting a single creature, you can target a second one within **10m** of it for free. Always. Have fun.
