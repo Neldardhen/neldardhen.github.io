@@ -42,7 +42,7 @@ Some attacks can afflict characters with some staus conditions. Usually an addit
 |                          |                    | Cold / Ice                   | _Freezing_           | Anxiety<br><br>                 | _Panicked_  |
 |                          |                    | Acid                         | _Corroding_          |                                 |             |
 | Poison                   | _Poisoned_         | Poison                       | _Poisoned_           | Poison<br>                      | _Poisoned_  |
-|                          |                    |                              |                      |                                 |             |
+
 ### Conditions
 
 | **Effect**   | **Description**  <br>**At the start of their turn the target**                                                                                                                                                                                                                                                                                 | **Ends  <br>**                                                                                                                                                                                                   |
