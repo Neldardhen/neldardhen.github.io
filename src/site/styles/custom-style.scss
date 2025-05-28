@@ -4,7 +4,7 @@ body {
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    --background-primary: #242325 !important;
+    --background-primary: #221E1A !important; // #242325
     --background-secondary: #12100E !important;
     
     --text-normal: #DDDDDD !important;
@@ -14,5 +14,5 @@ body {
     --text-faint: #8BAC80 !important;
     --text-accent-hover: #91FD63 !important; 
 
-    --color-accent: #87B37A !important;
+    --color-accent: #6B717E !important; // #87B37A
 }
