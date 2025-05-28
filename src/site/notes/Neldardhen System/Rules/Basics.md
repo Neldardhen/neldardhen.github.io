@@ -19,12 +19,9 @@ For each of those, there are three Attributes.
 
 The value of an attribute is a type of die (d4, d6, d8, d10, d12). An increase in the die category (from d6 -> d8) can be bought with points at character creation or after a level up (see [[Neldardhen System/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]])
 ## Resources
-
 Each task will cost a creature one of three resources. _focus_ which is the resource of the _Mind_, _endurance_, the resource of the _Body_ and _resilience_, the resource of the _Spirit_. The maximum of each resource cannot be higher than three times its corresponding Fundamental Value.
 
-## Skills
-{ #75d8a0}
-
+## Skills{ #75d8a0}
 
 There are 18 skills separated in three catagories linked to Mind, Body and Spirit.
 
@@ -45,7 +42,6 @@ A rank in a skill cannot be higher than the score in the Fundamental value (Mind
 > If Ayrina has a Mind score of 4 and Spirit score of 2, she can buy up to 4 ranks in Arcane Magic, but only 2 ranks in Persuasion.
 
 ### Skill Checks
-
 A skill check is done by combining a skill with an attribute. The rank of the skill determine the number of dice that can be bought and the attribute determine the type of the dice.
 
 The first die is always free, each additional die costs **1** point of resource (either _focus_, _endurance_ or _resilience_ depending on the skill used)
@@ -63,13 +59,11 @@ Additionally, if the skill check is linked to a speciality of the character, the
 >She can now roll **4d6** at the cost of **2** _focus_ 
 
 #### Specialities
-
 A character can choose a free specialisation when they reach rank **3** in a particular skill.
 
 Additionally, some skills let you choose a speciality at ranks **1**. Those are Rhetoric/Linguistic, Culture/History, Research/Science, Athletics, Fighting and Performance.
 
 #### Pushing past your limits
-
 If a character has a rank high enough in a skill to buy more dice, but not enough resources to do so, they can choose to buy dice of a category less (d6 -> d4) for twice as much of one other resource.
 
 >From our example before, let's say that Arinya has only **1** point of _focus_ left. She would not be able to buy the **2** additional dice.
@@ -78,7 +72,6 @@ If a character has a rank high enough in a skill to buy more dice, but not enoug
 >She now would be able to roll **3d6 + 1d4** for **1** _focus_ and **2** _resilience_.
 
 ### Fatigue, Exhaustion and Stress
-
 It is still possible to do a task with no resources left, but this will instead increment the _Fatigue_, _Exhaustion_ or _Stress_ level and prompt a roll on the corresponding Injury table. (see [[Neldardhen System/Rules/Old v1 rules/Combat and Injuries (v1)#^5a0385\|Injuries]]).
 
 It is also the case if a creature takes damage on a resource (_focus_, _endurance_ or _resilience_) which is already at 0.
@@ -101,11 +94,9 @@ A critical success occurs when the total of the dice is double or more than the 
 A critical failure on the other hand happens when the total roll is less than half of the set difficulty.
 
 ## Perception Checks
-
 Perception checks are always free. They use dice pools determined by the species of the character. (see [[Neldardhen System/Character Creation/Character Creation - Species#^443e3a\| Character Creation - Species - Senses]])
 
 ## Diffiiculty (for GMs)
-
 To set the difficulty of a skill, you can use this table :
 
 | Difficulty | **score** | notes                                                                                                                                                                                                                                                  |
