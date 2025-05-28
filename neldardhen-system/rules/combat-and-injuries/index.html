@@ -39,19 +39,19 @@
 <h1 id="combat-and-injuries" tabindex="-1">Combat and Injuries</h1>
 <p>Combat rules for <a class="internal-link" target="" data-note-icon="undefined" href="/neldardhen-system/neldar-system/">Neldar System</a>.</p>
 <h2 id="combat" tabindex="-1">Combat</h2>
-<p>Combat start when a PC or an NPC does any action that the other party considers to be hostile. There are no surprised round, instead if the target is <em>unaware</em> of its attacker. Every time a defendant is <em>unaware</em> of an attack, the difficulty of the check to Dodge / Deflect or Resist it is doubled.</p>
+<p>Combat start when a PC or an NPC does any action that the other party considers to be hostile. There are no surprised round, instead at any point during combat, a target can be <em>unaware</em> of its attacker. Every time a defendant is <em>unaware</em> of an attack, the difficulty of the check to Dodge / Deflect or Resist it is doubled.</p>
 <p>A target may be <em>unaware</em> of an attacker if it doesn't physically perceive it or if it doesn't think the attacker as potentially hostile.</p>
 <h3 id="initiative" tabindex="-1">Initiative</h3>
-<p>Initiative is always rolled at the moment an aggressive action is declared and before it is taken. <em>Unaware</em> targets might not take actions and simply skip their turn if they roll a better initiative than the instigator of the attack.</p>
-<p>Initiative is usually rolled with the Reaction Speed die. However, in specific situations an other attribute die can be used. For example, a duel between wizards might call for an initative roll wit the Wits die.<br>
-The number of dice used is equal to the Fighting skill rank (minimum of 1). Once again, specific situations might use an other skills. A rogue trying to stay hidden might be able to use their Stealth skill instead.</p>
+<p>Initiative is always rolled at the moment an aggressive action is declared and <strong>before it is taken</strong>. <em>Unaware</em> targets might not take actions and simply skip their turn if they roll a better initiative than the instigator of the attack.</p>
+<p>Initiative is usually rolled with the Reaction Speed die. However, in specific situations an other attribute die can be used. For example, a duel between wizards might call for an initative roll with the Wits die.<br>
+The number of dice used is equal to the Fighting skill rank (minimum of 1). Once again, specific situations might use an other skills (with always a minumum of 1 die). A rogue trying to stay hidden might be able to use their Stealth skill instead.</p>
 <blockquote>
 <p>Initiative = Fighting <strong>d</strong> Reaction Speed</p>
 </blockquote>
-<p>Sometimes it is also possible to roll Initiative with one of the Senses/Perception Pool.</p>
+<p>Sometimes it is also possible to roll Initiative with one of the Senses/Perception Pool. In the case of an ambush, the ambusehd partx might used one of their Senses as their Initiative Pool.</p>
 <h3 id="combat-turn" tabindex="-1">Combat Turn</h3>
 <p>Combatants take their turn in order of initiative. On their turn a combatant can take <strong>2 Actions</strong>.</p>
-<p>An Action is :</p>
+<p>An <strong>Action</strong> is :</p>
 <ul>
 <li>Move (up to one's speed)
 <ul>
@@ -67,17 +67,19 @@ The number of dice used is equal to the Fighting skill rank (minimum of 1). Once
 <li>Reload</li>
 </ul>
 </li>
+<li>Attack with an Instrument</li>
 <li>Healing with an Instrument</li>
 <li>Cast a spell (see <a class="internal-link" target="" data-note-icon="undefined" href="/neldardhen-system/rules/spells/">Spells</a>)
 <ul>
-<li>Remove 1 rune from a spell and 1 rune to a spell.</li>
+<li>Remove 1 rune from a spell and add 1 rune to a spell.</li>
 </ul>
 </li>
 <li>Use a special ability</li>
+<li>Ready an Action (Readying an Action allows to act out of turn, but takes <strong>2 Actions</strong>)</li>
 </ul>
 <p>Out of their turn a combattant can :</p>
 <ul>
-<li>Attack of Opportunity</li>
+<li>Attack of Opportunity (need a special Feat to unlock, or a weapon with a special trait)</li>
 <li>Defend
 <ul>
 <li>Deflect or Dodge a spell or attack.</li>
@@ -89,9 +91,11 @@ The number of dice used is equal to the Fighting skill rank (minimum of 1). Once
 An attack roll with a weapon works like a skill check on Fighting with Physics. It is not possible to make an attack with Reaction Speed or Pain Tolerance, except if a particular weapon allows it.<br>
 The total result of the attack roll will be used to set the difficulty for the defendant wether they want to Dodge or Resist the damage.<br>
 Once an attack is successful, the damage roll is defined by the weapon the attacker is wielding.</p>
+<p><strong>Unarmed Attack</strong> : An unarmed physical attack is done like any attack, except its always deals 1 Bludgeoning Damage, unless the character possess a Feat that specify otherwise.</p>
 <p><strong>Instrument Attack or Healing</strong><br>
 An attack roll or healing with an Instrument is done using Perfomance on Charisma and <em>resilience</em> is used to buy the dice.<br>
 When helaing the Difficulty is a set <strong>12</strong> that can be modified by the type or quality of the instrument.</p>
+<p><strong>Insult</strong> : An insult can be seen as a sort of unarmed Instrument Attack. It is roll with Performance on Charisma and deals a fixed 1 Anxiety Damage on the Spirit. (see <a class="internal-link" target="" data-note-icon="undefined" href="/neldardhen-system/rules/combat-and-injuries/#173746">Damage Types</a>)</p>
 <p><strong>Deflecting or Dodging</strong><br>
 Deflecting or Dodging a spell or an attack by using dice from the appropriate Defense Pool (see below) will allow the combatant to completely negates all effects of the spell or the attack.</p>
 <p>Deflect / Dodge checks are always made on Wits, Reaction Speed or Insight / Manipulation and it is not possible to buy dice with an other resource.</p>
@@ -103,15 +107,14 @@ Resisting a spell or an attack by using dice from the appropriate Defense Pool (
 <h5 id="critical-success-on-attacks" tabindex="-1">Critical Success on Attacks</h5>
 <p>When a character dodge / deflect or resisit an attack, if the total they rolled is strictly less than half of the Difficulty (the attacker's or caster's total roll), then it is considered to be a critical success for the attacker and all incoming damage are doubled. Double the damage before applying any Resistance or Vulnerability.</p>
 <h4 id="defense-pools" tabindex="-1">Defense Pools</h4>
-<p id="8397bd"></p>
-<p>Each character has three different Defense Pools, one for their Mind based on their Arcane Magic skill, one for Body based on their Fighting skill and one for their Spirit based on their Raw Magic skill.<br>
-The maximum of a Defense Pool is equal to the skill rank + 1. At the start of their turn a character's Defense Pools are reset to their respective maximums.</p>
+<p>Each character has three different Defense Pools, one for their Mind based on their <strong>Arcane Magic</strong> skill, one for Body based on their <strong>Fighting</strong> skill and one for their Spirit based on their <strong>Raw Magic</strong> skill.<br>
+The maximum of a Defense Pool is equal to the <strong>skill rank + 1</strong>. At the start of their turn a character's Defense Pools are reset to their respective maximums.</p>
 <p>Whenever a character is attacked during a round, they can choose to buy dice from their appropriate Defense Pool to try to Dodge / Deflect or Resist the attack (or spell). Dice bought this way are removed from the Pool until the start of the character next turn.</p>
 <p>The first die is always free as well as any die granted by an eventual armour. The free dice are never removed from the Dice Pool.</p>
 <p>The armour value for the Mind is called Ward and the armour value for the Spirit is called Veil.</p>
 <h3 id="dual-wielding" tabindex="-1">Dual Wielding</h3>
-<p>When a character is dual wielding weapons this enables them to make two attacks per turn, one with each weapons. However, the two attacks share the same dice pool based on the Fighting skill. Each attacks benefits from the free die and any speciality die any other die must be bought from the attack pool.</p>
-<p>As with the Defense Pool, the Attack Pool is reset to its maximum at the start of the character's turn.</p>
+<p>When a character is dual wielding weapons this enables them to make two attacks per Action, one with each weapons. However, the two attacks share the same dice pool based on the Fighting skill. Each attacks benefits from the free die and any speciality die any other die must be bought from the attack pool.</p>
+<p>The attack pool is reset after each Action taken.</p>
 <h3 id="damage-type" tabindex="-1">Damage Type</h3>
 <p><a class="tag" onclick="toggleTagSearch(this)" data-content="#damage_type">#damage_type</a><br>
 Each damage type affects one part of the <em>Being</em> except for <em>poison</em> who can affect all three.</p>
@@ -156,18 +159,43 @@ Each damage type affects one part of the <em>Being</em> except for <em>poison</e
 </tr>
 </tbody>
 </table></div>
+<h3 id="resitances-vulnerabilities-and-immunities" tabindex="-1">Resitances, Vulnerabilities and Immunities</h3>
+<p>Resistances, Vulnerabilities and Immunities are always linked to a damage type and usually granted by one's species or special feats.<br>
+Resistances and Vulnerabilites comes with a value, generally a dynamic one like &quot;Half your Body score&quot; or &quot;Equal to your level&quot;. When applying resistances and vulnerability the value is removed from the total damage (in the casse of resistances) or added to it (in the case of vulnerabilities) before the damage is applied to the character.<br>
+Immunities reduce any damage of that type to 0.</p>
+<blockquote>
+<p>Ayrina is a <a class="internal-link is-unresolved" href="/404" target="">Peat Orc</a> an <a class="internal-link" target="" data-note-icon="undefined" href="/neldardhen-world/species/orcs/">Orc</a> Subspecies. . She gets a Bludgeoning Resistance equal to Half of her Body score thanks to her Species, but suffers from a Vulnerability to Fire equal to Half of her level rounded down (min 1).<br>
+She has a Body score of <strong>8</strong> and a level of <strong>4</strong>.<br>
+She is attacks by someone using a Flamming Mace and failed her Dodge.<br>
+Her opponent rolls the damage and get a result of <strong>5</strong> Bludgeoning + <strong>2</strong> Fire.<br>
+Her Resistance to Bludgeoning has a value of (8/2 = 4), so she will only take <strong>5 - 4</strong> = <strong>1</strong> Bludgeoning damage.<br>
+On the other hand, her Vulnerability to Fire has a value of (4/2 = 2) so she will take <strong>2 + 2</strong> = <strong>4</strong> Fire damage.</p>
+</blockquote>
 <h2 id="injuries" tabindex="-1">Injuries</h2>
 <p id="5a0385"><a class="tag" onclick="toggleTagSearch(this)" data-content="#Injuries">#Injuries</a>, <a class="tag" onclick="toggleTagSearch(this)" data-content="#injury">#injury</a>, <a class="tag" onclick="toggleTagSearch(this)" data-content="#Fatigue">#Fatigue</a>, <a class="tag" onclick="toggleTagSearch(this)" data-content="#Exhaustion">#Exhaustion</a> , <a class="tag" onclick="toggleTagSearch(this)" data-content="#Stress">#Stress</a></p>
 <p>Every times someone does a task without the necessary resources to pay the cost of said task their <em>Fatigue</em>, <em>Exhaustion</em> or <em>Stress</em> level increases by <strong>1</strong>, depending on the part of their <em>Being</em> the skill is associated with.<br>
-It is also the case if a creature takes damage on a resource (<em>focus</em>, <em>endurance</em> or <em>resilience</em>) which is already at 0.</p>
+It is also the case if a creature takes damage on a resource (<em>focus</em>, <em>endurance</em> or <em>resilience</em>) which is already at 0.<br>
+<em>Work In Progress : unsure</em> When a resource is at 0, only 1 additional die can be bought by incrementing the <em>Fatigue</em>, <em>Exhaustion</em> or <em>Stress</em> counter by 1.<br>
+Free dice never increase those counters.</p>
 <p>If the damage received are greater than <strong>9</strong> then the <em>Fatigue</em>, <em>Exhaustion</em> or <em>Stress</em> level increments by <strong>2</strong>, similarly if the cost or damage is greater than <strong>19</strong> then the level increment by <strong>3</strong>, and so on and so forth.</p>
 <p>Every time the <em>Fatigue</em>, <em>Exhaustion</em> or <em>Stress</em> level of a creature increments it must roll on the corresponding Injury table.</p>
+<h3 id="injuries-rolltables" tabindex="-1">Injuries Rolltables</h3>
+<p>A roll for an Injury is done in two steps. The first step will define if the Injury will be Temporary or Permanent. It is done by roll <strong>1d6</strong> and adding the corresponding <em>Fatigue</em>, <em>Exhaustion</em> or <em>Stress</em> level.<br>
+A result of <strong>7</strong> or lower gives a Temporary Injury, any result strictly higher than <strong>7</strong> means that the Injury will be Permanent.</p>
+<blockquote>
+<p>Ayrina has a <em>Fatigue</em> level of <strong>2</strong> and <strong>0</strong> point of <em>focus</em> left. She takes <strong>14</strong> Oblivion damage on her Mind incrementing her <em>Fatigue</em> level by an additional <strong>2</strong> (14 is greater than 9 so the level increases by 2).<br>
+She now has to roll <strong>1d6 + 4</strong>, she rolled a 5 for a total of 5 + 4 = <strong>9</strong>.<br>
+<strong>9</strong> being strictly greater than <strong>7</strong>, she will suffer from a Permanent Mind Injury !</p>
+</blockquote>
 <h3 id="temporary-injuries" tabindex="-1">Temporary Injuries</h3>
 <p>Temporary injuries either heal with time or are easily healed with a commonly available treatment. They impart some handicaps on the creature until they are healed.</p>
 <h3 id="permanent-injuries" tabindex="-1">Permanent Injuries</h3>
 <p>Permanent injuries are either very hard to heal or cannot be healed at all. Their handicaps are permanent and the creature must learn to live with them the best they can.</p>
+<p><strong>Advices for Game Masters - Storytellers</strong> : If a character suffer from an Injury due to damage, you can tell them to roll on the rolltable, but you are not forced to use the result as the Injury as is. Don't hesitate to modify or create new Injuries linked to the type or damage or situation the characters find themselves in.<br>
+A paralytic poison will probably have different lasting effects than a burn or a broken bone.</p>
 <h3 id="note-on-creatures" tabindex="-1">Note on Creatures</h3>
-<p>To simplify combat, creature controlled by the game masters don't get injuries. They will instead die as soon as either their <em>focus, endurance</em> or <em>resilience</em> reach 0.</p>
+<p>To simplify combat, creature controlled by the game masters don't get injuries. They will instead die as soon as either their <em>focus, endurance</em> or <em>resilience</em> reach 0.<br>
+When a creature drops to 0 in a resource due to something else than damage (while attacking or defending) the creature doesn't die immediately, but enters a weaken state where they can not use abilities that cost them more than 1 of this resource.</p>
 <h2 id="death" tabindex="-1">Death</h2>
 <p>At any moment, if the <em>Fatigue</em>, <em>Exhaustion</em> or <em>Stress</em> level of a character goes above <strong>6</strong> the character dies.</p>
 <p>Death is permanent, resurrection magic doesn't exist in this world.</p>
