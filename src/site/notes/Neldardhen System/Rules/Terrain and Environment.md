@@ -8,10 +8,14 @@ Rules for the particular effects of Terrain and Environment in the [[Neldardhen 
 
 ## Actions
 **Long Jump** : A character can long jump up to their ((physics die / 2) + 2) in meters.
+
 **High Jump** : A character can high jump up to their (physics die / 4) in meters.
+
 **Holding Breath** : A character can hold their breath for up to their (pain tolerance die / 2) in minutes.
+
 **Throwing** : A character can throw a light weapon up to their (physics die * 2) in meters.
          A character can throw a medium weapon up to their (physics die) in meters.
+         
 **Climbing** : A character can climb a suitable vartical surface up to half of their walking speed per turn if they succeed an Athletics on Physics check. A failure ,eams they are unable to climb, a Critical Failure means that they fall and take damage.
 
 **Fall damage** : Falling by more than 4m deals 1 point of Bludgeoning damage for every meter a character fell. 20m fall -> 20 points of Bludgeoning damage. If the GM decides that the character time the time, they can try an Athletics on Reaction Speed checks to roll or otherwise soften the landing only taking half as much damage on a success, but a critical failure will double the damage taken !
