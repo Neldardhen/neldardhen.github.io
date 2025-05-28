@@ -27,11 +27,13 @@ An **Action** is :
 	- Step
 	- Charge
 - Attack
-	- Grapple
-	- Shove
-	- Take Aim
-	- Reload
+	- Grapple (No damage, but reduces any speed to 0. - needs a free hand)
+	- Shove (No damage but push the target 2m away - needs a free hand or shield)
+	- Throw (A character can throw a light weapon up to 2* their physics die in meters)
+	- Take Aim (Next ranged attack action will gain a free die of 1 category less)
+	- Reload (Some weapons, like crossbows, need to be reloaded with 1 Action)
 - Attack with an Instrument
+	-  Insult (Sort of unarmed Instrument Attack, see below)
 - Healing with an Instrument
 - Cast a spell (see [[Neldardhen System/Rules/Spells\|Spells]])
 	- Remove 1 rune from a spell and add 1 rune to a spell.
@@ -55,7 +57,7 @@ Once an attack is successful, the damage roll is defined by the weapon the attac
 An attack roll or healing with an Instrument is done using Perfomance on Charisma and _resilience_ is used to buy the dice.
 When helaing the Difficulty is a set **12** that can be modified by the type or quality of the instrument.
 
-**Insult** : An insult can be seen as a sort of unarmed Instrument Attack. It is roll with Performance on Charisma and deals a fixed 1 Anxiety Damage on the Spirit. (see [[Neldardhen System/Rules/Combat and Injuries#^173746\|Damage Types]]) 
+**Insult** : An insult can be seen as a sort of unarmed Instrument Attack. It is roll with Performance on Charisma and deals a fixed 1 Anxiety Damage on the Spirit. (see [[Neldardhen System/Rules/Combat and Injuries#^173746\|Damage Types]]). As with all Instrument Attacks, an Insult cannot be dodge only resisted. For this special case, if the target successfully Resists the insult all damage is negated. 
 
 **Deflecting or Dodging**
 Deflecting or Dodging a spell or an attack by using dice from the appropriate Defense Pool (see below) will allow the combatant to completely negates all effects of the spell or the attack.
@@ -106,6 +108,9 @@ Each damage type affects one part of the _Being_ except for _poison_ who can aff
 | Poison                   | Poison                       | Poison                          |
 
 ### Resitances, Vulnerabilities and Immunities
+{ #abbeee}
+
+
 Resistances, Vulnerabilities and Immunities are always linked to a damage type and usually granted by one's species or special feats.
 Resistances and Vulnerabilites comes with a value, generally a dynamic one like "Half your Body score" or "Equal to your level".  When applying resistances and vulnerability the value is removed from the total damage (in the casse of resistances) or added to it (in the case of vulnerabilities) before the damage is applied to the character.
 Immunities reduce any damage of that type to 0.
