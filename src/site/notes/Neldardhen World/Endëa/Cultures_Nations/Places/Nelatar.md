@@ -24,9 +24,7 @@ Feminine names tends to finish in "-a", "-te" or "-i" (with "-i" being the ancie
 Recently, people in the East of Nelatar started using the ending "-an" as a gender neutral ending for names.
 People in the West and in the Temple still understand this ending as a masculine one though.
 
-### Currency
-{ #20858d}
-
+### Currency{ #20858d}
 
 The Nelataran currency is the daer. It's a based 12 system (like their counting system)
 

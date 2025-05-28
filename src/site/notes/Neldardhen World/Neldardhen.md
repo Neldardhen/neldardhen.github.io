@@ -12,6 +12,7 @@ Worlds and settings used with [[Neldardhen System/Rules/Old v1 rules/The Neldard
 
 ### Amaurëa
 [[Neldardhen World/Species/Species#^c48ee7\|Species]]
+[[Creatures form Amaurëa\|Creatures form Amaurëa]]
 ### Endëa
 [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Calendars/Calendars\|Calendars]]
 [[Neldardhen World/Cosmologies/Cosmologies\|Cosmologies]]
@@ -21,7 +22,7 @@ Worlds and settings used with [[Neldardhen System/Rules/Old v1 rules/The Neldard
 [[Neldardhen World/Endëa/Endëa\|Geography]]
 [[Neldardhen World/Endëa/History/History of Endëa\|History]]
 [[Neldardhen World/Endëa/Cultures_Nations/Languages/Languages\|Languages]]
-[[Neldardhen World/Species/Species\|Species]]
+[[Neldardhen World/Species/Species\|Species]] 
 - [[Neldardhen System/Character Creation/Playable Species List\|Playable Species List]]
 [[Neldardhen World/Endëa/Cultures_Nations/Religions/Religions in Endëa\|Religions in Endëa]]
 

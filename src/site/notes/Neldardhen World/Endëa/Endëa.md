@@ -8,8 +8,7 @@ In the [[Neldardhen World/Cosmologies/Three Worlds Cosmology\|Three Worlds Cosmo
 
 ![Neldardhen-worldmap-frontiers.png](/img/user/Neldardhen%20World/Maps/Neldardhen-worldmap-frontiers.png)
 
-### Continents
-{ #8addf6}
+### Continents{ #8addf6}
 
 [[Neldardhen World/Endëa/Continents/Palanian Continent\|Palanian Continent]]
 [[Neldardhen World/Endëa/Continents/Dragonén Continent\|Dragonén Continent]]
