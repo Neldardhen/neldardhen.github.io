@@ -1,8 +1,8 @@
 :root {
-    --background-primary: rgb(48, 16, 20);
-    --background-secondary: rgb(81, 41, 30);
-    --text-normal: #edf4ed;
-    --text-accent: rgb(171, 209, 181);
+    --background-primary: rgb(36, 35, 37); !important
+    --background-secondary: rgb(00, 01, 00); !important
+    --text-normal: #daf5ff; !important
+    --text-accent: #9ce37d; !important
 }
 
 
@@ -12,8 +12,8 @@ body {
       ADD YOUR CUSTOM STYLING HERE. (INSIDE THE body {...} section.)
       IT WILL TAKE PRECEDENCE OVER THE STYLING IN THE STYLE.CSS FILE.
    ***/
-    --background-primary: rgb(48, 16, 20);
-    --background-secondary: rgb(81, 41, 30);
-    --text-normal: #edf4ed;
-    --text-accent: rgb(171, 209, 181);
+    --background-primary: rgb(36, 35, 37); !important
+    --background-secondary: rgb(00, 01, 00); !important
+    --text-normal: #daf5ff; !important
+    --text-accent: #9ce37d; !important
 }
