@@ -5,8 +5,10 @@
 
 # Inspiration Tokens and Level up
 Rules for Inspriations and Level up for [[Neldardhen System/Neldar System\|Neldar System]].
-## Inspirations
 
+
+## Inspirations 
+![triquetra-colour.png|50](/img/user/triquetra-colour.png) ![triquetra-colour.png|50](/img/user/triquetra-colour.png) ![triquetra-colour.png|50](/img/user/triquetra-colour.png) 
 The GM can give an inspiration token to characters to reward good RP moments. A character can have up to **3** inspiration tokens at the same time.
 
 - **1** inspiration token can be use to re-roll the latest dice pool rolled by the character.
