@@ -5,7 +5,7 @@
 # Quick Build Reference
 Reference for the [[Neldardhen System/Character Creation/Character Creation\|Character Creation]] in the [[Neldardhen System/Neldar System\|Neldar System]].
 
-1. Choose your [[Neldardhen World/Species/Species\|Species]] and Subspecies (more info on what a Specie gives you : [[Neldardhen System/Character Creation/Character Creation - Species\|Character Creation - Species]]):
+1. Choose your [[Neldardhen System/Character Creation/Playable Species List\|Species]] and Subspecies (more info on what a Specie gives you : [[Neldardhen System/Character Creation/Character Creation - Species\|Character Creation - Species]]):
     1. Your species and subspecies give you some perks or handicap.
     2. It determines your daily _Needs_.
     3. It sets your differnet Senses dice pools.
