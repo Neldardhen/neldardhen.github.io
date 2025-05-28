@@ -47,17 +47,11 @@ The soul of the first dead woman of the year takes the role of the dreaded Hecat
 ![iris_silver.png|40](/img/user/Images/Currencies/iris_silver.png) 1 Petal = 20 Seeds (~20 €)
 ![iris_bronze.png|40](/img/user/Images/Currencies/iris_bronze.png) 1 Seed (~1€)
 
-The Iris currency imposed itself on nearly the whole continent. While some part of the world still used their local currency it is usually fairly easy to find someone wanting to trade for Iris.
+The Iris [[Neldardhen World/Endëa/Cultures_Nations/Currencies\|currency]] imposed itself on nearly the whole continent. While some part of the world still used their local currency it is usually fairly easy to find someone wanting to trade for Iris.
 
-Iris are usually represented by golden coins 5 Iris can pay rent for one room for a month. If you want to buy a sword, you will have to spend between 10 to 15 Iris for a standard one. A Petal is represented by a silver coin and is worth one fifth of an Iris. Seed are represented by bronze (or copper depending on the region) coins. 20 Seed are worth 1 Petal. Wealthy people also deal with Nobles, rare aluminium coins that are worth 10 Iris.
-
-`1 Iris ~ 100.-  
-`1 Petal ~ 20.-  
-`1 Seed ~ 1.-  
-`1 Noble ~ 1'000.-
+Iris are usually represented by golden coins. 5 Iris can pay rent for one room for a month. If you want to buy a sword, you will have to spend between 10 to 15 Iris for a standard one. A Petal is represented by a silver coin and is worth one fifth of an Iris. Seed are represented by bronze (or copper depending on the region) coins. 20 Seed are worth 1 Petal. Wealthy people also deal with Nobles, rare aluminium coins that are worth 10 Iris.
 
 #### Numerical system
-
 The Iris Countries use the [[Neldardhen World/Endëa/Cultures_Nations/Languages/Iris Numerical System\|Iris Numerical System]] except for Algassia that uses its own. (see [[Neldardhen World/Endëa/Cultures_Nations/Languages/Algassian Script\|Algassian Script]])
 
 ### Games
