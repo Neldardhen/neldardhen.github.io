@@ -17,26 +17,26 @@ Each parent magically fuse one of their hair to a small stone carving. The stone
 The growth and developement of a stone statuette into a baby dwarf is extremely slow.  
 Dwarves often gather outside of the geodes where children are growing to sing and play music.
 
-
-#### System Details
 Dwarves are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
 
-#Warm_Blooded #Skin #Terrestiral 
-
-As a Dwarf, you gain a Resistance to **Oblivion** damage equals to half your Mind score rounded down.
-
-| **Needs** |                      |     | **Speeds** |     |
-| --------- | -------------------- | --- | ---------- | --- |
-| Sun       | Doesn't need the sun |     | Walking    | 10m |
-| Eat       | 2 ration             |     | Swimming   | 2m  |
-| Dream     | 4 hours              |     | Flying     | 0m  |
-
-| **Senses**          |          |     |                |         |     |
-| ------------------- | -------- | --- | -------------- | ------- | --- |
-| Vision in the sun   | Very Bad | 1d6 | Hearing        | Good    | 4d6 |
-| Low light vision    | Bad      | 2d6 | Sense of Smell | Neutral | 3d6 |
-| Infrared Perception | Good     | 4d6 | Magic Affinity | Bad     | 2d6 |
-
+> [!sys] System Details
+>
+> **Types** : warm-blooded, skin, terrestiral 
+>
+> **Oblivion Resistance** : As a Dwarf, you gain a Resistance to **Oblivion** damage equals to half your Mind score rounded down.
+> 
+>
+> | **Needs** |                      |     | **Speeds** |     |
+> | --------- | -------------------- | --- | ---------- | --- |
+> | Sun       | Doesn't need the sun |     | Walking    | 10m |
+> | Eat       | 2 ration             |     | Swimming   | 2m  |
+> | Dream     | 4 hours              |     | Flying     | 0m  |
+> 
+> | **Senses**          |          |     |                |         |     |
+> | ------------------- | -------- | --- | -------------- | ------- | --- |
+> | Vision in the sun   | Very Bad | 1d6 | Hearing        | Good    | 4d6 |
+> | Low light vision    | Bad      | 2d6 | Sense of Smell | Neutral | 3d6 |
+> | Infrared Perception | Good     | 4d6 | Magic Affinity | Bad     | 2d6 |
 ### Subspecies
 - [[Neldardhen World/Species/SubSpecies/Slate Dwarves\|Slate Dwarves]]
 - [[Neldardhen World/Species/SubSpecies/Schist Dwarves\|Schist Dwarves]]
