@@ -26,10 +26,10 @@ Angessedir lay eggs with hard shell. They typically hatch after 2 to 3 weeks. Th
 > **Acid Resistance** : You gain a Resistance to **Acid** damage  equals to half your Body score rounded down.
 > 
 > | **Needs** |          |     | **Speeds** |     |
-| --------- | -------- | --- | ---------- | --- |
-| Sun       | 6 hours  |     | Walking    | 10m |
-| Eat       | 1 ration |     | Swimming   | 10m |
-| Dream     | 4 hours  |     | Flying     | 0m  |
+> | --------- | -------- | --- | ---------- | --- |
+> | Sun       | 6 hours  |     | Walking    | 10m |
+> | Eat       | 1 ration |     | Swimming   | 10m |
+> | Dream     | 4 hours  |     | Flying     | 0m  |
 > 
 > | **Senses**          |         |     |                |            |     |
 > | ------------------- | ------- | --- | -------------- | ---------- | --- |
