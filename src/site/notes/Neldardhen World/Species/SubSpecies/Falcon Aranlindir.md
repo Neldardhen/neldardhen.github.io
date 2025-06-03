@@ -8,5 +8,6 @@ A Subspecie of [[Neldardhen World/Species/Aranlindir\|Aranlindir]].
 Fastest flyers
 
 > [!sys] System Details
-**Puny** : **-1** Body
-**Fastest Flyer** : **+4**m to Flying Speed
+> **Puny** : **-1** Body
+>
+> **Fastest Flyer** : **+4**m to Flying Speed

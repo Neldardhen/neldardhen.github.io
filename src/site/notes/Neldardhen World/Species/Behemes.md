@@ -18,18 +18,17 @@ Behemes are a [[Neldardhen System/Character Creation/Playable Species List\|Play
 > **Types** : warm-blooded , skin , terrestiral 
 > **Bludgeoning Resistance** : As a Behemos you gain a Resistance to **Bludgeoning/Force** damage equals to half your Body score rounded down.
 > 
-| **Needs** |           |     | **Speeds** |     |
-| --------- | --------- | --- | ---------- | --- |
-| Sun       | 4 hours   |     | Walking    | 10m |
-| Eat       | 2 rations |     | Swimming   | 4m  |
-| Dream     | 4 hours   |     | Flying     | 0m  |
+> | **Needs** |           |     | **Speeds** |     |
+> | --------- | --------- | --- | ---------- | --- |
+> | Sun       | 4 hours   |     | Walking    | 10m |
+> | Eat       | 2 rations |     | Swimming   | 4m  |
+> | Dream     | 4 hours   |     | Flying     | 0m  |
 > 
-| **Senses**          |            |     |                |            |     |
-| ------------------- | ---------- | --- | -------------- | ---------- | --- |
-| Vision in the sun   | Neutral    | 3d6 | Hearing        | Very Good  | 5d6 |
-| Low light vision    | Neutral    | 3d6 | Sense of Smell | Good       | 4d6 |
-| Infrared Perception | Inexistant | 0   | Magic Affinity | Inexistant | 0   |
-
+> | **Senses**          |            |     |                |            |     |
+> | ------------------- | ---------- | --- | -------------- | ---------- | --- |
+> | Vision in the sun   | Neutral    | 3d6 | Hearing        | Very Good  | 5d6 |
+> | Low light vision    | Neutral    | 3d6 | Sense of Smell | Good       | 4d6 |
+> | Infrared Perception | Inexistant | 0   | Magic Affinity | Inexistant | 0   |
 
 ### Subspecies
 - [[Neldardhen World/Species/SubSpecies/Hippopotamus Behemes\|Hippopotamus Behemes]]

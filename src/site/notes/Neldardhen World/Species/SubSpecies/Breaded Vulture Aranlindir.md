@@ -9,4 +9,5 @@ They can eat and digest bones.
 
 > [!sys] System Details
 > **Acid Resistance** : You gain a Resistance to Acid equals to half of your Body score.
-> **Efficent Metabolism** : You need to eat 1/2 ration less.
+>
+ > **Efficent Metabolism** : You need to eat 1/2 ration less.

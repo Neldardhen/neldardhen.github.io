@@ -8,4 +8,4 @@ A Subspecie of [[Neldardhen World/Species/Aranlindir\|Aranlindir]].
 
 
 > [!sys] System Details
-**Enhanced Mind** : **+1** to Mind.
+> **Enhanced Mind** : **+1** to Mind.

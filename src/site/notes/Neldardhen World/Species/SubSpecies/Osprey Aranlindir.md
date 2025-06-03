@@ -8,4 +8,4 @@ A Subspecie of [[Neldardhen World/Species/Aranlindir\|Aranlindir]].
 
 
 > [!sys] System Details
-**Natural Swimmer** : **+4**m swimming speed
+> **Natural Swimmer** : **+4**m swimming speed
