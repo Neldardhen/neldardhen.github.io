@@ -15,33 +15,29 @@ The majority of Essedir lives in the jungles of [[Neldardhen World/Endëa/Cultur
 #### Reproduction
 Essedir cannot be born, they are only created through magical rituals.
 
-
-#### System Details
 Essedir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
 
-#Cold_Blooded #Skin #Terrestiral 
-
-As an Esseret, you are col-blooded, this means that your body adapt (to a point) to the temperature around you.
-
-Creatures with Infrared perception have a harder time finding you, but you become slower when your body temperature drops below a certain point.
-
-You impart a **-2d6** malus on the _Infrared Perception_ check of creature trying to locate you.  
-You suffer a **-1d6** on your _Physic_ and _Coordination_ after every hour spent in an environement with a temperature below 0°C without apropriate clothing.
-
-You gain a Resistance to all **Poison** damage equals to half your Level score rounded down.
-
-
-| **Needs** |            |     | **Speeds** |     |
-| --------- | ---------- | --- | ---------- | --- |
-| Sun       | 2 hours    |     | Walking    | 10m |
-| Eat       | 1.5 ration |     | Swimming   | 2m  |
-| Dream     | 4 hours    |     | Flying     | 0m  |
-
-| **Senses**          |            |     |                |      |     |
-| ------------------- | ---------- | --- | -------------- | ---- | --- |
-| Vision in the sun   | Bad        | 2d6 | Hearing        | Bad  | 2d6 |
-| Low light vision    | Neutral    | 3d6 | Sense of Smell | Good | 4d6 |
-| Infrared Perception | Inexistant | 0   | Magic Affinity | Good | 4d6 |
+> [!sys] System Details
+> **Types** : cold-blooded, skin, terrestiral 
+>
+> **Ectotherm** : As an Esseret, you are col-blooded, this means that your body adapt (to a point) to the temperature around you.
+> Creatures with Infrared perception have a harder time finding you, but you become slower when your body temperature drops below a certain point.
+> You impart a **-2d6** malus on the _Infrared Perception_ check of creature trying to locate you.  
+> You suffer a **-1d6** on your _Physic_ and _Coordination_ after every hour spent in an environement with a temperature below 0°C without apropriate clothing.
+>
+> **Poison Resistance** : You gain a Resistance to all **Poison** damage equals to half your Level score rounded down.
+> 
+> | **Needs** |            |     | **Speeds** |     |
+> | --------- | ---------- | --- | ---------- | --- |
+> | Sun       | 2 hours    |     | Walking    | 10m |
+> | Eat       | 1.5 ration |     | Swimming   | 2m  |
+> | Dream     | 4 hours    |     | Flying     | 0m  |
+> 
+> | **Senses**          |            |     |                |      |     |
+> | ------------------- | ---------- | --- | -------------- | ---- | --- |
+> | Vision in the sun   | Bad        | 2d6 | Hearing        | Bad  | 2d6 |
+> | Low light vision    | Neutral    | 3d6 | Sense of Smell | Good | 4d6 |
+> | Infrared Perception | Inexistant | 0   | Magic Affinity | Good | 4d6 |
 ### Subspecies
 - [[Neldardhen World/Species/SubSpecies/Anaconda Essedir\|Anaconda Essedir]]
 - [[Neldardhen World/Species/SubSpecies/Python Essedir\|Python Essedir]]
