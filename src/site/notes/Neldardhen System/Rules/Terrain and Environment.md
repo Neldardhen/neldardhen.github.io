@@ -20,6 +20,9 @@ Rules for the particular effects of Terrain and Environment in the [[Neldardhen 
 
 **Fall damage** : Falling by more than 4m deals 1 point of Bludgeoning damage for every meter a character fell. 20m fall -> 20 points of Bludgeoning damage. If the GM decides that the character time the time, they can try an Athletics on Reaction Speed checks to roll or otherwise soften the landing only taking half as much damage on a success, but a critical failure will double the damage taken !
 ## Terrain
+{ #94cb9d}
+
+
 Generic Difficult Terrain (Rocky or steep area, heavy vegetation, water, snow or sand up to one's ankles)
 - Walking movement speed is halved
 

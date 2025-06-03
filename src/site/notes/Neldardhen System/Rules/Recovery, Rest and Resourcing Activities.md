@@ -6,6 +6,9 @@
 Rules for recovery in the [[Neldardhen System/Neldar System\|Neldar System]].
 
 ## Rest and Needs
+{ #d14e53}
+
+
 The main way to recover _focus_, _endurance_ and _resilience_ is by _Resting_.
 
 A _Rest_ includes eating food for the day and sleeping. Once a _Rest_ is done everyone check their needs and whether or not they have fulfilled them. Each need is linked to one part of the _Being_ and will dictate which recovery die will be rolled. If a need is unmet, the recovery die for the specific resource will be one category lower (a **1d6** would become a **1d4**).

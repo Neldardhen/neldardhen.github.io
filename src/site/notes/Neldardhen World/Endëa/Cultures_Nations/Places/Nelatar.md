@@ -5,14 +5,18 @@
 # Nelatar
 Nelatar is a Principality, the Prince of Nelatar is only known by his title and only those close to him use his name to address him.
 The Prince and his Court live in Nelataren the capital, built on an island in the middle of the Kagami river.
-The Principality is separated in five Provinces : Western, Northern, Eastern, Southern and Centeral.
+![Nelatar.jpg|400](/img/user/Neldardhen%20World/Maps/Nelatar.jpg)
+The Principality is separated in five Provinces : Western, Northern, Eastern, Southern and Central.
 The Western Province is under the influence of the Temple of Ordel who has is siege in the city of Ordelen, capital of the Province.
 Most of the lands of the Eastern Province have now fallen under Egerot occupation, including the rich merchant city and capital of the Province, Maralen.
 The capital city of the Southern Province, Vierna is renown for its wine production, which seems like an impossible feat given the local climate.
 Lastly the capital of the Northern Province recently changed from Avorel to [[Neldardhen World/Endëa/Cultures_Nations/Places/Serna\|Serna]].
 
+>[!sys] System Details
+> The long winter and short days of Nelatar might impact the need for sun of the characters. (see. [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities#^d14e53\|Rest and Needs]])
+> The characters are also more likley to encounter snow terrains. (see. [[Neldardhen System/Rules/Terrain and Environment#^94cb9d\|Terrain]])
 ### Languages
-People in the Principality speaks Nessegarian, the same language that is spoken in Egerot.
+People in the Principality speaks Nessegarian, the same [[Neldardhen World/Endëa/Cultures_Nations/Languages/Languages\|language]] that is spoken in Egerot.
 Some scholar of the Temple still learn Old Nessalian as most of the ancient religious texts are written in this language.
 
 *Names*

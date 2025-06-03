@@ -2,7 +2,12 @@
 {"dg-publish":true,"permalink":"/neldardhen-world/endea/cultures-nations/languages/languages/"}
 ---
 
+
 # Languages
+Main languages on the [[Neldardhen World/Endëa/Continents/Palanian Continent\|Palanian Continent]].
+![languages-NW-Neldardhen.png|600](/img/user/languages-NW-Neldardhen.png)
+
+## Languages Tree
 Palanian
 ---- West Palanian ([[Neldardhen World/Endëa/Cultures_Nations/Places/Dogarot\|Dogarot]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Algassia\|Algassia]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Lobor\|Lobor]])
 { #5fb47d}
