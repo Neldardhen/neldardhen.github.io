@@ -6,5 +6,5 @@
 A Subspecie of [[Neldardhen World/Species/Daessalindir\|Daessalindir]].
 
 
-### System Details
-**Enhanced Mind** : +1 to your Mind score. 
+> [!sys] System Details
+> **Enhanced Mind** : +1 to your Mind score. 

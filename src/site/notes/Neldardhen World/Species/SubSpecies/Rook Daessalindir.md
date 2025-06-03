@@ -7,5 +7,5 @@ A Subspecie of [[Neldardhen World/Species/Daessalindir\|Daessalindir]].
 
 White featherless face.
 
-### System Details
-**Fear Resistance** : Fear Resistance equals to half your Spirit score.
+> [!sys] System Details
+> **Fear Resistance** : Fear Resistance equals to half your Spirit score.

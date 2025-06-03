@@ -5,7 +5,7 @@
 
 # Languages
 Main languages on the [[Neldardhen World/Endëa/Continents/Palanian Continent\|Palanian Continent]].
-![languages-NW-Neldardhen.png|600](/img/user/languages-NW-Neldardhen.png)
+![languages-NW-Neldardhen.png|600](/img/user/Neldardhen%20World/Maps/languages-NW-Neldardhen.png)
 
 ## Languages Tree
 Palanian

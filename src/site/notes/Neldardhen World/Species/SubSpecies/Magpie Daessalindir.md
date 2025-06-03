@@ -18,5 +18,5 @@ Two for mirth
 Three for a funeral  
 Four for a birth_
 
-### System Details
-**Naturally Lucky** : you attract luck, you gain the Naturally Lucky Feat that let you re-roll all 1s from a dice pool once per day.
+> [!sys] System Details
+> **Naturally Lucky** : you attract luck, you gain the Naturally Lucky Feat that let you re-roll all 1s from a dice pool once per day.
