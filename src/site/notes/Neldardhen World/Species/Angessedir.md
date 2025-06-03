@@ -31,11 +31,11 @@ Angessedir lay eggs with hard shell. They typically hatch after 2 to 3 weeks. Th
 | Eat       | 1 ration |     | Swimming   | 10m |
 | Dream     | 4 hours  |     | Flying     | 0m  |
 > 
-| **Senses**          |         |     |                |            |     |
-| ------------------- | ------- | --- | -------------- | ---------- | --- |
-| Vision in the sun   | Good    | 4d6 | Hearing        | Neutral    | 3d6 |
-| Low light vision    | Bad     | 2d6 | Sense of Smell | Neutral    | 3d6 |
-| Infrared Perception | Neutral | 3d6 | Magic Affinity | Inexistant | 0   |
+> | **Senses**          |         |     |                |            |     |
+> | ------------------- | ------- | --- | -------------- | ---------- | --- |
+> | Vision in the sun   | Good    | 4d6 | Hearing        | Neutral    | 3d6 |
+> | Low light vision    | Bad     | 2d6 | Sense of Smell | Neutral    | 3d6 |
+> | Infrared Perception | Neutral | 3d6 | Magic Affinity | Inexistant | 0   |
 
 ### Subspecies
 - [[Neldardhen World/Species/SubSpecies/Chameleon Angessedir\|Chameleon Angessedir]]
