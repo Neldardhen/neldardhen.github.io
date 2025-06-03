@@ -13,29 +13,25 @@ The are often describe by other species as chaos incarnate.
 #### Reproduction
 Like all the [[Neldardhen World/Species/Gremns\|Gremns]] descendants, Goblins mixes their blood with clay and then shape a statuette out of it that will become the new baby.
 
-
-#### System Details
 Goblins are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
 
-#Warm_Blooded #Skin #Terrestiral 
-
-As a Goblin, you gain a Resistance to **Despair** damage equals to half your Spirit score rounded down.
-
-
-| **Needs** |          |     | **Speeds** |     |
-| --------- | -------- | --- | ---------- | --- |
-| Sun       | 2 hours  |     | Walking    | 10m |
-| Eat       | 1 ration |     | Swimming   | 2m  |
-| Dream     | 6 hours  |     | Flying     | 0m  |
-
+> [!sys] System Details
+> **Types** : warm-blooded, skin, terrestiral 
+>
+> **Despair Resistance** : As a Goblin, you gain a Resistance to **Despair** damage equals to half your Spirit score rounded down.
+>
+> | **Needs** |          |     | **Speeds** |     |
+> | --------- | -------- | --- | ---------- | --- |
+> | Sun       | 2 hours  |     | Walking    | 10m |
+> | Eat       | 1 ration |     | Swimming   | 2m  |
+> | Dream     | 6 hours  |     | Flying     | 0m  |
+> 
 | **Senses**          |            |     |                |           |     |
 | ------------------- | ---------- | --- | -------------- | --------- | --- |
 | Vision in the sun   | Bad        | 2d6 | Hearing        | Very Good | 5d6 |
 | Low light vision    | Good       | 4d6 | Sense of Smell | Good      | 4d6 |
 | Infrared Perception | Inexistant | 0   | Magic Affinity | Neutral   | 3d6 |
-
 ### Subspecies 
-
 - [[Neldardhen World/Species/SubSpecies/Clay Goblins-Orcs\|Clay Goblins-Orcs]]
 - [[Neldardhen World/Species/SubSpecies/Loam Goblins-Orcs\|Loam Goblins-Orcs]]
 - [[Neldardhen World/Species/SubSpecies/Peat Goblins-Orcs\|Peat Goblins-Orcs]]
