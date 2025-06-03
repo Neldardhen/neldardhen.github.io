@@ -34,9 +34,9 @@ As a Caerfal, you gain a Resistance to **Cold/Ice** damage equals to half your B
 | Infrared Perception | Inexistant | 0   | Magic Affinity | Very Bad | 1d6 |
 
 ### Subspecies
-- [[Neldardhen World/Species/SubSpecies/Cheetah Caerfal\|Cheetah Caerfal]]
-- [[Neldardhen World/Species/SubSpecies/Jaguar Caerfal\|Jaguar Caerfal]]
-- [[Neldardhen World/Species/SubSpecies/Leopard Caerfal\|Leopard Caerfal]]
-- [[Neldardhen World/Species/SubSpecies/Lion Caerfal\|Lion Caerfal]]
-- [[Neldardhen World/Species/SubSpecies/Snow Leopard Caerfal\|Snow Leopard Caerfal]]
-- [[Neldardhen World/Species/SubSpecies/Tiger Caerfal\|Tiger Caerfal]]
+- [[Neldardhen World/Species/SubSpecies/Cheetah Caerfaldir\|Cheetah Caerfaldir]]
+- [[Neldardhen World/Species/SubSpecies/Jaguar Caerfaldir\|Jaguar Caerfaldir]]
+- [[Neldardhen World/Species/SubSpecies/Leopard Caerfaldir\|Leopard Caerfaldir]]
+- [[Neldardhen World/Species/SubSpecies/Lion Caerfaldir\|Lion Caerfaldir]]
+- [[Neldardhen World/Species/SubSpecies/Snow Leopard Caerfaldir\|Snow Leopard Caerfaldir]]
+- [[Neldardhen World/Species/SubSpecies/Tiger Caerfaldir\|Tiger Caerfaldir]]
