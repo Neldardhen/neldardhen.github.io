@@ -4,6 +4,7 @@
 
 # TODO
 
+### Neldar System
 Create Subspecies (Obsidian and Foundry) for
 	[[Neldardhen World/Species/Ælamar\|Ælamar]]
 	[[Neldardhen World/Species/Ældenyn\|Ældenyn]]
@@ -33,6 +34,9 @@ Create Feats (Obsidian and Foundry)
 - ~~Debug Leather Armour not applying bonus to defense~~
 - Update Currency on Character Sheet for each member of the Party when sharing currency from the Party Overview Sheet.
 - Correct the style sheets (which one ?) to force background colour **and** text colour. Problem in some cases with dark mode.
+#### CSB update to 4.5.0
+- Create Active Effects from Macros
+- Start switching Items Modifiers to Active Effects
 
 ### Digital Garden
 - Publish Subspecies
@@ -57,3 +61,18 @@ Create Feats (Obsidian and Foundry)
 	- Shinrens
 	- Dracobolds
 	- Ældenyn
+- Add System Details for places 
+## Adventures
+### Húnatol (Neldar)
+- Create Creatures
+- Create NPCs portraits
+
+### World of Darkness (VtM)
+- Schedule characters creation session
+- Create or choose a city for the mini-campaign (~3 to 5 sessions ?)
+- Build scenario from characters
+### Core Memory (DnD5e / Neldar ?)
+- Make city map and POIs
+- Create NPCs for each faction
+- Create non-faction NPCs
+- Create Monsters / Creatures
