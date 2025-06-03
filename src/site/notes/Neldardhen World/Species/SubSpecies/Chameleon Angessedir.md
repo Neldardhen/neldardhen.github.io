@@ -8,8 +8,9 @@ A Subspecie of [[Neldardhen World/Species/Angessedir\|Angessedir]].
  ![Chameleon.jpg|400](/img/user/Images/Species/Subspecies/Chameleon.jpg)[^1]
 
 > [!sys] System Details
-**Bad Hearing** : **-1d6** on Hearing
-**Camouflage** : **-2d6** on Vision in the Sun and Low Light Vision Perception checks on creatures trying to locate you.
+> **Bad Hearing** : **-1d6** on Hearing
+> 
+> **Camouflage** : **-2d6** on Vision in the Sun and Low Light Vision Perception checks on creatures trying to locate you.
 
 
 
