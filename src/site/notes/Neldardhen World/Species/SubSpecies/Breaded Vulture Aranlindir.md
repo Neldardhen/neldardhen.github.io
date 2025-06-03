@@ -7,6 +7,6 @@ A Subspecie of [[Neldardhen World/Species/Aranlindir\|Aranlindir]].
 
 They can eat and digest bones.
 
-### System Details
-**Acid Resistance** 
-**Efficent Metabolism** : need to eat 1/2 ration less.
+> [!sys] System Details
+> **Acid Resistance** 
+> **Efficent Metabolism** : need to eat 1/2 ration less.

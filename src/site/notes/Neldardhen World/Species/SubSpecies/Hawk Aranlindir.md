@@ -7,5 +7,5 @@ A Subspecie of [[Neldardhen World/Species/Aranlindir\|Aranlindir]].
 
 
 
-### System Details
+> [!sys] System Details
 **Enhanced Mind** : **+1** to Mind.

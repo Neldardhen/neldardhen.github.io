@@ -13,20 +13,18 @@ Caerfaldir tend to be prideful people. They were the people of the [[Neldardhen 
 #### Reproduction
 Mammalian
 
-
-#### System Details
 Caerfaldir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
 
-#Warm_Blooded , #Fur, #Terrestiral 
-
-As a Caerfal, you gain a Resistance to **Cold/Ice** damage equals to half your Body score rounded down.
-
+> [!sys] System Details
+> warm-blooded , fur, terrestiral 
+> As a Caerfal, you gain a Resistance to **Cold/Ice** damage equals to half your Body score rounded down.
+> 
 | **Needs** |           |     | **Speeds** |     |
 | --------- | --------- | --- | ---------- | --- |
 | Sun       | 4 hours   |     | Walking    | 10m |
 | Eat       | 2 rations |     | Swimming   | 2m  |
 | Dream     | 4 hours   |     | Flying     | 0m  |
-
+> 
 | **Senses**          |            |     |                |          |     |
 | ------------------- | ---------- | --- | -------------- | -------- | --- |
 | Vision in the sun   | Bad        | 2d6 | Hearing        | Good     | 4d6 |

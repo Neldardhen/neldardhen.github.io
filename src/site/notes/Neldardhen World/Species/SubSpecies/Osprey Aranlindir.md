@@ -7,5 +7,5 @@ A Subspecie of [[Neldardhen World/Species/Aranlindir\|Aranlindir]].
 
 
 
-### System Details
+> [!sys] System Details
 **Natural Swimmer** : **+4**m swimming speed
