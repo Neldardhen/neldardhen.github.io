@@ -6,14 +6,16 @@
 
 ### Neldar System
 Create Subspecies (Obsidian and Foundry) for
-	[[Neldardhen World/Species/Ælamar\|Ælamar]]
-	[[Neldardhen World/Species/Ældenyn\|Ældenyn]]
-	[[Neldardhen World/Species/Draconians\|Draconians]]
-	[[Neldardhen World/Species/Dracobolds\|Dracobolds]]
-	[[Neldardhen World/Species/Mydroians\|Mydroians]]
-	[[Neldardhen World/Species/Gremns\|Gremns]]
-	[[Neldardhen World/Species/Gemelians\|Gemelians]]
-	[[Neldardhen World/Species/Tyndir\|Tyndir]]
+- [Ælamar]]
+- [[Neldardhen World/Species/Ældenyn\|Ældenyn]]
+- [[Neldardhen World/Species/Draconians\|Draconians]]
+- [[Neldardhen World/Species/Dracobolds\|Dracobolds]]
+- [[Neldardhen World/Species/Mydroians\|Mydroians]]
+- [[Neldardhen World/Species/Gremns\|Gremns]]
+- [[Neldardhen World/Species/Gemelians\|Gemelians]]
+- [[Neldardhen World/Species/Tyndir\|Tyndir]]
+- [[Neldardhen World/Species/Vipeans\|Vipeans]]
+-  [[Neldardhen World/Species/Leporidir\|Leporidir]]
 
 Design / Redesign
 - Borangedir
@@ -40,17 +42,17 @@ Create Feats (Obsidian and Foundry)
 - Start switching Items Modifiers to Active Effects
 
 ### Digital Garden
-- Publish Subspecies
+- ~~Publish Subspecies~~
 	- ~~Kobolds~~
-	- Lynfaldir
-	- Orcs
+	- ~~Lynfaldir~~
+	- ~~Orcs~~
 	
 - ~~Change Style~~
 - Adjust Species style and info
-	- Kobolds
-	- Lynfaldir
-	- Orcs
-	- Vipeans
+	- ~~Kobolds~~
+	- ~~Lynfaldir~~
+	- ~~Orcs~~
+	- ~~Vipeans~~
 	- Ancalduri
 	- Leporidir
 	- Gemelians
