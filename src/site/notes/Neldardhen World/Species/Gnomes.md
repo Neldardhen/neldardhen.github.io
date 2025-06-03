@@ -13,26 +13,25 @@ Their ancestors having come from the day world of Amaurëa, Gnomes generally ten
 #### Reproduction
 In their ritual, gnomes grind gemstones in a fine powder.
 
-
-#### System Details
 Gnomes are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
 
-#Warm_Blooded #Skin #Terrestiral
-
-As a Gnome, you gain a Resistance to **Confusion** damage equals to half your Mind score rounded down.
-
-| **Needs** |            |     | **Speeds** |     |
-| --------- | ---------- | --- | ---------- | --- |
-| Sun       | 6 hours    |     | Walking    | 10m |
-| Eat       | 1/2 ration |     | Swimming   | 2m  |
-| Dream     | 2 hours    |     | Flying     | 0m  |
-
-| **Senses**          |            |     |                |         |     |
-| ------------------- | ---------- | --- | -------------- | ------- | --- |
-| Vision in the sun   | Very Good  | 5d6 | Hearing        | Neutral | 3d6 |
-| Low light vision    | Very Bad   | 1d6 | Sense of Smell | Bad     | 2d6 |
-| Infrared Perception | Inexistant | 0   | Magic Affinity | Good    | 4d6 |
-
+> [!sys] System Details
+>
+> **Types** : warm-blooded, skin, terrestiral
+>
+> **Confusion Resistance** : As a Gnome, you gain a Resistance to **Confusion** damage equals to half your Mind score rounded down.
+> 
+> | **Needs** |            |     | **Speeds** |     |
+> | --------- | ---------- | --- | ---------- | --- |
+> | Sun       | 6 hours    |     | Walking    | 10m |
+> | Eat       | 1/2 ration |     | Swimming   | 2m  |
+> | Dream     | 2 hours    |     | Flying     | 0m  |
+>
+> | **Senses**          |            |     |                |         |     |
+> | ------------------- | ---------- | --- | -------------- | ------- | --- |
+> | Vision in the sun   | Very Good  | 5d6 | Hearing        | Neutral | 3d6 |
+> | Low light vision    | Very Bad   | 1d6 | Sense of Smell | Bad     | 2d6 |
+> | Infrared Perception | Inexistant | 0   | Magic Affinity | Good    | 4d6 |
 ### Subspecies
 In Endëa
 - [[Neldardhen World/Species/SubSpecies/Grenat Gnomes\|Grenat Gnomes]]
