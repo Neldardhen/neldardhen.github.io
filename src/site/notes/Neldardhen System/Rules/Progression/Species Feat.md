@@ -10,14 +10,12 @@ Species Feats are gained at level 3, 6, 9, 12, 15, and 18
 For Feats gained at other levels see [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]].
 
 ## Angessedir
-
 ### Regenerative Tail
 **Prerequisite** : Level 3, All Subspecies
 _Once per Story_
 Once in your lifetime, you can let go of your tail and it will grow back over the course of a few days.
 
 ## Aranlindir, Hólindir and Daessalindir 
-
 ### Naturally Lucky
 **Granted** at level 1 to Magpie Daessalindir
 _Once per Day_
@@ -35,15 +33,17 @@ You can use 2 Actions to be able to Fly up to your speed and Melee Attack a crea
 
 ## Behemes
 
-### Blood-Sweat
+ > [!wip] _Work In Progress_
+ > Blood-Sweat
 **Prerequisite** : Level 3, Hippo and Pygmy Hippo Behemes only 
 _Passive_
-_Work In Progress : Natural sunscreen !_
+ Natural sunscreen !
 
 ### Gore
+> [!wip] _Work In Progress_
 **Prerequisite** : Level 6, Rhino Behemes only
 _At will_
-_Work In Progress_
+
 
 ## Caerfaldir and Lynfaldir
 

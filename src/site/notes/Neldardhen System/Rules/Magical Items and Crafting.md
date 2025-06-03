@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/neldardhen-system/rules/magical-items-and-crafting/"}
 ---
 
-
 # Magical Items and Crafting
 Magical Items and Crafting rules for the [[Neldardhen System/Neldar System\|Neldar System]].
 

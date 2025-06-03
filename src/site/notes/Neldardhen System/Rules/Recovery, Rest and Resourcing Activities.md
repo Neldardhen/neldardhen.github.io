@@ -40,6 +40,6 @@ An other one might tolerate the acidity well but becoming a little bit agitated 
 
 A nice walk in nature might gives you a **+1d4** to _resilience_ and a **+2** to _focus_ while costing you only **2** _endurance_, but to complete this activity you need at least 1 hour and access to nature or a park.
 
->_**Advice for GMs**_
- >_As the adventure progress it is advised to emphasis to your players the discovery or creation of new Resourcing Activities for their characters. Activities that help them with their Permanent Injuries and tie into their character's narrative arc._
- >*The idea of this game is to keep going, healing what can be healed and learning to manage what cannot.*
+>[!gm] Advice for GMs
+ >As the adventure progress it is advised to emphasis to your players the discovery or creation of new Resourcing Activities for their characters. Activities that help them with their Permanent Injuries and tie into their character's narrative arc.
+ >The idea of this game is to keep going, healing what can be healed and learning to manage what cannot.

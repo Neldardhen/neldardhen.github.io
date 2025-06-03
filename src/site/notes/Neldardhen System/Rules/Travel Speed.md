@@ -7,7 +7,6 @@
 Rules for Travel for the [[Neldardhen System/Neldar System\|Neldar System]].
 
 ## Travel times / speed
-
 A day of travel is roughly 12h.
 
 | Method               | Speed in km per day   | Speed in mile per day      |
@@ -22,8 +21,10 @@ A day of travel is roughly 12h.
 | Homing pigeon        | 965 km / day (97km/h) | ~600 miles/day (60miles/h) |
 
 ## Travel cost
-Note : the cost are given in the [[Neldardhen World/Endëa/Cultures_Nations/Currencies#^708d38\|Iris Currency]], the main currency for the [[Neldardhen World/Neldardhen\|Neldardhen Worlds]] setting. 
-If you are more used to D&D gold pieces 1 Iris ~= 5 gold pieces.
+
+> [!gm] Note 
+> The cost are given in the [[Neldardhen World/Endëa/Cultures_Nations/Currencies#^708d38\|Iris Currency]], the main currency for the [[Neldardhen World/Neldardhen\|Neldardhen Worlds]] setting. 
+> If you are more used to D&D gold pieces 1 Iris ~= 5 gold pieces.
 
 |               | Monetary cost                                          | Additional costs                                    | Endurance cost                                     |
 | ------------- | ------------------------------------------------------ | --------------------------------------------------- | -------------------------------------------------- |

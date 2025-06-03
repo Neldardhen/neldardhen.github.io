@@ -96,9 +96,9 @@ A critical failure on the other hand happens when the total roll is less than ha
 ## Perception Checks
 Perception checks are always free. They use dice pools determined by the species of the character. (see [[Neldardhen System/Character Creation/Character Creation - Species#^443e3a\| Character Creation - Species - Senses]])
 
-## Diffiiculty (for GMs)
-To set the difficulty of a skill, you can use this table :
-
+>[!gm] GM : Setting a difficulty
+ To set the difficulty of a skill, you can use this table :
+>
 | Difficulty | **score** | notes                                                                                                                                                                                                                                                  |
 | ---------- | --------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | Trivial    | 2+        | Garanteed succeess when either having a specialty or buying 1 die.                                                                                                                                                                                     |
@@ -108,3 +108,4 @@ To set the difficulty of a skill, you can use this table :
 | Hard       | 12+       | Required to have at least 1 rank in the skill to succeed (or be very lucky with a d12 attribute)                                                                                                                                                       |
 | Very Hard  | 16+       |                                                                                                                                                                                                                                                        |
 | Impossible | 20+       |                                                                                                                                                                                                                                                        |
+

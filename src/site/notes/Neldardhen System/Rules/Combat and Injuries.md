@@ -145,7 +145,8 @@ Permanent injuries are either very hard to heal or cannot be healed at all. Thei
 
 **Advices for Game Masters - Storytellers** : If a character suffer from an Injury due to damage, you can tell them to roll on the rolltable, but you are not forced to use the result as the Injury as is. Don't hesitate to modify or create new Injuries linked to the type or damage or situation the characters find themselves in.
 A paralytic poison will probably have different lasting effects than a burn or a broken bone.
-### Note on Creatures
+
+> [!gm] Note on Creatures
 To simplify combat, creature controlled by the game masters don't get injuries. They will instead die as soon as either their _focus, endurance_ or _resilience_ reach 0. 
 When a creature drops to 0 in a resource due to something else than damage (while attacking or defending) the creature doesn't die immediately, but enters a weaken state where they can not use abilities that cost them more than 1 of this resource.
 ## Death

@@ -39,4 +39,7 @@ Some runes might also have a **prerequisite**. This prerequisite represent the m
 
 ## Raw Magic
 Raw magic is the type of magic based on instinct and emotions. That's the type of magic used by creatures that are naturally magical. Raw magic, by nature is less structured and almost unpredictable.
-(It is an excuse for the GM to do whatever they what with creatures abilities ;) )
+
+> [!gm] Creature Abilities
+> Since creature abilities are justified by Raw Magic, it is mainly an excuse for the GM to do whatever they want with them ;) 
+> Want a creatures whose laugh deals Anxiety Damage to everyone that hears it ? Go for it !

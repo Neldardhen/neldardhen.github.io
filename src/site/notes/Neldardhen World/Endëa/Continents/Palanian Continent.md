@@ -19,7 +19,7 @@ East of the Palanian Continent, across the [[Neldardhen World/Endëa/Continents/
 #### North West
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Nelatar\|Nelatar]]
 - Nelataren
--  [Serna]]
+-  [[Neldardhen World/Endëa/Cultures_Nations/Places/Serna\|Serna]]
 - Ordelen
 - Vierna
 - Maralen
