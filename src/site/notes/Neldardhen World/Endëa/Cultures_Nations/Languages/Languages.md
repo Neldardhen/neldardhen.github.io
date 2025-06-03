@@ -70,6 +70,8 @@ Linanfir ??
 ---- ---- ---- ---- Linifir (Talked by [[Neldardhen World/Species/Aranlindir\|Aranlindir]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Rhuk\|Rhuk]])
 
 Uruithen (Talked by [[Neldardhen World/Species/Behemes\|Behemes]], [[Neldardhen World/Species/Caergandir\|Caergandir]], [[Neldardhen World/Species/Lynfaldir\|Lynfaldir]] and [[Neldardhen World/Species/Aranlindir\|Aranlindir]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Uruithel\|Uruithel]])
+{ #8f3ce9}
+
 
 Dragau (Talked by [[Neldardhen World/Species/Dragonéns\|Dragonéns]], [[Neldardhen World/Species/Kobolds\|Kobolds]] and [[Neldardhen World/Species/Hólindir\|Hólindir]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Eretol\|Eretol]] and during the day in [[Neldardhen World/Endëa/Cultures_Nations/Places/Calendôr\|Calendôr]]) 
 ---- Syrinx (Restricted Dragau talked by [[Neldardhen World/Species/Dragonéns\|Dragonéns]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Baramlug\|Baramlug]] )
