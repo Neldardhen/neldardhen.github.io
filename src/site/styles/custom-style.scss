@@ -22,4 +22,14 @@ body {
     --table-header-background-hover: #5C7557 !important;
 
     --color-accent: #6B717E !important; // #87B37A
+
+.callout[data-callout="sys"] {
+    --callout-color: 131, 85, 32;
+    --callout-icon: lucide-dices;
+}
+.callout[data-callout="gm"] {
+    --callout-color: 87, 115, 122;
+    --callout-icon: lucide-feather;
+}
+    
 }
