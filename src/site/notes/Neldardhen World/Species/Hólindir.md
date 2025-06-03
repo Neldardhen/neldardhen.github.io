@@ -15,29 +15,26 @@ They tend to be nocturnal.
 #### Reproduction
 Hólindir lay hard shelled eggs.
 
-
-#### System Details
 Hólindir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
 
-#Warm_Blooded #Fur #Flying
-
-As a Hólin, you gain a Resistance to **Ice/Cold** damage equals to half your Body score rounded down.
-
-You are a winged creature, you gain a flying speed equal to your walking speed, but you also suffer from a Vulnerability to **Bludgeoning/Force** damage equal to your Level.
-
-
-| **Needs** |            |     | **Speeds** |     |
-| --------- | ---------- | --- | ---------- | --- |
-| Sun       | 2 hours    |     | Walking    | 10m |
-| Eat       | 1.5 ration |     | Swimming   | 2m  |
-| Dream     | 4 hours    |     | Flying     | 0m  |
-
-| **Senses**          |            |     |                |      |     |
-| ------------------- | ---------- | --- | -------------- | ---- | --- |
-| Vision in the sun   | Bad        | 2d6 | Hearing        | Good | 4d6 |
-| Low light vision    | Very Good  | 5d6 | Sense of Smell | Bad  | 2d6 |
-| Infrared Perception | Inexistant | 0   | Magic Affinity | Bad  | 2d6 |
-
+> [!sys] System Details
+> **Types** : warm-blooded, fur, flying
+>
+> **Cold Resistance** : As a Hólin, you gain a Resistance to **Ice/Cold** damage equals to half your Body score rounded down.
+>
+> **Winged** : You are a winged creature, you gain a flying speed equal to your walking speed, but you also suffer from a Vulnerability to **Bludgeoning/Force** damage equal to your Level.
+>
+> | **Needs** |            |     | **Speeds** |     |
+> | --------- | ---------- | --- | ---------- | --- |
+> | Sun       | 2 hours    |     | Walking    | 10m |
+> | Eat       | 1.5 ration |     | Swimming   | 2m  |
+> | Dream     | 4 hours    |     | Flying     | 0m  |
+> 
+> | **Senses**          |            |     |                |      |     |
+> | ------------------- | ---------- | --- | -------------- | ---- | --- |
+> | Vision in the sun   | Bad        | 2d6 | Hearing        | Good | 4d6 |
+> | Low light vision    | Very Good  | 5d6 | Sense of Smell | Bad  | 2d6 |
+> | Infrared Perception | Inexistant | 0   | Magic Affinity | Bad  | 2d6 |
 
 ### Subspecies
 - [[Neldardhen World/Species/SubSpecies/Eagle Owl Hólindir\|Eagle Owl Hólindir]]

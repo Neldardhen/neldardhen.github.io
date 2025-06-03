@@ -28,11 +28,11 @@ Halflings are a [[Neldardhen System/Character Creation/Playable Species List\|Pl
 > | Eat       | 1.5 ration |     | Swimming   | 2m  |
 > | Dream     | 4 hours    |     | Flying     | 0m  |
 > 
-| **Senses**          |            |     |                |         |     |
-| ------------------- | ---------- | --- | -------------- | ------- | --- |
-| Vision in the sun   | Good       | 4d6 | Hearing        | Neutral | 3d6 |
-| Low light vision    | Neutral    | 3d6 | Sense of Smell | Good    | 4d6 |
-| Infrared Perception | Inexistant | 0   | Magic Affinity | Bad     | 2d6 |
+> | **Senses**          |            |     |                |         |     |
+> | ------------------- | ---------- | --- | -------------- | ------- | --- |
+> | Vision in the sun   | Good       | 4d6 | Hearing        | Neutral | 3d6 |
+> | Low light vision    | Neutral    | 3d6 | Sense of Smell | Good    | 4d6 |
+> | Infrared Perception | Inexistant | 0   | Magic Affinity | Bad     | 2d6 |
 ### Subspecies 
 - [[Neldardhen World/Species/SubSpecies/Camelia Halflings\|Camelia Halflings]]
 - [[Neldardhen World/Species/SubSpecies/Hibiscus Halflings\|Hibiscus Halflings]]
