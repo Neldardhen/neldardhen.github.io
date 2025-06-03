@@ -6,7 +6,7 @@
 
 ### Neldar System
 Create Subspecies (Obsidian and Foundry) for
-- [Ælamar]]
+- [[Neldardhen World/Species/Ælamar\|Ælamar]]
 - [[Neldardhen World/Species/Ældenyn\|Ældenyn]]
 - [[Neldardhen World/Species/Draconians\|Draconians]]
 - [[Neldardhen World/Species/Dracobolds\|Dracobolds]]
