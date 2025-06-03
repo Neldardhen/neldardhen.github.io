@@ -12,7 +12,14 @@ Create Subspecies (Obsidian and Foundry) for
 	[[Neldardhen World/Species/Mydroians\|Mydroians]]
 	[[Neldardhen World/Species/Gremns\|Gremns]]
 	[[Neldardhen World/Species/Gemelians\|Gemelians]]
-	 [[Neldardhen World/Species/Tyndir\|Tyndir]]
+	[[Neldardhen World/Species/Tyndir\|Tyndir]]
+
+Design / Redesign
+- Borangedir
+- Boscides
+- Hobgoblins
+- Amber-skin Salamander
+- Coal-skin Salamander
 
 ~~Create [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]] Rules~~ 
 
@@ -29,4 +36,24 @@ Create Feats (Obsidian and Foundry)
 
 ### Digital Garden
 - Publish Subspecies
+	- ~~Kobolds~~
+	- Lynfaldir
+	- Orcs
+	
 - ~~Change Style~~
+- Adjust Species style and info
+	- Kobolds
+	- Lynfaldir
+	- Orcs
+	- Vipeans
+	- Ancalduri
+	- Leporidir
+	- Gemelians
+	- Mydroians
+	- Draconians
+	- Ælamar
+	- Tyndir
+	- Umbrans
+	- Shinrens
+	- Dracobolds
+	- Ældenyn

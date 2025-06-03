@@ -13,23 +13,22 @@ They build their main civilisations alongside [[Neldardhen World/Species/Halflin
 #### Reproduction
 Mammalian
 
-
-#### System Details
 Humans are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
 
-#Warm_Blooded #Skin #Terrestiral 
-
-As a Human, you can choose to gain a Resistance to **any damage** (except Poison) equals to half your appropriate fundamental score rounded down.
-
-| **Needs** |          |     | **Speeds** |     |
-| --------- | -------- | --- | ---------- | --- |
-| Sun       | 4 hours  |     | Walking    | 10m |
-| Eat       | 1 ration |     | Swimming   | 2m  |
-| Dream     | 4 hours  |     | Flying     | 0m  |
-
-| **Senses**          |            |     |                |          |     |
-| ------------------- | ---------- | --- | -------------- | -------- | --- |
-| Vision in the sun   | Good       | 4d6 | Hearing        | Neutral  | 3d6 |
-| Low light vision    | Bad        | 2d6 | Sense of Smell | Neutral  | 3d6 |
-| Infrared Perception | Inexistant | 0   | Magic Affinity | Very Bad | 1d6 |
+> [!sys] System Details
+> **Types** : warm-blooded, skin, terrestiral 
+>
+> **Versatil Resistance** : As a Human, you can choose to gain a Resistance to **any damage** (except Poison) equals to half your appropriate fundamental score rounded down.
+>
+> | **Needs** |          |     | **Speeds** |     |
+> | --------- | -------- | --- | ---------- | --- |
+> | Sun       | 4 hours  |     | Walking    | 10m |
+> | Eat       | 1 ration |     | Swimming   | 2m  |
+> | Dream     | 4 hours  |     | Flying     | 0m  |
+> 
+> | **Senses**          |            |     |                |          |     |
+> | ------------------- | ---------- | --- | -------------- | -------- | --- |
+> | Vision in the sun   | Good       | 4d6 | Hearing        | Neutral  | 3d6 |
+> | Low light vision    | Bad        | 2d6 | Sense of Smell | Neutral  | 3d6 |
+> | Infrared Perception | Inexistant | 0   | Magic Affinity | Very Bad | 1d6 |
 
