@@ -16,8 +16,9 @@ Mammalian
 Caerfaldir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
-> warm-blooded , fur, terrestiral 
-> As a Caerfal, you gain a Resistance to **Cold/Ice** damage equals to half your Body score rounded down.
+> **Types** : warm-blooded , fur, terrestiral 
+> 
+> **Cold Resistance** : As a Caerfal, you gain a Resistance to **Cold/Ice** damage equals to half your Body score rounded down.
 > 
 | **Needs** |           |     | **Speeds** |     |
 | --------- | --------- | --- | ---------- | --- |

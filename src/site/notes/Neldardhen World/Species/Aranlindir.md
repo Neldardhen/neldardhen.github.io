@@ -17,8 +17,9 @@ Aranlindir are a [[Neldardhen System/Character Creation/Playable Species List\|P
 
 > [!sys] System Details
 **Types** : warm-blooded, feathered, flying
-As an Aranlin, you gain a Resistance to **Anxiety** damage equals to half your Spirit score rounded down.
-You are a winged creature, you gain a flying speed equal to your walking speed, but you also suffer from a Vulnerability to **Bludgeoning/Force** damage equal to your Level.
+>
+> **Anxiety Resistance** : As an Aranlin, you gain a Resistance to **Anxiety** damage equals to half your Spirit score rounded down.
+> **Winged** : You are a winged creature, you gain a flying speed equal to your walking speed, but you also suffer from a Vulnerability to **Bludgeoning/Force** damage equal to your Level.
 > 
 | **Needs** |          |     | **Speeds** |     |
 | --------- | -------- | --- | ---------- | --- |

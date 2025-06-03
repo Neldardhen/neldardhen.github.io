@@ -16,7 +16,7 @@ Behemes are a [[Neldardhen System/Character Creation/Playable Species List\|Play
 
 > [!sys] System Details
 > **Types** : warm-blooded , skin , terrestiral 
-> As a Behemos you gain a Resistance to **Bludgeoning/Force** damage equals to half your Body score rounded down.
+> **Bludgeoning Resistance** : As a Behemos you gain a Resistance to **Bludgeoning/Force** damage equals to half your Body score rounded down.
 > 
 | **Needs** |           |     | **Speeds** |     |
 | --------- | --------- | --- | ---------- | --- |
