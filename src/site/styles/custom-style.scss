@@ -22,7 +22,9 @@ body {
     --table-header-background-hover: #5C7557 !important;
 
     --color-accent: #6B717E !important; // #87B37A
-
+    .callout {
+        font-size: inherited !important;
+    }
     .callout[data-callout="sys"] {
         --callout-color: 131, 85, 32;
         --callout-icon: lucide-dices;
