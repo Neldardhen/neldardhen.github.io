@@ -19,20 +19,20 @@ Little is known about the reproduction rituals of elves. All that is know from n
 Their skin stay bark-like for a few years until it becomes gradually smoother with age.
 "Being hard-skinned" is an expression implaying young age and lack of experience.
 
+Elves are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
 
-### System Details
-Elves are a [[Neldardhen System/Character Creation/Playable Species List\| Playable Species]].
-
-#Warm_Blooded #Skin #Terrestiral 
-
-As an Elf, you gain a Resistance to **Charm** damage equals to half your Spirit score rounded down.
-
-| **Needs** |            |     | **Speeds** |     |
-| --------- | ---------- | --- | ---------- | --- |
-| Sun       | 2 hours    |     | Walking    | 10m |
-| Eat       | 1/2 ration |     | Swimming   | 2m  |
-| Dream     | 6 hours    |     | Flying     | 0m  |
-
+> [!sys] System Details
+> **Types** : warm-blooded, skin, terrestiral 
+>
+>**Charm Resistance** : As an Elf, you gain a Resistance to **Charm** damage equals to half your Spirit score rounded down.
+>
+> | **Needs** |            |     | **Speeds** |     |
+> | --------- | ---------- | --- | ---------- | --- |
+> | Sun       | 2 hours    |     | Walking    | 10m |
+> | Eat       | 1/2 ration |     | Swimming   | 2m  |
+> | Dream     | 6 hours    |     | Flying     | 0m  |
+> 
+> 
 | **Senses**          |            |     |                |         |     |
 | ------------------- | ---------- | --- | -------------- | ------- | --- |
 | Vision in the sun   | Bad        | 2d6 | Hearing        | Good    | 4d6 |
