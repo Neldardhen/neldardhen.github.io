@@ -7,5 +7,5 @@ A Subspecie of [[Neldardhen World/Species/Angessedir\|Angessedir]].
 
 
 
-### System Details
-**Intimidating Frill** : Competency **2** on Intimidation checks when deploying frill.
+> [!sys] System Details
+**Intimidating Frill** : You get Competency **2** on Intimidation checks when deploying your frill.

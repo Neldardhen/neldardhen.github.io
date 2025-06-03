@@ -7,6 +7,6 @@ A Subspecie of [[Neldardhen World/Species/Angessedir\|Angessedir]].
 
 
 
-### System Details
+> [!sys] System Details
 **Emotional Balance** : **+1** to Spirit
 **Sunlight Need** : **+2**h to sunlight need.

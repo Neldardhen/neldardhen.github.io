@@ -9,6 +9,11 @@ Stories that are lived, created and told. Sharing a story is an honour for the o
 Each story is worthy to be told, each life is worthy to be lived.Tabaxi don't have any god or goddess, some are a bit superstitious but with no excess.
 The only thing the Lynfaldir seems to agree on is that their spirits join the stars after their death. Some constellations welcome the spirits of particularly worthy individuals.
 
+>[!sys] System Details
+> The long winter and short days of the North might impact the need for sun of the characters. (see. [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities#^d14e53\|Rest and Needs]])
+> The characters are also more likley to encounter snow terrains. (see. [[Neldardhen System/Rules/Terrain and Environment#^94cb9d\|Terrain]])
+
+
 *The Constellations*
 The Hunter
 Each star of the constellation represent the spirit of one of the Lynfaldir first tribe. It is said that the spirit of exceptional Lynfal hunters will join the constellation when they die.

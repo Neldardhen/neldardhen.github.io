@@ -3,7 +3,7 @@
 ---
 
 # Nelatar
-Nelatar is a Principality, the Prince of Nelatar is only known by his title and only those close to him use his name to address him.
+Situated to the very North-West of the [[Neldardhen World/Endëa/Continents/Palanian Continent\|Palanian Continent]], Nelatar is a Principality. The Prince of Nelatar is only known by his title and only those close to him use his name to address him.
 The Prince and his Court live in Nelataren the capital, built on an island in the middle of the Kagami river.
 ![Nelatar.jpg|400](/img/user/Neldardhen%20World/Maps/Nelatar.jpg)
 The Principality is separated in five Provinces : Western, Northern, Eastern, Southern and Central.
