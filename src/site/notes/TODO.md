@@ -36,6 +36,7 @@ Create Feats (Obsidian and Foundry)
 - Correct the style sheets (which one ?) to force background colour **and** text colour. Problem in some cases with dark mode.
 #### CSB update to 4.5.0
 - Create Active Effects from Macros
+- Add pronouns to Creature Sheet Template (to be compatible with macros and text for Active Effects)
 - Start switching Items Modifiers to Active Effects
 
 ### Digital Garden
