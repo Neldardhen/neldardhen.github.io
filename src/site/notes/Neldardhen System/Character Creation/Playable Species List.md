@@ -8,7 +8,7 @@
 List of available species for player characters with the [[Neldardhen System/Neldar System\|Neldar System]] (see. [[Neldardhen System/Character Creation/Character Creation - Species\|Character Creation - Species]] for a general explanation of their attributes)
 ### Living in [[Neldardhen World/Endëa/Endëa\|Endëa]]
 
-- ![Agarwén.png|50](/img/user/Images/Species/Agarw%C3%A9n.png) [[Neldardhen World/Species/Agarwéns\|Agarwéns]]
+- ![Agarwén.png|50](/img/user/Images/Species/Agarw%C3%A9n.png) [[Neldardhen World/Species/Agarwéns\|Agarwéns]] (rare)
 - ![Wyr-closeup.png|50](/img/user/Images/Species/Wyr-closeup.png) [[Neldardhen World/Species/Angessedir\|Angessedir]] (sing. Angessë) 
 - ![Aranlin.png|50](/img/user/Images/Species/Aranlin.png) [[Neldardhen World/Species/Aranlindir\|Aranlindir]] 
 - [[Neldardhen World/Species/Behemes\|Behemes]] (sing. Behemos)
@@ -16,7 +16,7 @@ List of available species for player characters with the [[Neldardhen System/Nel
 - [[Boscides\|Boscides]] (sing. Boscidos) 
 - ![Ahiir.png|50](/img/user/Images/Species/Ahiir.png) [[Neldardhen World/Species/Caerfaldir\|Caerfaldir]] 
 - ![Vobarus.png|50](/img/user/Images/Species/Vobarus.png) [[Neldardhen World/Species/Caergandir\|Caergandir]] (sing. Caerang) or [[Neldardhen World/Species/Nilacei\|Nilacei]] (sing Nilaceus) 
-- ![Daessalin.png|50](/img/user/Images/Species/Daessalin.png) [[Neldardhen World/Species/Daessalindir\|Daessalindir]] 
+- ![Daessalin.png|50](/img/user/Images/Species/Daessalin.png) [[Neldardhen World/Species/Daessalindir\|Daessalindir]] (rare)
 - [[Neldardhen World/Species/Dragonéns\|Dragonéns]]
 - ![Beriagond.png|50](/img/user/Images/Species/Beriagond.png) [[Neldardhen World/Species/Dwarves\|Dwarves]] 
 - ![Glirmegil-closeup.png|50](/img/user/Images/Species/Glirmegil-closeup.png) [[Neldardhen World/Species/Elves\|Elves]] 
@@ -31,7 +31,7 @@ List of available species for player characters with the [[Neldardhen System/Nel
 - ![Kobold-head.png|50](/img/user/Images/Species/Kobold-head.png) [[Neldardhen World/Species/Kobolds\|Kobolds]]
 - ![tabaxibard-closeup.png|50](/img/user/Images/Species/tabaxibard-closeup.png) [[Neldardhen World/Species/Lynfaldir\|Lynfaldir]] 
 - ![Lorta-bust.png|50](/img/user/Images/Species/Lorta-bust.png) [[Neldardhen World/Species/Orcs\|Orcs]] 
-- ![Alopea.png|50](/img/user/Images/Species/Alopea.png) [[Neldardhen World/Species/Vipeans\|Vipeans]] 
+- ![Alopea.png|50](/img/user/Images/Species/Alopea.png) [[Neldardhen World/Species/Vipeans\|Vipeans]] (Extremely rare)
 
  
 ## Living in [[Neldardhen World/Amaurëa/Amaurëa\|Amaurëa]]
@@ -53,10 +53,10 @@ List of available species for player characters with the [[Neldardhen System/Nel
 - ![Gremn.png|50](/img/user/Images/Species/Gremn.png) [[Neldardhen World/Species/Gremns\|Gremns]]
 - [[Neldardhen World/Species/Hobgoblins\|Hobgoblins]] 
 - ![Agarwén.png|50](/img/user/Images/Species/Agarw%C3%A9n.png) [[Neldardhen World/Species/Agarwéns\|Agarwéns]]
-- ![Lorta-bust.png|50](/img/user/Images/Species/Lorta-bust.png) [[Neldardhen World/Species/Orcs\|Orcs]] 
-- ![Arelion-archfey-closeup.png|50](/img/user/Images/Species/Arelion-archfey-closeup.png) [[Neldardhen World/Species/Tyndir\|Tyndir]] (sing. Tyndar) 
-- ![Umbran.png|50](/img/user/Images/Species/Umbran.png) [[Neldardhen World/Species/Umbrans\|Umbrans]] 
-- ![TheSeer-token.png|50](/img/user/Images/Species/TheSeer-token.png) [[Neldardhen World/Species/Shinrens\|Shinrens]] 
+- ![Lorta-bust.png|50](/img/user/Images/Species/Lorta-bust.png) [[Neldardhen World/Species/Orcs\|Orcs]] (rare)
+- ![Arelion-archfey-closeup.png|50](/img/user/Images/Species/Arelion-archfey-closeup.png) [[Neldardhen World/Species/Tyndir\|Tyndir]] (sing. Tyndar) (extremely rare)
+- ![Umbran.png|50](/img/user/Images/Species/Umbran.png) [[Neldardhen World/Species/Umbrans\|Umbrans]] (rare)
+- ![TheSeer-token.png|50](/img/user/Images/Species/TheSeer-token.png) [[Neldardhen World/Species/Shinrens\|Shinrens]] (rare)
 - ![Kobold-head.png|50](/img/user/Images/Species/Kobold-head.png) [[Neldardhen World/Species/Kobolds\|Kobolds]]
 - [[Neldardhen World/Species/Dracobolds\|Dracobolds]] 
 - ![tindurstareyescloseup.png|50](/img/user/Images/Species/tindurstareyescloseup.png) [[Neldardhen World/Species/Ældenyn\|Ældenyn]]

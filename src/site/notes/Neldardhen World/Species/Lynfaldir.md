@@ -13,24 +13,24 @@ Self sufficient, they are fairly isolated and have few contact with other specie
 Mammalian
 
 
-#### System Details
 Lynfaldir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
 
-#Warm_Blooded #Fur #Terrestiral 
-
-As a Lynfal, you gain a Resistance to **Cold/Ice** damage equals to half your Body score rounded down.
-
-| **Needs** |          |     | **Speeds** |     |
-| --------- | -------- | --- | ---------- | --- |
-| Sun       | 4 hours  |     | Walking    | 10m |
-| Eat       | 1 ration |     | Swimming   | 2m  |
-| Dream     | 4 hours  |     | Flying     | 0m  |
-
-| **Senses**          |            |     |                |           |     |
-| ------------------- | ---------- | --- | -------------- | --------- | --- |
-| Vision in the sun   | Neutral    | 2d6 | Hearing        | Very Good | 5d6 |
-| Low light vision    | Good       | 4d6 | Sense of Smell | Neutral   | 3d6 |
-| Infrared Perception | Inexistant | 0   | Magic Affinity | Bad       | 2d6 |
+> [!sys] System Details
+> **Types** : warm-blooded,  fur, terrestiral 
+>
+> **Cold Resistance** : As a Lynfal, you gain a Resistance to **Cold/Ice** damage equals to half your Body score rounded down.
+> 
+> | **Needs** |          |     | **Speeds** |     |
+> | --------- | -------- | --- | ---------- | --- |
+> | Sun       | 4 hours  |     | Walking    | 10m |
+> | Eat       | 1 ration |     | Swimming   | 2m  |
+> | Dream     | 4 hours  |     | Flying     | 0m  |
+> 
+> | **Senses**          |            |     |                |           |     |
+> | ------------------- | ---------- | --- | -------------- | --------- | --- |
+> | Vision in the sun   | Neutral    | 2d6 | Hearing        | Very Good | 5d6 |
+> | Low light vision    | Good       | 4d6 | Sense of Smell | Neutral   | 3d6 |
+> | Infrared Perception | Inexistant | 0   | Magic Affinity | Bad       | 2d6 |
 
 ### Subspecies
 - [[Neldardhen World/Species/SubSpecies/Long-Haired Lynfaldir\|Long-Haired Lynfaldir]]
