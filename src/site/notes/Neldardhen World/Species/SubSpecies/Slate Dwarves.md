@@ -9,5 +9,5 @@ They are naturally fire resistant.
 
 Their skin is the smoothest of all dwarves and tends to be darker ranging from grey to ink black.
 
-### System Details
-**Fire Resistance** : Fire Resistance equals to half your body score. 
+> [!sys] System Details
+> **Fire Resistance** : Fire Resistance equals to half your body score. 
