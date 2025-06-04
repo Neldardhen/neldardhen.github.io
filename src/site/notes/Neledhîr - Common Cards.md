@@ -9,10 +9,11 @@
 <tr><td> <img src="Images/Cards/1ofAnvil.png" width=100px> </td><td> <img src="Images/Cards/2ofAnvil.png" width=100px></td><td><img src="Images/Cards/3ofAnvil.png" width=100px></td><td><img src="Images/Cards/4ofAnvil.png" width=100px></td><td> <img src="Images/Cards/5ofAnvil.png" width=100px> </td></tr>
 <tr><td> 1 of Anvil    </td><td> 2 of Anvil   </td><td> 3 of Anvil    </td><td>4 of Anvil    </td><td>5 of Anvil     </td></tr>
 </table>
-
-| ![[Images/Cards/BirdofAnvil.png\|200]] | ![[Images/Cards/BeastofAnvil.png\|200]] | ![[Images/Cards/MythicalBeastofAnvil.png\|200]] |
-| -------------------------------------- | --------------------------------------- | ----------------------------------------------- |
-| The Ibis                               | The Pangolin                            | The Phoenix                                     |
+<table>
+<tr><td>
+ <img src="Images/Cards/BirdofAnvil.png" width=200px> </td><td> <img src="Images/Cards/BeastofAnvil.png" width=200px></td><td>  <img src="Images/Cards/MythicalBeastofAnvil.png" width=200px> </td></tr>
+<tr><td> The Ibis                               </td><td> The Pangolin                            </td><td> The Phoenix                                     </td></tr>
+</table>
 
 ![DivinPowerofAnvil.png|300](/img/user/Images/Cards/DivinPowerofAnvil.png)
 Tân, Goddess of the Forge
