@@ -5,43 +5,36 @@
 # Neledhîr - Common Cards
 ## Golden Suites
 ### Anvil
-
 ![1ofAnvil.png|100](/img/user/Images/Cards/1ofAnvil.png)  ![2ofAnvil.png|100](/img/user/Images/Cards/2ofAnvil.png) ![3ofAnvil.png|100](/img/user/Images/Cards/3ofAnvil.png)  ![4ofAnvil.png|100](/img/user/Images/Cards/4ofAnvil.png)  ![5ofAnvil.png|100](/img/user/Images/Cards/5ofAnvil.png) 
  1 - 5 of Anvil 
  
-
  ![Images/Cards/BirdofAnvil.png|165](/img/user/Images/Cards/BirdofAnvil.png) ![Images/Cards/BeastofAnvil.png|165](/img/user/Images/Cards/BeastofAnvil.png)   ![Images/Cards/MythicalBeastofAnvil.png|165](/img/user/Images/Cards/MythicalBeastofAnvil.png) 
  Bird of Anvil : **The Ibis**, Beast of Anvil : **The Pangolin**, Mythical Beast of Anvil : **The Phoenix**
 
-
 ![DivinPowerofAnvil.png|300](/img/user/Images/Cards/DivinPowerofAnvil.png)
 Divine Power of Anvil : **Tân**, Goddess of the Forge
-### Lion
 
+### Lion
 ![1ofLion.png|100](/img/user/Images/Cards/1ofLion.png)  ![2ofLion.png|100](/img/user/Images/Cards/2ofLion.png) ![3ofLion.png|100](/img/user/Images/Cards/3ofLion.png)  ![4ofLion.png|100](/img/user/Images/Cards/4ofLion.png)  ![5ofLion.png|100](/img/user/Images/Cards/5ofLion.png) 
  1 - 5 of LIon 
  
-
  ![Images/Cards/BirdofLion.png|150](/img/user/Images/Cards/BirdofLion.png) ![Images/Cards/BeastofLion.png|150](/img/user/Images/Cards/BeastofLion.png)   ![Images/Cards/MythicalBeastofLion.png|150](/img/user/Images/Cards/MythicalBeastofLion.png) 
  Bird of Lion : **The Eagle**, Beast of Lion : **The Boar**, Mythical Beast of Lion : **The Griffin**
-
 
 ![DivinPowerofLion.png|300](/img/user/Images/Cards/DivinPowerofLion.png)
 Divine Power of Lion : **Côl**, God of Kings
 
 ### Sword
-
  ![Images/Cards/1ofSword.png|100](/img/user/Images/Cards/1ofSword.png)  ![Images/Cards/2ofSword.png|100](/img/user/Images/Cards/2ofSword.png)  ![Images/Cards/3ofSword.png|100](/img/user/Images/Cards/3ofSword.png)  ![Images/Cards/4ofSword.png|100](/img/user/Images/Cards/4ofSword.png) ![Images/Cards/5ofSword.png|100](/img/user/Images/Cards/5ofSword.png) 
- 1 - 5 of Sword    
+ 1 - 5 of Sword   
+  
  ![Images/Cards/BirdofSword.png|200](/img/user/Images/Cards/BirdofSword.png)  ![Images/Cards/BeastofSword.png|200](/img/user/Images/Cards/BeastofSword.png)  ![Images/Cards/MythicalBeastofSword.png|200](/img/user/Images/Cards/MythicalBeastofSword.png) 
- The Vulture                             The Hyena                                The Gargoyl or The Manticor                     
-
+ The Vulture                             The Hyena                                The Gargoyl or The Manticor               
 
 ![DivinPowerofSword.png|300](/img/user/Images/Cards/DivinPowerofSword.png)
 Divine Power of Sword : **Ulauth**, God of Warriors
 # Blue Suites
 ### Shipwheel
-
  ![Images/Cards/1ofShipwheel.png|100](/img/user/Images/Cards/1ofShipwheel.png) ![Images/Cards/2ofShipwheel.png|100](/img/user/Images/Cards/2ofShipwheel.png)  ![[Images/Cards/3ofShipwheel.png\|100]] ![[Images/Cards/4ofShipwheel.png\|100]] ![[Images/Cards/5ofShipwheel.png\|100]] 
 1 - 5 of Shipwheel    
 
@@ -52,29 +45,20 @@ Divine Power of Sword : **Ulauth**, God of Warriors
 Divine Power of Shipwheel : **Gaera**, Goddess of the Seas
 
 ### Horseshoe
+ ![Images/Cards/1ofHorseshoe.png|100](/img/user/Images/Cards/1ofHorseshoe.png)  ![Images/Cards/2ofHorseshoe.png|100](/img/user/Images/Cards/2ofHorseshoe.png)  ![Images/Cards/3ofHorseshoe.png|100](/img/user/Images/Cards/3ofHorseshoe.png)  ![Images/Cards/4ofHorseshoe.png|100](/img/user/Images/Cards/4ofHorseshoe.png)  ![Images/Cards/5ofHorseshoe.png|100](/img/user/Images/Cards/5ofHorseshoe.png) 
+ 1 - 5 of Horseshoe  
 
-| ![[Images/Cards/1ofHorseshoe.png\|100]] | ![[Images/Cards/2ofHorseshoe.png\|100]] | ![[Images/Cards/3ofHorseshoe.png\|100]] | ![[Images/Cards/4ofHorseshoe.png\|100]] | ![[Images/Cards/5ofHorseshoe.png\|100]] |
-| --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| 1 of Horseshoe                          | 2 of Horseshoe                          | 3 of Horseshoe                          | 4 of Horseshoe                          | 5 of Horseshoe                          |
-
-| ![[Images/Cards/BirdofHorseshoe.png\|200]] | ![[Images/Cards/BeastofHorseshoe.png\|200]] | ![[Images/Cards/MythicalBeastofHorseshoe.png\|200]] |
-| ------------------------------------------ | ------------------------------------------- | --------------------------------------------------- |
-| The Hawl                                   | The Hound                                   | The Pegasus                                         |
-
+ ![Images/Cards/BirdofHorseshoe.png|165](/img/user/Images/Cards/BirdofHorseshoe.png)  ![Images/Cards/BeastofHorseshoe.png|165](/img/user/Images/Cards/BeastofHorseshoe.png)  ![Images/Cards/MythicalBeastofHorseshoe.png|165](/img/user/Images/Cards/MythicalBeastofHorseshoe.png) 
+ The Hawk                                    The Hound                                   The Pegasus                                         
 
 ![DivinePowerofHorseshoe.png|300](/img/user/Images/Cards/DivinePowerofHorseshoe.png)
 Divine Power of Horseshoe : **Rohir**, God of Knights
 
 ### Hops
-
-| ![[Images/Cards/1ofHops.png\|100]] | ![[Images/Cards/2ofHops.png\|100]] | ![[Images/Cards/3ofHops.png\|100]] | ![[Images/Cards/4ofHops.png\|100]] | ![[Images/Cards/5ofHops.png\|100]] |
-| ---------------------------------- | ---------------------------------- | ---------------------------------- | ---------------------------------- | ---------------------------------- |
-| 1 of Hops                          | 2 of Hops                          | 3 of Hops                          | 4 of Hops                          | 5 of Hops                          |
-
-| ![[Images/Cards/BirdofHops.png\|200]] | ![[Images/Cards/BeastofHops.png\|200]] | ![[Images/Cards/MythicalBeastofHops.png\|200]] |
-| ------------------------------------- | -------------------------------------- | ---------------------------------------------- |
-| The Rooster                           | The Goat                               | The Ceberus                                    |
-
+ ![Images/Cards/1ofHops.png|100](/img/user/Images/Cards/1ofHops.png)  ![Images/Cards/2ofHops.png|100](/img/user/Images/Cards/2ofHops.png) ![Images/Cards/3ofHops.png|100](/img/user/Images/Cards/3ofHops.png) ![Images/Cards/4ofHops.png|100](/img/user/Images/Cards/4ofHops.png)  ![Images/Cards/5ofHops.png|100](/img/user/Images/Cards/5ofHops.png) 
+1 - 5 of Hops        
+| ![Images/Cards/BirdofHops.png|165](/img/user/Images/Cards/BirdofHops.png) ![Images/Cards/BeastofHops.png|165](/img/user/Images/Cards/BeastofHops.png) ![Images/Cards/MythicalBeastofHops.png|165](/img/user/Images/Cards/MythicalBeastofHops.png) 
+ The Rooster                            The Goat                                The Ceberus                                   
 
 ![DivinPowerofHops.png|300](/img/user/Images/Cards/DivinPowerofHops.png)
 Divine Power of Hops : **Asmë**, Goddess of Earth
