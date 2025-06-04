@@ -15,6 +15,8 @@ The 3 silver suites are : Moonstones, Leaves, Feathers
 The values in each suites are :  
 1, 2, 3, 4 ,5 Bird, Beast, Mythical Beast, Divine Power.
 
+[[Neledhîr - Common Cards\|Neledhîr - Common Cards]]
+
 The Commn Deck or smaller variant of it are used to play a variant of [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Jass\|Jass]] and the very popular with children [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Games\|game]] of [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/The Werewolf's Hunt\|The Werewolf's Hunt]].
 ### The Unaligned Cards
 

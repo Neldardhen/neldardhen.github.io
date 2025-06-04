@@ -65,7 +65,7 @@ Create Feats (Obsidian and Foundry)
 	- Dracobolds
 	- Ældenyn
 - Add System Details for places 
-- Add picture for Subspecies
+- Add pictures for Subspecies
 ## Adventures
 ### Húnatol (Neldar)
 - Create Creatures
