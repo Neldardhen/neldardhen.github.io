@@ -62,7 +62,7 @@ CTRL + K
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-06-04T12:34:47.246Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-06-04T12:34:47.246Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-06-04T12:34:47.246Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-06-04T13:12:11.588Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-06-04T13:12:11.588Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-06-04T13:12:11.588Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
 <div class="header-meta">
@@ -203,7 +203,7 @@ Divine Power of Horseshoe : <strong>Rohir</strong>, God of Knights</p>
 <source media="(max-width:480px)" srcset="/img/optimized/YrThdpTqXL-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/YrThdpTqXL-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/YrThdpTqXL-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofHops.png" alt="Images/Cards/5ofHops.png|100" width="100px"></picture><br>
 1 - 5 of Hops<br>
-| <picture src="/img/user/Images/Cards/BirdofHops.png" alt="Images/Cards/BirdofHops.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/K3urbgjFyV-500.webp" type="image/webp">
+<picture src="/img/user/Images/Cards/BirdofHops.png" alt="Images/Cards/BirdofHops.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/K3urbgjFyV-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/K3urbgjFyV-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/K3urbgjFyV-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/K3urbgjFyV-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofHops.png" alt="Images/Cards/BirdofHops.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/BeastofHops.png" alt="Images/Cards/BeastofHops.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/90jbGRgxUA-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/90jbGRgxUA-500.jpeg">
@@ -217,124 +217,76 @@ The Rooster The Goat The Ceberus</p>
 Divine Power of Hops : <strong>Asmë</strong>, Goddess of Earth</p>
 <h2 id="silver-suites" tabindex="-1">Silver Suites</h2>
 <h3 id="crystal" tabindex="-1">Crystal</h3>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1 of Crystal</td>
-<td>2 of Crystal</td>
-<td>3 of Crystal</td>
-<td>4 of Crystal</td>
-<td>5 of Crystal</td>
-</tr>
-</tbody>
-</table></div>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>The Blackbird</td>
-<td>The Cat</td>
-<td>The White Deer</td>
-</tr>
-</tbody>
-</table></div>
+<p><picture src="/img/user/Images/Cards/1ofCrystal.png" alt="Images/Cards/1ofCrystal.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/g7UXYnm9ZK-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/g7UXYnm9ZK-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/g7UXYnm9ZK-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/g7UXYnm9ZK-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofCrystal.png" alt="Images/Cards/1ofCrystal.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofCrystal.png" alt="Images/Cards/2ofCrystal.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/M68TeOaSDz-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/M68TeOaSDz-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/M68TeOaSDz-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/M68TeOaSDz-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofCrystal.png" alt="Images/Cards/2ofCrystal.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofCrystal.png" alt="Images/Cards/3ofCrystal.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/OOIwn4kmlf-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/OOIwn4kmlf-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/OOIwn4kmlf-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/OOIwn4kmlf-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofCrystal.png" alt="Images/Cards/3ofCrystal.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofCrystal.png" alt="Images/Cards/4ofCrystal.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/DekXumOdI8-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/DekXumOdI8-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/DekXumOdI8-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/DekXumOdI8-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofCrystal.png" alt="Images/Cards/4ofCrystal.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofCrystal.png" alt="Images/Cards/5ofCrystal.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/8jkbXXda6D-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/8jkbXXda6D-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/8jkbXXda6D-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/8jkbXXda6D-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofCrystal.png" alt="Images/Cards/5ofCrystal.png|100" width="100px"></picture><br>
+1 - 5 of Crystal<br>
+<picture src="/img/user/Images/Cards/BirdofCrystal.png" alt="Images/Cards/BirdofCrystal.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/oIZ89TtBYR-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/oIZ89TtBYR-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/oIZ89TtBYR-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/oIZ89TtBYR-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofCrystal.png" alt="Images/Cards/BirdofCrystal.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/BeastofCrystal.png" alt="Images/Cards/BeastofCrystal.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/5iMCKu7nnk-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/5iMCKu7nnk-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/5iMCKu7nnk-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/5iMCKu7nnk-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofCrystal.png" alt="Images/Cards/BeastofCrystal.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofCrystal.png" alt="Images/Cards/MythicalBeastofCrystal.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/o9QURpxXNR-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/o9QURpxXNR-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/o9QURpxXNR-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/o9QURpxXNR-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofCrystal.png" alt="Images/Cards/MythicalBeastofCrystal.png|165" width="165px"></picture><br>
+The Blackbird The Cat The White Deer</p>
 <p><picture src="/img/user/Images/Cards/DivinPowerofCrystal.png" alt="DivinPowerofCrystal.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/IzP-OsqOvj-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/IzP-OsqOvj-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/IzP-OsqOvj-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/IzP-OsqOvj-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofCrystal.png" alt="DivinPowerofCrystal.png|300" width="300px"></picture><br>
 Divine Power of Crystal : <strong>Melmbainas</strong>, God of Art and Craft</p>
 <h3 id="leaf" tabindex="-1">Leaf</h3>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1 of Leaf</td>
-<td>2 of Leaf</td>
-<td>3 of Leaf</td>
-<td>4 of Leaf</td>
-<td>5 of Leaf</td>
-</tr>
-</tbody>
-</table></div>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>The Owl</td>
-<td>The Snow Leopard</td>
-<td>The Werewolf</td>
-</tr>
-</tbody>
-</table></div>
+<p><picture src="/img/user/Images/Cards/1ofLeaf.png" alt="Images/Cards/1ofLeaf.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/JYVLEaNx-Q-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/JYVLEaNx-Q-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/JYVLEaNx-Q-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/JYVLEaNx-Q-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofLeaf.png" alt="Images/Cards/1ofLeaf.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofLeaf.png" alt="Images/Cards/2ofLeaf.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/ingEofY3D1-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/ingEofY3D1-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/ingEofY3D1-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/ingEofY3D1-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofLeaf.png" alt="Images/Cards/2ofLeaf.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofLeaf.png" alt="Images/Cards/3ofLeaf.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/BLcxoHGOdo-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/BLcxoHGOdo-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/BLcxoHGOdo-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/BLcxoHGOdo-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofLeaf.png" alt="Images/Cards/3ofLeaf.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofLeaf.png" alt="Images/Cards/4ofLeaf.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/2HDkdXSsPE-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/2HDkdXSsPE-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/2HDkdXSsPE-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/2HDkdXSsPE-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofLeaf.png" alt="Images/Cards/4ofLeaf.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofLeaf.png" alt="Images/Cards/5ofLeaf.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/poYQUaBHxB-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/poYQUaBHxB-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/poYQUaBHxB-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/poYQUaBHxB-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofLeaf.png" alt="Images/Cards/5ofLeaf.png|100" width="100px"></picture><br>
+1 - 5 of Leaf<br>
+<picture src="/img/user/Images/Cards/BirdofLeaf.png" alt="Images/Cards/BirdofLeaf.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/Xny0rTRNGt-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/Xny0rTRNGt-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/Xny0rTRNGt-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Xny0rTRNGt-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofLeaf.png" alt="Images/Cards/BirdofLeaf.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/BeastofLeaf.png" alt="Images/Cards/BeastofLeaf.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/qms7EvJQ6T-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/qms7EvJQ6T-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/qms7EvJQ6T-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/qms7EvJQ6T-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofLeaf.png" alt="Images/Cards/BeastofLeaf.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofLeaf.png" alt="Images/Cards/MythicalBeastofLeaf.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/a8ToVFz1sr-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/a8ToVFz1sr-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/a8ToVFz1sr-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/a8ToVFz1sr-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofLeaf.png" alt="Images/Cards/MythicalBeastofLeaf.png|165" width="165px"></picture><br>
+The Owl The Snow Leopard The Werewolf</p>
 <p><picture src="/img/user/Images/Cards/DivinPowerofLeaf.png" alt="DivinPowerofLeaf.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/KYv4QjgZ_I-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/KYv4QjgZ_I-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/KYv4QjgZ_I-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/KYv4QjgZ_I-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofLeaf.png" alt="DivinPowerofLeaf.png|300" width="300px"></picture><br>
 Divine Power of Leaf : <strong>Neries</strong>, Goddess of the Hunt</p>
 <h3 id="feather" tabindex="-1">Feather</h3>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1 of Feather</td>
-<td>2 of Feather</td>
-<td>3 of Feather</td>
-<td>4 of Feather</td>
-<td>5 of Feather</td>
-</tr>
-</tbody>
-</table></div>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>The Raven</td>
-<td>The White Fox</td>
-<td>The Silver Lynx</td>
-</tr>
-</tbody>
-</table></div>
+<p><picture src="/img/user/Images/Cards/1ofFeather.png" alt="Images/Cards/1ofFeather.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/61WSXvh2ay-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/61WSXvh2ay-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/61WSXvh2ay-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/61WSXvh2ay-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofFeather.png" alt="Images/Cards/1ofFeather.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofFeather.png" alt="Images/Cards/2ofFeather.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/DdMs1nuHB9-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/DdMs1nuHB9-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/DdMs1nuHB9-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/DdMs1nuHB9-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofFeather.png" alt="Images/Cards/2ofFeather.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofFeather.png" alt="Images/Cards/3ofFeather.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/EVtonAAi4O-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/EVtonAAi4O-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/EVtonAAi4O-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/EVtonAAi4O-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofFeather.png" alt="Images/Cards/3ofFeather.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofFeather.png" alt="Images/Cards/4ofFeather.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/vdBY6-vihL-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/vdBY6-vihL-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/vdBY6-vihL-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/vdBY6-vihL-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofFeather.png" alt="Images/Cards/4ofFeather.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofFeather.png" alt="Images/Cards/5ofFeather.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/5L1rsqDaXQ-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/5L1rsqDaXQ-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/5L1rsqDaXQ-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/5L1rsqDaXQ-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofFeather.png" alt="Images/Cards/5ofFeather.png|100" width="100px"></picture><br>
+1 - 5 of Feather</p>
+<p><picture src="/img/user/Images/Cards/BirdofFeather.png" alt="Images/Cards/BirdofFeather.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/6hTftT2I7J-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/6hTftT2I7J-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/6hTftT2I7J-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/6hTftT2I7J-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofFeather.png" alt="Images/Cards/BirdofFeather.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/BeastofFeather.png" alt="Images/Cards/BeastofFeather.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/oiZUSlgT5B-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/oiZUSlgT5B-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/oiZUSlgT5B-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/oiZUSlgT5B-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofFeather.png" alt="Images/Cards/BeastofFeather.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofFeather.png" alt="Images/Cards/MythicalBeastofFeather.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/dtOSvRLya4-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/dtOSvRLya4-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/dtOSvRLya4-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/dtOSvRLya4-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofFeather.png" alt="Images/Cards/MythicalBeastofFeather.png|165" width="165px"></picture><br>
+The Raven The White Fox The Silver Lynx</p>
 <p><picture src="/img/user/Images/Cards/DivinPowerofFeather.png" alt="DivinPowerofFeather.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/us17xsFS7--500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/us17xsFS7--500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/us17xsFS7--700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/us17xsFS7--700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofFeather.png" alt="DivinPowerofFeather.png|300" width="300px"></picture><br>
