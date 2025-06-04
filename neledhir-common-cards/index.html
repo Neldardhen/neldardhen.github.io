@@ -62,7 +62,7 @@ CTRL + K
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-06-04T11:42:24.469Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-06-04T11:42:24.469Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-06-04T11:42:24.469Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-06-04T11:59:08.131Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-06-04T11:59:08.131Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-06-04T11:59:08.131Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
 <div class="header-meta">
@@ -71,6 +71,31 @@ CTRL + K
 <h1 id="neledhir-common-cards" tabindex="-1">Neledhîr - Common Cards</h1>
 <h2 id="golden-suites" tabindex="-1">Golden Suites</h2>
 <h3 id="anvil" tabindex="-1">Anvil</h3>
+<p><picture src="/img/user/Images/Cards/1ofAnvil.png" alt="1ofAnvil.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/Tar81O72_O-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/Tar81O72_O-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/Tar81O72_O-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Tar81O72_O-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofAnvil.png" alt="1ofAnvil.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofAnvil.png" alt="2ofAnvil.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/r3YMfoZRxo-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/r3YMfoZRxo-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/r3YMfoZRxo-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/r3YMfoZRxo-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofAnvil.png" alt="2ofAnvil.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofAnvil.png" alt="3ofAnvil.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/payN-lin2J-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/payN-lin2J-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/payN-lin2J-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/payN-lin2J-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofAnvil.png" alt="3ofAnvil.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofAnvil.png" alt="4ofAnvil.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/OVy_uCgKfC-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/OVy_uCgKfC-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/OVy_uCgKfC-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/OVy_uCgKfC-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofAnvil.png" alt="4ofAnvil.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofAnvil.png" alt="5ofAnvil.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/lSI-eqfMOp-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/lSI-eqfMOp-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/lSI-eqfMOp-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/lSI-eqfMOp-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofAnvil.png" alt="5ofAnvil.png|100" width="100px"></picture><br>
+1 - 5 of Anvil</p>
+<p><picture src="/img/user/Images/Cards/BirdofAnvil.png" alt="Images/Cards/BirdofAnvil.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/sNq-q0sEgl-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/sNq-q0sEgl-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/sNq-q0sEgl-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/sNq-q0sEgl-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofAnvil.png" alt="Images/Cards/BirdofAnvil.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/BeastofAnvil.png" alt="Images/Cards/BeastofAnvil.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/uGFU2TUlv8-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/uGFU2TUlv8-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/uGFU2TUlv8-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/uGFU2TUlv8-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofAnvil.png" alt="Images/Cards/BeastofAnvil.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofAnvil.png" alt="Images/Cards/MythicalBeastofAnvil.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/uqX4NF6TBX-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/uqX4NF6TBX-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/uqX4NF6TBX-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/uqX4NF6TBX-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofAnvil.png" alt="Images/Cards/MythicalBeastofAnvil.png|165" width="165px"></picture><br>
+Bird of Anvil : <strong>The Ibis</strong>, Beast of Anvil : <strong>The Pangolin</strong>, Mythical Beast of Anvil : <strong>The Phoenix</strong></p>
+<p><picture src="/img/user/Images/Cards/DivinPowerofAnvil.png" alt="DivinPowerofAnvil.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/3JHQc1ewhU-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/3JHQc1ewhU-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/3JHQc1ewhU-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/3JHQc1ewhU-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofAnvil.png" alt="DivinPowerofAnvil.png|300" width="300px"></picture><br>
+Divine Power of Anvil : <strong>Tân</strong>, Goddess of the Forge</p>
+<h3 id="lion" tabindex="-1">Lion</h3>
 <p><picture src="/img/user/Images/Cards/1ofLion.png" alt="1ofLion.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/OeUtcZMNRU-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/OeUtcZMNRU-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/OeUtcZMNRU-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/OeUtcZMNRU-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofLion.png" alt="1ofLion.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofLion.png" alt="2ofLion.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/Nkd8jQKTcQ-500.webp" type="image/webp">
@@ -82,7 +107,7 @@ CTRL + K
 <source media="(max-width:1920px)" srcset="/img/optimized/zLMcxuaiBb-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/zLMcxuaiBb-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofLion.png" alt="4ofLion.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofLion.png" alt="5ofLion.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/fs2RhmRaBg-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/fs2RhmRaBg-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/fs2RhmRaBg-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/fs2RhmRaBg-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofLion.png" alt="5ofLion.png|100" width="100px"></picture><br>
-1 - 5 of Anvil</p>
+1 - 5 of LIon</p>
 <p><picture src="/img/user/Images/Cards/BirdofLion.png" alt="Images/Cards/BirdofLion.png|150" width="150px"><source media="(max-width:480px)" srcset="/img/optimized/CtZvqWl8Gz-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/CtZvqWl8Gz-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/CtZvqWl8Gz-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/CtZvqWl8Gz-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofLion.png" alt="Images/Cards/BirdofLion.png|150" width="150px"></picture> <picture src="/img/user/Images/Cards/BeastofLion.png" alt="Images/Cards/BeastofLion.png|150" width="150px"><source media="(max-width:480px)" srcset="/img/optimized/YQKpGOtuc9-500.webp" type="image/webp">
@@ -90,135 +115,56 @@ CTRL + K
 <source media="(max-width:1920px)" srcset="/img/optimized/YQKpGOtuc9-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/YQKpGOtuc9-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofLion.png" alt="Images/Cards/BeastofLion.png|150" width="150px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofLion.png" alt="Images/Cards/MythicalBeastofLion.png|150" width="150px"><source media="(max-width:480px)" srcset="/img/optimized/LQsCiqS_YC-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/LQsCiqS_YC-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/LQsCiqS_YC-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/LQsCiqS_YC-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofLion.png" alt="Images/Cards/MythicalBeastofLion.png|150" width="150px"></picture><br>
-Bird of Anvil : <strong>The Eagle</strong>, Beast of Anvil : <strong>The Boar</strong>, Mythical Beast of Anvil : <strong>The Griffin</strong></p>
-<p><picture src="/img/user/Images/Cards/DivinPowerofAnvil.png" alt="DivinPowerofAnvil.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/3JHQc1ewhU-500.webp" type="image/webp">
-<source media="(max-width:480px)" srcset="/img/optimized/3JHQc1ewhU-500.jpeg">
-<source media="(max-width:1920px)" srcset="/img/optimized/3JHQc1ewhU-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/3JHQc1ewhU-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofAnvil.png" alt="DivinPowerofAnvil.png|300" width="300px"></picture><br>
-Divine Power of Anvil : <strong>Tân</strong>, Goddess of the Forge</p>
-<h3 id="lion" tabindex="-1">Lion</h3>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1 of Lion</td>
-<td>2 of Lion</td>
-<td>3 of Lion</td>
-<td>4 of Lion</td>
-<td>5 of Lion</td>
-</tr>
-</tbody>
-</table></div>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>The Eagle</td>
-<td>The Boar</td>
-<td>The Griffin</td>
-</tr>
-</tbody>
-</table></div>
+Bird of Lion : <strong>The Eagle</strong>, Beast of Lion : <strong>The Boar</strong>, Mythical Beast of Lion : <strong>The Griffin</strong></p>
 <p><picture src="/img/user/Images/Cards/DivinPowerofLion.png" alt="DivinPowerofLion.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/wOnAUWvMeX-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/wOnAUWvMeX-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/wOnAUWvMeX-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/wOnAUWvMeX-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofLion.png" alt="DivinPowerofLion.png|300" width="300px"></picture><br>
-Côl, God of Kings</p>
+Divine Power of Lion : <strong>Côl</strong>, God of Kings</p>
 <h3 id="sword" tabindex="-1">Sword</h3>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1 of Sword</td>
-<td>2 of Sword</td>
-<td>3 of Sword</td>
-<td>4 of Sword</td>
-<td>5 of Sword</td>
-</tr>
-</tbody>
-</table></div>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>The Vulture</td>
-<td>The Hyena</td>
-<td>The Gargoyl or The Manticor</td>
-</tr>
-</tbody>
-</table></div>
+<p><picture src="/img/user/Images/Cards/1ofSword.png" alt="Images/Cards/1ofSword.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/sDMLxpXyiL-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/sDMLxpXyiL-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/sDMLxpXyiL-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/sDMLxpXyiL-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofSword.png" alt="Images/Cards/1ofSword.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofSword.png" alt="Images/Cards/2ofSword.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/ZYK0UlCyXt-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/ZYK0UlCyXt-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/ZYK0UlCyXt-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/ZYK0UlCyXt-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofSword.png" alt="Images/Cards/2ofSword.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofSword.png" alt="Images/Cards/3ofSword.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/ZbyyzG7d9q-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/ZbyyzG7d9q-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/ZbyyzG7d9q-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/ZbyyzG7d9q-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofSword.png" alt="Images/Cards/3ofSword.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofSword.png" alt="Images/Cards/4ofSword.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/3Sx9s4MY22-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/3Sx9s4MY22-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/3Sx9s4MY22-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/3Sx9s4MY22-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofSword.png" alt="Images/Cards/4ofSword.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofSword.png" alt="Images/Cards/5ofSword.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/5qjnEaniEp-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/5qjnEaniEp-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/5qjnEaniEp-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/5qjnEaniEp-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofSword.png" alt="Images/Cards/5ofSword.png|100" width="100px"></picture><br>
+1 - 5 of Sword<br>
+<picture src="/img/user/Images/Cards/BirdofSword.png" alt="Images/Cards/BirdofSword.png|200" width="200px"><source media="(max-width:480px)" srcset="/img/optimized/JjGFKl0QV5-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/JjGFKl0QV5-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/JjGFKl0QV5-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/JjGFKl0QV5-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofSword.png" alt="Images/Cards/BirdofSword.png|200" width="200px"></picture> <picture src="/img/user/Images/Cards/BeastofSword.png" alt="Images/Cards/BeastofSword.png|200" width="200px"><source media="(max-width:480px)" srcset="/img/optimized/2NHyXKa2l--500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/2NHyXKa2l--500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/2NHyXKa2l--700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/2NHyXKa2l--700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofSword.png" alt="Images/Cards/BeastofSword.png|200" width="200px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofSword.png" alt="Images/Cards/MythicalBeastofSword.png|200" width="200px"><source media="(max-width:480px)" srcset="/img/optimized/oXQPHdIGfl-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/oXQPHdIGfl-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/oXQPHdIGfl-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/oXQPHdIGfl-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofSword.png" alt="Images/Cards/MythicalBeastofSword.png|200" width="200px"></picture><br>
+The Vulture The Hyena The Gargoyl or The Manticor</p>
 <p><picture src="/img/user/Images/Cards/DivinPowerofSword.png" alt="DivinPowerofSword.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/FSh8-6b4-R-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/FSh8-6b4-R-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/FSh8-6b4-R-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/FSh8-6b4-R-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofSword.png" alt="DivinPowerofSword.png|300" width="300px"></picture><br>
-Ulauth, God of Warriors</p>
+Divine Power of Sword : <strong>Ulauth</strong>, God of Warriors</p>
 <h1 id="blue-suites" tabindex="-1">Blue Suites</h1>
 <h3 id="shipwheel" tabindex="-1">Shipwheel</h3>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">100</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>1 of Shipwheel</td>
-<td>2 of Shipwheel</td>
-<td>3 of Shipwheel</td>
-<td>4 of Shipwheel</td>
-<td>5 of Shipwheel</td>
-</tr>
-</tbody>
-</table></div>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-<th>!<a class="internal-link is-unresolved" href="/404" target="">200</a></th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>The Seagull</td>
-<td>The Dolphin</td>
-<td>The Hydra</td>
-</tr>
-</tbody>
-</table></div>
+<p><picture src="/img/user/Images/Cards/1ofShipwheel.png" alt="Images/Cards/1ofShipwheel.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/Yt8HeDXyxZ-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/Yt8HeDXyxZ-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/Yt8HeDXyxZ-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Yt8HeDXyxZ-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofShipwheel.png" alt="Images/Cards/1ofShipwheel.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofShipwheel.png" alt="Images/Cards/2ofShipwheel.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/jiXybl-W_4-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/jiXybl-W_4-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/jiXybl-W_4-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/jiXybl-W_4-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofShipwheel.png" alt="Images/Cards/2ofShipwheel.png|100" width="100px"></picture> !<a class="internal-link is-unresolved" href="/404" target="">100</a> !<a class="internal-link is-unresolved" href="/404" target="">100</a> !<a class="internal-link is-unresolved" href="/404" target="">100</a><br>
+1 - 5 of Shipwheel</p>
+<p><picture src="/img/user/Images/Cards/BirdofShipwheel.png" alt="Images/Cards/BirdofShipwheel.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/OBQbhxfecf-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/OBQbhxfecf-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/OBQbhxfecf-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/OBQbhxfecf-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofShipwheel.png" alt="Images/Cards/BirdofShipwheel.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/BeastofShipwheel.png" alt="Images/Cards/BeastofShipwheel.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/4m3oANt2Ry-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/4m3oANt2Ry-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/4m3oANt2Ry-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/4m3oANt2Ry-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofShipwheel.png" alt="Images/Cards/BeastofShipwheel.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofShipwheel.png" alt="Images/Cards/MythicalBeastofShipwheel.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/extNeMdoeC-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/extNeMdoeC-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/extNeMdoeC-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/extNeMdoeC-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofShipwheel.png" alt="Images/Cards/MythicalBeastofShipwheel.png|165" width="165px"></picture><br>
+The Seagull The Dolphin The Hydra</p>
 <p><picture src="/img/user/Images/Cards/DivinePowerofShipwheel.png" alt="DivinePowerofShipwheel.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/X0SgVqlmCi-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/X0SgVqlmCi-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/X0SgVqlmCi-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/X0SgVqlmCi-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinePowerofShipwheel.png" alt="DivinePowerofShipwheel.png|300" width="300px"></picture><br>
-Gaera, Goddess of the Seas</p>
+Divine Power of Shipwheel : <strong>Gaera</strong>, Goddess of the Seas</p>
 <h3 id="horseshoe" tabindex="-1">Horseshoe</h3>
 <div class="table-wrapper"><table>
 <thead>
@@ -259,7 +205,7 @@ Gaera, Goddess of the Seas</p>
 <p><picture src="/img/user/Images/Cards/DivinePowerofHorseshoe.png" alt="DivinePowerofHorseshoe.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/HzvzJuGMSJ-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/HzvzJuGMSJ-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/HzvzJuGMSJ-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/HzvzJuGMSJ-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinePowerofHorseshoe.png" alt="DivinePowerofHorseshoe.png|300" width="300px"></picture><br>
-Rohir, God of Knights</p>
+Divine Power of Horseshoe : <strong>Rohir</strong>, God of Knights</p>
 <h3 id="hops" tabindex="-1">Hops</h3>
 <div class="table-wrapper"><table>
 <thead>
@@ -300,7 +246,7 @@ Rohir, God of Knights</p>
 <p><picture src="/img/user/Images/Cards/DivinPowerofHops.png" alt="DivinPowerofHops.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/DvcDdR7_Ip-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/DvcDdR7_Ip-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/DvcDdR7_Ip-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/DvcDdR7_Ip-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofHops.png" alt="DivinPowerofHops.png|300" width="300px"></picture><br>
-Asmë, Goddess of Earth</p>
+Divine Power of Hops : <strong>Asmë</strong>, Goddess of Earth</p>
 <h2 id="silver-suites" tabindex="-1">Silver Suites</h2>
 <h3 id="crystal" tabindex="-1">Crystal</h3>
 <div class="table-wrapper"><table>
@@ -342,7 +288,7 @@ Asmë, Goddess of Earth</p>
 <p><picture src="/img/user/Images/Cards/DivinPowerofCrystal.png" alt="DivinPowerofCrystal.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/IzP-OsqOvj-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/IzP-OsqOvj-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/IzP-OsqOvj-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/IzP-OsqOvj-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofCrystal.png" alt="DivinPowerofCrystal.png|300" width="300px"></picture><br>
-Melmbainas, God of Art and Craft</p>
+Divine Power of Crystal : <strong>Melmbainas</strong>, God of Art and Craft</p>
 <h3 id="leaf" tabindex="-1">Leaf</h3>
 <div class="table-wrapper"><table>
 <thead>
@@ -383,7 +329,7 @@ Melmbainas, God of Art and Craft</p>
 <p><picture src="/img/user/Images/Cards/DivinPowerofLeaf.png" alt="DivinPowerofLeaf.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/KYv4QjgZ_I-500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/KYv4QjgZ_I-500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/KYv4QjgZ_I-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/KYv4QjgZ_I-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofLeaf.png" alt="DivinPowerofLeaf.png|300" width="300px"></picture><br>
-Neries, Goddess of the Hunt</p>
+Divine Power of Leaf : <strong>Neries</strong>, Goddess of the Hunt</p>
 <h3 id="feather" tabindex="-1">Feather</h3>
 <div class="table-wrapper"><table>
 <thead>
@@ -424,7 +370,7 @@ Neries, Goddess of the Hunt</p>
 <p><picture src="/img/user/Images/Cards/DivinPowerofFeather.png" alt="DivinPowerofFeather.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/us17xsFS7--500.webp" type="image/webp">
 <source media="(max-width:480px)" srcset="/img/optimized/us17xsFS7--500.jpeg">
 <source media="(max-width:1920px)" srcset="/img/optimized/us17xsFS7--700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/us17xsFS7--700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofFeather.png" alt="DivinPowerofFeather.png|300" width="300px"></picture><br>
-Istaelas, Divinity of Magic</p>
+Divine Power of Feather : <strong>Istaelas</strong>, Divinity of Magic</p>
 </main>
 <aside>
 <div class="sidebar">
