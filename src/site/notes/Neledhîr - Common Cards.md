@@ -8,13 +8,11 @@
 
 ![1ofLion.png|100](/img/user/Images/Cards/1ofLion.png)  ![2ofLion.png|100](/img/user/Images/Cards/2ofLion.png) ![3ofLion.png|100](/img/user/Images/Cards/3ofLion.png)  ![4ofLion.png|100](/img/user/Images/Cards/4ofLion.png)  ![5ofLion.png|100](/img/user/Images/Cards/5ofLion.png) 
  1 - 5 of Anvil 
+ 
 
- ![Images/Cards/BirdofLion.png|200](/img/user/Images/Cards/BirdofLion.png) 
- Bird of Anvil : **The Eagle**
-![Images/Cards/BeastofLion.png|200](/img/user/Images/Cards/BeastofLion.png) 
-Beast of Anvil : **The Boar**
-![Images/Cards/MythicalBeastofLion.png|200](/img/user/Images/Cards/MythicalBeastofLion.png) 
-Mythical Beast of Anvil : **The Griffin**
+ ![Images/Cards/BirdofLion.png|150](/img/user/Images/Cards/BirdofLion.png) ![Images/Cards/BeastofLion.png|150](/img/user/Images/Cards/BeastofLion.png)   ![Images/Cards/MythicalBeastofLion.png|150](/img/user/Images/Cards/MythicalBeastofLion.png) 
+ Bird of Anvil : **The Eagle**, Beast of Anvil : **The Boar**, Mythical Beast of Anvil : **The Griffin**
+
 
 ![DivinPowerofAnvil.png|300](/img/user/Images/Cards/DivinPowerofAnvil.png)
 Divine Power of Anvil : **Tân**, Goddess of the Forge
