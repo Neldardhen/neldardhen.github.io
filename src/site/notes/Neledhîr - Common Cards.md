@@ -6,15 +6,18 @@
 ## Golden Suites
 ### Anvil
 
+![1ofLion.png|100](/img/user/Images/Cards/1ofLion.png)  ![2ofLion.png|100](/img/user/Images/Cards/2ofLion.png) ![3ofLion.png|100](/img/user/Images/Cards/3ofLion.png)  ![4ofLion.png|100](/img/user/Images/Cards/4ofLion.png)  ![5ofLion.png|100](/img/user/Images/Cards/5ofLion.png) 
+ 1 - 5 of Anvil 
 
- 1 - 5 of Anvil ![Images/Cards/1ofLion.png|100](/img/user/Images/Cards/1ofLion.png)  ![Images/Cards/2ofLion.png|100](/img/user/Images/Cards/2ofLion.png) ![Images/Cards/3ofLion.png|100](/img/user/Images/Cards/3ofLion.png)  ![Images/Cards/4ofLion.png|100](/img/user/Images/Cards/4ofLion.png)  ![Images/Cards/5ofLion.png|100](/img/user/Images/Cards/5ofLion.png) 
-
-Bird of Anvil : The Eagle ![Images/Cards/BirdofLion.png|200](/img/user/Images/Cards/BirdofLion.png) 
-Beast of Anvil :The Boar![Images/Cards/BeastofLion.png|200](/img/user/Images/Cards/BeastofLion.png) 
-Mythical Beast of Anvil : The Griffin![Images/Cards/MythicalBeastofLion.png|200](/img/user/Images/Cards/MythicalBeastofLion.png) 
+ ![Images/Cards/BirdofLion.png|200](/img/user/Images/Cards/BirdofLion.png) 
+ Bird of Anvil : **The Eagle**
+![Images/Cards/BeastofLion.png|200](/img/user/Images/Cards/BeastofLion.png) 
+Beast of Anvil : **The Boar**
+![Images/Cards/MythicalBeastofLion.png|200](/img/user/Images/Cards/MythicalBeastofLion.png) 
+Mythical Beast of Anvil : **The Griffin**
 
 ![DivinPowerofAnvil.png|300](/img/user/Images/Cards/DivinPowerofAnvil.png)
-Tân, Goddess of the Forge
+Divine Power of Anvil : **Tân**, Goddess of the Forge
 ### Lion
 
 | ![[Images/Cards/1ofLion.png\|100]] | ![[Images/Cards/2ofLion.png\|100]] | ![[Images/Cards/3ofLion.png\|100]] | ![[Images/Cards/4ofLion.png\|100]] | ![[Images/Cards/5ofLion.png\|100]] |
