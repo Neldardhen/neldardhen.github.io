@@ -6,57 +6,50 @@
 ## Golden Suites
 ### Anvil
 
-![1ofLion.png|100](/img/user/Images/Cards/1ofLion.png)  ![2ofLion.png|100](/img/user/Images/Cards/2ofLion.png) ![3ofLion.png|100](/img/user/Images/Cards/3ofLion.png)  ![4ofLion.png|100](/img/user/Images/Cards/4ofLion.png)  ![5ofLion.png|100](/img/user/Images/Cards/5ofLion.png) 
+![1ofAnvil.png|100](/img/user/Images/Cards/1ofAnvil.png)  ![2ofAnvil.png|100](/img/user/Images/Cards/2ofAnvil.png) ![3ofAnvil.png|100](/img/user/Images/Cards/3ofAnvil.png)  ![4ofAnvil.png|100](/img/user/Images/Cards/4ofAnvil.png)  ![5ofAnvil.png|100](/img/user/Images/Cards/5ofAnvil.png) 
  1 - 5 of Anvil 
  
 
- ![Images/Cards/BirdofLion.png|150](/img/user/Images/Cards/BirdofLion.png) ![Images/Cards/BeastofLion.png|150](/img/user/Images/Cards/BeastofLion.png)   ![Images/Cards/MythicalBeastofLion.png|150](/img/user/Images/Cards/MythicalBeastofLion.png) 
- Bird of Anvil : **The Eagle**, Beast of Anvil : **The Boar**, Mythical Beast of Anvil : **The Griffin**
+ ![Images/Cards/BirdofAnvil.png|165](/img/user/Images/Cards/BirdofAnvil.png) ![Images/Cards/BeastofAnvil.png|165](/img/user/Images/Cards/BeastofAnvil.png)   ![Images/Cards/MythicalBeastofAnvil.png|165](/img/user/Images/Cards/MythicalBeastofAnvil.png) 
+ Bird of Anvil : **The Ibis**, Beast of Anvil : **The Pangolin**, Mythical Beast of Anvil : **The Phoenix**
 
 
 ![DivinPowerofAnvil.png|300](/img/user/Images/Cards/DivinPowerofAnvil.png)
 Divine Power of Anvil : **Tân**, Goddess of the Forge
 ### Lion
 
-| ![[Images/Cards/1ofLion.png\|100]] | ![[Images/Cards/2ofLion.png\|100]] | ![[Images/Cards/3ofLion.png\|100]] | ![[Images/Cards/4ofLion.png\|100]] | ![[Images/Cards/5ofLion.png\|100]] |
-| ---------------------------------- | ---------------------------------- | ---------------------------------- | ---------------------------------- | ---------------------------------- |
-| 1 of Lion                          | 2 of Lion                          | 3 of Lion                          | 4 of Lion                          | 5 of Lion                          |
+![1ofLion.png|100](/img/user/Images/Cards/1ofLion.png)  ![2ofLion.png|100](/img/user/Images/Cards/2ofLion.png) ![3ofLion.png|100](/img/user/Images/Cards/3ofLion.png)  ![4ofLion.png|100](/img/user/Images/Cards/4ofLion.png)  ![5ofLion.png|100](/img/user/Images/Cards/5ofLion.png) 
+ 1 - 5 of LIon 
+ 
 
-| ![[Images/Cards/BirdofLion.png\|200]] | ![[Images/Cards/BeastofLion.png\|200]] | ![[Images/Cards/MythicalBeastofLion.png\|200]] |
-| ------------------------------------- | -------------------------------------- | ---------------------------------------------- |
-| The Eagle                             | The Boar                               | The Griffin                                    |
+ ![Images/Cards/BirdofLion.png|150](/img/user/Images/Cards/BirdofLion.png) ![Images/Cards/BeastofLion.png|150](/img/user/Images/Cards/BeastofLion.png)   ![Images/Cards/MythicalBeastofLion.png|150](/img/user/Images/Cards/MythicalBeastofLion.png) 
+ Bird of Lion : **The Eagle**, Beast of Lion : **The Boar**, Mythical Beast of Lion : **The Griffin**
 
 
 ![DivinPowerofLion.png|300](/img/user/Images/Cards/DivinPowerofLion.png)
-Côl, God of Kings
+Divine Power of Lion : **Côl**, God of Kings
 
 ### Sword
 
-| ![[Images/Cards/1ofSword.png\|100]] | ![[Images/Cards/2ofSword.png\|100]] | ![[Images/Cards/3ofSword.png\|100]] | ![[Images/Cards/4ofSword.png\|100]] | ![[Images/Cards/5ofSword.png\|100]] |
-| ----------------------------------- | ----------------------------------- | ----------------------------------- | ----------------------------------- | ----------------------------------- |
-| 1 of Sword                          | 2 of Sword                          | 3 of Sword                          | 4 of Sword                          | 5 of Sword                          |
-
-| ![[Images/Cards/BirdofSword.png\|200]] | ![[Images/Cards/BeastofSword.png\|200]] | ![[Images/Cards/MythicalBeastofSword.png\|200]] |
-| -------------------------------------- | --------------------------------------- | ----------------------------------------------- |
-| The Vulture                            | The Hyena                               | The Gargoyl or The Manticor                     |
+ ![Images/Cards/1ofSword.png|100](/img/user/Images/Cards/1ofSword.png)  ![Images/Cards/2ofSword.png|100](/img/user/Images/Cards/2ofSword.png)  ![Images/Cards/3ofSword.png|100](/img/user/Images/Cards/3ofSword.png)  ![Images/Cards/4ofSword.png|100](/img/user/Images/Cards/4ofSword.png) ![Images/Cards/5ofSword.png|100](/img/user/Images/Cards/5ofSword.png) 
+ 1 - 5 of Sword    
+ ![Images/Cards/BirdofSword.png|200](/img/user/Images/Cards/BirdofSword.png)  ![Images/Cards/BeastofSword.png|200](/img/user/Images/Cards/BeastofSword.png)  ![Images/Cards/MythicalBeastofSword.png|200](/img/user/Images/Cards/MythicalBeastofSword.png) 
+ The Vulture                             The Hyena                                The Gargoyl or The Manticor                     
 
 
 ![DivinPowerofSword.png|300](/img/user/Images/Cards/DivinPowerofSword.png)
-Ulauth, God of Warriors
+Divine Power of Sword : **Ulauth**, God of Warriors
 # Blue Suites
 ### Shipwheel
 
-| ![[Images/Cards/1ofShipwheel.png\|100]] | ![[Images/Cards/2ofShipwheel.png\|100]] | ![[Images/Cards/3ofShipwheel.png\|100]] | ![[Images/Cards/4ofShipwheel.png\|100]] | ![[Images/Cards/5ofShipwheel.png\|100]] |
-| --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- | --------------------------------------- |
-| 1 of Shipwheel                          | 2 of Shipwheel                          | 3 of Shipwheel                          | 4 of Shipwheel                          | 5 of Shipwheel                          |
+ ![Images/Cards/1ofShipwheel.png|100](/img/user/Images/Cards/1ofShipwheel.png) ![Images/Cards/2ofShipwheel.png|100](/img/user/Images/Cards/2ofShipwheel.png)  ![[Images/Cards/3ofShipwheel.png\|100]] ![[Images/Cards/4ofShipwheel.png\|100]] ![[Images/Cards/5ofShipwheel.png\|100]] 
+1 - 5 of Shipwheel    
 
-| ![[Images/Cards/BirdofShipwheel.png\|200]] | ![[Images/Cards/BeastofShipwheel.png\|200]] | ![[Images/Cards/MythicalBeastofShipwheel.png\|200]] |
-| ------------------------------------------ | ------------------------------------------- | --------------------------------------------------- |
-| The Seagull                                | The Dolphin                                 | The Hydra                                           |
-
+ ![Images/Cards/BirdofShipwheel.png|165](/img/user/Images/Cards/BirdofShipwheel.png)  ![Images/Cards/BeastofShipwheel.png|165](/img/user/Images/Cards/BeastofShipwheel.png)  ![Images/Cards/MythicalBeastofShipwheel.png|165](/img/user/Images/Cards/MythicalBeastofShipwheel.png) 
+ The Seagull                                The Dolphin                                  The Hydra                                          
 
 ![DivinePowerofShipwheel.png|300](/img/user/Images/Cards/DivinePowerofShipwheel.png)
-Gaera, Goddess of the Seas
+Divine Power of Shipwheel : **Gaera**, Goddess of the Seas
 
 ### Horseshoe
 
@@ -70,7 +63,7 @@ Gaera, Goddess of the Seas
 
 
 ![DivinePowerofHorseshoe.png|300](/img/user/Images/Cards/DivinePowerofHorseshoe.png)
-Rohir, God of Knights
+Divine Power of Horseshoe : **Rohir**, God of Knights
 
 ### Hops
 
@@ -84,7 +77,7 @@ Rohir, God of Knights
 
 
 ![DivinPowerofHops.png|300](/img/user/Images/Cards/DivinPowerofHops.png)
-Asmë, Goddess of Earth
+Divine Power of Hops : **Asmë**, Goddess of Earth
 
 ## Silver Suites
 ### Crystal
@@ -99,7 +92,7 @@ Asmë, Goddess of Earth
 
 
 ![DivinPowerofCrystal.png|300](/img/user/Images/Cards/DivinPowerofCrystal.png)
-Melmbainas, God of Art and Craft
+Divine Power of Crystal : **Melmbainas**, God of Art and Craft
 
 ### Leaf
 
@@ -113,7 +106,7 @@ Melmbainas, God of Art and Craft
 
 
 ![DivinPowerofLeaf.png|300](/img/user/Images/Cards/DivinPowerofLeaf.png)
-Neries, Goddess of the Hunt
+Divine Power of Leaf : **Neries**, Goddess of the Hunt
 
 ### Feather
 
@@ -127,4 +120,4 @@ Neries, Goddess of the Hunt
 
 
 ![DivinPowerofFeather.png|300](/img/user/Images/Cards/DivinPowerofFeather.png)
-Istaelas, Divinity of Magic
+Divine Power of Feather : **Istaelas**, Divinity of Magic
