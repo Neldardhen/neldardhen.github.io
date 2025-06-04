@@ -5,15 +5,13 @@
 # Neledhîr - Common Cards
 ## Golden Suites
 ### Anvil
-<table>
-<tr><td> <img src="Images/Cards/1ofAnvil.png" width=100px> </td><td> <img src="Images/Cards/2ofAnvil.png" width=100px></td><td><img src="Images/Cards/3ofAnvil.png" width=100px></td><td><img src="Images/Cards/4ofAnvil.png" width=100px></td><td> <img src="Images/Cards/5ofAnvil.png" width=100px> </td></tr>
-<tr><td> 1 of Anvil    </td><td> 2 of Anvil   </td><td> 3 of Anvil    </td><td>4 of Anvil    </td><td>5 of Anvil     </td></tr>
-</table>
-<table>
-<tr><td>
- <img src="Images/Cards/BirdofAnvil.png" width=200px> </td><td> <img src="Images/Cards/BeastofAnvil.png" width=200px></td><td>  <img src="Images/Cards/MythicalBeastofAnvil.png" width=200px> </td></tr>
-<tr><td> The Ibis                               </td><td> The Pangolin                            </td><td> The Phoenix                                     </td></tr>
-</table>
+
+
+ 1 - 5 of Anvil ![[Images/Cards/1ofLion.png\|100]]  ![[Images/Cards/2ofLion.png\|100]] ![[Images/Cards/3ofLion.png\|100]]  ![[Images/Cards/4ofLion.png\|100]]  ![[Images/Cards/5ofLion.png\|100]] 
+
+Bird of Anvil : The Eagle ![[Images/Cards/BirdofLion.png\|200]] 
+Beast of Anvil :The Boar![[Images/Cards/BeastofLion.png\|200]] 
+Mythical Beast of Anvil : The Griffin![[Images/Cards/MythicalBeastofLion.png\|200]] 
 
 ![DivinPowerofAnvil.png|300](/img/user/Images/Cards/DivinPowerofAnvil.png)
 Tân, Goddess of the Forge
