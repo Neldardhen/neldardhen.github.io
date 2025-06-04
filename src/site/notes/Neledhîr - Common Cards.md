@@ -57,7 +57,7 @@ Divine Power of Horseshoe : **Rohir**, God of Knights
 ### Hops
  ![Images/Cards/1ofHops.png|100](/img/user/Images/Cards/1ofHops.png)  ![Images/Cards/2ofHops.png|100](/img/user/Images/Cards/2ofHops.png) ![Images/Cards/3ofHops.png|100](/img/user/Images/Cards/3ofHops.png) ![Images/Cards/4ofHops.png|100](/img/user/Images/Cards/4ofHops.png)  ![Images/Cards/5ofHops.png|100](/img/user/Images/Cards/5ofHops.png) 
 1 - 5 of Hops        
-| ![Images/Cards/BirdofHops.png|165](/img/user/Images/Cards/BirdofHops.png) ![Images/Cards/BeastofHops.png|165](/img/user/Images/Cards/BeastofHops.png) ![Images/Cards/MythicalBeastofHops.png|165](/img/user/Images/Cards/MythicalBeastofHops.png) 
+ ![Images/Cards/BirdofHops.png|165](/img/user/Images/Cards/BirdofHops.png) ![Images/Cards/BeastofHops.png|165](/img/user/Images/Cards/BeastofHops.png) ![Images/Cards/MythicalBeastofHops.png|165](/img/user/Images/Cards/MythicalBeastofHops.png) 
  The Rooster                            The Goat                                The Ceberus                                   
 
 ![DivinPowerofHops.png|300](/img/user/Images/Cards/DivinPowerofHops.png)
@@ -65,43 +65,29 @@ Divine Power of Hops : **Asmë**, Goddess of Earth
 
 ## Silver Suites
 ### Crystal
-
-| ![[Images/Cards/1ofCrystal.png\|100]] | ![[Images/Cards/2ofCrystal.png\|100]] | ![[Images/Cards/3ofCrystal.png\|100]] | ![[Images/Cards/4ofCrystal.png\|100]] | ![[Images/Cards/5ofCrystal.png\|100]] |
-| ------------------------------------- | ------------------------------------- | ------------------------------------- | ------------------------------------- | ------------------------------------- |
-| 1 of Crystal                          | 2 of Crystal                          | 3 of Crystal                          | 4 of Crystal                          | 5 of Crystal                          |
-
-| ![[Images/Cards/BirdofCrystal.png\|200]] | ![[Images/Cards/BeastofCrystal.png\|200]] | ![[Images/Cards/MythicalBeastofCrystal.png\|200]] |
-| ---------------------------------------- | ----------------------------------------- | ------------------------------------------------- |
-| The Blackbird                            | The Cat                                   | The White Deer                                    |
-
+ ![Images/Cards/1ofCrystal.png|100](/img/user/Images/Cards/1ofCrystal.png)  ![Images/Cards/2ofCrystal.png|100](/img/user/Images/Cards/2ofCrystal.png)  ![Images/Cards/3ofCrystal.png|100](/img/user/Images/Cards/3ofCrystal.png)  ![Images/Cards/4ofCrystal.png|100](/img/user/Images/Cards/4ofCrystal.png)  ![Images/Cards/5ofCrystal.png|100](/img/user/Images/Cards/5ofCrystal.png) 
+ 1 - 5 of Crystal    
+ ![Images/Cards/BirdofCrystal.png|165](/img/user/Images/Cards/BirdofCrystal.png)  ![Images/Cards/BeastofCrystal.png|165](/img/user/Images/Cards/BeastofCrystal.png)  ![Images/Cards/MythicalBeastofCrystal.png|165](/img/user/Images/Cards/MythicalBeastofCrystal.png) 
+ The Blackbird                            The Cat                                   The White Deer                                    
 
 ![DivinPowerofCrystal.png|300](/img/user/Images/Cards/DivinPowerofCrystal.png)
 Divine Power of Crystal : **Melmbainas**, God of Art and Craft
 
 ### Leaf
-
-| ![[Images/Cards/1ofLeaf.png\|100]] | ![[Images/Cards/2ofLeaf.png\|100]] | ![[Images/Cards/3ofLeaf.png\|100]] | ![[Images/Cards/4ofLeaf.png\|100]] | ![[Images/Cards/5ofLeaf.png\|100]] |
-| ---------------------------------- | ---------------------------------- | ---------------------------------- | ---------------------------------- | ---------------------------------- |
-| 1 of Leaf                          | 2 of Leaf                          | 3 of Leaf                          | 4 of Leaf                          | 5 of Leaf                          |
-
-| ![[Images/Cards/BirdofLeaf.png\|200]] | ![[Images/Cards/BeastofLeaf.png\|200]] | ![[Images/Cards/MythicalBeastofLeaf.png\|200]] |
-| ------------------------------------- | -------------------------------------- | ---------------------------------------------- |
-| The Owl                               | The Snow Leopard                       | The Werewolf                                   |
-
+![Images/Cards/1ofLeaf.png|100](/img/user/Images/Cards/1ofLeaf.png) ![Images/Cards/2ofLeaf.png|100](/img/user/Images/Cards/2ofLeaf.png) ![Images/Cards/3ofLeaf.png|100](/img/user/Images/Cards/3ofLeaf.png) ![Images/Cards/4ofLeaf.png|100](/img/user/Images/Cards/4ofLeaf.png)  ![Images/Cards/5ofLeaf.png|100](/img/user/Images/Cards/5ofLeaf.png) 
+ 1 - 5 of Leaf                        
+ ![Images/Cards/BirdofLeaf.png|165](/img/user/Images/Cards/BirdofLeaf.png)  ![Images/Cards/BeastofLeaf.png|165](/img/user/Images/Cards/BeastofLeaf.png)  ![Images/Cards/MythicalBeastofLeaf.png|165](/img/user/Images/Cards/MythicalBeastofLeaf.png) 
+The Owl                               The Snow Leopard                        The Werewolf                                  
 
 ![DivinPowerofLeaf.png|300](/img/user/Images/Cards/DivinPowerofLeaf.png)
 Divine Power of Leaf : **Neries**, Goddess of the Hunt
 
 ### Feather
-
-| ![[Images/Cards/1ofFeather.png\|100]] | ![[Images/Cards/2ofFeather.png\|100]] | ![[Images/Cards/3ofFeather.png\|100]] | ![[Images/Cards/4ofFeather.png\|100]] | ![[Images/Cards/5ofFeather.png\|100]] |
-| ------------------------------------- | ------------------------------------- | ------------------------------------- | ------------------------------------- | ------------------------------------- |
-| 1 of Feather                          | 2 of Feather                          | 3 of Feather                          | 4 of Feather                          | 5 of Feather                          |
-
-| ![[Images/Cards/BirdofFeather.png\|200]] | ![[Images/Cards/BeastofFeather.png\|200]] | ![[Images/Cards/MythicalBeastofFeather.png\|200]] |
-| ---------------------------------------- | ----------------------------------------- | ------------------------------------------------- |
-| The Raven                                | The White Fox                             | The Silver Lynx                                   |
-
+ ![Images/Cards/1ofFeather.png|100](/img/user/Images/Cards/1ofFeather.png)  ![Images/Cards/2ofFeather.png|100](/img/user/Images/Cards/2ofFeather.png)  ![Images/Cards/3ofFeather.png|100](/img/user/Images/Cards/3ofFeather.png)  ![Images/Cards/4ofFeather.png|100](/img/user/Images/Cards/4ofFeather.png)  ![Images/Cards/5ofFeather.png|100](/img/user/Images/Cards/5ofFeather.png) 
+ 1 - 5 of Feather    
+                
+ ![Images/Cards/BirdofFeather.png|165](/img/user/Images/Cards/BirdofFeather.png)  ![Images/Cards/BeastofFeather.png|165](/img/user/Images/Cards/BeastofFeather.png)  ![Images/Cards/MythicalBeastofFeather.png|165](/img/user/Images/Cards/MythicalBeastofFeather.png) 
+ The Raven                                The White Fox                             The Silver Lynx                                  
 
 ![DivinPowerofFeather.png|300](/img/user/Images/Cards/DivinPowerofFeather.png)
 Divine Power of Feather : **Istaelas**, Divinity of Magic
