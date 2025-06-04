@@ -39,5 +39,10 @@ body {
         --callout-color: 160, 131, 175;
         --callout-icon: brain-cog;
 } 
-    
+    .toc-container {
+        font-size: 16px
+    }
+     .toc-container li::before {
+        content: "&#183;" !important;
+    }
 }
