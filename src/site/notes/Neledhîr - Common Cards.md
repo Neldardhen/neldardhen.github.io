@@ -5,18 +5,10 @@
 # Neledhîr - Common Cards
 ## Golden Suites
 ### Anvil
-![Images/Cards/1ofAnvil.png|100](/img/user/Images/Cards/1ofAnvil.png)
-
 <table>
-<tr><td> ![Images/Cards/1ofAnvil.png|100](/img/user/Images/Cards/1ofAnvil.png) </td><td> ![Images/Cards/2ofAnvil.png|100](/img/user/Images/Cards/2ofAnvil.png) </td><td> ![Images/Cards/3ofAnvil.png|100](/img/user/Images/Cards/3ofAnvil.png) </td><td> ![Images/Cards/4ofAnvil.png|100](/img/user/Images/Cards/4ofAnvil.png) </td><td> ![Images/Cards/5ofAnvil.png|100](/img/user/Images/Cards/5ofAnvil.png) </td></tr>
+<tr><td> <img src="Images/Cards/1ofAnvil.png" width=100px> </td><td> <img src="Images/Cards/2ofAnvil.png" width=100px></td><td><img src="Images/Cards/3ofAnvil.png" width=100px></td><td><img src="Images/Cards/4ofAnvil.png" width=100px></td><td> <img src="Images/Cards/5ofAnvil.png" width=100px> </td></tr>
 <tr><td> 1 of Anvil    </td><td> 2 of Anvil   </td><td> 3 of Anvil    </td><td>4 of Anvil    </td><td>5 of Anvil     </td></tr>
 </table>
-
-
-
-| ![[Images/Cards/1ofAnvil.png\|100]] | ![[Images/Cards/2ofAnvil.png\|100]] | ![[Images/Cards/3ofAnvil.png\|100]] | ![[Images/Cards/4ofAnvil.png\|100]] | ![[Images/Cards/5ofAnvil.png\|100]] |
-| ----------------------------------- | ----------------------------------- | ----------------------------------- | ----------------------------------- | ----------------------------------- |
-| 1 of Anvil                          | 2 of Anvil                          | 3 of Anvil                          | 4 of Anvil                          | 5 of Anvil                          |
 
 | ![[Images/Cards/BirdofAnvil.png\|200]] | ![[Images/Cards/BeastofAnvil.png\|200]] | ![[Images/Cards/MythicalBeastofAnvil.png\|200]] |
 | -------------------------------------- | --------------------------------------- | ----------------------------------------------- |
