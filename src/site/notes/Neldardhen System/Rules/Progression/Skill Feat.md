@@ -24,6 +24,31 @@ Every time you roll a  \[ skill \]. check, you can re-roll any **1**s once.
 > **Prerequisite** : Rank 3 in Fighting
 >_At will_ 
  -> Attack of Opportunity ??)
+
+> [!wip] _Work In Progress_ 
+> **Prerequisite** : Rank 3 in Linguistic/rhetoric
+>_At will_ 
+ -> If you have time to prepare, you can use Rhetoric with _focus_ instead of Persuasion with _resilience_ to try to convince someone.
+
+> [!wip] _Work In Progress_ 
+> **Prerequisite** : Rank 3 in Linguistic/rhetoric
+>_At will_ 
+ -> You can choose 2 additional language that you can speak and read.
+
+> [!wip] _Work In Progress_ 
+> **Prerequisite** : Rank 3 in Stealth
+>_At will_ 
+ -> You can try to hide during combat ????
+
+> [!wip] _Work In Progress_ 
+> **Prerequisite** : Rank 3 in Insight/Empathy
+>_Once per day_ 
+ -> You can use Insight/Empathy with _resilience_ instead of Investigation with _focus_.
+
+> [!wip] _Work In Progress_ 
+> **Prerequisite** : Rank 3 in Authority/Intimidation
+>_Once per day_ 
+ -> Heckler : You can target where it really hurt with your Insults. You inflict 1d4 Anxeity dmage with your Insult attack.
 ## Level 8
 ### Expertise (skill)
 **Prerequisite** : Rank 4 in a skill
