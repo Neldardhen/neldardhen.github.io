@@ -31,8 +31,14 @@ Caergandir are a [[Neldardhen System/Character Creation/Playable Species List\|P
 > 
 > | **Senses**          |         |     |                |            |     |
 > | ------------------- | ------- | --- | -------------- | ---------- | --- |
-> | Vision in the sun   | Good    | 4d6 | Hearing        | Very Bad    | 1d6 |
-> | Low light vision    | Bad     | 2d6 | Sense of Smell | Very Good    | 5d6 |
-> | Infrared Perception | Neutral | 3d6 | Magic Affinity | Inexistant | 0   |
+> | Vision in the sun   | Neutral    | 3d6 | Hearing        | Neutral  | 3d6 |
+> | Low light vision    | Good     | 4d6 | Sense of Smell |  Good    | 4d6 |
+> | Infrared Perception | Inexistant | 0 | Magic Affinity | Inexistant | 0   |
 
 
+### Subspecies
+> [!wip] _Work In Progress_
+> Crocodile Caergandir (sensitive to cold, nocturnal, most acidic stomach can digest bones and hooves, strongest bite)
+> Alligator
+> Caiman
+> Gharial

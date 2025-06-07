@@ -15,6 +15,40 @@ For Feats gained at other levels see [[Neldardhen System/Rules/Progression/Chara
 _Once per Story_
 Once in your lifetime, you can let go of your tail and it will grow back over the course of a few days.
 
+> [!wip] _Work In Progress_
+> **Prerequisite** : Level 3, Komodo Angessedir
+> _At will_
+> Venom -> unarmed attack that deals poison damage ??
+
+> [!wip] _Work In Progress_
+> **Prerequisite** : Level 3, Chameleon Angessedir
+> _At will_
+> Balisitic Tongue -> unarmed attack ?
+
+> [!wip] _Work In Progress_
+> **Prerequisite** : Level 6, Chameleon Angessedir
+> _At will_
+> Sticky Tongue -> unarmed attack that auto grapple ??
+
+> [!wip] _Work In Progress_
+> **Prerequisite** : Level 3, Chameleon Angessedir
+> _At will_
+> Prehensile Tail -> Lower Difficulty for balance/climbing checks ??? 
+
+> [!wip] _Work In Progress_
+> **Prerequisite** : Level 9, Chameleon Angessedir
+> _At will_
+> Well Trained Prehensile Tail -> Can act as a third hand ? Can make attack with weapons when creature are behind the character ??
+
+> [!wip] _Work In Progress_
+> **Prerequisite** : Level 3, Iguana Angessedir
+> _At will_
+> Whip Tail -> unarmed attack, only on creature behinf the character ??
+
+> [!wip] _Work In Progress_
+> **Prerequisite** : Level 3, Iguana Angessedir
+> _At will_
+> Spines -> Deals piercing damage back to melee attacker ?? Only if the attack was a bite, claw or punch ?  ??
 ## Aranlindir, Hólindir and Daessalindir 
 ### Naturally Lucky
 **Granted** at level 1 to Magpie Daessalindir
@@ -26,11 +60,30 @@ Once per day you can decide to re-roll all the **1**s from a dice pool you have 
 _At will_
 _Work In Progress : Probably will give an unarmed attack dealing 1d4 Piercing_
 
+> [!wip] _Work In Progress_
+> **Prerequisite** : Level 3 Any Hólindir
+> _At will_
+> Silent Flyer ->You are able to fly in total silent. You automatically succeed any stealth checks that rely on not making any sound if you are flying. OR Give Competency 2 on Stealth checks while flying ?
+
 ### Fly By Attack
 **Prerequisite** : Level 6, All Subspecies
 _At will_
 You can use 2 Actions to be able to Fly up to your speed and Melee Attack a creature in range that you are passing by. This move does not provoke Attack of Opportunity and you can keep flying.
 
+> [!wip] _Work In Progress_
+> **Prerequisite** : Level 6 or 9 ???, Biiig Bird only
+> _At will_
+> Lift ->You can lift a prey/creature if succeeding an athletics check ?? up to X times your own weight ??
+
+> [!wip] _Work In Progress_
+> **Prerequisite** : Level 6 or 9 ???, Any Daessalindir
+> _At will_
+> Mimicry ->You can almost perfectly imitate any sounds
+
+> [!wip] _Work In Progress_
+> **Prerequisite** : Level 6 or 9 ???, Any Daessalindir
+> _At will_
+> Trickster ->???
 ## Behemes
 
  > [!wip] _Work In Progress_
@@ -126,3 +179,12 @@ _Passive_
 You have traded your legs away for a magnificent snake tail. You can climb any pillar-like shape using your walking speed and can ignore difficult terrain due to sand or snow.  
 When you use a grapple on a creature the Difficulty to avoid it is doubled as you wrap your snake body around your prey and start crushing it. As long as your prey is grappled in this way, you cannot attack, but your prey takes **1d4** Bludgeoning damage at the start of its turn.  
 Your prey must not be amorphous.
+
+## Caergandir
+
+>[!wip] _Work In Progress_
+> ### Hard Scales
+> **Prerequisite** : Level 3, Caergandir
+> _Passive_
+> You have very hardy scales. Your gain a Resistance to Piercing / Slashing damage equals to half of your Body score rounded down.
+> The scales impair your movement in and out of water. You loose **-2**m on your walking and swimming speeds.   

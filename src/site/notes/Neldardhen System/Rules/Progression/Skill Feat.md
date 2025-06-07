@@ -32,8 +32,13 @@ Every time you roll a  \[ skill \]. check, you can re-roll any **1**s once.
 
 > [!wip] _Work In Progress_ 
 > **Prerequisite** : Rank 3 in Linguistic/rhetoric
+>_Passive_ 
+ -> You can choose 2 additional languages that you can speak and read.
+ 
+> [!wip] _Work In Progress_ 
+> **Prerequisite** : Rank 3 in Investigation
 >_At will_ 
- -> You can choose 2 additional language that you can speak and read.
+ -> VIsual Calculus ?? (Disco Elysium style !)
 
 > [!wip] _Work In Progress_ 
 > **Prerequisite** : Rank 3 in Stealth
@@ -49,6 +54,11 @@ Every time you roll a  \[ skill \]. check, you can re-roll any **1**s once.
 > **Prerequisite** : Rank 3 in Authority/Intimidation
 >_Once per day_ 
  -> Heckler : You can target where it really hurt with your Insults. You inflict 1d4 Anxeity dmage with your Insult attack.
+
+> [!wip] _Work In Progress_ 
+> **Prerequisite** : Rank 3 in Raw Magic and Rank 3 in Occultism 
+>_Passive_ ??? 
+ -> You can make magical effect happens with your Raw Magic skill with _resilience_ instead of Arcane Magic with _focus_
 ## Level 8
 ### Expertise (skill)
 **Prerequisite** : Rank 4 in a skill
@@ -73,9 +83,16 @@ You can add 1 die for every 10 point you have in your Body score on the damage y
 _Passive_
 You can add 1 die for every 10 point you have in your Spirit score on the damage or healing you deal with Instrument.
 
+> [!wip] _Work In Progress_
+> **Prerequisite** : Arcane Magic, Fighting or Raw Magic rank 3
+> *Passive*
+> Get +2 ?? on your \[psychic, physical, emotional\] Defense Pool maximum.
 ## Level 11
 
 > [!wip] _Work In Progress_
+> **Prerequisite** : Rhetoric/Linguistic rank 5
+> *Passive*
+> You pick up on new languages very fast and can get a basic understanding of what people are saying incredibly fast.
 
 ## Level 14
 
