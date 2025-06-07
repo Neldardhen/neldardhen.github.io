@@ -28,6 +28,13 @@ Your _resilience_ maximum is increased by your level.
 **Prerequisite** : Mind score 4, Body score 4,  Spirit score 4
 _Once per day_
 Once per day, you can negate the effects of a Critical Failure, turning it into a regular Failure instead.
+
+> [!wip] Work In Progress
+> Non-Addictive Personality (more resistant to addiction)
+> Diver (can hold breath for longer)
+> Jumper (can jump higer/further)
+> Thrower (can throw further)
+> Swimmer (can swim faster)
 ## Level 7
 
 > [!wip] _Work In Progress_
