@@ -1,0 +1,367 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Neledhîr - Common Cards</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.d92311c2.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Neldar</h1>
+</a>
+</div>
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i icon-name="search"></i>
+</span>
+<span class="search-text">
+<span>Search</span>
+<span style="font-size:.6rem;padding:2px 2px 0 6px;text-align:center;transform:translateY(4px)" class="search-keys">
+CTRL + K
+</span>
+</span>
+</div>
+</nav>
+<div class="search-container" id="globalsearch" onclick="toggleSearch()">
+<div class="search-box">
+<input type="search" id="term" placeholder="Start typing...">
+<div id="search-results"></div>
+<footer class="search-box-footer">
+<div class="navigation-hint">
+<span>Enter to select</span>
+</div>
+<div class="navigation-hint align-icon">
+<i icon-name="arrow-up" aria-hidden="true"></i>
+<i icon-name="arrow-down" aria-hidden="true"></i>
+<span>to navigate</span>
+</div>
+<div class="navigation-hint">
+<span>ESC to close</span>
+</div>
+</footer>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-06-07T10:04:10.270Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-06-07T10:04:10.270Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-06-07T10:04:10.270Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<h1 id="neledhir-common-cards" tabindex="-1">Neledhîr - Common Cards</h1>
+<h2 id="golden-suites" tabindex="-1">Golden Suites</h2>
+<h3 id="anvil" tabindex="-1">Anvil</h3>
+<p><picture src="/img/user/Images/Cards/1ofAnvil.png" alt="1ofAnvil.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/Tar81O72_O-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/Tar81O72_O-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/Tar81O72_O-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Tar81O72_O-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofAnvil.png" alt="1ofAnvil.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofAnvil.png" alt="2ofAnvil.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/r3YMfoZRxo-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/r3YMfoZRxo-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/r3YMfoZRxo-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/r3YMfoZRxo-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofAnvil.png" alt="2ofAnvil.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofAnvil.png" alt="3ofAnvil.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/payN-lin2J-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/payN-lin2J-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/payN-lin2J-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/payN-lin2J-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofAnvil.png" alt="3ofAnvil.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofAnvil.png" alt="4ofAnvil.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/OVy_uCgKfC-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/OVy_uCgKfC-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/OVy_uCgKfC-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/OVy_uCgKfC-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofAnvil.png" alt="4ofAnvil.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofAnvil.png" alt="5ofAnvil.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/lSI-eqfMOp-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/lSI-eqfMOp-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/lSI-eqfMOp-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/lSI-eqfMOp-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofAnvil.png" alt="5ofAnvil.png|100" width="100px"></picture><br>
+1 - 5 of Anvil</p>
+<p><picture src="/img/user/Images/Cards/BirdofAnvil.png" alt="Images/Cards/BirdofAnvil.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/sNq-q0sEgl-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/sNq-q0sEgl-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/sNq-q0sEgl-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/sNq-q0sEgl-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofAnvil.png" alt="Images/Cards/BirdofAnvil.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/BeastofAnvil.png" alt="Images/Cards/BeastofAnvil.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/uGFU2TUlv8-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/uGFU2TUlv8-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/uGFU2TUlv8-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/uGFU2TUlv8-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofAnvil.png" alt="Images/Cards/BeastofAnvil.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofAnvil.png" alt="Images/Cards/MythicalBeastofAnvil.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/uqX4NF6TBX-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/uqX4NF6TBX-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/uqX4NF6TBX-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/uqX4NF6TBX-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofAnvil.png" alt="Images/Cards/MythicalBeastofAnvil.png|165" width="165px"></picture><br>
+Bird of Anvil : <strong>The Ibis</strong>, Beast of Anvil : <strong>The Pangolin</strong>, Mythical Beast of Anvil : <strong>The Phoenix</strong></p>
+<p><picture src="/img/user/Images/Cards/DivinPowerofAnvil.png" alt="DivinPowerofAnvil.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/3JHQc1ewhU-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/3JHQc1ewhU-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/3JHQc1ewhU-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/3JHQc1ewhU-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofAnvil.png" alt="DivinPowerofAnvil.png|300" width="300px"></picture><br>
+Divine Power of Anvil : <strong>Tân</strong>, Goddess of the Forge</p>
+<h3 id="lion" tabindex="-1">Lion</h3>
+<p><picture src="/img/user/Images/Cards/1ofLion.png" alt="1ofLion.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/OeUtcZMNRU-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/OeUtcZMNRU-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/OeUtcZMNRU-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/OeUtcZMNRU-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofLion.png" alt="1ofLion.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofLion.png" alt="2ofLion.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/Nkd8jQKTcQ-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/Nkd8jQKTcQ-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/Nkd8jQKTcQ-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Nkd8jQKTcQ-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofLion.png" alt="2ofLion.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofLion.png" alt="3ofLion.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/6Vn1yuqLyM-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/6Vn1yuqLyM-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/6Vn1yuqLyM-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/6Vn1yuqLyM-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofLion.png" alt="3ofLion.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofLion.png" alt="4ofLion.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/zLMcxuaiBb-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/zLMcxuaiBb-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/zLMcxuaiBb-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/zLMcxuaiBb-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofLion.png" alt="4ofLion.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofLion.png" alt="5ofLion.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/fs2RhmRaBg-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/fs2RhmRaBg-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/fs2RhmRaBg-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/fs2RhmRaBg-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofLion.png" alt="5ofLion.png|100" width="100px"></picture><br>
+1 - 5 of LIon</p>
+<p><picture src="/img/user/Images/Cards/BirdofLion.png" alt="Images/Cards/BirdofLion.png|150" width="150px"><source media="(max-width:480px)" srcset="/img/optimized/CtZvqWl8Gz-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/CtZvqWl8Gz-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/CtZvqWl8Gz-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/CtZvqWl8Gz-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofLion.png" alt="Images/Cards/BirdofLion.png|150" width="150px"></picture> <picture src="/img/user/Images/Cards/BeastofLion.png" alt="Images/Cards/BeastofLion.png|150" width="150px"><source media="(max-width:480px)" srcset="/img/optimized/YQKpGOtuc9-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/YQKpGOtuc9-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/YQKpGOtuc9-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/YQKpGOtuc9-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofLion.png" alt="Images/Cards/BeastofLion.png|150" width="150px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofLion.png" alt="Images/Cards/MythicalBeastofLion.png|150" width="150px"><source media="(max-width:480px)" srcset="/img/optimized/LQsCiqS_YC-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/LQsCiqS_YC-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/LQsCiqS_YC-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/LQsCiqS_YC-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofLion.png" alt="Images/Cards/MythicalBeastofLion.png|150" width="150px"></picture><br>
+Bird of Lion : <strong>The Eagle</strong>, Beast of Lion : <strong>The Boar</strong>, Mythical Beast of Lion : <strong>The Griffin</strong></p>
+<p><picture src="/img/user/Images/Cards/DivinPowerofLion.png" alt="DivinPowerofLion.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/wOnAUWvMeX-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/wOnAUWvMeX-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/wOnAUWvMeX-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/wOnAUWvMeX-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofLion.png" alt="DivinPowerofLion.png|300" width="300px"></picture><br>
+Divine Power of Lion : <strong>Côl</strong>, God of Kings</p>
+<h3 id="sword" tabindex="-1">Sword</h3>
+<p><picture src="/img/user/Images/Cards/1ofSword.png" alt="Images/Cards/1ofSword.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/sDMLxpXyiL-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/sDMLxpXyiL-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/sDMLxpXyiL-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/sDMLxpXyiL-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofSword.png" alt="Images/Cards/1ofSword.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofSword.png" alt="Images/Cards/2ofSword.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/ZYK0UlCyXt-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/ZYK0UlCyXt-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/ZYK0UlCyXt-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/ZYK0UlCyXt-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofSword.png" alt="Images/Cards/2ofSword.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofSword.png" alt="Images/Cards/3ofSword.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/ZbyyzG7d9q-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/ZbyyzG7d9q-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/ZbyyzG7d9q-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/ZbyyzG7d9q-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofSword.png" alt="Images/Cards/3ofSword.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofSword.png" alt="Images/Cards/4ofSword.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/3Sx9s4MY22-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/3Sx9s4MY22-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/3Sx9s4MY22-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/3Sx9s4MY22-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofSword.png" alt="Images/Cards/4ofSword.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofSword.png" alt="Images/Cards/5ofSword.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/5qjnEaniEp-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/5qjnEaniEp-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/5qjnEaniEp-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/5qjnEaniEp-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofSword.png" alt="Images/Cards/5ofSword.png|100" width="100px"></picture><br>
+1 - 5 of Sword</p>
+<p><picture src="/img/user/Images/Cards/BirdofSword.png" alt="Images/Cards/BirdofSword.png|200" width="200px"><source media="(max-width:480px)" srcset="/img/optimized/JjGFKl0QV5-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/JjGFKl0QV5-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/JjGFKl0QV5-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/JjGFKl0QV5-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofSword.png" alt="Images/Cards/BirdofSword.png|200" width="200px"></picture> <picture src="/img/user/Images/Cards/BeastofSword.png" alt="Images/Cards/BeastofSword.png|200" width="200px"><source media="(max-width:480px)" srcset="/img/optimized/2NHyXKa2l--500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/2NHyXKa2l--500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/2NHyXKa2l--700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/2NHyXKa2l--700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofSword.png" alt="Images/Cards/BeastofSword.png|200" width="200px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofSword.png" alt="Images/Cards/MythicalBeastofSword.png|200" width="200px"><source media="(max-width:480px)" srcset="/img/optimized/oXQPHdIGfl-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/oXQPHdIGfl-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/oXQPHdIGfl-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/oXQPHdIGfl-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofSword.png" alt="Images/Cards/MythicalBeastofSword.png|200" width="200px"></picture><br>
+The Vulture The Hyena The Gargoyl or The Manticor</p>
+<p><picture src="/img/user/Images/Cards/DivinPowerofSword.png" alt="DivinPowerofSword.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/FSh8-6b4-R-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/FSh8-6b4-R-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/FSh8-6b4-R-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/FSh8-6b4-R-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofSword.png" alt="DivinPowerofSword.png|300" width="300px"></picture><br>
+Divine Power of Sword : <strong>Ulauth</strong>, God of Warriors</p>
+<h1 id="blue-suites" tabindex="-1">Blue Suites</h1>
+<h3 id="shipwheel" tabindex="-1">Shipwheel</h3>
+<p><picture src="/img/user/Images/Cards/1ofShipwheel.png" alt="Images/Cards/1ofShipwheel.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/Yt8HeDXyxZ-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/Yt8HeDXyxZ-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/Yt8HeDXyxZ-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Yt8HeDXyxZ-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofShipwheel.png" alt="Images/Cards/1ofShipwheel.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofShipwheel.png" alt="Images/Cards/2ofShipwheel.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/jiXybl-W_4-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/jiXybl-W_4-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/jiXybl-W_4-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/jiXybl-W_4-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofShipwheel.png" alt="Images/Cards/2ofShipwheel.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofShipwheel.png" alt="Images/Cards/3ofShipwheel.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/RTO1HRZg15-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/RTO1HRZg15-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/RTO1HRZg15-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/RTO1HRZg15-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofShipwheel.png" alt="Images/Cards/3ofShipwheel.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofShipwheel.png" alt="Images/Cards/4ofShipwheel.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/honmLgJO9--500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/honmLgJO9--500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/honmLgJO9--700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/honmLgJO9--700.jpeg"><img class="" src="/img/user/Images/Cards/4ofShipwheel.png" alt="Images/Cards/4ofShipwheel.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofShipwheel.png" alt="Images/Cards/5ofShipwheel.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/YD-CClyZM--500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/YD-CClyZM--500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/YD-CClyZM--700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/YD-CClyZM--700.jpeg"><img class="" src="/img/user/Images/Cards/5ofShipwheel.png" alt="Images/Cards/5ofShipwheel.png|100" width="100px"></picture><br>
+1 - 5 of Shipwheel</p>
+<p><picture src="/img/user/Images/Cards/BirdofShipwheel.png" alt="Images/Cards/BirdofShipwheel.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/OBQbhxfecf-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/OBQbhxfecf-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/OBQbhxfecf-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/OBQbhxfecf-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofShipwheel.png" alt="Images/Cards/BirdofShipwheel.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/BeastofShipwheel.png" alt="Images/Cards/BeastofShipwheel.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/4m3oANt2Ry-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/4m3oANt2Ry-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/4m3oANt2Ry-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/4m3oANt2Ry-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofShipwheel.png" alt="Images/Cards/BeastofShipwheel.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofShipwheel.png" alt="Images/Cards/MythicalBeastofShipwheel.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/extNeMdoeC-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/extNeMdoeC-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/extNeMdoeC-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/extNeMdoeC-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofShipwheel.png" alt="Images/Cards/MythicalBeastofShipwheel.png|165" width="165px"></picture><br>
+The Seagull The Dolphin The Hydra</p>
+<p><picture src="/img/user/Images/Cards/DivinePowerofShipwheel.png" alt="DivinePowerofShipwheel.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/X0SgVqlmCi-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/X0SgVqlmCi-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/X0SgVqlmCi-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/X0SgVqlmCi-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinePowerofShipwheel.png" alt="DivinePowerofShipwheel.png|300" width="300px"></picture><br>
+Divine Power of Shipwheel : <strong>Gaera</strong>, Goddess of the Seas</p>
+<h3 id="horseshoe" tabindex="-1">Horseshoe</h3>
+<p><picture src="/img/user/Images/Cards/1ofHorseshoe.png" alt="Images/Cards/1ofHorseshoe.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/vAjO-jJIZz-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/vAjO-jJIZz-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/vAjO-jJIZz-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/vAjO-jJIZz-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofHorseshoe.png" alt="Images/Cards/1ofHorseshoe.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofHorseshoe.png" alt="Images/Cards/2ofHorseshoe.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/bRP8676Wj1-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/bRP8676Wj1-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/bRP8676Wj1-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/bRP8676Wj1-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofHorseshoe.png" alt="Images/Cards/2ofHorseshoe.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofHorseshoe.png" alt="Images/Cards/3ofHorseshoe.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/scpcrHJYXh-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/scpcrHJYXh-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/scpcrHJYXh-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/scpcrHJYXh-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofHorseshoe.png" alt="Images/Cards/3ofHorseshoe.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofHorseshoe.png" alt="Images/Cards/4ofHorseshoe.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/JZ5Ttk8BjV-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/JZ5Ttk8BjV-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/JZ5Ttk8BjV-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/JZ5Ttk8BjV-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofHorseshoe.png" alt="Images/Cards/4ofHorseshoe.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofHorseshoe.png" alt="Images/Cards/5ofHorseshoe.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/vp__U2MDxQ-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/vp__U2MDxQ-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/vp__U2MDxQ-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/vp__U2MDxQ-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofHorseshoe.png" alt="Images/Cards/5ofHorseshoe.png|100" width="100px"></picture><br>
+1 - 5 of Horseshoe</p>
+<p><picture src="/img/user/Images/Cards/BirdofHorseshoe.png" alt="Images/Cards/BirdofHorseshoe.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/bKup1jRVZ--500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/bKup1jRVZ--500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/bKup1jRVZ--700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/bKup1jRVZ--700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofHorseshoe.png" alt="Images/Cards/BirdofHorseshoe.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/BeastofHorseshoe.png" alt="Images/Cards/BeastofHorseshoe.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/GEh0HEMNaw-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/GEh0HEMNaw-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/GEh0HEMNaw-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/GEh0HEMNaw-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofHorseshoe.png" alt="Images/Cards/BeastofHorseshoe.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofHorseshoe.png" alt="Images/Cards/MythicalBeastofHorseshoe.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/hnM44HDTdS-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/hnM44HDTdS-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/hnM44HDTdS-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/hnM44HDTdS-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofHorseshoe.png" alt="Images/Cards/MythicalBeastofHorseshoe.png|165" width="165px"></picture><br>
+The Hawk The Hound The Pegasus</p>
+<p><picture src="/img/user/Images/Cards/DivinePowerofHorseshoe.png" alt="DivinePowerofHorseshoe.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/HzvzJuGMSJ-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/HzvzJuGMSJ-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/HzvzJuGMSJ-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/HzvzJuGMSJ-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinePowerofHorseshoe.png" alt="DivinePowerofHorseshoe.png|300" width="300px"></picture><br>
+Divine Power of Horseshoe : <strong>Rohir</strong>, God of Knights</p>
+<h3 id="hops" tabindex="-1">Hops</h3>
+<p><picture src="/img/user/Images/Cards/1ofHops.png" alt="Images/Cards/1ofHops.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/T4XVlkPmnu-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/T4XVlkPmnu-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/T4XVlkPmnu-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/T4XVlkPmnu-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofHops.png" alt="Images/Cards/1ofHops.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofHops.png" alt="Images/Cards/2ofHops.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/Dxgrfffle9-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/Dxgrfffle9-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/Dxgrfffle9-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Dxgrfffle9-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofHops.png" alt="Images/Cards/2ofHops.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofHops.png" alt="Images/Cards/3ofHops.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/iViDgRynwu-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/iViDgRynwu-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/iViDgRynwu-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/iViDgRynwu-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofHops.png" alt="Images/Cards/3ofHops.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofHops.png" alt="Images/Cards/4ofHops.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/f5p2-TOWNC-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/f5p2-TOWNC-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/f5p2-TOWNC-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/f5p2-TOWNC-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofHops.png" alt="Images/Cards/4ofHops.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofHops.png" alt="Images/Cards/5ofHops.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/YrThdpTqXL-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/YrThdpTqXL-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/YrThdpTqXL-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/YrThdpTqXL-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofHops.png" alt="Images/Cards/5ofHops.png|100" width="100px"></picture><br>
+1 - 5 of Hops<br>
+<picture src="/img/user/Images/Cards/BirdofHops.png" alt="Images/Cards/BirdofHops.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/K3urbgjFyV-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/K3urbgjFyV-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/K3urbgjFyV-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/K3urbgjFyV-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofHops.png" alt="Images/Cards/BirdofHops.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/BeastofHops.png" alt="Images/Cards/BeastofHops.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/90jbGRgxUA-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/90jbGRgxUA-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/90jbGRgxUA-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/90jbGRgxUA-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofHops.png" alt="Images/Cards/BeastofHops.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofHops.png" alt="Images/Cards/MythicalBeastofHops.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/iWV6YE4hhO-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/iWV6YE4hhO-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/iWV6YE4hhO-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/iWV6YE4hhO-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofHops.png" alt="Images/Cards/MythicalBeastofHops.png|165" width="165px"></picture><br>
+The Rooster The Goat The Ceberus</p>
+<p><picture src="/img/user/Images/Cards/DivinPowerofHops.png" alt="DivinPowerofHops.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/DvcDdR7_Ip-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/DvcDdR7_Ip-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/DvcDdR7_Ip-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/DvcDdR7_Ip-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofHops.png" alt="DivinPowerofHops.png|300" width="300px"></picture><br>
+Divine Power of Hops : <strong>Asmë</strong>, Goddess of Earth</p>
+<h2 id="silver-suites" tabindex="-1">Silver Suites</h2>
+<h3 id="crystal" tabindex="-1">Crystal</h3>
+<p><picture src="/img/user/Images/Cards/1ofCrystal.png" alt="Images/Cards/1ofCrystal.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/g7UXYnm9ZK-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/g7UXYnm9ZK-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/g7UXYnm9ZK-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/g7UXYnm9ZK-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofCrystal.png" alt="Images/Cards/1ofCrystal.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofCrystal.png" alt="Images/Cards/2ofCrystal.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/M68TeOaSDz-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/M68TeOaSDz-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/M68TeOaSDz-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/M68TeOaSDz-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofCrystal.png" alt="Images/Cards/2ofCrystal.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofCrystal.png" alt="Images/Cards/3ofCrystal.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/OOIwn4kmlf-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/OOIwn4kmlf-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/OOIwn4kmlf-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/OOIwn4kmlf-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofCrystal.png" alt="Images/Cards/3ofCrystal.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofCrystal.png" alt="Images/Cards/4ofCrystal.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/DekXumOdI8-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/DekXumOdI8-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/DekXumOdI8-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/DekXumOdI8-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofCrystal.png" alt="Images/Cards/4ofCrystal.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofCrystal.png" alt="Images/Cards/5ofCrystal.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/8jkbXXda6D-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/8jkbXXda6D-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/8jkbXXda6D-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/8jkbXXda6D-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofCrystal.png" alt="Images/Cards/5ofCrystal.png|100" width="100px"></picture><br>
+1 - 5 of Crystal<br>
+<picture src="/img/user/Images/Cards/BirdofCrystal.png" alt="Images/Cards/BirdofCrystal.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/oIZ89TtBYR-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/oIZ89TtBYR-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/oIZ89TtBYR-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/oIZ89TtBYR-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofCrystal.png" alt="Images/Cards/BirdofCrystal.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/BeastofCrystal.png" alt="Images/Cards/BeastofCrystal.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/5iMCKu7nnk-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/5iMCKu7nnk-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/5iMCKu7nnk-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/5iMCKu7nnk-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofCrystal.png" alt="Images/Cards/BeastofCrystal.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofCrystal.png" alt="Images/Cards/MythicalBeastofCrystal.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/o9QURpxXNR-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/o9QURpxXNR-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/o9QURpxXNR-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/o9QURpxXNR-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofCrystal.png" alt="Images/Cards/MythicalBeastofCrystal.png|165" width="165px"></picture><br>
+The Blackbird The Cat The White Deer</p>
+<p><picture src="/img/user/Images/Cards/DivinPowerofCrystal.png" alt="DivinPowerofCrystal.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/IzP-OsqOvj-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/IzP-OsqOvj-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/IzP-OsqOvj-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/IzP-OsqOvj-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofCrystal.png" alt="DivinPowerofCrystal.png|300" width="300px"></picture><br>
+Divine Power of Crystal : <strong>Melmbainas</strong>, God of Art and Craft</p>
+<h3 id="leaf" tabindex="-1">Leaf</h3>
+<p><picture src="/img/user/Images/Cards/1ofLeaf.png" alt="Images/Cards/1ofLeaf.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/JYVLEaNx-Q-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/JYVLEaNx-Q-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/JYVLEaNx-Q-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/JYVLEaNx-Q-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofLeaf.png" alt="Images/Cards/1ofLeaf.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofLeaf.png" alt="Images/Cards/2ofLeaf.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/ingEofY3D1-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/ingEofY3D1-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/ingEofY3D1-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/ingEofY3D1-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofLeaf.png" alt="Images/Cards/2ofLeaf.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofLeaf.png" alt="Images/Cards/3ofLeaf.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/BLcxoHGOdo-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/BLcxoHGOdo-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/BLcxoHGOdo-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/BLcxoHGOdo-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofLeaf.png" alt="Images/Cards/3ofLeaf.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofLeaf.png" alt="Images/Cards/4ofLeaf.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/2HDkdXSsPE-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/2HDkdXSsPE-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/2HDkdXSsPE-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/2HDkdXSsPE-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofLeaf.png" alt="Images/Cards/4ofLeaf.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofLeaf.png" alt="Images/Cards/5ofLeaf.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/poYQUaBHxB-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/poYQUaBHxB-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/poYQUaBHxB-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/poYQUaBHxB-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofLeaf.png" alt="Images/Cards/5ofLeaf.png|100" width="100px"></picture><br>
+1 - 5 of Leaf<br>
+<picture src="/img/user/Images/Cards/BirdofLeaf.png" alt="Images/Cards/BirdofLeaf.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/Xny0rTRNGt-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/Xny0rTRNGt-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/Xny0rTRNGt-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/Xny0rTRNGt-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofLeaf.png" alt="Images/Cards/BirdofLeaf.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/BeastofLeaf.png" alt="Images/Cards/BeastofLeaf.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/qms7EvJQ6T-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/qms7EvJQ6T-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/qms7EvJQ6T-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/qms7EvJQ6T-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofLeaf.png" alt="Images/Cards/BeastofLeaf.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofLeaf.png" alt="Images/Cards/MythicalBeastofLeaf.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/a8ToVFz1sr-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/a8ToVFz1sr-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/a8ToVFz1sr-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/a8ToVFz1sr-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofLeaf.png" alt="Images/Cards/MythicalBeastofLeaf.png|165" width="165px"></picture><br>
+The Owl The Snow Leopard The Werewolf</p>
+<p><picture src="/img/user/Images/Cards/DivinPowerofLeaf.png" alt="DivinPowerofLeaf.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/KYv4QjgZ_I-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/KYv4QjgZ_I-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/KYv4QjgZ_I-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/KYv4QjgZ_I-700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofLeaf.png" alt="DivinPowerofLeaf.png|300" width="300px"></picture><br>
+Divine Power of Leaf : <strong>Neries</strong>, Goddess of the Hunt</p>
+<h3 id="feather" tabindex="-1">Feather</h3>
+<p><picture src="/img/user/Images/Cards/1ofFeather.png" alt="Images/Cards/1ofFeather.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/61WSXvh2ay-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/61WSXvh2ay-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/61WSXvh2ay-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/61WSXvh2ay-700.jpeg"><img class="" src="/img/user/Images/Cards/1ofFeather.png" alt="Images/Cards/1ofFeather.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/2ofFeather.png" alt="Images/Cards/2ofFeather.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/DdMs1nuHB9-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/DdMs1nuHB9-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/DdMs1nuHB9-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/DdMs1nuHB9-700.jpeg"><img class="" src="/img/user/Images/Cards/2ofFeather.png" alt="Images/Cards/2ofFeather.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/3ofFeather.png" alt="Images/Cards/3ofFeather.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/EVtonAAi4O-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/EVtonAAi4O-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/EVtonAAi4O-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/EVtonAAi4O-700.jpeg"><img class="" src="/img/user/Images/Cards/3ofFeather.png" alt="Images/Cards/3ofFeather.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/4ofFeather.png" alt="Images/Cards/4ofFeather.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/vdBY6-vihL-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/vdBY6-vihL-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/vdBY6-vihL-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/vdBY6-vihL-700.jpeg"><img class="" src="/img/user/Images/Cards/4ofFeather.png" alt="Images/Cards/4ofFeather.png|100" width="100px"></picture> <picture src="/img/user/Images/Cards/5ofFeather.png" alt="Images/Cards/5ofFeather.png|100" width="100px"><source media="(max-width:480px)" srcset="/img/optimized/5L1rsqDaXQ-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/5L1rsqDaXQ-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/5L1rsqDaXQ-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/5L1rsqDaXQ-700.jpeg"><img class="" src="/img/user/Images/Cards/5ofFeather.png" alt="Images/Cards/5ofFeather.png|100" width="100px"></picture><br>
+1 - 5 of Feather</p>
+<p><picture src="/img/user/Images/Cards/BirdofFeather.png" alt="Images/Cards/BirdofFeather.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/6hTftT2I7J-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/6hTftT2I7J-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/6hTftT2I7J-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/6hTftT2I7J-700.jpeg"><img class="" src="/img/user/Images/Cards/BirdofFeather.png" alt="Images/Cards/BirdofFeather.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/BeastofFeather.png" alt="Images/Cards/BeastofFeather.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/oiZUSlgT5B-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/oiZUSlgT5B-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/oiZUSlgT5B-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/oiZUSlgT5B-700.jpeg"><img class="" src="/img/user/Images/Cards/BeastofFeather.png" alt="Images/Cards/BeastofFeather.png|165" width="165px"></picture> <picture src="/img/user/Images/Cards/MythicalBeastofFeather.png" alt="Images/Cards/MythicalBeastofFeather.png|165" width="165px"><source media="(max-width:480px)" srcset="/img/optimized/dtOSvRLya4-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/dtOSvRLya4-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/dtOSvRLya4-700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/dtOSvRLya4-700.jpeg"><img class="" src="/img/user/Images/Cards/MythicalBeastofFeather.png" alt="Images/Cards/MythicalBeastofFeather.png|165" width="165px"></picture><br>
+The Raven The White Fox The Silver Lynx</p>
+<p><picture src="/img/user/Images/Cards/DivinPowerofFeather.png" alt="DivinPowerofFeather.png|300" width="300px"><source media="(max-width:480px)" srcset="/img/optimized/us17xsFS7--500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/us17xsFS7--500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/us17xsFS7--700.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/us17xsFS7--700.jpeg"><img class="" src="/img/user/Images/Cards/DivinPowerofFeather.png" alt="DivinPowerofFeather.png|300" width="300px"></picture><br>
+Divine Power of Feather : <strong>Istaelas</strong>, Divinity of Magic</p>
+</main>
+<aside>
+<div class="sidebar">
+<div class="sidebar-container">
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#neledhir-common-cards">Neledhîr - Common Cards</a>
+<ol>
+<li><a href="#golden-suites">Golden Suites</a>
+<ol>
+<li><a href="#anvil">Anvil</a>
+</li>
+<li><a href="#lion">Lion</a>
+</li>
+<li><a href="#sword">Sword</a>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+<li><a href="#blue-suites">Blue Suites</a>
+<ol>
+<li><a href="#shipwheel">Shipwheel</a>
+</li>
+<li><a href="#horseshoe">Horseshoe</a>
+</li>
+<li><a href="#hops">Hops</a>
+</li>
+<li><a href="#silver-suites">Silver Suites</a>
+<ol>
+<li><a href="#crystal">Crystal</a>
+</li>
+<li><a href="#leaf">Leaf</a>
+</li>
+<li><a href="#feather">Feather</a>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<style>#tooltip-wrapper{background:var(--background-primary);padding:1em;border-radius:4px;overflow:hidden;position:fixed;width:80%;max-width:400px;height:auto;max-height:300px;font-size:.8em;box-shadow:0 5px 10px rgba(0,0,0,.1);opacity:0;transition:opacity .1s;unicode-bidi:plaintext;overflow-y:scroll;z-index:10}#tooltip-wrapper:after{content:"";position:absolute;z-index:1;bottom:0;left:0;pointer-events:none;width:100%;unicode-bidi:plaintext;height:75px}</style>
+<div style="opacity:0;display:none" id="tooltip-wrapper">
+<div id="tooltip-content">
+</div>
+</div>
+<iframe style="display:none;height:0;width:0" id="link-preview-iframe" src="">
+</iframe>
+<script>var opacityTimeout,contentTimeout,transitionDurationMs=100,iframe=document.getElementById("link-preview-iframe"),tooltipWrapper=document.getElementById("tooltip-wrapper"),tooltipContent=document.getElementById("tooltip-content"),linkHistories={};function hideTooltip(){opacityTimeout=setTimeout((function(){tooltipWrapper.style.opacity=0,contentTimeout=setTimeout((function(){tooltipContent.innerHTML="",tooltipWrapper.style.display="none"}),transitionDurationMs+1)}),transitionDurationMs)}function showTooltip(t){var e=t.target,o=e.getClientRects()[e.getClientRects().length-1],i=window.pageYOffset||document.documentElement.scrollTop,n=t.target.getAttribute("href");if(-1===n.indexOf("http")||-1!==n.indexOf(window.location.host)){let t=n.split("#")[0];linkHistories[t]?(tooltipContent.innerHTML=linkHistories[t],tooltipWrapper.style.display="block",setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)):(iframe.src=t,iframe.onload=function(){tooltipContentHtml="",tooltipContentHtml+='<div style="font-weight: bold; unicode-bidi: plaintext;">'+iframe.contentWindow.document.querySelector("h1").innerHTML+"</div>",tooltipContentHtml+=iframe.contentWindow.document.querySelector(".content").innerHTML,tooltipContent.innerHTML=tooltipContentHtml,linkHistories[t]=tooltipContentHtml,tooltipWrapper.style.display="block",tooltipWrapper.scrollTop=0,setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),console.log(e),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)}),tooltipWrapper.style.left=o.left-tooltipWrapper.offsetWidth/2+o.width/2+"px",window.innerHeight-o.top<tooltipWrapper.offsetHeight?tooltipWrapper.style.top=o.top+i-tooltipWrapper.offsetHeight-10+"px":window.innerHeight-o.top>tooltipWrapper.offsetHeight&&(tooltipWrapper.style.top=o.top+i+35+"px"),o.left+o.width/2<tooltipWrapper.offsetWidth/2?tooltipWrapper.style.left="10px":document.body.clientWidth-o.left-o.width/2<tooltipWrapper.offsetWidth/2&&(tooltipWrapper.style.left=document.body.clientWidth-tooltipWrapper.offsetWidth-20+"px")}}function setupListeners(t){t.addEventListener("mouseleave",(function(t){hideTooltip()})),tooltipWrapper.addEventListener("mouseleave",(function(t){hideTooltip()})),t.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout),showTooltip(t)})),tooltipWrapper.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout)}))}window.addEventListener("load",(function(t){document.querySelectorAll(".internal-link").forEach(setupListeners),document.querySelectorAll(".backlink-card a").forEach(setupListeners)}))</script>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>
