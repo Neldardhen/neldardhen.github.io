@@ -75,6 +75,7 @@ If a character has a rank high enough in a skill to buy more dice, but not enoug
 Some skill checks can benefit from the help of one or more other characters.
 To help on a skill checks, every character that want to help must make a check with the same skill and attribute as the main check, but with a set Difficulty of **10**.
 For every success, the person making the main check will be able to re-roll a die in there pool.
+If the roll for helping was a critical success, a die can be re-roll until it is no longer a 1.
 
 ### Fatigue, Exhaustion and Stress
 It is still possible to do a task with no resources left, but this will instead increment the _Fatigue_, _Exhaustion_ or _Stress_ level and prompt a roll on the corresponding Injury table. (see [[Neldardhen System/Rules/Old v1 rules/Combat and Injuries (v1)#^5a0385\|Injuries]]).
