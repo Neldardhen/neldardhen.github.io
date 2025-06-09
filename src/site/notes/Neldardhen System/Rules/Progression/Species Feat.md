@@ -9,7 +9,7 @@ List of Species and Subspecies Feats for the [[Neldardhen System/Neldar System\|
 Species Feats are gained at level 3, 6, 9, 12, 15, and 18
 For Feats gained at other levels see [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]].
 
-## Angessedir
+## ![Wyr-closeup.png|40](/img/user/Images/Species/Wyr-closeup.png) Angessedir
 ### Regenerative Tail
 **Prerequisite** : Level 3, All Subspecies
 _Once per Story_
@@ -66,9 +66,19 @@ _Work In Progress : Probably will give an unarmed attack dealing 1d4 Piercing_
 > Silent Flyer ->You are able to fly in total silent. You automatically succeed any stealth checks that rely on not making any sound if you are flying. OR Give Competency 2 on Stealth checks while flying ?
 
 ### Fly By Attack
+{ #e916e2}
+
 **Prerequisite** : Level 6, All Subspecies
 _At will_
 You can use 2 Actions to be able to Fly up to your speed and Melee Attack a creature in range that you are passing by. This move does not provoke Attack of Opportunity and you can keep flying.
+
+> [!wip] _Work In Progress_
+> ### Flying Archer
+> **Prerequisite** : Level 6 or 9 ???
+> _At will_
+> You can use bows to attack without the need to land. (Less precision ???)
+{ #3f21c7}
+
 
 > [!wip] _Work In Progress_
 > **Prerequisite** : Level 6 or 9 ???, Biiig Bird only
@@ -97,6 +107,14 @@ _Passive_
 **Prerequisite** : Level 6, Rhino Behemes only
 _At will_
 
+## Caergandir
+
+>[!wip] _Work In Progress_
+> ### Hard Scales
+> **Prerequisite** : Level 3, Caergandir
+> _Passive_
+> You have very hardy scales. Your gain a Resistance to Piercing / Slashing damage equals to half of your Body score rounded down.
+> The scales impair your movement in and out of water. You loose **-2**m on your walking and swimming speeds.   
 
 ## Caerfaldir and Lynfaldir
 
@@ -104,7 +122,11 @@ _At will_
 **Prerequisite** : Level 3, All Subspecies
 _Passive_
 You gain an unarmed attack that deals **1d4** Slashing damage.
-
+### A Cat Always Lands on Their Feet
+**Prerequisite** : Level 3, All Lynfaldir, All Caerfaldir except Tiger and Lion
+_Passive_
+When [[Neldardhen System/Rules/Terrain and Environment#^52b532\|falling]] you can always try the Athletics checks to try and soften your landing. This checks has **-2** to its Difficulty for you.
+Additionally, you ignore any Critical Failure effect on such a check. 
 ### Good Climber
 **Prerequisite** : Level 3, Jaguar Caerfaldir, Short-haired Lynfaldir
 _Passive_
@@ -180,11 +202,21 @@ You have traded your legs away for a magnificent snake tail. You can climb any p
 When you use a grapple on a creature the Difficulty to avoid it is doubled as you wrap your snake body around your prey and start crushing it. As long as your prey is grappled in this way, you cannot attack, but your prey takes **1d4** Bludgeoning damage at the start of its turn.  
 Your prey must not be amorphous.
 
-## Caergandir
-
->[!wip] _Work In Progress_
-> ### Hard Scales
-> **Prerequisite** : Level 3, Caergandir
-> _Passive_
-> You have very hardy scales. Your gain a Resistance to Piercing / Slashing damage equals to half of your Body score rounded down.
-> The scales impair your movement in and out of water. You loose **-2**m on your walking and swimming speeds.   
+## Elves
+### Prophetic Dreams
+**Prerequisite** : Level 3, Any Elf 
+_Passive_
+You sometime have prophetic dreams.  
+Each night the GM *secretly* rolls **1d6**.  
+On a **5** or **6**, you get a dream with a hint of truth as something that will happen in the future.  
+On a **2**, **3** or **4**, you have pleasant dreams or don't dream at all.  
+On a **1** you get a nightmare.
+### Spirit Tree
+**Prerequisite** : Level 3, Willow Elf 
+_Once per Story_
+Your Spirit is more strongly attached to your Body.  
+Once per Story, when your Stress level reaches **6** and you would normally die, you can stay alive and lower it to **4** instead.
+### Willow Bark is Good for Headache
+**Prerequisite** : Level 6, Willow Elf 
+_Passive_
+You get **+1d4** on your Resist checks based on Pain Tolerance.

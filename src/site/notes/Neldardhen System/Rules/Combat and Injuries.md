@@ -53,6 +53,14 @@ Once an attack is successful, the damage roll is defined by the weapon the attac
 
 **Unarmed Attack** : An unarmed physical attack is done like any attack, except its always deals 1 Bludgeoning Damage, unless the character possess a Feat that specify otherwise. 
 
+> [!wip] _Work In Progress_
+> **Flanking** : When a line from the middle of two allied token pass through an ennemy token.
+> When an ennemy is flanked it gets **-1d4** on any Dodge checks against melee attacks from one of the two allies.
+
+> [!wip] _Work In Progress_
+> **Attack of Opportunity** : Only characters or creatures with the [[Neldardhen System/Rules/Progression/Skill Feat#^150996\|Attack of Opportunity Feat]] can use Attacks of Opportunity.
+> When an ennemy is moving (unless they disengage ?? / Move only 2m ???), trying to cast a spell, use an object or making a ranged attack, you can attack them out of turn. (Once per round ?? At will ??) 
+
 **Instrument Attack or Healing**
 An attack roll or healing with an Instrument is done using Perfomance on Charisma and _resilience_ is used to buy the dice.
 When helaing the Difficulty is a set **12** that can be modified by the type or quality of the instrument.
@@ -86,7 +94,6 @@ Whenever a character is attacked during a round, they can choose to buy dice fro
 The first die is always free as well as any die granted by an eventual armour. The free dice are never removed from the Dice Pool.
 
 The armour value for the Mind is called Ward and the armour value for the Spirit is called Veil.
-
 
 ### Dual Wielding
 When a character is dual wielding weapons this enables them to make two attacks per Action, one with each weapons. However, the two attacks share the same dice pool based on the Fighting skill. Each attacks benefits from the free die and any speciality die any other die must be bought from the attack pool.

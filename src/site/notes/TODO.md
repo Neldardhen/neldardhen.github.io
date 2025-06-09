@@ -40,6 +40,7 @@ Create Feats (Obsidian and Foundry)
 - Create Active Effects from Macros
 - Add pronouns to Creature Sheet Template (to be compatible with macros and text for Active Effects)
 - Start switching Items Modifiers to Active Effects
+- Add Active Effects for Encumbered and Immobilized ??
 
 ### Digital Garden
 - ~~Publish Subspecies~~

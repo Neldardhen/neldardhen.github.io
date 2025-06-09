@@ -23,7 +23,7 @@ You suffer a **-1d6** on your_ Physic _and_ Reaction Speed _checks after every h
 
 As an other example, flying Species (or Subspecies) have lighter bones than other creatures and thus usually suffer from a Bludgeoning/Force damage Vulnerability.
 
-**Note on Flying** : When flying, you need to land on solid ground or an appropriate perch to be able to do anything else than moving or talking, unless you have a specific feat like Fly By Attack or Flying Archer. 
+**Note on Flying** : When [[Neldardhen System/Rules/Terrain and Environment#^cfad21\|flying]], you need to land on solid ground or an appropriate perch to be able to do anything else than moving or talking, unless you have a specific feat like [[Neldardhen System/Rules/Progression/Species Feat#^e916e2\|Fly By Attack]] or [[Neldardhen System/Rules/Progression/Species Feat#^3f21c7\|Flying Archer]]. 
 ### Senses { #443e3a}
 
 There are six main perception senses influenced by your species.

@@ -24,6 +24,8 @@ Every time you roll a  \[ skill \]. check, you can re-roll any **1**s once.
 > **Prerequisite** : Rank 3 in Fighting
 >_At will_ 
  -> Attack of Opportunity ??)
+{ #150996}
+
 
 > [!wip] _Work In Progress_ 
 > **Prerequisite** : Rank 3 in Linguistic/rhetoric
@@ -61,9 +63,9 @@ Every time you roll a  \[ skill \]. check, you can re-roll any **1**s once.
  -> You can make magical effect happens with your Raw Magic skill with _resilience_ instead of Arcane Magic with _focus_
 ## Level 8
 ### Expertise (skill)
-**Prerequisite** : Rank 4 in a skill
+**Prerequisite** : Rank 4 in a skill, already have the Competency Feat for that skill
 _Passive_
-You have attained a good level of competency in \[ skill \].
+You have attained an expert level of competency in \[ skill \].
 Every time you roll a  \[ skill \]. check, you can re-roll any **2**s or lower once.
 
 > [!gm] Note
@@ -95,6 +97,15 @@ You can add 1 die for every 10 point you have in your Spirit score on the damage
 > You pick up on new languages very fast and can get a basic understanding of what people are saying incredibly fast.
 
 ## Level 14
+### Mastery (skill)
+**Prerequisite** : Rank 5 in a skill, already have the Competency and Expertise Feats for that skill
+_Passive_
+You have attained a master level of competency in \[ skill \].
+Every time you roll a  \[ skill \]. check, you can re-roll any **3**s or lower once.
+You can always re-roll **1**s.
+
+> [!gm] Note
+> Mastery follows the same rules as Competency skill wise.
 
 > [!wip] _Work In Progress_
 
