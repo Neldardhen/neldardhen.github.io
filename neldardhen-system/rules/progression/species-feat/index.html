@@ -62,7 +62,7 @@ CTRL + K
 </div>
 </div>
 <script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
-<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-06-09T12:17:38.932Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-06-09T12:17:38.932Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-06-09T12:17:38.932Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-06-09T12:20:50.354Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-06-09T12:20:50.354Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-06-09T12:20:50.354Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
 <main class="content cm-s-obsidian">
 <header>
 <div class="header-meta">
@@ -128,7 +128,13 @@ Whip Tail -&gt; unarmed attack, only on creature behinf the character ??</p>
 <em>At will</em><br>
 Spines -&gt; Deals piercing damage back to melee attacker ?? Only if the attack was a bite, claw or punch ? ??</p>
 </div></div>
-<h2 id="aranlindir-holindir-and-daessalindir" tabindex="-1">Aranlindir, Hólindir and Daessalindir</h2>
+<h2 id="img-src-img-user-images-species-aranlin-png-alt-aranlin-png-40-width-40px-aranlindir-img-src-img-user-images-species-holin-jpg-alt-holin-jpg-40-width-40px-holindir-and-img-src-img-user-images-species-daessalin-png-alt-daessalin-png-40-width-40px-daessalindir" tabindex="-1"><picture src="/img/user/Images/Species/Aranlin.png" alt="Aranlin.png|40" width="40px"><source media="(max-width:480px)" srcset="/img/optimized/_F6qYHQ5W1-241.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/_F6qYHQ5W1-241.jpeg">
+<img class="" src="/img/user/Images/Species/Aranlin.png" alt="Aranlin.png|40" width="40px"></picture> Aranlindir, <picture src="/img/user/Images/Species/holin.jpg" alt="holin.jpg|40" width="40px"><source media="(max-width:480px)" srcset="/img/optimized/4NpHQMNKT8-200.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/4NpHQMNKT8-200.jpeg">
+<img class="" src="/img/user/Images/Species/holin.jpg" alt="holin.jpg|40" width="40px"></picture> Hólindir and <picture src="/img/user/Images/Species/Daessalin.png" alt="Daessalin.png|40" width="40px"><source media="(max-width:480px)" srcset="/img/optimized/SzYCdfs4F1-366.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/SzYCdfs4F1-366.jpeg">
+<img class="" src="/img/user/Images/Species/Daessalin.png" alt="Daessalin.png|40" width="40px"></picture> Daessalindir</h2>
 <h3 id="naturally-lucky" tabindex="-1">Naturally Lucky</h3>
 <p><strong>Granted</strong> at level 1 to Magpie Daessalindir<br>
 <em>Once per Day</em><br>
@@ -179,14 +185,14 @@ Mimicry -&gt;You can almost perfectly imitate any sounds</p>
 Trickster -&gt;???</p>
 </div></div>
 <h2 id="behemes" tabindex="-1">Behemes</h2>
-<div class="callout" data-callout="wip"><div class="callout-title"><div class="callout-title-inner"> <em>Work In Progress</em><br></div></div>
+<div class="callout" data-callout="wip"><div class="callout-title"><div class="callout-title-inner"> <em>Work In Progress</em></div></div>
 <div class="callout-content">
 <p>
-Blood-Sweat<br>
-<strong>Prerequisite</strong> : Level 3, Hippo and Pygmy Hippo Behemes only<br>
+</p><h3 id="blood-sweat" tabindex="-1">Blood-Sweat</h3>
+<p></p></div></div>
+<p><strong>Prerequisite</strong> : Level 3, Hippo and Pygmy Hippo Behemes only<br>
 <em>Passive</em><br>
 Natural sunscreen !</p>
-</div></div>
 <h3 id="gore" tabindex="-1">Gore</h3>
 <div class="callout" data-callout="wip"><div class="callout-title"><div class="callout-title-inner"> <em>Work In Progress</em><br></div></div>
 <div class="callout-content">
@@ -194,7 +200,9 @@ Natural sunscreen !</p>
 <strong>Prerequisite</strong> : Level 6, Rhino Behemes only<br>
 <em>At will</em></p>
 </div></div>
-<h2 id="caergandir" tabindex="-1">Caergandir</h2>
+<h2 id="img-src-img-user-images-species-vobarus-png-alt-vobarus-png-40-width-40px-caergandir" tabindex="-1"><picture src="/img/user/Images/Species/Vobarus.png" alt="Vobarus.png|40" width="40px"><source media="(max-width:480px)" srcset="/img/optimized/jQB_zVh-ar-500.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/jQB_zVh-ar-500.jpeg">
+<source media="(max-width:1920px)" srcset="/img/optimized/jQB_zVh-ar-514.webp" type="image/webp"><source media="(max-width:1920px)" srcset="/img/optimized/jQB_zVh-ar-514.jpeg"><img class="" src="/img/user/Images/Species/Vobarus.png" alt="Vobarus.png|40" width="40px"></picture> Caergandir</h2>
 <div class="callout" data-callout="wip"><div class="callout-title"><div class="callout-title-inner"> <em>Work In Progress</em></div></div>
 <div class="callout-content">
 <p>
@@ -204,7 +212,11 @@ Natural sunscreen !</p>
 You have very hardy scales. Your gain a Resistance to Piercing / Slashing damage equals to half of your Body score rounded down.<br>
 The scales impair your movement in and out of water. You loose <strong>-2</strong>m on your walking and swimming speeds.</p>
 </div></div>
-<h2 id="caerfaldir-and-lynfaldir" tabindex="-1">Caerfaldir and Lynfaldir</h2>
+<h2 id="img-src-img-user-images-species-ahiir-png-alt-ahiir-png-40-width-40px-caerfaldir-and-img-src-img-user-images-species-tabaxibard-closeup-png-alt-tabaxibard-closeup-png-40-width-40px-lynfaldir" tabindex="-1"><picture src="/img/user/Images/Species/Ahiir.png" alt="Ahiir.png|40" width="40px"><source media="(max-width:480px)" srcset="/img/optimized/XiB715rK3N-249.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/XiB715rK3N-249.jpeg">
+<img class="" src="/img/user/Images/Species/Ahiir.png" alt="Ahiir.png|40" width="40px"></picture> Caerfaldir and <picture src="/img/user/Images/Species/tabaxibard-closeup.png" alt="tabaxibard-closeup.png|40" width="40px"><source media="(max-width:480px)" srcset="/img/optimized/63CEwxBHyM-345.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/63CEwxBHyM-345.jpeg">
+<img class="" src="/img/user/Images/Species/tabaxibard-closeup.png" alt="tabaxibard-closeup.png|40" width="40px"></picture> Lynfaldir</h2>
 <h3 id="sharp-claws" tabindex="-1">Sharp Claws</h3>
 <p><strong>Prerequisite</strong> : Level 3, All Subspecies<br>
 <em>Passive</em><br>
@@ -249,7 +261,9 @@ You prey must have a skull and brain.</p>
 <em>Once per Day</em><br>
 You are a descendant of the union of the Lynx and the Morning Star.<br>
 Once per day, when the Morning Star appears in the sky you regain <strong>1d6</strong> <em>focus</em> points.</p>
-<h2 id="dwarves" tabindex="-1">Dwarves</h2>
+<h2 id="img-src-img-user-images-species-beriagond-png-alt-beriagond-png-40-width-40px-dwarves" tabindex="-1"><picture src="/img/user/Images/Species/Beriagond.png" alt="Beriagond.png|40" width="40px"><source media="(max-width:480px)" srcset="/img/optimized/RX2fZUYIGQ-477.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/RX2fZUYIGQ-477.jpeg">
+<img class="" src="/img/user/Images/Species/Beriagond.png" alt="Beriagond.png|40" width="40px"></picture> Dwarves</h2>
 <h3 id="an-eye-for-gems" tabindex="-1">An Eye for Gems</h3>
 <p><strong>Prerequisite</strong> : Level 3, All Dwarves Subspecies<br>
 <em>Passive</em><br>
@@ -262,7 +276,9 @@ You have an eye for metals. Any checks made to appraise or create tools or jewel
 <p><strong>Prerequisite</strong> : Level 3, All Dwarves Subspecies<br>
 <em>Passive</em><br>
 You have an eye for stone. You can spot any weakness in a stone structure. Any check to destroy, weaken or reinforce a stone structure as a Difficulty of -<strong>4</strong> for you.</p>
-<h2 id="essedir" tabindex="-1">Essedir</h2>
+<h2 id="img-src-img-user-images-species-sertass-png-alt-sertass-png-40-width-40px-essedir" tabindex="-1"><picture src="/img/user/Images/Species/Sertass.png" alt="Sertass.png|40" width="40px"><source media="(max-width:480px)" srcset="/img/optimized/035HUkj4b_-497.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/035HUkj4b_-497.jpeg">
+<img class="" src="/img/user/Images/Species/Sertass.png" alt="Sertass.png|40" width="40px"></picture> Essedir</h2>
 <h3 id="poisonous-bite" tabindex="-1">Poisonous Bite</h3>
 <p><strong>Prerequisite</strong> : Level 3, Viper Esserdir<br>
 <em>Passive</em><br>
@@ -274,7 +290,9 @@ The Poison inflict <strong>1d2</strong> endurance damage at the start of the cre
 You have traded your legs away for a magnificent snake tail. You can climb any pillar-like shape using your walking speed and can ignore difficult terrain due to sand or snow.<br>
 When you use a grapple on a creature the Difficulty to avoid it is doubled as you wrap your snake body around your prey and start crushing it. As long as your prey is grappled in this way, you cannot attack, but your prey takes <strong>1d4</strong> Bludgeoning damage at the start of its turn.<br>
 Your prey must not be amorphous.</p>
-<h2 id="elves" tabindex="-1">Elves</h2>
+<h2 id="img-src-img-user-images-species-glirmegil-closeup-png-alt-glirmegil-closeup-png-40-width-40px-elves" tabindex="-1"><picture src="/img/user/Images/Species/Glirmegil-closeup.png" alt="Glirmegil-closeup.png|40" width="40px"><source media="(max-width:480px)" srcset="/img/optimized/nSd5tLWzEy-450.webp" type="image/webp">
+<source media="(max-width:480px)" srcset="/img/optimized/nSd5tLWzEy-450.jpeg">
+<img class="" src="/img/user/Images/Species/Glirmegil-closeup.png" alt="Glirmegil-closeup.png|40" width="40px"></picture> Elves</h2>
 <h3 id="prophetic-dreams" tabindex="-1">Prophetic Dreams</h3>
 <p><strong>Prerequisite</strong> : Level 3, Any Elf<br>
 <em>Passive</em><br>
@@ -313,7 +331,7 @@ On this page
 </li>
 </ol>
 </li>
-<li><a href="#aranlindir-holindir-and-daessalindir">Aranlindir, Hólindir and Daessalindir</a>
+<li><a href="#img-src-img-user-images-species-aranlin-png-alt-aranlin-png-40-width-40px-aranlindir-img-src-img-user-images-species-holin-jpg-alt-holin-jpg-40-width-40px-holindir-and-img-src-img-user-images-species-daessalin-png-alt-daessalin-png-40-width-40px-daessalindir">Aranlindir, Hólindir and Daessalindir</a>
 <ol>
 <li><a href="#naturally-lucky">Naturally Lucky</a>
 </li>
@@ -327,17 +345,19 @@ On this page
 </li>
 <li><a href="#behemes">Behemes</a>
 <ol>
+<li><a href="#blood-sweat">Blood-Sweat</a>
+</li>
 <li><a href="#gore">Gore</a>
 </li>
 </ol>
 </li>
-<li><a href="#caergandir">Caergandir</a>
+<li><a href="#img-src-img-user-images-species-vobarus-png-alt-vobarus-png-40-width-40px-caergandir">Caergandir</a>
 <ol>
 <li><a href="#hard-scales">Hard Scales</a>
 </li>
 </ol>
 </li>
-<li><a href="#caerfaldir-and-lynfaldir">Caerfaldir and Lynfaldir</a>
+<li><a href="#img-src-img-user-images-species-ahiir-png-alt-ahiir-png-40-width-40px-caerfaldir-and-img-src-img-user-images-species-tabaxibard-closeup-png-alt-tabaxibard-closeup-png-40-width-40px-lynfaldir">Caerfaldir and Lynfaldir</a>
 <ol>
 <li><a href="#sharp-claws">Sharp Claws</a>
 </li>
@@ -361,7 +381,7 @@ On this page
 </li>
 </ol>
 </li>
-<li><a href="#dwarves">Dwarves</a>
+<li><a href="#img-src-img-user-images-species-beriagond-png-alt-beriagond-png-40-width-40px-dwarves">Dwarves</a>
 <ol>
 <li><a href="#an-eye-for-gems">An Eye for Gems</a>
 </li>
@@ -371,7 +391,7 @@ On this page
 </li>
 </ol>
 </li>
-<li><a href="#essedir">Essedir</a>
+<li><a href="#img-src-img-user-images-species-sertass-png-alt-sertass-png-40-width-40px-essedir">Essedir</a>
 <ol>
 <li><a href="#poisonous-bite">Poisonous Bite</a>
 </li>
@@ -379,7 +399,7 @@ On this page
 </li>
 </ol>
 </li>
-<li><a href="#elves">Elves</a>
+<li><a href="#img-src-img-user-images-species-glirmegil-closeup-png-alt-glirmegil-closeup-png-40-width-40px-elves">Elves</a>
 <ol>
 <li><a href="#prophetic-dreams">Prophetic Dreams</a>
 </li>
