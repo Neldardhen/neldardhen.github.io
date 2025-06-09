@@ -49,7 +49,7 @@ Once in your lifetime, you can let go of your tail and it will grow back over th
 > **Prerequisite** : Level 3, Iguana Angessedir
 > _At will_
 > Spines -> Deals piercing damage back to melee attacker ?? Only if the attack was a bite, claw or punch ?  ??
-## Aranlindir, Hólindir and Daessalindir 
+## ![Aranlin.png|40](/img/user/Images/Species/Aranlin.png) Aranlindir, ![holin.jpg|40](/img/user/Images/Species/holin.jpg) Hólindir and ![Daessalin.png|40](/img/user/Images/Species/Daessalin.png) Daessalindir 
 ### Naturally Lucky
 **Granted** at level 1 to Magpie Daessalindir
 _Once per Day_
@@ -97,7 +97,7 @@ You can use 2 Actions to be able to Fly up to your speed and Melee Attack a crea
 ## Behemes
 
  > [!wip] _Work In Progress_
- > Blood-Sweat
+ > ### Blood-Sweat
 **Prerequisite** : Level 3, Hippo and Pygmy Hippo Behemes only 
 _Passive_
  Natural sunscreen !
@@ -107,7 +107,7 @@ _Passive_
 **Prerequisite** : Level 6, Rhino Behemes only
 _At will_
 
-## Caergandir
+## ![Vobarus.png|40](/img/user/Images/Species/Vobarus.png) Caergandir
 
 >[!wip] _Work In Progress_
 > ### Hard Scales
@@ -116,7 +116,7 @@ _At will_
 > You have very hardy scales. Your gain a Resistance to Piercing / Slashing damage equals to half of your Body score rounded down.
 > The scales impair your movement in and out of water. You loose **-2**m on your walking and swimming speeds.   
 
-## Caerfaldir and Lynfaldir
+## ![Ahiir.png|40](/img/user/Images/Species/Ahiir.png) Caerfaldir and ![tabaxibard-closeup.png|40](/img/user/Images/Species/tabaxibard-closeup.png) Lynfaldir
 
 ### Sharp Claws
 **Prerequisite** : Level 3, All Subspecies
@@ -169,7 +169,7 @@ _Once per Day_
 You are a descendant of the union of the Lynx and the Morning Star.  
 Once per day, when the Morning Star appears in the sky you regain **1d6** _focus_ points.
 
-## Dwarves
+## ![Beriagond.png|40](/img/user/Images/Species/Beriagond.png) Dwarves
 
 ### An Eye for Gems
 **Prerequisite** : Level 3, All Dwarves Subspecies
@@ -187,7 +187,7 @@ _Passive_
 You have an eye for stone. You can spot any weakness in a stone structure. Any check to destroy, weaken or reinforce a stone structure as a Difficulty of -**4** for you.
 
 
-## Essedir
+## ![Sertass.png|40](/img/user/Images/Species/Sertass.png) Essedir
 
 ### Poisonous Bite
 **Prerequisite** : Level 3, Viper Esserdir
@@ -202,7 +202,7 @@ You have traded your legs away for a magnificent snake tail. You can climb any p
 When you use a grapple on a creature the Difficulty to avoid it is doubled as you wrap your snake body around your prey and start crushing it. As long as your prey is grappled in this way, you cannot attack, but your prey takes **1d4** Bludgeoning damage at the start of its turn.  
 Your prey must not be amorphous.
 
-## Elves
+## ![Glirmegil-closeup.png|40](/img/user/Images/Species/Glirmegil-closeup.png) Elves
 ### Prophetic Dreams
 **Prerequisite** : Level 3, Any Elf 
 _Passive_
