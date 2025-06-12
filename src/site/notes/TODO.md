@@ -38,11 +38,22 @@ Create Feats (Obsidian and Foundry)
 - ~~Debug Leather Armour not applying bonus to defense~~
 - Update Currency on Character Sheet for each member of the Party when sharing currency from the Party Overview Sheet...
 - Correct the style sheets (which one ?) to force background colour **and** text colour. Problem in some cases with dark mode.
+- Change Progression (feat_display Item template) to Trainer (Actor template) (no more mess with the Items on Item thing)
 #### CSB update to 4.5.0
 - Create Active Effects from Macros
 - Add pronouns to Creature Sheet Template (to be compatible with macros and text for Active Effects)
 - Start switching Items Modifiers to Active Effects
+	- Equippable Items
+	- Weapons
+	- Armours
+	- Shields
+	- Other (weight ? or redisigne weight system)
+	- Creature Traits
+	- Feats
 - Add Active Effects for Encumbered and Immobilized ??
+- Switch Species Traits as Active Item on Species or Subspecies
+- Consolidate Macros for applying Active Effects.
+
 
 ### Digital Garden
 - ~~Publish Subspecies~~
