@@ -54,8 +54,14 @@ Once an attack is successful, the damage roll is defined by the weapon the attac
 **Unarmed Attack** : An unarmed physical attack is done like any attack, except its always deals 1 Bludgeoning Damage, unless the character possess a Feat that specify otherwise. 
 
 > [!wip] _Work In Progress_
-> **Flanking** : When a line from the middle of two allied token pass through an ennemy token.
+> **Flanking** : When a line from the middle of two allied tokens pass through an ennemy token, the ennemy is flanked by the two allies.
 > When an ennemy is flanked it gets **-1d4** on any Dodge checks against melee attacks from one of the two allies.
+> OR
+>  **Flanking** : When a line from the middle of two allied tokens pass through an ennemy token, the ennemy is flanked by the two allies.
+> When an ennemy is flanked, the allies flanking them get a free **1d4** on their melee attacks.
+> OR
+>  **Flanking** : When a line from the middle of two allied tokens pass through an ennemy token, the ennemy is flanked by the two allies.
+> When an ennemy is flanked, the allies flanking them get a free die of 1 catagory less than their main die on their melee attacks.
 
 > [!wip] _Work In Progress_
 > **Attack of Opportunity** : Only characters or creatures with the [[Neldardhen System/Rules/Progression/Skill Feat#^150996\|Attack of Opportunity Feat]] can use Attacks of Opportunity.
