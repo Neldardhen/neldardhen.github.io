@@ -28,7 +28,7 @@ An **Action** is :
 
 	- **Step** (Move 2m without provoking [[Neldardhen System/Rules/Progression/Skill Feat#^150996\|Attacks of Opportunity]])
 	- **Charge** (Use 2 Actions to move in a straight line up to twice your speed and make a mele attack. )
-	- **Disengage** (use both of your Actions to move up to your speed, but without provoking[[Neldardhen System/Rules/Progression/Skill Feat#^150996\|Attacks of Opportunity]])
+	- **Disengage** (use both of your Actions to move up to your speed, but without provoking [[Neldardhen System/Rules/Progression/Skill Feat#^150996\|Attacks of Opportunity]])
 - **Attack** (make a melee or ranged attack)
 	- **Grapple** (No damage, but reduces any speed to 0. - needs a free hand)
 	- **Shove** (No damage but push the target 2m away - needs a free hand or shield)
@@ -56,8 +56,8 @@ Once an attack is successful, the damage roll is defined by the weapon the attac
 
 **Unarmed Attack** : An unarmed physical attack is done like any attack, except its always deals 1 Bludgeoning Damage, unless the character possess a Feat that specify otherwise. 
 
-**Flanking** (melee) : When a line from the middle of two allied tokens pass through an ennemy token, the ennemy is flanked by the two allies.
-When an ennemy is flanked, the allies flanking them get a free die of 1 catagory less than their main die on their melee attacks.
+**Flanking** (melee) : When a line from the middle of two allied tokens pass through an enemy token, the enemy is flanked by the two allies.
+When an enemy is flanked, the allies flanking them get a free die of 1 category less than their main die on their melee attacks.
 
 **Instrument Attack or Healing**
 An attack roll or healing with an Instrument is done using Perfomance on Charisma and _resilience_ is used to buy the dice.

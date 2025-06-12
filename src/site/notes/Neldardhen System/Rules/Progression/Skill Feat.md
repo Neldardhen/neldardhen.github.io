@@ -23,7 +23,7 @@ Every time you roll a  \[ skill \]. check, you can re-roll any **1**s once.
 ### Attack of Opportunity
 **Prerequisite** : Rank 3 in Fighting
 _At will (once per round)_ 
-Once per round, when it's not your turn, you can attack a target within your reach with a melee attack that tries to move more than 2m without [[Neldardhen System/Rules/Combat and Injuries#^ac1624\|disengaging]], cast a spell, make a range attack or use an item. 
+Once per round, when it's not your turn, you can attack a target within your reach with a melee attack who tries to move more than 2m without [[Neldardhen System/Rules/Combat and Injuries#^ac1624\|disengaging]], cast a spell, make a range attack or use an item. 
 { #150996}
 
 
@@ -88,7 +88,7 @@ You can add 1 die for every 10 point you have in your Spirit score on the damage
 ### Stop Right Here
 **Prerequisite** : Rank 5 in Fighting, already has the Attack of Opportunity Feat
 _At will (once per round)_ 
-Attack of Opportunity interupts the target (movement is stopped or the action to cast the spell or use the item is lost.)
+Attack of Opportunity interrupts the target (movement is stopped or the action to cast the spell or use the item is lost.)
  
 ### Multiple Attacks of Opportunity
 **Prerequisite** : Rank 5 in Fighting, already has the Attack of Opportunity Feat
