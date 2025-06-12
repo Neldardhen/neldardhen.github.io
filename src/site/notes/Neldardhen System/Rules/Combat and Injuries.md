@@ -43,8 +43,8 @@ An **Action** is :
 Out of their turn a combattant can :
 - Attack of Opportunity (need a special Feat to unlock, or a weapon with a special trait)
 - Defend 
-	- Deflect or Dodge a spell or attack.
-	- Resist an attack or spell.
+	-  Dodge an attack, spell. or ability (avoid all damage)
+	- Resist an attack, spell or ability. (Half damage, avoid Condition)
 
 **Attack**
 An attack roll with a weapon works like a skill check on Fighting with Physics. It is not possible to make an attack with Reaction Speed or Pain Tolerance, except if a particular weapon allows it.
@@ -67,17 +67,17 @@ When helaing the Difficulty is a set **12** that can be modified by the type or 
 
 **Insult** : An insult can be seen as a sort of unarmed Instrument Attack. It is roll with Performance on Charisma and deals a fixed 1 Anxiety Damage on the Spirit. (see [[Neldardhen System/Rules/Combat and Injuries#^173746\|Damage Types]]). As with all Instrument Attacks, an Insult cannot be dodge only resisted. For this special case, if the target successfully Resists the insult all damage is negated. 
 
-**Deflecting or Dodging**
-Deflecting or Dodging a spell or an attack by using dice from the appropriate Defense Pool (see below) will allow the combatant to completely negates all effects of the spell or the attack.
+**Dodging**
+Dodging an attack, spell or ability by using dice from the appropriate Defense Pool (see below) will allow the combatant to completely negates all effects of the spell or the attack.
 
-Deflect / Dodge checks are always made on Wits, Reaction Speed or Insight / Manipulation and it is not possible to buy dice with an other resource.
+Dodge checks are always made on Wits, Reaction Speed or Insight / Manipulation and it is not possible to buy dice with an other resource.
 
-_Dodging a Body attack is always rolled with Fighting on Reaction Speed and only endurence can by use to buy dice from the Body Defense Pool._
+_Dodging a Body attack is always rolled with Fighting on Reaction Speed and only endurence can be use to buy dice from the Body Defense Pool._
 
 **Resisting**
 Resisting a spell or an attack by using dice from the appropriate Defense Pool (see below) will allow the combattant to halve any incoming damage and avoid additional effects or conditions.
 
-In usual circomstances the defendant can choose to Dodge/Deflect or Resist the effects of an incoming attack unless the attack precise otherwise. A spellcaster can choose if their spell can be Deflected only, Resisted only or let the target choose. (see. [[Neldardhen System/Rules/Spells#^bdc950\|Spells]])
+In usual circomstances the defendant can choose to Dodge/Deflect or Resist the effects of an incoming attack unless the attack precises otherwise. A spellcaster can choose if their spell can be Deflected only, Resisted only or let the target choose. (see. [[Neldardhen System/Rules/Spells#^bdc950\|Spells]])
 
 _Resisting a Spirit attack is always rolled with Raw Magic on Volition and only resilience can by use to buy dice from the Spirit Defense Pool._
 
