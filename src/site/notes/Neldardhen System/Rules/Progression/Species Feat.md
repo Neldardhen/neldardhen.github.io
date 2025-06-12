@@ -216,6 +216,8 @@ On a **1** you get a nightmare.
 _Once per Story_
 Your Spirit is more strongly attached to your Body.  
 Once per Story, when your Stress level reaches **6** and you would normally die, you can stay alive and lower it to **4** instead.
+{ #df31ab}
+
 ### Willow Bark is Good for Headache
 **Prerequisite** : Level 6, Willow Elf 
 _Passive_

@@ -44,7 +44,7 @@ An **Action** is :
 - **Ready an Action** (Readying an Action allows to act out of turn, when a trigger occurs but takes **2 Actions**)
 
 Out of their turn a combattant can :
-- **Attack of Opportunity** (need a special Feat to unlock, or a weapon with a special trait)
+- **Attack of Opportunity** (need the [[Neldardhen System/Rules/Progression/Skill Feat#^150996\|Attack of Opportunity Feat]] to unlock, or a weapon with a special trait)
 - **Defend** 
 	-  **Dodge** an attack, spell. or ability (avoid all damage)
 	- **Resist** an attack, spell or ability. (Half damage, avoid Condition)
@@ -58,10 +58,6 @@ Once an attack is successful, the damage roll is defined by the weapon the attac
 
 **Flanking** (melee) : When a line from the middle of two allied tokens pass through an ennemy token, the ennemy is flanked by the two allies.
 When an ennemy is flanked, the allies flanking them get a free die of 1 catagory less than their main die on their melee attacks.
-
-> [!wip] _Work In Progress_
-> **Attack of Opportunity** : Only characters or creatures with the [[Neldardhen System/Rules/Progression/Skill Feat#^150996\|Attack of Opportunity Feat]] can use Attacks of Opportunity.
-> When an ennemy is moving (unless they disengage ?? / Move only 2m ???), trying to cast a spell, use an object or making a ranged attack, you can attack them out of turn. (Once per round ?? At will ??). An Attack of Opportunity is always 1 attack even if the character is Dual Wielding.
 
 **Instrument Attack or Healing**
 An attack roll or healing with an Instrument is done using Perfomance on Charisma and _resilience_ is used to buy the dice.
@@ -159,6 +155,7 @@ A paralytic poison will probably have different lasting effects than a burn or a
 To simplify combat, creature controlled by the game masters don't get injuries. They will instead die as soon as either their _focus, endurance_ or _resilience_ reach 0. 
 When a creature drops to 0 in a resource due to something else than damage (while attacking or defending) the creature doesn't die immediately, but enters a weaken state where they can not use abilities that cost them more than 1 of this resource.
 ## Death
-At any moment, if the _Fatigue_, _Exhaustion_ or _Stress_ level of a character goes above **6** the character dies.
+At any moment, if the _Fatigue_, _Exhaustion_ or _Stress_ level of a character goes above **6** the character dies. 
+There is one exception for [[Neldardhen World/Species/SubSpecies/Willow Elves\|Willow Elves]] who get the [[Neldardhen System/Rules/Progression/Species Feat#^df31ab\|Spirit Tree Feats]].
 
 Death is permanent, resurrection magic doesn't exist in this world.
