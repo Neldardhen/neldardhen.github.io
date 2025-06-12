@@ -23,28 +23,31 @@ Sometimes it is also possible to roll Initiative with one of the Senses/Percepti
 Combatants take their turn in order of initiative. On their turn a combatant can take **2 Actions**.
 
 An **Action** is :
-- Move (up to one's speed)
-	- Step
-	- Charge
-- Attack
-	- Grapple (No damage, but reduces any speed to 0. - needs a free hand)
-	- Shove (No damage but push the target 2m away - needs a free hand or shield)
-	- Throw (A character can throw a light weapon up to 2* their physics die in meters)
-	- Take Aim (Next ranged attack action will gain a free die of 1 category less)
-	- Reload (Some weapons, like crossbows, need to be reloaded with 1 Action)
-- Attack with an Instrument
-	-  Insult (Sort of unarmed Instrument Attack, see below)
-- Healing with an Instrument
-- Cast a spell (see [[Neldardhen System/Rules/Spells\|Spells]])
-	- Remove 1 rune from a spell and add 1 rune to a spell.
-- Use a special ability
-- Ready an Action (Readying an Action allows to act out of turn, but takes **2 Actions**)
+- **Move** (up to one's speed)
+{ #ac1624}
+
+	- **Step** (Move 2m without provoking [[Neldardhen System/Rules/Progression/Skill Feat#^150996\|Attacks of Opportunity]])
+	- **Charge** (Use 2 Actions to move in a straight line up to twice your speed and make a mele attack. )
+	- **Disengage** (use both of your Actions to move up to your speed, but without provoking[[Neldardhen System/Rules/Progression/Skill Feat#^150996\|Attacks of Opportunity]])
+- **Attack** (make a melee or ranged attack)
+	- **Grapple** (No damage, but reduces any speed to 0. - needs a free hand)
+	- **Shove** (No damage but push the target 2m away - needs a free hand or shield)
+	- **Throw** (A character can throw a light weapon up to **2** times their physics die in meters)
+	- **Take Aim** (Next ranged attack action will gain a free die of 1 category less)
+	- **Reload** (Some weapons, like crossbows, need to be reloaded with 1 Action)
+- **Attack with an Instrument**
+	-  **Insult** (Sort of unarmed Instrument Attack, see below)
+- **Healing with an Instrument**
+- **Cast a spell** (see [[Neldardhen System/Rules/Spells\|Spells]])
+	- **Remove** 1 rune from a spell and **add** 1 rune to a spell.
+- Use a special ability (mainly for creatures)
+- **Ready an Action** (Readying an Action allows to act out of turn, when a trigger occurs but takes **2 Actions**)
 
 Out of their turn a combattant can :
-- Attack of Opportunity (need a special Feat to unlock, or a weapon with a special trait)
-- Defend 
-	-  Dodge an attack, spell. or ability (avoid all damage)
-	- Resist an attack, spell or ability. (Half damage, avoid Condition)
+- **Attack of Opportunity** (need a special Feat to unlock, or a weapon with a special trait)
+- **Defend** 
+	-  **Dodge** an attack, spell. or ability (avoid all damage)
+	- **Resist** an attack, spell or ability. (Half damage, avoid Condition)
 
 **Attack**
 An attack roll with a weapon works like a skill check on Fighting with Physics. It is not possible to make an attack with Reaction Speed or Pain Tolerance, except if a particular weapon allows it.
@@ -53,19 +56,12 @@ Once an attack is successful, the damage roll is defined by the weapon the attac
 
 **Unarmed Attack** : An unarmed physical attack is done like any attack, except its always deals 1 Bludgeoning Damage, unless the character possess a Feat that specify otherwise. 
 
-> [!wip] _Work In Progress_
-> **Flanking** : When a line from the middle of two allied tokens pass through an ennemy token, the ennemy is flanked by the two allies.
-> When an ennemy is flanked it gets **-1d4** on any Dodge checks against melee attacks from one of the two allies.
-> OR
->  **Flanking** : When a line from the middle of two allied tokens pass through an ennemy token, the ennemy is flanked by the two allies.
-> When an ennemy is flanked, the allies flanking them get a free **1d4** on their melee attacks.
-> OR
->  **Flanking** : When a line from the middle of two allied tokens pass through an ennemy token, the ennemy is flanked by the two allies.
-> When an ennemy is flanked, the allies flanking them get a free die of 1 catagory less than their main die on their melee attacks.
+**Flanking** (melee) : When a line from the middle of two allied tokens pass through an ennemy token, the ennemy is flanked by the two allies.
+When an ennemy is flanked, the allies flanking them get a free die of 1 catagory less than their main die on their melee attacks.
 
 > [!wip] _Work In Progress_
 > **Attack of Opportunity** : Only characters or creatures with the [[Neldardhen System/Rules/Progression/Skill Feat#^150996\|Attack of Opportunity Feat]] can use Attacks of Opportunity.
-> When an ennemy is moving (unless they disengage ?? / Move only 2m ???), trying to cast a spell, use an object or making a ranged attack, you can attack them out of turn. (Once per round ?? At will ??) 
+> When an ennemy is moving (unless they disengage ?? / Move only 2m ???), trying to cast a spell, use an object or making a ranged attack, you can attack them out of turn. (Once per round ?? At will ??). An Attack of Opportunity is always 1 attack even if the character is Dual Wielding.
 
 **Instrument Attack or Healing**
 An attack roll or healing with an Instrument is done using Perfomance on Charisma and _resilience_ is used to buy the dice.

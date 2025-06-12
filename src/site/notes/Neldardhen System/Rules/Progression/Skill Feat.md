@@ -22,8 +22,8 @@ Every time you roll a  \[ skill \]. check, you can re-roll any **1**s once.
 
 > [!wip] _Work In Progress_ 
 > **Prerequisite** : Rank 3 in Fighting
->_At will_ 
- -> Attack of Opportunity ??)
+>_At will (once per round)_ 
+  Once per round, when it's not your turn, you can attack a target within your reach with a melee attack that tries to move more than 2m without [[Neldardhen System/Rules/Combat and Injuries#^ac1624\|disengaging]], cast a spell, make a range attack or use an item. 
 { #150996}
 
 
@@ -84,6 +84,18 @@ You can add 1 die for every 10 point you have in your Body score on the damage y
 **Prerequisite** : Raw Magic Rank 4 
 _Passive_
 You can add 1 die for every 10 point you have in your Spirit score on the damage or healing you deal with Instrument.
+
+> [!wip] _Work In Progress_ 
+> ### Stop Right Here
+> **Prerequisite** : Rank 5 in Fighting, already has the Attack of Opportunity Feat
+>_At will (once per round)_ 
+ -> Attack of Opportunity interupts the target (movement is stopped or the action to cast the spell or use the item is lost.)
+ 
+> [!wip] _Work In Progress_ 
+> ### Multiple Attacks of Opportunity
+> **Prerequisite** : Rank 5 in Fighting, already has the Attack of Opportunity Feat
+>_At will_ 
+ -> You are no longer limited to 1 Attack of Opportunity per round.
 
 > [!wip] _Work In Progress_
 > **Prerequisite** : Arcane Magic, Fighting or Raw Magic rank 3
