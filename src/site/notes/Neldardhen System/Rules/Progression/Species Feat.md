@@ -222,3 +222,13 @@ Once per Story, when your Stress level reaches **6** and you would normally die,
 **Prerequisite** : Level 6, Willow Elf 
 _Passive_
 You get **+1d4** on your Resist checks based on Pain Tolerance.
+
+## Leporidir
+### Strong Legs
+{ #5484b3}
+
+
+**Prerequisite** : Level 1, Any Leporidir
+_Passive_
+You get __\*2__ modifier on your [[Neldardhen System/Rules/Terrain and Environment#^21a908\|Long]] and [[Neldardhen System/Rules/Terrain and Environment#^649a55\|High]] jumps distances. 
+{ #b29c7f}

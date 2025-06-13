@@ -8,8 +8,12 @@ Rules for the particular effects of Terrain and Environment in the [[Neldardhen 
 
 ## Actions
 **Long Jump** : A character can long jump up to their ((physics die / 2) + 2) in meters.
+{ #21a908}
+
 
 **High Jump** : A character can high jump up to their (physics die / 4) in meters.
+{ #649a55}
+
 
 **Holding Breath** : A character can hold their breath for up to their (pain tolerance die / 2) in minutes.
 

@@ -22,7 +22,7 @@ List of available species for player characters with the [[Neldardhen System/Nel
 - ![Glirmegil-closeup.png|50](/img/user/Images/Species/Glirmegil-closeup.png) [[Neldardhen World/Species/Elves\|Elves]] 
 - ![Sertass.png|50](/img/user/Images/Species/Sertass.png) [[Neldardhen World/Species/Essedir\|Essedir]] (sing. Esseret) 
 - ![Cook-closeup.png|50](/img/user/Images/Species/Cook-closeup.png) [[Neldardhen World/Species/Goblins\|Goblins]] 
-- ![gnoll.png|50](/img/user/Images/Species/gnoll.png)  [[Neldardhen World/Species/Gnolls\|Gnolls]]
+- ![gnoll.png|50](/img/user/Images/Species/gnoll.png)  [[Neldardhen World/Species/Gnolls\|Gnolls]] (uncommon)
 - ![the_librarian.png|50](/img/user/Images/Species/the_librarian.png) [[Neldardhen World/Species/Gnomes\|Gnomes]]
 - ![Oatley-closeup.png|50](/img/user/Images/Species/Oatley-closeup.png) [[Neldardhen World/Species/Halflings\|Halflings]]
 - [[Neldardhen World/Species/Hobgoblins\|Hobgoblins]] 
@@ -37,10 +37,10 @@ List of available species for player characters with the [[Neldardhen System/Nel
 ## Living in [[Neldardhen World/Amaurëa/Amaurëa\|Amaurëa]]
 
 - ![Ancalduri-closeup.png|50](/img/user/Images/Species/Ancalduri-closeup.png) [[Neldardhen World/Species/Ancalduri\|Ancalduri]]
-- ![Ahiir.png|50](/img/user/Images/Species/Ahiir.png) [[Neldardhen World/Species/Caerfaldir\|Caerfaldir]] 
+- ![Ahiir.png|50](/img/user/Images/Species/Ahiir.png) [[Neldardhen World/Species/Caerfaldir\|Caerfaldir]] (uncommon) 
 - [[Neldardhen World/Species/Leporidir\|Leporidir]] (sing. Leporid) 
 - ![Beriagond.png|50](/img/user/Images/Species/Beriagond.png) [[Neldardhen World/Species/Dwarves\|Dwarves]] 
-- ![Gemelian-darkblue.png|50](/img/user/Images/Species/Gemelian-darkblue.png) [[Neldardhen World/Species/Gemelians\|Gemelians]]
+- ![Gemelian-darkblue.png|50](/img/user/Images/Species/Gemelian-darkblue.png) [[Neldardhen World/Species/Gemelians\|Gemelians]] (rare)
 - ![the_librarian.png|50](/img/user/Images/Species/the_librarian.png) [[Neldardhen World/Species/Gnomes\|Gnomes]] 
 - ![galwargoldskin.png|50](/img/user/Images/Species/galwargoldskin.png) [[Neldardhen World/Species/Mydroians\|Mydroians]] 
 - ![Amber-skin-salamander.png|50](/img/user/Images/Species/Amber-skin-salamander.png) [[Neldardhen World/Species/Amber-skin Salamanders\|Amber-skin Salamanders]]

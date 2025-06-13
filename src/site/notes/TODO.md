@@ -7,7 +7,7 @@
 ### Neldar System
 Create Subspecies (Obsidian and Foundry) for
 - [[Neldardhen World/Species/Ælamar\|Ælamar]] (Acacia, Jacandra, Mahogany, Redwood, Sycamore)
-- [[Neldardhen World/Species/Ældenyn\|Ældenyn]] (Cypress, Fir, PIne, Spruce, Yew)
+- [[Neldardhen World/Species/Ældenyn\|Ældenyn]] (Cypress, Fir, Pine, Spruce, Yew)
 - [[Neldardhen World/Species/Draconians\|Draconians]] (Brass, Bronze, Copper, Gold, Topaz)
 - [[Neldardhen World/Species/Dracobolds\|Dracobolds]] (Amethyst, CRystal, Emerald, Silver, White)
 - [[Neldardhen World/Species/Mydroians\|Mydroians]] (Copper, Brass, Bronze, Gold, Hepatizon)
@@ -15,13 +15,13 @@ Create Subspecies (Obsidian and Foundry) for
 - [[Neldardhen World/Species/Gemelians\|Gemelians]] (Amethyst, Diamond, Emerald, Ruby, Sapphire)
 - [[Neldardhen World/Species/Tyndir\|Tyndir]]
 - [[Neldardhen World/Species/Vipeans\|Vipeans]]
--  [[Neldardhen World/Species/Leporidir\|Leporidir]]
+- [[Neldardhen World/Species/Leporidir\|Leporidir]]
 
 Design / Redesign
 - Borangedir
 - Boscides
 - Hobgoblins
-- Amber-skin Salamander (COnsolidate in 1 Species with SUbspecies ??)
+- Amber-skin Salamander (Consolidate in 1 Species with Subspecies ??)
 - Coal-skin Salamander
 
 ~~Create [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]] Rules~~ 
@@ -34,6 +34,7 @@ Create Feats (Obsidian and Foundry)
 > [[Neldardhen System/Rules/Progression/Power Feat\|Power Feat]]
 > - At least 1 power feat for each suite of the [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Neledhîr\|Neledhîr]] ?
 
+Create Runes for [[Neldardhen System/Rules/Spells\|spellcasting]]
 ### Foundry VTT
 - ~~Debug Leather Armour not applying bonus to defense~~
 - Update Currency on Character Sheet for each member of the Party when sharing currency from the Party Overview Sheet...
@@ -54,7 +55,6 @@ Create Feats (Obsidian and Foundry)
 - Switch Species Traits as Active Item on Species or Subspecies
 - Consolidate Macros for applying Active Effects.
 
-
 ### Digital Garden
 - ~~Publish Subspecies~~
 	- ~~Kobolds~~
@@ -62,17 +62,17 @@ Create Feats (Obsidian and Foundry)
 	- ~~Orcs~~
 	
 - ~~Change Style~~
-- Adjust Species style and info
+- Adjust [[Neldardhen System/Character Creation/Playable Species List\|Species]] style and info
 	- ~~Kobolds~~
 	- ~~Lynfaldir~~
 	- ~~Orcs~~
 	- ~~Vipeans~~
-	- Ancalduri
-	- Leporidir
-	- Gemelians
-	- Mydroians
-	- Draconians
-	- Ælamar
+	- ~~Ancalduri~~
+	- ~~Leporidir~~
+	- ~~Gemelians~~
+	- ~~Mydroians~~
+	- ~~Draconians~~
+	- ~~Ælamar~~
 	- Tyndir
 	- Umbrans
 	- Shinrens
