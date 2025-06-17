@@ -17,7 +17,7 @@ Each character gets 1 language from their Origin, plus 1 additional free languag
 - [[Neldardhen World/Endëa/Cultures_Nations/Places/Húnatol#^5285d7\|Inhabitants]]
 
 ## GM Info
-- [[The Cursed Island - NPCs\|The Cursed Island - NPCs]]
-- [[The Cursed Island - Locations\|The Cursed Island - Locations]]
-- [[The Cursed Island - Factions\|The Cursed Island - Factions]]
-- [[The Cursed Island - Quests\|The Cursed Island - Quests]]
+- [[Neldardhen System/Adventures/The Cursed Island - NPCs\|The Cursed Island - NPCs]]
+- [[Neldardhen System/Adventures/The Cursed Island - Locations\|The Cursed Island - Locations]]
+- [[Neldardhen System/Adventures/The Cursed Island - Factions\|The Cursed Island - Factions]]
+- [[Neldardhen System/Adventures/The Cursed Island - Quests\|The Cursed Island - Quests]]
