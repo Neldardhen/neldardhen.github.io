@@ -20,7 +20,7 @@ The high cost of those expeditions combined with the lack of positive results fi
 This happened 15 years ago. You were part of one of those hapless expeditions that find themselves stranded on Húnatol.
 Since then, survivor from every origin have set aside their differences and banded together to make a life for themselves on the island or find a way to leave it.
 
-![Húnatol.jpg|400](/img/user/Neldardhen%20World/Maps/H%C3%BAnatol.jpg)
+![Húnatol.jpg|500](/img/user/Neldardhen%20World/Maps/H%C3%BAnatol.jpg)
 The survivors founded the village of _I Gobel_ near the only source of fresh water on the island. _I Ael_, a mysterious lake that has no apparent stream feeding it nor river coming from it. All sources of water other  than  _I Ael_ are foul. Poisonous for humanoïds and animals these waters can barely sustain plant life.
 
 Wood is a rare commodity, fishing boats and tools were made or gathered from the various shipwrecks, but there are no tree sturdy and big enough to be able to build a ship capable of braving the treacherous waters around the island.
