@@ -2,14 +2,12 @@
 {"dg-publish":true,"permalink":"/neldar-system-and-neldardhen-worlds/","tags":["gardenEntry"]}
 ---
 
-
 # Neldar System
 ## and the Neldardhen Worlds
 
 The [[Neldardhen System/Neldar System\|Neldar System]] is a TTRPG system created by Nat-the-Cat.
 
 The [[Neldardhen World/Neldardhen\|Neldardhen Worlds]] are the settings in which the [[Neldardhen System/Adventures/Adventures\|Adventures]] are taking place.
-
 ## Quick Start
 ### System
 - [[Neldardhen System/Philosophy\|Philosophy]]

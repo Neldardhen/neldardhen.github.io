@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/neldardhen-system/character-creation/playable-species-list/"}
 ---
 
-
 # Playable Specie List
 
 List of available species for player characters with the [[Neldardhen System/Neldar System\|Neldar System]] (see. [[Neldardhen System/Character Creation/Character Creation - Species\|Character Creation - Species]] for a general explanation of their attributes)
@@ -33,7 +32,6 @@ List of available species for player characters with the [[Neldardhen System/Nel
 - ![Lorta-bust.png|50](/img/user/Images/Species/Lorta-bust.png) [[Neldardhen World/Species/Orcs\|Orcs]] 
 - ![Alopea.png|50](/img/user/Images/Species/Alopea.png) [[Neldardhen World/Species/Vipeans\|Vipeans]] (Extremely rare)
 
- 
 ## Living in [[Neldardhen World/Amaurëa/Amaurëa\|Amaurëa]]
 
 - ![Ancalduri-closeup.png|50](/img/user/Images/Species/Ancalduri-closeup.png) [[Neldardhen World/Species/Ancalduri\|Ancalduri]]
