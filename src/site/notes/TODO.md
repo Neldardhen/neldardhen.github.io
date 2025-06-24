@@ -37,8 +37,7 @@ Create Feats (Obsidian and Foundry)
 Create Runes for [[Neldardhen System/Rules/Spells\|spellcasting]]
 ### Foundry VTT
 - ~~Debug Leather Armour not applying bonus to defense~~
-- Update Currency on Character Sheet for each member of the Party when sharing currency from the Party Overview Sheet...
-- Correct the style sheets (which one ?) to force background colour **and** text colour. Problem in some cases with dark mode.
+- ~~Update Currency on Character Sheet for each member of the Party when sharing currency from the Party Overview Sheet...~~
 - Change Progression (feat_display Item template) to Trainer (Actor template) (no more mess with the Items on Item thing)
 #### CSB update to 4.5.0
 - Create Active Effects from Macros
@@ -73,11 +72,11 @@ Create Runes for [[Neldardhen System/Rules/Spells\|spellcasting]]
 	- ~~Mydroians~~
 	- ~~Draconians~~
 	- ~~Ælamar~~
-	- Tyndir
-	- Umbrans
-	- Shinrens
-	- Dracobolds
-	- Ældenyn
+	- ~~Tyndir ~~
+	- ~~Umbrans ~~
+	- ~~Shinrens~~
+	- ~~Dracobolds~~
+	- ~~Ældenyn~~
 - Add System Details for places 
 - Add pictures for Subspecies
 ## Adventures

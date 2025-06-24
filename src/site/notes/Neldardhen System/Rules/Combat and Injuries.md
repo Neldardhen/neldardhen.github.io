@@ -70,14 +70,14 @@ Dodging an attack, spell or ability by using dice from the appropriate Defense P
 
 Dodge checks are always made on Wits, Reaction Speed or Insight / Manipulation and it is not possible to buy dice with an other resource.
 
-_Dodging a Body attack is always rolled with Fighting on Reaction Speed and only endurence can be use to buy dice from the Body Defense Pool._
+_Dodging a Body attack is always rolled with Fighting on Reaction Speed and only endurence ![endurance.png|15](/img/user/Images/endurance.png) can be use to buy dice from the Body Defense Pool._
 
 **Resisting**
 Resisting a spell or an attack by using dice from the appropriate Defense Pool (see below) will allow the combattant to halve any incoming damage and avoid additional effects or conditions.
 
 In usual circomstances the defendant can choose to Dodge/Deflect or Resist the effects of an incoming attack unless the attack precises otherwise. A spellcaster can choose if their spell can be Deflected only, Resisted only or let the target choose. (see. [[Neldardhen System/Rules/Spells#^bdc950\|Spells]])
 
-_Resisting a Spirit attack is always rolled with Raw Magic on Volition and only resilience can by use to buy dice from the Spirit Defense Pool._
+_Resisting a Spirit attack is always rolled with Raw Magic on Volition and only resilience ![resilience.png|15](/img/user/Images/resilience.png) can by use to buy dice from the Spirit Defense Pool._
 
 ##### Critical Success on Attacks
 When a character dodge / deflect or resisit an attack, if the total they rolled is strictly less than half of the Difficulty (the attacker's or caster's total roll), then it is considered to be a critical success for the attacker and all incoming damage are doubled. Double the damage before applying any Resistance or Vulnerability.
@@ -102,14 +102,14 @@ The attack pool is reset after each Action taken.
 
 Each damage type affects one part of the _Being_ except for _poison_ who can affect all three.
 
-| **Mind (reduces focus)** | **Body (reduces endurance)** | **Spirit (reduces resilience)** |
-| ------------------------ | ---------------------------- | ------------------------------- |
-| Confusion                | Piercing / Slashing          | Fear                            |
-| Oblivion                 | Bludgeoning / Force          | Charm                           |
-| Psychic                  | Fire / Heat / Lightning      | Despair                         |
-|                          | Cold / Freezing              | Anxiety                         |
-|                          | Acid                         |                                 |
-| Poison                   | Poison                       | Poison                          |
+| **Mind (reduces focus ![[focus.png\|15]])** | **Body (reduces endurance ![[endurance.png\|15]])** | **Spirit (reduces resilience ![[resilience.png\|15]])** |
+| ------------------------------------------- | --------------------------------------------------- | ------------------------------------------------------- |
+| Confusion                                   | Piercing / Slashing                                 | Fear                                                    |
+| Oblivion                                    | Bludgeoning / Force                                 | Charm                                                   |
+| Psychic                                     | Fire / Heat / Lightning                             | Despair                                                 |
+|                                             | Cold / Freezing                                     | Anxiety                                                 |
+|                                             | Acid                                                |                                                         |
+| Poison                                      | Poison                                              | Poison                                                  |
 
 ### Resitances, Vulnerabilities and Immunities{ #abbeee}
 
@@ -156,6 +156,9 @@ To simplify combat, creature controlled by the game masters don't get injuries. 
 When a creature drops to 0 in a resource due to something else than damage (while attacking or defending) the creature doesn't die immediately, but enters a weaken state where they can not use abilities that cost them more than 1 of this resource.
 ## Death
 At any moment, if the _Fatigue_, _Exhaustion_ or _Stress_ level of a character goes above **6** the character dies. 
-There is one exception for [[Neldardhen World/Species/SubSpecies/Willow Elves\|Willow Elves]] who get the [[Neldardhen System/Rules/Progression/Species Feat#^df31ab\|Spirit Tree Feats]].
+There is one exception for [[Neldardhen World/Species/SubSpecies/Willow Elves\|Willow Elves]] who get the [[Neldardhen System/Rules/Progression/Species Feat#^df31ab\|Spirit Tree Feat]].
+> [!wip] Other Exceptions (_Work In Progress_)
+>  [[Neldardhen World/Species/SubSpecies/Sand Goblins-Orcs\|Sand Orc]] who gets the [[Sturdy Body Feat\|Sturdy Body Feat]]
+>  [[Neldardhen World/Species/SubSpecies/Lapis-lazuli Gnomes\|Lapis-lazuli Gnomes]] who gets the [[Stubborn Mind Feat\|Stubborn Mind Feat]]
 
 Death is permanent, resurrection magic doesn't exist in this world.

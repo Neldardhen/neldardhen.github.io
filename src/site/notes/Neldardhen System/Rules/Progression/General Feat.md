@@ -12,17 +12,17 @@ For Feats gained at other levels see [[Neldardhen System/Rules/Progression/Chara
 ### Endurant
 **Prerequisite** : Body score 5
 _Passive_
-Your _endurance_ maximum is increased by your level.
+Your _endurance_  ![endurance.png|15](/img/user/Images/endurance.png) maximum is increased by your level.
 
 ### Focused
 **Prerequisite** : Mind score 5
 _Passive_
-Your _focus_ maximum is increased by your level.
+Your _focus_ ![focus.png|15](/img/user/Images/focus.png) maximum is increased by your level.
 
 ### Resilient
 **Prerequisite** : Spirit score 5
 _Passive_
-Your _resilience_ maximum is increased by your level.
+Your _resilience_ ![resilience.png|15](/img/user/Images/resilience.png) maximum is increased by your level.
 
 ### Lucky
 **Prerequisite** : Mind score 4, Body score 4,  Spirit score 4

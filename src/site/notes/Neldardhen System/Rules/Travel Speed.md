@@ -26,10 +26,10 @@ A day of travel is roughly 12h.
 > The cost are given in the [[Neldardhen World/Endëa/Cultures_Nations/Currencies#^708d38\|Iris Currency]], the main currency for the [[Neldardhen World/Neldardhen\|Neldardhen Worlds]] setting. 
 > If you are more used to D&D gold pieces 1 Iris ~= 5 gold pieces.
 
-|               | Monetary cost                                          | Additional costs                                    | Endurance cost                                     |
-| ------------- | ------------------------------------------------------ | --------------------------------------------------- | -------------------------------------------------- |
-| On foot       | wheat if donkey for luggages 1 seed per day per animal | tolls on maintained roads and bridges : 1 -5 seeds  | **1d4** per day<br>**2d4** per day for a fast pace |
-| Horseback     | wheat :  1 seed per day per animal                     | tolls on maintained roads and bridges : 1 -5 seeds  |                                                    |
-| Fast carriage | cost per passenger 1 petal / day + tolls               | tolls on maintained roads and bridges :  1 -5 seeds |                                                    |
-| Ship (slow)   | 2 petals / day (~1 petal / 30 km)                      |                                                     |                                                    |
-| Ship (fast)   | 1 iris / day  (~1 iris / 100-120 km)                   |                                                     |                                                    |
+|               | Monetary cost                                          | Additional costs                                    | Endurance cost                                                                                   |
+| ------------- | ------------------------------------------------------ | --------------------------------------------------- | ------------------------------------------------------------------------------------------------ |
+| On foot       | wheat if donkey for luggages 1 seed per day per animal | tolls on maintained roads and bridges : 1 -5 seeds  | **1d4** ![[endurance.png\|15]] per day<br>**2d4** ![[endurance.png\|15]] per day for a fast pace |
+| Horseback     | wheat :  1 seed per day per animal                     | tolls on maintained roads and bridges : 1 -5 seeds  |                                                                                                  |
+| Fast carriage | cost per passenger 1 petal / day + tolls               | tolls on maintained roads and bridges :  1 -5 seeds |                                                                                                  |
+| Ship (slow)   | 2 petals / day (~1 petal / 30 km)                      |                                                     |                                                                                                  |
+| Ship (fast)   | 1 iris / day  (~1 iris / 100-120 km)                   |                                                     |                                                                                                  |

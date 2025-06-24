@@ -2,24 +2,27 @@
 {"dg-publish":true,"permalink":"/neldardhen-system/rules/basics/"}
 ---
 
-# Basics
+# Basics 
 Rrules for the [[Neldardhen System/Neldar System\|Neldar System]].
 
+## Fundamental Values (Mind, Body, Spirit)
 Every character and creature in the game has three Fundamental values representing their Being: Mind, Body and Spirit.
 
-For each of those, there are three Attributes.
+## Resources (Focus, Endurance, Resilience)
+For each Fundamental value a resource is associated. You can see it as having three separated health bars.
+_Focus_ ![focus.png|15](/img/user/Images/focus.png) which is the resource of the _Mind_, _endurance ![endurance.png|15](/img/user/Images/endurance.png)_ the resource of the _Body_ and _resilience ![resilience.png|15](/img/user/Images/resilience.png)_ the resource of the _Spirit_. The maximum of each resource cannot be higher than three times its corresponding Fundamental Value.
 
+Resources are used in Combat (see. [[Neldardhen System/Rules/Combat and Injuries\|Combat and Injuries]]) or when making Skill CHecks (see. below)
 ### Attributes
 
-|                       | **Mind**           | **Body**       | **Spirit**             |
+| Type                  | **Mind**           | **Body**       | **Spirit**             |
 | --------------------- | ------------------ | -------------- | ---------------------- |
 | Active / Raw Strength | Memory / Knowledge | Physic         | Charisma               |
 | Reactive / Finesse    | Wits               | Reaction Speed | Manipulation / Insight |
 | Defensive             | Composure          | Pain Tolerance | Volition               |
 
 The value of an attribute is a type of die (d4, d6, d8, d10, d12). An increase in the die category (from d6 -> d8) can be bought with points at character creation or after a level up (see [[Neldardhen System/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]])
-## Resources
-Each task will cost a creature one of three resources. _focus_ which is the resource of the _Mind_, _endurance_, the resource of the _Body_ and _resilience_, the resource of the _Spirit_. The maximum of each resource cannot be higher than three times its corresponding Fundamental Value.
+
 
 ## Skills{ #75d8a0}
 
@@ -54,9 +57,9 @@ Additionally, if the skill check is linked to a speciality of the character, the
 > She has a **rank 2** in Rhetoric / Linguistic and **d6** in Memory / Knowledge.
 > She has a **specialisation** in _Ancient Laugsuil_.
 > 
-> She gets **2d6** for free thanks to **1** free die and her specialisation. However, the GM told her that the check would be quite hard. She decides to spend **2** _focus_ points to get **2** additional dice.
+> She gets **2d6** for free thanks to **1** free die and her specialisation. However, the GM told her that the check would be quite hard. She decides to spend **2** _focus_ ![focus.png|15](/img/user/Images/focus.png) points to get **2** additional dice.
 > 
->She can now roll **4d6** at the cost of **2** _focus_ 
+>She can now roll **4d6** at the cost of **2** _focus_ ![focus.png|15](/img/user/Images/focus.png)
 
 #### Specialities
 A character can choose a free specialisation when they reach rank **3** in a particular skill.
