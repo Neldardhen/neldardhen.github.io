@@ -14,12 +14,12 @@ Every even level, your maximum for your Fundamental values increases by **1**. (
 
 > *Formula : Max Fundamental = 10 + floor(level / 2)*
 
-Your _focus maximum_ will be **3** times your _Mind_ value. Your _endurance maximum_ **3** time your _Body_ value and your _resilience maximum_ **3** times your _Spirit_ value.
+Your _focus ![focus.png|15](/img/user/Images/focus.png) maximum_ will be **3** times your _Mind_ value. Your _endurance ![endurance.png|15](/img/user/Images/endurance.png) maximum_ **3** time your _Body_ value and your _resilience ![resilience.png|15](/img/user/Images/resilience.png) maximum_ **3** times your _Spirit_ value.
 
-Your _recovery die_ for each value will also be based on your fundamentals, following the table below.
+Your _recovery dice_ for each value will also be based on your fundamentals, following the table below.
 
 > *Formula :  
-> ceiling(x/6) + 1 **d** ceiling(x/2) * 2 - ( ( ceiling(x/6) - 1 ) * 6 + ( ceiling( x / 6 ) * 2 ) ), where x is your Fundamental value.*
+> ceiling(x/6) + 1 **d** (ceiling(x/2) * 2) - ( ( ceiling(x/6) - 1 ) * 6) + ( ceiling( x / 6 ) * 2 ) , where x is your Fundamental value.*
 
 | **Fundamental value**<br>(Mind, Body, Spirit) | Resource Max<br>(focus, endurance, resilience) | **Recovery die<br>** |
 | --------------------------------------------- | ---------------------------------------------- | -------------------- |
