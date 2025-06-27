@@ -12,6 +12,8 @@ Every character and creature in the game has three Fundamental values representi
 For each Fundamental value a resource is associated. You can see it as having three separated health bars.
 _Focus_ ![focus.png|15](/img/user/Images/focus.png) which is the resource of the _Mind_, _endurance ![endurance.png|15](/img/user/Images/endurance.png)_ the resource of the _Body_ and _resilience ![resilience.png|15](/img/user/Images/resilience.png)_ the resource of the _Spirit_. The maximum of each resource cannot be higher than three times its corresponding Fundamental Value.
 
+Each Resource has some Recovery Dice associated with it. Those dice will be used while [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities\|Resting]]. (see. [[Neldardhen System/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]] for how to set the recovery dice)
+
 Resources are used in Combat (see. [[Neldardhen System/Rules/Combat and Injuries\|Combat and Injuries]]) or when making Skill CHecks (see. below)
 ### Attributes
 
@@ -80,7 +82,7 @@ To help on a skill checks, every character that want to help must make a check w
 For every success, the person making the main check will be able to re-roll a die in there pool.
 If the roll for helping was a critical success, a die can be re-roll until it is no longer a 1.
 
-### Fatigue, Exhaustion and Stress
+#### Fatigue, Exhaustion and Stress
 It is still possible to do a task with no resources left, but this will instead increment the _Fatigue_, _Exhaustion_ or _Stress_ level and prompt a roll on the corresponding Injury table. (see [[Neldardhen System/Rules/Old v1 rules/Combat and Injuries (v1)#^5a0385\|Injuries]]).
 
 It is also the case if a creature takes damage on a resource (_focus_, _endurance_ or _resilience_) which is already at 0.
@@ -98,12 +100,14 @@ The _Fatigue_, _Exhaustion_ or _Stress_ level is subtracted from any roll made w
 > She rolls **2d6 - 2** ;  she gets a **3** and a **4** on the dice for a total of  **3 + 4 - 2 = 5** !
 
 
-### Critical Success and Failure
+#### Critical Success and Failure
 A critical success occurs when the total of the dice is double or more than the set difficulty.
 A critical failure on the other hand happens when the total roll is less than half of the set difficulty.
 
-## Perception Checks
+### Perception Checks
 Perception checks are always free. They use dice pools determined by the species of the character. (see [[Neldardhen System/Character Creation/Character Creation - Species#^443e3a\| Character Creation - Species - Senses]])
+
+## Difficulty of Skill Checks
 
 >[!gm] GM : Setting a difficulty
  To set the difficulty of a skill, you can use this table :
