@@ -8,6 +8,6 @@ Gabil- Zirak is a small undergroung Kingdom inhabited by [[Neldardhen World/Spec
 
 ### Languages
 The common folk speaks Zondolk, but the Nobility and the Clergy speaks Ondolk.
-Not everyone is able to speak Ondolk and speaking it without permission is seen as an offense.
+Not everyone is authorized to speak Ondolk and speaking it without permission is seen as an offense.
 ### Religion
 They believe in [[Neldardhen World/Endëa/Cultures_Nations/Religions/The Unique God\|The Unique God]].
