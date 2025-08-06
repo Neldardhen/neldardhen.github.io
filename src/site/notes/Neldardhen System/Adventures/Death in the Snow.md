@@ -12,6 +12,8 @@
 Others hopeless individuals join your group during the beginning of your travel, Ekanro a Priest-Healer of Ordel and his apprentice Sila and a Masked woman named Nerena.  
 You began your journey shortly after the beginning of summer, but soon after you reached the mountains the weather turned for the worst. A blizzard is raging and you are now stuck in a refuge waiting for the sky to clear. Each night you barely make out the notes of a melancholic song covered by the screaming winds. Hint of a beautiful but eerie melody that fills you with sadness. As the dawn of the third day comes, you are waken up by a cry of anguish.
 
+> [!gm] GM Only
+> [[Neldardhen System/Adventures/Death in the Snow - GM Summary\|Death in the Snow - GM Summary]]
 ## NPCs
 ### Daetor Avaro
 
@@ -37,7 +39,7 @@ She displays a timid curiosity.
 ![Dagan.jpg|200](/img/user/Images/NPCs/Dagan.jpg)
 
 Dagan (They / Them), early 50s, is a human from Nelatar.
-They have served Daetor Avaroand his family for most of their life.
+They have served Daetor Avaro and his family for most of their life.
 They seem to be lawful enough or crazy enough to follow their employers into the perilous journey through the mountains.
 They display a mix of masculine and feminine behaviours, something unusual in Nelatar.
 

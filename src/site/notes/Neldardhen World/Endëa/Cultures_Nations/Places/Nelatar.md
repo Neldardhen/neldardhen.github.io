@@ -42,6 +42,8 @@ For a long time, Nelatar shared the same pantheon of gods and goddesses that [[E
 The Temple was fairly successful in doing so in the Capital and the Western Province.
 Over the past century, a significant resurgence in the beliefs and ancient practices as been seen in the Eastern Province.
 In reaction, the Temple of Ordel has made illegal any practice tied to the ancient gods and even pronouncing their name is forbidden.
+{ #b8e726}
+
 
 The Temple of Ordel is the religious organisation that has detained true power of Nelatar over the past centuries. There siege is found in the capital city of the Western Province, Ordelen.
 They are lead by the Grand Priest and his two advisors his Right and Left Hands. It is rumoured that the Left Hand of the Grand Priest is nothing more than his personal assassin, though sometime the position has been used by Grand Priest to keep a political enemy in check. The Left Hand having close to no actual power as opposed to the Right Hand.
