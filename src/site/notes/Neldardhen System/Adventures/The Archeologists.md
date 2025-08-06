@@ -11,9 +11,15 @@
 The Society of Archeology of [[Neldardhen World/Endëa/Cultures_Nations/Places/Uruithel#^b9c59a\|Inrast]] has engaged you to find the exact location of an ancient [[Neldardhen World/Species/Caerfaldir\|Caerfal]] (Leonin) tomb dating back from the aera of the [[Neldardhen World/Endëa/History/Ancient Laugsuil Empire\|Ancient Laugsuil Empire]].
 
 You mission is to locate the tomb, find a way to access it and careful take inventory of everything inside. 
-You will be paid 100gp upon completion of all three task on your return to Inrast.
+You will be paid **100gp** upon completion of all three task on your return to Inrast.
+The Society heard some rumours about this tomb, but it is not located in one of the currently knows ancient ruins, therefore the Society wants confirmation of the existence of the tomb, before commiting to further expense for its exploration.
 
-![Laugsuil-map.jpg|400](/img/user/Laugsuil-map.jpg)
+![Laugsuil-map.jpg|400](/img/user/Neldardhen%20World/Maps/Laugsuil-map.jpg)
+
+
+> [!gm] GM Only
+> [[Neldardhen System/Adventures/The Archeologists - GM Summary\|The Archeologists - GM Summary]]
+
 
 ## Character Creation
 **Level** : This Adventure was written for level 5 PCs and later adapted for level 1 to 2.
