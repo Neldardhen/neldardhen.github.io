@@ -9,7 +9,7 @@ The System Goals and [[Neldardhen System/Philosophy\|Philosophy]].
 
 For the Players
 - The [[Neldardhen System/Rules/Basics\|Basics]]
-- [[Neldardhen System/Character Creation/Character Creation\|Character Creation]]
+- [[Neldardhen System/Rules/Character Creation/Character Creation\|Character Creation]]
 - [[Neldardhen System/Rules/Combat and Injuries\|Combat and Injuries]]
 - [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities\|Recovery, Rest and Resourcing Activities]]
 - Magic Systems

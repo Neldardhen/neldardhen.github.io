@@ -11,7 +11,7 @@ Gemelians are a [[Neldardhen World/Species/Species\|Species]] of small but bulck
 *unknown*
 
 #### System Details
-Gemelians are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Gemelians are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
  > [!sys] System Details
  > **Types** : warm-blooded,  skin, terrestiral

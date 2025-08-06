@@ -15,7 +15,7 @@ Due to an unknown event, most of the Tyndir decided to abandonned their physical
 #### Reproduction
 *unknown*
 
- Tyndir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+ Tyndir are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
  
  > [!sys] System Details
  > **Types** : warm-blooded, skin, terrestiral

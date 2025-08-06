@@ -13,7 +13,7 @@ Caerfaldir tend to be prideful people. They were the people of the [[Neldardhen 
 #### Reproduction
 Mammalian
 
-Caerfaldir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Caerfaldir are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 > **Types** : warm-blooded , fur, terrestiral 

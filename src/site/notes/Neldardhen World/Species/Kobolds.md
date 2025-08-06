@@ -12,7 +12,7 @@ Kobolds are descendant of the [[Neldardhen World/Species/Dracobolds\|Dracobolds]
 #### Reproduction
 Kobolds lay eggs with hard shell. They typically hatch after 3 to 4 weeks. The incubation temperature can influence the sex of the newborn.
 
-Kobolds are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Kobolds are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 > **Types** : cold-blooded, scales, terrestiral

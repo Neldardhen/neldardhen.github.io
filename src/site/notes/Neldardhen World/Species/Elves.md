@@ -19,7 +19,7 @@ Little is known about the reproduction rituals of elves. All that is know from n
 Their skin stay bark-like for a few years until it becomes gradually smoother with age.
 "Being hard-skinned" is an expression implaying young age and lack of experience.
 
-Elves are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Elves are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 > **Types** : warm-blooded, skin, terrestiral 

@@ -13,6 +13,8 @@ The Borangedir living in Uruithel, if not slaves, are still considered second cl
 **Inrast** is were the Count of the East lives and where the Society of Archaeology built the First Museum.
 The First Museum contains a vast collection of objects and scrolls taken from the ruins and tombs of Laugsuil.
 The Museum has a couple of rooms dedicated to the "Curiosities of the far East", filled with day to day objects used by the Borangedir in Thandnûr.
+{ #b9c59a}
+
 
 **Lorneth** is politically considered outside of Uruithel East since it belongs to the Count of the Seas. Lorneth's port is the biggest of the whole known world.
 
@@ -20,6 +22,9 @@ The Museum has a couple of rooms dedicated to the "Curiosities of the far East",
 _Work In Progress : Main Uruitheli culture_
 In the center of Uruithel East is the jungle of Silva Ultimus. The Lynfaldir and Aranlindir living there have their own culture called [[Neldardhen World/Endëa/Cultures_Nations/Places/Silvola\|Silvola]]
 ### Languages
+{ #a70004}
+
+
 The official language of Uruithel is Uruithen. People of Silvola speak Mewithen. Turuvir is a dialect spoken by some of the Borangedir.
 
 ### Currency

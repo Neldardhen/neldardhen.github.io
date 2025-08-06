@@ -12,7 +12,7 @@ The skin of a Behemos slightly changes in colour depending on the climat. Beheme
 #### Reproduction
 Mammalian
 
-Behemes are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Behemes are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 > **Types** : warm-blooded , skin , terrestiral 

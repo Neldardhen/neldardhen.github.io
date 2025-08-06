@@ -15,7 +15,7 @@ They tend to be nocturnal.
 #### Reproduction
 Hólindir lay hard shelled eggs.
 
-Hólindir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Hólindir are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 > **Types** : warm-blooded, fur, flying

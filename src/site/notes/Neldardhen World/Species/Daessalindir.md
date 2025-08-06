@@ -15,7 +15,7 @@ They are a cursed race who lost their ability to fly. It is said that it was a p
 #### Reproduction
 Lay hard shelled eggs.
 
-Daessalindir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Daessalindir are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 > **Types** : warm-blooded , feathered , terrestiral

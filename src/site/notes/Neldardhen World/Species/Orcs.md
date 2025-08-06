@@ -16,7 +16,7 @@ Descendants of the Hobcors who came long ago from the night world of Nyalë, the
 #### Reproduction
 Like all the [[Neldardhen World/Species/Gremns\|Gremns]] descendants, Orcs mixes their blood with clay and then shape a statuette out of it that will become the new baby.
 
-Orcs are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Orcs are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 > **Types** : warm-blooded, skin, terrestiral 

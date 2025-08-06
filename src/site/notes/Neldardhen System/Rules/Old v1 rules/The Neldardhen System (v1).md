@@ -11,7 +11,7 @@ The System Goals and [[Neldardhen System/Philosophy\|Philosophy]].
 
 For the Players
 - The [[Neldardhen System/Rules/Old v1 rules/Basics (v1)\|Basics (v1)]]
-- [[Neldardhen System/Character Creation/Old v1 rules/Character Creation (v1)\|Character Creation (v1)]]
+- [[Neldardhen System/Rules/Character Creation/Old v1 rules/Character Creation (v1)\|Character Creation (v1)]]
 - [[Neldardhen System/Rules/Old v1 rules/Combat and Injuries (v1)\|Combat and Injuries (v1)]]
 - [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities\|Recovery, Rest and Resourcing Activities]]
 - Magic Systems

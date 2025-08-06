@@ -12,7 +12,7 @@ Every character and creature in the game has three Fundamental values representi
 For each Fundamental value a resource is associated. You can see it as having three separated health bars.
 _Focus_ ![focus.png|15](/img/user/Images/focus.png) which is the resource of the _Mind_, _endurance ![endurance.png|15](/img/user/Images/endurance.png)_ the resource of the _Body_ and _resilience ![resilience.png|15](/img/user/Images/resilience.png)_ the resource of the _Spirit_. The maximum of each resource cannot be higher than three times its corresponding Fundamental Value.
 
-Each Resource has some Recovery Dice associated with it. Those dice will be used while [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities\|Resting]]. (see. [[Neldardhen System/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]] for how to set the recovery dice)
+Each Resource has some Recovery Dice associated with it. Those dice will be used while [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities\|Resting]]. (see. [[Neldardhen System/Rules/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]] for how to set the recovery dice)
 
 Resources are used in Combat (see. [[Neldardhen System/Rules/Combat and Injuries\|Combat and Injuries]]) or when making Skill CHecks (see. below)
 ### Attributes
@@ -23,7 +23,7 @@ Resources are used in Combat (see. [[Neldardhen System/Rules/Combat and Injuries
 | Reactive / Finesse    | Wits               | Reaction Speed | Manipulation / Insight |
 | Defensive             | Composure          | Pain Tolerance | Volition               |
 
-The value of an attribute is a type of die (d4, d6, d8, d10, d12). An increase in the die category (from d6 -> d8) can be bought with points at character creation or after a level up (see [[Neldardhen System/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]])
+The value of an attribute is a type of die (d4, d6, d8, d10, d12). An increase in the die category (from d6 -> d8) can be bought with points at character creation or after a level up (see [[Neldardhen System/Rules/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]])
 
 
 ## Skills{ #75d8a0}
@@ -41,7 +41,7 @@ There are 18 skills separated in three catagories linked to Mind, Body and Spiri
 
 Three of the skills are Defense skills, **Aracane Magic**, **Fighting** and **Raw Magic** are taken into account when defending against attacks or damage affecting the corresponding part of the being. 
 
-Each skill as a rank - ranks can be bought with points at character creation or after a level up (see [[Neldardhen System/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]]).
+Each skill as a rank - ranks can be bought with points at character creation or after a level up (see [[Neldardhen System/Rules/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]]).
 A rank in a skill cannot be higher than the score in the Fundamental value (Mind, Body or Spirit).
 
 > If Ayrina has a Mind score of 4 and Spirit score of 2, she can buy up to 4 ranks in Arcane Magic, but only 2 ranks in Persuasion.
@@ -105,7 +105,7 @@ A critical success occurs when the total of the dice is double or more than the 
 A critical failure on the other hand happens when the total roll is less than half of the set difficulty.
 
 ### Perception Checks
-Perception checks are always free. They use dice pools determined by the species of the character. (see [[Neldardhen System/Character Creation/Character Creation - Species#^443e3a\| Character Creation - Species - Senses]])
+Perception checks are always free. They use dice pools determined by the species of the character. (see [[Neldardhen System/Rules/Character Creation/Character Creation - Species#^443e3a\| Character Creation - Species - Senses]])
 
 ## Difficulty of Skill Checks
 

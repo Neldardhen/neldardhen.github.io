@@ -17,7 +17,7 @@ Each parent magically fuse one of their hair to a small stone carving. The stone
 The growth and developement of a stone statuette into a baby dwarf is extremely slow.  
 Dwarves often gather outside of the geodes where children are growing to sing and play music.
 
-Dwarves are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Dwarves are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 >

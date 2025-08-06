@@ -13,7 +13,7 @@ Their ancestors having come from the day world of Amaurëa, Gnomes generally ten
 #### Reproduction
 In their ritual, gnomes grind gemstones in a fine powder.
 
-Gnomes are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Gnomes are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 >

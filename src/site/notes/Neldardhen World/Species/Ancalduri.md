@@ -18,7 +18,7 @@ Ancalduri tell stories about how their ancestors evovled on an other world. They
 Mammalian
 
 
-Ancalduri are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Ancalduri are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
  > [!sys] System Details
  > **Types** : warm blooded,  fur, terrestiral 

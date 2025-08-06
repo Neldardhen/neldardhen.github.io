@@ -10,7 +10,7 @@ Dracobolds are a [[Neldardhen World/Species/Species\|Species]]  result of [[Neld
 Dracobolds lay eggs with hard shell. They typically hatch after 3 to 4 months. The incubation temperature can influence the sex of the newborn.
 
 
-Dracobolds are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Dracobolds are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
  > [!sys] System Details
  > **Types** : clod-blooded, scales, flying

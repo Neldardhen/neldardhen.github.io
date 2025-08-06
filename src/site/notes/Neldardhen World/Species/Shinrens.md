@@ -16,7 +16,7 @@ They are blind.
 #### Reproduction
 Shinrens can only be created when a Sissiak takes over or shares the body of an other sentient humanoïd.
 
-Shinrens are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Shinrens are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
   > [!sys] System Details
  > **Types** : warm-blooded, skin, terrestrial

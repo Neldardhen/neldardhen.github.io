@@ -9,7 +9,7 @@ Draconians are a [[Neldardhen World/Species/Species\|Species]]  result of [[Neld
 #### Reproduction
 Draconians lay eggs with hard shell. They typically hatch after 3 to 4 months. The incubation temperature can influence the sex of the newborn.
 
-Draconians are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Draconians are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
  > [!sys] System Details
  > **Types** : cold-blooded, scales, terrestiral

@@ -16,7 +16,7 @@ Mydroians are a [[Neldardhen World/Species/Species\|Species]] of tall humanoids 
 *unknown*
 
 
-Mydroians are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Mydroians are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
  > [!sys] System Details
  > **Types** : warm-blooded, skin, terrestiral

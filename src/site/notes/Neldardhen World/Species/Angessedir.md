@@ -13,7 +13,7 @@
 #### Reproduction
 Angessedir lay eggs with hard shell. They typically hatch after 2 to 3 weeks. The incubation temperature can influence the sex of the newborn.
 
- Angessedir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+ Angessedir are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
  
 > [!sys] System Details
 > **Types** : cold-blooded, scales, amphibian

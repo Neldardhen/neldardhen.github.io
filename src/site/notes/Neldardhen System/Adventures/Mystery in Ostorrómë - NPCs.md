@@ -3,7 +3,7 @@
 ---
 
 # Mystery in Ostorrómë - NPCs
-List of NPCs for the [[Neldardhen System/Adventures/Mystery in Ostorrómë\|Mystery in Ostorrómë]] Adventure.
+List of NPCs for the [[Neldardhen System/Adventures/Mystery in Ostorrómë\|Mystery in Ostorrómë]] Adventure. 
 # Daîrgon
 { #277c47}
 

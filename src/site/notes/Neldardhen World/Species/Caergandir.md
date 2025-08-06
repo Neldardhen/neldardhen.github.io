@@ -11,7 +11,7 @@ Caergandir livin in [[Neldardhen World/Endëa/Cultures_Nations/Places/Uruithel\|
 #### Reproduction
 Caerangdir lay eggs with hard shell. They typically hatch after 2 to 3 months. The incubation temperature can influence the sex of the newborn.
 
-Caergandir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Caergandir are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 > **Types** : cold-blooded, scales, amphibian

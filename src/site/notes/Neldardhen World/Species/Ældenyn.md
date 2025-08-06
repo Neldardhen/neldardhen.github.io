@@ -25,7 +25,7 @@ Their skin stay bark-like for a few years until it becomes gradually smoother wi
 "Being hard-skinned" is an expression implaying young age and lack of experience.
 
 
- Ældenyn are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+ Ældenyn are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
  
   > [!sys] System Details
  > **Types** : warm-blooded, skin, terrestrial

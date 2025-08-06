@@ -15,7 +15,7 @@ They live in small vilages cultivating the various plants and trees of Nyalë. M
 #### Reproduction
 Gremns mixes their blood with clay and then shape a statuette out of it that will become the new baby.
 
-Gremns are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Gremns are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
  > [!sys] System Details
  > **Types** : warm-blooded, fur, terrestiral

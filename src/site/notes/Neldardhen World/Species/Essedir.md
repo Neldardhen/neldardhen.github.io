@@ -15,7 +15,7 @@ The majority of Essedir lives in the jungles of [[Neldardhen World/Endëa/Cultur
 #### Reproduction
 Essedir cannot be born, they are only created through magical rituals.
 
-Essedir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Essedir are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 > **Types** : cold-blooded, skin, terrestiral 

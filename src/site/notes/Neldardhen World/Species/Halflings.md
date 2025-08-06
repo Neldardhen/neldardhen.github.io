@@ -15,7 +15,7 @@ Halflings enjoy the simpler life but are particularly brave in the face of dange
 #### Reproduction
 In a ritual, Halfling create a stone-seed that then needs to be planted and cared for.  Baby halfling then grow from the soil.
 
-Halflings are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Halflings are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 > **Types** : warm-blooded, skin, terrestiral

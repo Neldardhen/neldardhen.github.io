@@ -16,7 +16,7 @@ They are deaf and sometime mute.
 #### Reproduction
 Umbrans can only be created when a Daessiak takes over or shares the body of an other sentient humanoïd.
 
-Umbrans are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Umbrans are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
   > [!sys] System Details
  > **Types** : warm-blooded, skin, terrestrial

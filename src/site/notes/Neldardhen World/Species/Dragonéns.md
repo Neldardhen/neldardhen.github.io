@@ -16,7 +16,7 @@ Dragonéns lay eggs with hard shell. They typically hatch after 3 to 4 months. T
 
 
 #### System Details
-Dragonénes are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Dragonénes are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 #Cold_Blooded #Scales #Terrestiral 
 

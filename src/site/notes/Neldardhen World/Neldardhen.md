@@ -22,7 +22,7 @@ Worlds and settings used with the [[Neldardhen System/Neldar System\|Neldar Syst
 - [[Neldardhen World/Endëa/History/History of Endëa\|History]]
 - [[Neldardhen World/Endëa/Cultures_Nations/Languages/Languages\|Languages]]
 - [[Neldardhen World/Species/Species\|Species]] 
-	- [[Neldardhen System/Character Creation/Playable Species List\|Playable Species List]]
+	- [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species List]]
 - [[Neldardhen World/Endëa/Cultures_Nations/Religions/Religions in Endëa\|Religions in Endëa]]
 
 ### Nyalë

@@ -13,7 +13,7 @@ The Aranlindir living in [[Neldardhen World/Endëa/Cultures_Nations/Places/Rhuk\
 #### Reproduction
 Aranlindir lay eggs with hard shell.
 
-Aranlindir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Aranlindir are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 **Types** : warm-blooded, feathered, flying

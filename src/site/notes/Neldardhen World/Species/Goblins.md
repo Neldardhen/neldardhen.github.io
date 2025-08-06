@@ -13,7 +13,7 @@ The are often describe by other species as chaos incarnate.
 #### Reproduction
 Like all the [[Neldardhen World/Species/Gremns\|Gremns]] descendants, Goblins mixes their blood with clay and then shape a statuette out of it that will become the new baby.
 
-Goblins are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Goblins are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 > **Types** : warm-blooded, skin, terrestiral 

@@ -13,7 +13,7 @@ Self sufficient, they are fairly isolated and have few contact with other specie
 Mammalian
 
 
-Lynfaldir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Lynfaldir are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
 > [!sys] System Details
 > **Types** : warm-blooded,  fur, terrestiral 

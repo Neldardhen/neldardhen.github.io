@@ -10,7 +10,7 @@ Leporidir are a [[Neldardhen World/Species/Species\|Species]] of hare-people nat
 Mammalian
 
 
-Leporidir are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Leporidir are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
  > [!sys] System Details
  > **Types** : warm-blooded, fur, terrestrial

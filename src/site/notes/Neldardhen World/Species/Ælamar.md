@@ -18,7 +18,7 @@ Little is known about the reproduction rituals of Ælamar. All that is know from
 Their skin stay bark-like for a few years until it becomes gradually smoother with age.
 "Being hard-skinned" is an expression implaying young age and lack of experience.
 
-Ælamar are a [[Neldardhen System/Character Creation/Playable Species List\|Playable Species]].
+Ælamar are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
  > [!sys] System Details
  > **Types** : warm-blooded, skin, terrestiral
