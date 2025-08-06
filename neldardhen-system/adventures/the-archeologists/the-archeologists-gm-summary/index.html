@@ -1,0 +1,236 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>The Archeologists - GM Summary</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.d92311c2.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Neldar</h1>
+</a>
+</div>
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i icon-name="search"></i>
+</span>
+<span class="search-text">
+<span>Search</span>
+<span style="font-size:.6rem;padding:2px 2px 0 6px;text-align:center;transform:translateY(4px)" class="search-keys">
+CTRL + K
+</span>
+</span>
+</div>
+</nav>
+<div class="search-container" id="globalsearch" onclick="toggleSearch()">
+<div class="search-box">
+<input type="search" id="term" placeholder="Start typing...">
+<div id="search-results"></div>
+<footer class="search-box-footer">
+<div class="navigation-hint">
+<span>Enter to select</span>
+</div>
+<div class="navigation-hint align-icon">
+<i icon-name="arrow-up" aria-hidden="true"></i>
+<i icon-name="arrow-down" aria-hidden="true"></i>
+<span>to navigate</span>
+</div>
+<div class="navigation-hint">
+<span>ESC to close</span>
+</div>
+</footer>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-08-06T19:12:29.905Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-08-06T19:12:29.905Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-08-06T19:12:29.905Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<h1 id="gm-summary-the-archeologists" tabindex="-1">GM Summary : The Archeologists</h1>
+<p>Gm only summary for the <a class="internal-link" target="" data-note-icon="" href="/neldardhen-system/adventures/adventures/">adventure</a> <a class="internal-link" target="" data-note-icon="" href="/neldardhen-system/adventures/the-archeologists/the-archeologists/">The Archeologists</a>.</p>
+<div class="callout" data-callout="warning"><div class="callout-title"><div class="callout-title-inner"> GM Only information !<br></div></div>
+<div class="callout-content">
+<p>
+If you are a player please don't read any further !</p>
+</div></div>
+<div class="callout" data-callout="wip"><div class="callout-title"><div class="callout-title-inner"> <em>Work in Progress</em><br></div></div>
+<div class="callout-content">
+<p>
+This is still a work in progress, some section are missing</p>
+</div></div>
+<p>The PCs are on (somewhat) of a timed clock as a rival group paid by a particular, Lord Barnnon a <a class="internal-link" target="" data-note-icon="" href="/neldardhen-world/species/behemes/">Behemes</a> (Giff), is already on site trying to excavate a direct path to the tomb. Digging through the rocky hills would take weeks or even month, but they have sent a messenger back to the city of Inrast to request enough black powder to make explosives.</p>
+<h2 id="before-the-adventure-start" tabindex="-1">Before the adventure start</h2>
+<p>Give to each of your players' character at least one magic item. You can give them one from this list : <a class="internal-link" target="" data-note-icon="" href="/neldardhen-system/adventures/the-archeologists/the-archeologists-magic-items/#8ccebd">Starting Items</a> or give them some more personilised ones. You can even ask them to come up with a magic item of their own.<br>
+Ask them how they came in possession of their item and what they did with it. Let them sell it if they want and potentially buy something else with the money they made. (Give them around 1'000 and 2'000 gp for the item and let them buy any weapon +1 or leather armour / studded leather armour +1 or anything else of similar power).</p>
+<h3 id="if-the-p-cs-are-level-1" tabindex="-1">If the PCs are level 1</h3>
+<p>Just before arriving on the site they will encounter a <a href="https://2014.5e.tools/bestiary.html#gnoll_mm" target="_blank" class="external-link">Gnoll hunter</a> and two <a href="https://2014.5e.tools/bestiary.html#hyena_mm" target="_blank" class="external-link">Hyenas</a><br>
+Let your PCs gain a level after the fight so they are level 2 for the rest of the adventure.</p>
+<h2 id="unsafe-rest" tabindex="-1">Unsafe Rest</h2>
+<p>From this point in the adventure, if the group decide to take a Long Rest in an unguarded and unsafe place, roll 4d20 per night, if any of the roll is a 5 or less they are attacked by three <a href="https://2014.5e.tools/bestiary.html#giant%20scorpion_mm" target="_blank" class="external-link">Giant Scorpions</a> [Adaptation for level 2s : only 1 Giant Scorpion attacks the sleeping PCs]</p>
+<h2 id="rival-group-encampment" tabindex="-1">Rival group encampment</h2>
+<p>TODO</p>
+<p>(They basically tell the PCs to get lost...)</p>
+<p>Notes and letters in the encampment reveal the following information :</p>
+<ul>
+<li>They are employed by Lord Brannon (Noble of the city of Inrast with a huge personal collection of dubiously aquired artefacts)</li>
+<li>They are paid very well compared to the PCs</li>
+<li>Progress on digging through the hills is slow</li>
+<li>The sent a messenger some time ago to request a huge quantity of black powder</li>
+</ul>
+<div class="callout" data-callout="gm"><div class="callout-title"><div class="callout-title-inner"> Grave robbing, but legally<br></div></div>
+<div class="callout-content">
+<p>
+Let's be honest, the Society of Archeology has no moral high ground over Lord Barnnon, they are grave robbers in all but name. They do however have some legal ground (in Uruithel at least).<br>
+That's why they asked the PCs for an inventory of the tomb as detailed as possible. If the group comes back with the official papers all fill up, then the Society can claim the tomb as property of the museum and contest any item in Lord Barnnon' possession that would match one of the descripiton given by the PCs in their inventory of the place.</p>
+</div></div>
+<p>See <a class="internal-link" target="" data-note-icon="" href="/neldardhen-system/adventures/the-archeologists/the-archeologists-np-cs/#111ebd">NPcs - Rival Group</a></p>
+<h2 id="caerfaldir-encampment" tabindex="-1">Caerfaldir encampment</h2>
+<p>TODO</p>
+<p>They are uneasy, but welcome outsiders anyways.</p>
+<p>They are particulariy amicable which is unusual (DC 15 Insight check suggest that they might need something from the PCs)</p>
+<p>Ask the PCs to retrieve a spear form the First Museum of Inrast.<br>
+See <a class="internal-link" target="" data-note-icon="" href="/neldardhen-system/adventures/the-archeologists/the-archeologists-np-cs/#08d488">Tribe's Members</a></p>
+<p>What they know about :<br>
+<strong>The Oasis</strong></p>
+<ul>
+<li>public Oasis, anyone can drink their fill and take as much as 2 waterskin of water per day to do as they please with it, but no more.</li>
+<li>There is creature who claim the oasis as her own recently, she seems angry at something but has not beeen agressive towards the tribe.</li>
+</ul>
+<p><strong>Cikryu</strong></p>
+<ul>
+<li>They react with fear to the name, but try to hide it</li>
+<li>The will answer with bland &quot;Caerfal problems are for Caerfaldir to solve&quot; if pushed, they won't elaborate any further.</li>
+</ul>
+<p><strong>The Tomb</strong></p>
+<ul>
+<li>They know of a cave entrance further away which leads to the tomb.</li>
+</ul>
+<p><strong>The Spear</strong> (<a class="internal-link" target="" data-note-icon="" href="/neldardhen-system/adventures/the-archeologists/the-archeologists-magic-items/#bf30ff">Ahiir's Spear</a>)</p>
+<ul>
+<li>It is magical, but otherwise look exactely like any other soldier spear of the time. Made in wood with a bronze head and the name of the wielder inscribed in the handle.</li>
+<li>The name inscribed into it is : Ahiir</li>
+</ul>
+<h2 id="cikryu-the-rakshasa" tabindex="-1">Cikryu, the Rakshasa</h2>
+<p><a href="https://2014.5e.tools/bestiary.html#rakshasa_mm" target="_blank" class="external-link">Rakshasa</a><br>
+DC 10 Perception check to notice he has inverted hands<br>
+DC 20 History or Religion check to know that he is a Devil</p>
+<p>During his dialog Cikryu will often the term &quot;contract&quot; or &quot;deal&quot; and will be adamant that he do not say lies and upholds his promises.<br>
+Character that notice that can retry a DC 15 History or Religion check to gather that he is a Devil.</p>
+<h2 id="the-museum-tribe-s-route" tabindex="-1">The Museum (Tribe's route)</h2>
+<h2 id="the-oasis-cikryu-s-route" tabindex="-1">The Oasis (Cikryu's route)</h2>
+<p><a href="https://2014.5e.tools/bestiary.html#lamia_mm" target="_blank" class="external-link">Lamia</a></p>
+<div class="callout" data-callout="gm"><div class="callout-title"><div class="callout-title-inner"> Cikryu and the Lamia</div></div>
+<div class="callout-content">
+<p>
+</p><p>The Lamia is angry at Cikryu because he as explicitely forbidden her to harm the Caerfal Tribe (only members of this specific tribe)</p>
+</div></div>
+<h2 id="the-cave" tabindex="-1">The Cave</h2>
+<p>As to PCs navigate the narrow passages of the cave, they are attacked by 3 <a href="https://2014.5e.tools/bestiary.html#adult%20kruthik_mpmm" target="_blank" class="external-link">Kruthik</a>.</p>
+<h2 id="the-tomb" tabindex="-1">The Tomb</h2>
+<p>TODO</p>
+<p>2 <a href="https://2014.5e.tools/bestiary.html#mummy_mm" target="_blank" class="external-link">Mummies</a></p>
+<div class="callout" data-callout="gm"><div class="callout-title"><div class="callout-title-inner"> Rhea and Ahor's tomb</div></div></div>
+<h2 id="the-ritual-tribe-s-route" tabindex="-1">The Ritual (Tribe's route)</h2>
+<p>TODO</p>
+<div class="callout" data-callout="gm"><div class="callout-title"><div class="callout-title-inner"> Cikryu and Ahiir<br></div></div>
+<div class="callout-content">
+<p>
+~ 5'000 years ago, Cikryu managed to manipuling the then Emperor of Laugsuil rendering him mad and pushing the Empire into a terrible civil war.</p>
+<p>Ahiir, the Emperor's own daughter joined the rebels and was armed as a simple soldier with a bronze spear.<br>
+She finally managed to kill Cikryu and send him back to the Nine Hells for thousand of years of torment while his body reforms</p>
+<p>The Banishment speel requires an item distasteful to the target and no object is more hated by Cikryu than the spear that killed him.</p>
+</div></div>
+<h2 id="consequences-cikryu-s-route" tabindex="-1">Consequences (Cikryu's route)</h2>
+<p>TODO</p>
+<p><a href="https://2014.5e.tools/bestiary.html#invisible%20stalker_mm" target="_blank" class="external-link">Invisible Stalker</a></p>
+<h2 id="back-in-inrast" tabindex="-1">Back in Inrast</h2>
+<p>The PCs are paid the promised 100gp, if they completed a careful inventory of the tomb and did not steal anything from it (or were particulariy clever in the way they stole it and avoided waking up the Mummies and falsified the documents) they get an additional 100gp for a work well done.</p>
+<p>If the PCs did a good enough job in the eyes of the Society, the latter will hire them again for the <a class="internal-link is-unresolved" href="/404" target="">The Giants Lost to Time</a> adventure. If they were showing some more ...loose morality, Lord Barnnon is the one to hire them instead.</p>
+</main>
+<aside>
+<div class="sidebar">
+<div class="sidebar-container">
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#gm-summary-the-archeologists">GM Summary : The Archeologists</a>
+<ol>
+<li><a href="#before-the-adventure-start">Before the adventure start</a>
+<ol>
+<li><a href="#if-the-p-cs-are-level-1">If the PCs are level 1</a>
+</li>
+</ol>
+</li>
+<li><a href="#unsafe-rest">Unsafe Rest</a>
+</li>
+<li><a href="#rival-group-encampment">Rival group encampment</a>
+</li>
+<li><a href="#caerfaldir-encampment">Caerfaldir encampment</a>
+</li>
+<li><a href="#cikryu-the-rakshasa">Cikryu, the Rakshasa</a>
+</li>
+<li><a href="#the-museum-tribe-s-route">The Museum (Tribe's route)</a>
+</li>
+<li><a href="#the-oasis-cikryu-s-route">The Oasis (Cikryu's route)</a>
+</li>
+<li><a href="#the-cave">The Cave</a>
+</li>
+<li><a href="#the-tomb">The Tomb</a>
+</li>
+<li><a href="#the-ritual-tribe-s-route">The Ritual (Tribe's route)</a>
+</li>
+<li><a href="#consequences-cikryu-s-route">Consequences (Cikryu's route)</a>
+</li>
+<li><a href="#back-in-inrast">Back in Inrast</a>
+</li>
+</ol>
+</li>
+</ol>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<style>#tooltip-wrapper{background:var(--background-primary);padding:1em;border-radius:4px;overflow:hidden;position:fixed;width:80%;max-width:400px;height:auto;max-height:300px;font-size:.8em;box-shadow:0 5px 10px rgba(0,0,0,.1);opacity:0;transition:opacity .1s;unicode-bidi:plaintext;overflow-y:scroll;z-index:10}#tooltip-wrapper:after{content:"";position:absolute;z-index:1;bottom:0;left:0;pointer-events:none;width:100%;unicode-bidi:plaintext;height:75px}</style>
+<div style="opacity:0;display:none" id="tooltip-wrapper">
+<div id="tooltip-content">
+</div>
+</div>
+<iframe style="display:none;height:0;width:0" id="link-preview-iframe" src="">
+</iframe>
+<script>var opacityTimeout,contentTimeout,transitionDurationMs=100,iframe=document.getElementById("link-preview-iframe"),tooltipWrapper=document.getElementById("tooltip-wrapper"),tooltipContent=document.getElementById("tooltip-content"),linkHistories={};function hideTooltip(){opacityTimeout=setTimeout((function(){tooltipWrapper.style.opacity=0,contentTimeout=setTimeout((function(){tooltipContent.innerHTML="",tooltipWrapper.style.display="none"}),transitionDurationMs+1)}),transitionDurationMs)}function showTooltip(t){var e=t.target,o=e.getClientRects()[e.getClientRects().length-1],i=window.pageYOffset||document.documentElement.scrollTop,n=t.target.getAttribute("href");if(-1===n.indexOf("http")||-1!==n.indexOf(window.location.host)){let t=n.split("#")[0];linkHistories[t]?(tooltipContent.innerHTML=linkHistories[t],tooltipWrapper.style.display="block",setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)):(iframe.src=t,iframe.onload=function(){tooltipContentHtml="",tooltipContentHtml+='<div style="font-weight: bold; unicode-bidi: plaintext;">'+iframe.contentWindow.document.querySelector("h1").innerHTML+"</div>",tooltipContentHtml+=iframe.contentWindow.document.querySelector(".content").innerHTML,tooltipContent.innerHTML=tooltipContentHtml,linkHistories[t]=tooltipContentHtml,tooltipWrapper.style.display="block",tooltipWrapper.scrollTop=0,setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),console.log(e),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)}),tooltipWrapper.style.left=o.left-tooltipWrapper.offsetWidth/2+o.width/2+"px",window.innerHeight-o.top<tooltipWrapper.offsetHeight?tooltipWrapper.style.top=o.top+i-tooltipWrapper.offsetHeight-10+"px":window.innerHeight-o.top>tooltipWrapper.offsetHeight&&(tooltipWrapper.style.top=o.top+i+35+"px"),o.left+o.width/2<tooltipWrapper.offsetWidth/2?tooltipWrapper.style.left="10px":document.body.clientWidth-o.left-o.width/2<tooltipWrapper.offsetWidth/2&&(tooltipWrapper.style.left=document.body.clientWidth-tooltipWrapper.offsetWidth-20+"px")}}function setupListeners(t){t.addEventListener("mouseleave",(function(t){hideTooltip()})),tooltipWrapper.addEventListener("mouseleave",(function(t){hideTooltip()})),t.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout),showTooltip(t)})),tooltipWrapper.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout)}))}window.addEventListener("load",(function(t){document.querySelectorAll(".internal-link").forEach(setupListeners),document.querySelectorAll(".backlink-card a").forEach(setupListeners)}))</script>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>

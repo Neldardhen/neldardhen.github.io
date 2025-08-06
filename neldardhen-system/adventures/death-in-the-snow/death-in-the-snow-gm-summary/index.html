@@ -1,0 +1,363 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Death in the Snow - GM Summary</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/plugins/autoloader/prism-autoloader.min.js" integrity="sha512-sv0slik/5O0JIPdLBCR2A3XDg/1U3WuDEheZfI/DI5n8Yqc3h5kjrnr46FGBNiUAJF7rE4LHKwQ/SoSLRKAxEA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+<script async src="https://cdn.jsdelivr.net/npm/lucide@0.115.0/dist/umd/lucide.min.js"></script>
+<script>window.addEventListener("load",(()=>{document.querySelectorAll(".callout").forEach((e=>{const t=getComputedStyle(e).getPropertyValue("--callout-icon"),l=t&&t.trim().replace(/^lucide-/,"");if(l){const t=e.querySelector(".callout-title");if(t){const e=document.createElement("div"),c=document.createElement("i");e.appendChild(c),c.setAttribute("icon-name",l),e.setAttribute("class","callout-icon"),t.insertBefore(e,t.firstChild)}}})),lucide.createIcons(),Array.from(document.querySelectorAll(".callout.is-collapsible")).forEach((e=>{e.querySelector(".callout-title").addEventListener("click",(t=>{e.classList.contains("is-collapsed")?e.classList.remove("is-collapsed"):e.classList.add("is-collapsed")}))}))}))</script>
+<script async src="https://fastly.jsdelivr.net/npm/force-graph@1.43.0/dist/force-graph.min.js"></script>
+<script async src="https://fastly.jsdelivr.net/npm/@alpinejs/persist@3.11.1/dist/cdn.min.js"></script>
+<script src="https://fastly.jsdelivr.net/npm/alpinejs@3.11.1/dist/cdn.min.js" async></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/themes/prism-okaidia.min.css" integrity="sha512-mIs9kKbaw6JZFfSuo+MovjU+Ntggfoj8RwAmJbVXQ5mkAX5LlgETQEweFPI18humSPHymTb5iikEOKWF7I8ncQ==" crossorigin="anonymous" referrerpolicy="no-referrer" async>
+<script src="https://fastly.jsdelivr.net/npm/whatwg-fetch@3.6.2/dist/fetch.umd.min.js" crossorigin="anonymous" referrerpolicy="no-referrer" async></script>
+<link href="/styles/digital-garden-base.css" rel="stylesheet">
+<link href="/styles/obsidian-base.css" rel="stylesheet">
+<link href="/styles/_theme.d92311c2.css" rel="stylesheet">
+<link href="/styles/custom-style.css" rel="stylesheet">
+<link rel="icon" href="/favicon.ico" sizes="any">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+<link rel="manifest" href="/manifest.webmanifest">
+<style></style>
+</head>
+<body class="theme-dark markdown-preview-view markdown-rendered markdown-preview-section">
+<nav class="navbar">
+<div class="navbar-inner">
+<a href="/" style="text-decoration:none">
+<h1 style="margin:15px!important">Neldar</h1>
+</a>
+</div>
+<div class="search-button align-icon" onclick="toggleSearch()">
+<span class="search-icon">
+<i icon-name="search"></i>
+</span>
+<span class="search-text">
+<span>Search</span>
+<span style="font-size:.6rem;padding:2px 2px 0 6px;text-align:center;transform:translateY(4px)" class="search-keys">
+CTRL + K
+</span>
+</span>
+</div>
+</nav>
+<div class="search-container" id="globalsearch" onclick="toggleSearch()">
+<div class="search-box">
+<input type="search" id="term" placeholder="Start typing...">
+<div id="search-results"></div>
+<footer class="search-box-footer">
+<div class="navigation-hint">
+<span>Enter to select</span>
+</div>
+<div class="navigation-hint align-icon">
+<i icon-name="arrow-up" aria-hidden="true"></i>
+<i icon-name="arrow-down" aria-hidden="true"></i>
+<span>to navigate</span>
+</div>
+<div class="navigation-hint">
+<span>ESC to close</span>
+</div>
+</footer>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/flexsearch@0.7.21/dist/flexsearch.bundle.js"></script>
+<script>document.addEventListener("DOMContentLoaded",init,!1),document.addEventListener("DOMContentLoaded",setCorrectShortcut,!1),window.toggleSearch=function(){document.getElementById("globalsearch").classList.contains("active")?document.getElementById("globalsearch").classList.remove("active"):(document.getElementById("globalsearch").classList.add("active"),document.getElementById("term").focus())},window.toggleTagSearch=function(e){console.log(e.textContent);const t=e.textContent;t&&(window.document.getElementById("term").value=t.trim(),window.toggleSearch(),window.search())};const loadingSvg='\n    <svg width="100" height="100" viewBox="0 0 45 45" xmlns="http://www.w3.org/2000/svg" stroke="#fff">\n      <g fill="none" fill-rule="evenodd" transform="translate(1 1)" stroke-width="2">\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="1.5s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="1.5s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="1.5s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="6" stroke-opacity="0">\n              <animate attributeName="r"\n                   begin="3s" dur="3s"\n                   values="6;22"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-opacity"\n                   begin="3s" dur="3s"\n                   values="1;0" calcMode="linear"\n                   repeatCount="indefinite" />\n              <animate attributeName="stroke-width"\n                   begin="3s" dur="3s"\n                   values="2;0" calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n          <circle cx="22" cy="22" r="8">\n              <animate attributeName="r"\n                   begin="0s" dur="1.5s"\n                   values="6;1;2;3;4;5;6"\n                   calcMode="linear"\n                   repeatCount="indefinite" />\n          </circle>\n      </g>\n  </svg>';function debounce(e,t,n){var a;return function(){var r=this,i=arguments,c=n&&!a;clearTimeout(a),a=setTimeout((function(){a=null,n||e.apply(r,i)}),t),c&&e.apply(r,i)}}function setCorrectShortcut(){navigator.platform.toUpperCase().indexOf("MAC")>=0&&document.querySelectorAll(".search-keys").forEach((e=>e.innerHTML="⌘ + K"))}function createIndex(e){const t=e=>e.toLowerCase().split(/([^a-z]|[^\x00-\x7F])/),n=new FlexSearch.Document({cache:!0,charset:"latin:extra",optimize:!0,index:[{field:"content",tokenize:"reverse",encode:t},{field:"title",tokenize:"forward",encode:t},{field:"tags",tokenize:"forward",encode:t}]});return e.forEach(((e,t)=>{n.add({id:t,title:e.title,content:e.content,tags:e.tags})})),n}async function init(){let e=!0;if(localStorage.getItem("searchIndex")){let{date:t,docs:n}=JSON.parse(localStorage.getItem("searchIndex"));if("2025-08-06T19:12:29.905Z"===t){e=!1;let t=createIndex(n);window.docs=n,window.index=t}}if(e){let e=await(await fetch("/searchIndex.json?v=2025-08-06T19:12:29.905Z")).json(),t=createIndex(e);localStorage.setItem("searchIndex",JSON.stringify({date:"2025-08-06T19:12:29.905Z",docs:e})),window.docs=e,window.index=t}document.addEventListener("keydown",(e=>{if((e.ctrlKey||e.metaKey)&&"k"===e.key&&(e.preventDefault(),toggleSearch()),"Escape"===e.key&&document.getElementById("globalsearch").classList.remove("active"),document.getElementById("globalsearch").classList.contains("active")){if("ArrowDown"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.nextElementSibling?t.nextElementSibling.classList.add("active"):document.querySelector(".searchresult").classList.add("active")):document.querySelector(".searchresult").classList.add("active");let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("ArrowUp"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t?(t.classList.remove("active"),t.previousElementSibling?t.previousElementSibling.classList.add("active"):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling||e.classList.add("active")}))):document.querySelectorAll(".searchresult").forEach((e=>{e.nextElementSibling&&e.classList.add("active")}));let n=document.querySelector(".searchresult.active");n&&n.scrollIntoView({behavior:"smooth",block:"nearest",inline:"start"})}if("Enter"===e.key){e.preventDefault();let t=document.querySelector(".searchresult.active");t&&(window.location.href=t.querySelector("a").href)}}}));const t=debounce(search,200,!1);field=document.querySelector("#term"),field.addEventListener("keydown",(e=>{"ArrowDown"!==e.key&&"ArrowUp"!==e.key&&t()})),resultsDiv=document.querySelector("#search-results");const n=new URL(location.href).searchParams;n.get("q")&&(field.setAttribute("value",n.get("q")),toggleSearch(),search())}async function search(){let e=field.value.trim();if(!e)return;if(e==lastSearch)return;console.log(`search for ${e}`),window.lastSearch=e,resultsDiv.innerHTML=loadingSvg;let t=offlineSearch(e),n="";if(!t.length){let t=document.createElement("p");return t.innerText=`No results for "${e}"`,resultsDiv.innerHTML="",void resultsDiv.appendChild(t)}n+='<div style="max-width:100%;">',t.forEach((e=>{e.tags&&e.tags.length>0?n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        <div class="header-meta">\n                            <div class="header-tags">\n                                ${e.tags.map((e=>'<a class="tag" href="JavaScript:Void(0);">#'+e+"</a>")).join("")}\n                            </div>\n                        </div>\n                        ${e.content}\n                    </div>\n                </div>`:n+=`<div class="searchresult">\n                    <a class="search-link" href="${e.url}">${e.title}</a>\n                    <div onclick="window.location='${e.url}'">\n                        ${e.content}\n                    </div>\n                </div>`})),n+="</div>",resultsDiv.innerHTML=n}function truncate(e,t){return(e=e.replaceAll(/<[^>]*>/g,"")).length<t?e:e.substring(0,t-3)+"..."}function offlineSearch(e){let t=window.docs,n="#"===e[0]&&e.length>1?index.search(e.substring(1),[{field:"tags"}]):index.search(e,[{field:"title",limit:5},{field:"content",weight:10}]);const a=e=>{const t=n.filter((t=>t.field===e));return 0===t.length?[]:[...t[0].result]};return[...new Set([...a("title"),...a("content"),...a("tags")])].map((e=>{let n=t[e];return n.content=truncate(n.content,400),n.tags=n.tags.filter((e=>"gardenEntry"!=e&&"note"!=e)),n}))}window.lastSearch=""</script>
+<main class="content cm-s-obsidian">
+<header>
+<div class="header-meta">
+</div>
+</header>
+<h1 id="gm-summary-death-in-the-snow" tabindex="-1">GM Summary : Death in the Snow</h1>
+<p>Gm only summary for the <a class="internal-link" target="" data-note-icon="" href="/neldardhen-system/adventures/adventures/">adventure</a> <a class="internal-link" target="" data-note-icon="" href="/neldardhen-system/adventures/death-in-the-snow/death-in-the-snow/">Death in the Snow</a>.</p>
+<div class="callout" data-callout="warning"><div class="callout-title"><div class="callout-title-inner"> GM Only information !<br></div></div>
+<div class="callout-content">
+<p>
+If you are a player please don't read any further !</p>
+</div></div>
+<p>The PCs and the travellers are stuck inside a mountain refuge due to some bad weather forbidding travel. In the morning of their 4th day here, they will be awaken by the cries of <strong>Fidala Avarami</strong>, who found her husband (<strong>Daetor Avaro</strong>) dead outside.</p>
+<p>A little before the adventure's start, <strong>Sila</strong> met three hags disguised as old ladies. The hags pretended to need help and rewarded <strong>Sila</strong> with a magic iron-like ring that would allow <strong>Sila</strong> to communicate directely with one the hags, <strong>Moelle</strong> (<a href="https://2014.5e.tools/bestiary.html#annis%20hag_mpmm" target="_blank" class="external-link">Annis Hag</a>). The ring is an Iron Token (see Iron Token under the Info section of the <a href="https://2014.5e.tools/bestiary.html#annis%20hag_mpmm" target="_blank" class="external-link">Annis Hag</a>)</p>
+<p><strong>Moelle</strong> has been talking to <strong>Sila</strong> through the ring, acting as a kind and empathetic grandmother, but in actuallity, slowly corrupting her.</p>
+<p><strong>Moelle</strong> <a href="https://2014.5e.tools/bestiary.html#annis%20hag_mpmm" target="_blank" class="external-link">Annis Hag</a> is part of a coven with two other hags <strong>Miasme</strong> <a href="https://2014.5e.tools/bestiary.html#green%20hag_mm" target="_blank" class="external-link">Green Hag</a> and <strong>Engelure</strong> <a href="https://2014.5e.tools/bestiary.html#bheur%20hag_mpmm" target="_blank" class="external-link">Bheur Hag</a>.<br>
+<strong>Engelure</strong> has been casting <a href="https://2014.5e.tools/spells.html#control%20weather_phb" target="_blank" class="external-link">Control Weather</a> every day in the morning for 3 days (or more, if you wish the PCs to have been stuck inside for longer) in order to make travel impossible.</p>
+<h1 id="the-night-of-the-murder" tabindex="-1">The Night of the Murder</h1>
+<p><strong>Sila</strong>, pushed by the whispers of <strong>Moelle</strong> is the one who murdered <strong>Daetor</strong>.<br>
+<strong>Daetor</strong> was dismissive and treating her like she did not even exist and <strong>Sila</strong> slowly grow resentful.</p>
+<p>Shortly after the unatural blizzard stranded the group inside, <strong>Daetor</strong> caught a nasty cold, fearing that it could take a turn for the worst, <strong>Erkano</strong> was preparing some herbal medicine for <strong>Daetor</strong> to take, <strong>Sila</strong> was often the one to bring it to him in the evening.</p>
+<p>In the evening of the third day, <strong>Sila</strong> added some monkshood (<a href="https://en.wikipedia.org/wiki/Aconitum" target="_blank" class="external-link">Aconitum</a> ) to <strong>Daetor</strong>'s potion.</p>
+<p><strong>Symptoms</strong></p>
+<ul>
+<li>nausea</li>
+<li>vomitting</li>
+<li>diarrhea</li>
+<li>sweating</li>
+<li>dizziness</li>
+<li>difficulty in breathing</li>
+<li>headache</li>
+<li>confusion</li>
+</ul>
+<p><strong>Daetor</strong>, due to those symtoms, woke up <strong>Fidala</strong> in the middle of the night. He had diffculty breathing and said he had a headache and needed some fresh air. He stumbled with difficulty down the stairs, which woke up <strong>Quicksilver</strong>.<br>
+<strong>Sila</strong>, waiting for her moment, was hidding in the common room. She followed <strong>Daetor</strong> outside and tried to stab him with a knife from the kitchen while he was in a weaken state, she left the knife in the wound and quickly went back to her and <strong>Erkanro</strong>'s room.<br>
+Leaving the knife in the wound, is what allowed <strong>Sila</strong> to flee without having any blood on her. The wound still bled after, meaning that Daetor was still alive when stabbed.</p>
+<p><strong>Post Mortem</strong></p>
+<ul>
+<li>Signs of diarrhea</li>
+<li>Knife wound in the back, with the knife stuck in it, did not do any lethal damage.</li>
+<li>Blood from the wound still soaked his clothes ; he was alive when stabbed</li>
+<li>Nothing was heard from inside the refuge ; he did not call for help or at least not with enough strength to wake up the people inside.</li>
+<li>Cyanosis (due to asphyxia and frostbites) His fingertips, toes and lips are blue.</li>
+<li>The cause of death was paralysis of the hearth and respiratory center causing asphyxia (Can only be confirmed via a Wish spell or a Divine Intervention)</li>
+</ul>
+<h3 id="speak-with-dead" tabindex="-1">Speak with Dead</h3>
+<p>If the spell Speak with Dead is used Daetor can reveal the following information (if asked !):</p>
+<ul>
+<li>His potion was bitter this time</li>
+<li>He was feeling too hot and dizzy, he woke up during the middle of the night and need to go get some fresh air and use the bathroom...</li>
+<li>He felt something when outside like he stumble into somebody, but saw nobody there.</li>
+<li>It was harder and harder to breathe</li>
+<li>He was still sweating despite the cold, in fact he was not feeling the cold anymore...</li>
+</ul>
+<p>Both <strong>Ekanro</strong> and <strong>Nerena</strong> are in possession of monkshood, both possess various plants that can be used in herbal medicine or in poisoning (rulewise <strong>Ekanro</strong> has a Herbalism Toolkit and <strong>Nerena</strong> a Poisoner Toolkit) to recognise that <strong>Nerena</strong> has specifically a poisoner toolkit and not an herbalism one, a character must either be part of the Masked Ones or be a Rogue and succeed a <strong>DC 15</strong> <em>Survival</em> or <em>Nature</em> check.</p>
+<div class="callout" data-callout="gm"><div class="callout-title"><div class="callout-title-inner"> Ekanro's Herbalism kit<br></div></div>
+<div class="callout-content">
+<p>
+Rosemary<br>
+Valerian<br>
+St John's Wort<br>
+Mullein<br>
+Chamomille<br>
+Monkshood<br>
+Solomon's seal</p>
+</div></div>
+<div class="callout" data-callout="gm"><div class="callout-title"><div class="callout-title-inner"> Nerena's Poisoner kit<br></div></div>
+<div class="callout-content">
+<p>
+Hemlock<br>
+Valerian<br>
+Belladona<br>
+Mullein<br>
+Monkshood<br>
+Apple Seeds</p>
+</div></div>
+<h2 id="clues" tabindex="-1">Clues</h2>
+<h3 id="daetor-was-poison-before-being-stabbed-and-the-poison-was-the-cause-of-death" tabindex="-1">Daetor was poison before being stabbed and the poison was the cause of death</h3>
+<ul>
+<li>He complained to his wife that the potion was bitter this time (<strong>Fidala</strong>)</li>
+<li>The knife wound was not lethal (<strong>DC 15</strong> <em>Medicine</em> check or <strong>DC 20</strong> <em>Survival</em> check, fighters or rogues have a DC of <strong>5 less</strong> than other characters)</li>
+<li>He had difficulty breathing when he woke up in the middle of the night and complain of a headache and needing fresh air (<strong>Fidala</strong>)</li>
+<li><strong>Quicksilver</strong> saw him struggling to get down the stairs and acting confused (Quicksilver, needs Speak with Animals)</li>
+</ul>
+<h3 id="sila-is-the-poisoner" tabindex="-1">Sila is the poisoner</h3>
+<ul>
+<li>She was the one bringing the potion to <strong>Daetor</strong></li>
+<li>The knife stab was done be someone with low strength and smaller than Daetor (<strong>DC 25</strong> <em>Survival</em> check, rogue have a DC of <strong>5 less</strong>)</li>
+<li>Quicksilver saw her following <strong>Daetor</strong> outside (Speak with animals <em><strong>and</strong></em> a <strong>DC 25</strong> <em>Persuasion</em> or <em>Deception</em> check) Quicksilver will admit seeing someone following <strong>Daetor</strong> outside, the check is needed for him to tell that it was <strong>Sila</strong> as he wants to protect her. He doesn't believe that she has the strength to kill Daetor and sees her as a &quot;kitten&quot;.</li>
+<li><strong>Sila</strong> herself seems worried and can be seen &quot;talking to herself&quot; while fiddlelling with her iron ring. (She is actually talking to <strong>Moelle</strong> through the Iron Token)</li>
+</ul>
+<h3 id="hags-are-involved" tabindex="-1">Hags are involved</h3>
+<ul>
+<li>The weather is unatural (<strong>DC 10</strong> <em>Nature</em> or <em>Survival</em> check, automatic success for druids or rangers)</li>
+<li><strong>Sila</strong>'s ring is magical (Detect Magic or <strong>DC 15</strong> <em>Arcana</em> check, only magic users can make this check)</li>
+<li><strong>Sila</strong>'s ring is not made of iron and will <em>not</em> repel Fey creatures. (She says and believes that her ring is made of iron and is a lucky charm to protect her against evil feys... hags do love irony) (<strong>DC 10</strong> for any character with Smith Tools Proficiency, based on Intelligence or Wisdom)</li>
+<li>Speaking with the Banshee near the well (see below) will reveal that hags are living in the vicinity.</li>
+<li>If interogated about her iron ring, <strong>Sila</strong> will mention meeting three old women in the wilderness. Anyone from the East of Nelatar or Egerot knows this saying :</li>
+</ul>
+<div class="callout" data-callout="gm"><div class="callout-title"><div class="callout-title-inner"> Three Old Women<br></div></div>
+<div class="callout-content">
+<p>
+&quot;One old woman in the wood : A healer gathering herbs to heal you.<br>
+Two old women in the wood : A couples of gossipers talking about you.<br>
+Three old women in the wood : No women but hags, that will gleefuly hurt you.&quot;</p>
+</div></div>
+<p><em>In case your party is low level and you want to use only one hag use this one instead</em></p>
+<div class="callout" data-callout="gm"><div class="callout-title"><div class="callout-title-inner"> Three Old Women<br></div></div>
+<div class="callout-content">
+<p>
+&quot;Three women in the wood are here for gossip.<br>
+Two women in the wood, it's the healer and her apprentice.<br>
+One woman in the wood, it's a hag ! prepare for hardship...&quot;</p>
+</div></div>
+<p><em>People from the West of Nelatar and therefore who have lived under a more stronger influence of the Temple of Ordel (Ekanro and Sila both are from this demographic) have never heard of this saying as it is seen by the Temple as relating to older beliefs and therefore forbidden.</em></p>
+<h2 id="the-well-and-the-singing" tabindex="-1">The Well and the Singing</h2>
+<p>Every night, the PCs can hear beautiful but sorrowful singing from the well. This song is coming from <strong>Nimwen</strong> a <a href="https://2014.5e.tools/bestiary.html#banshee_mm" target="_blank" class="external-link">Banshee</a> that was tricked by the same group of hags a long time ago. If the PCs talk to her and are decently polite they can learn the story of her death and therefore learn about the hags. (If they antagonise her in any way the Banshee will attack them and the group will learn nothing)</p>
+<div class="callout" data-callout="gm"><div class="callout-title"><div class="callout-title-inner"> Nimwen's Story<br></div></div>
+<div class="callout-content">
+<p>
+Young and beautiful elf lost in the mountains and slowly dying of exposure.<br>
+She was found by three hags. The hags, cackling, asked her what she would give to not die young.<br>
+&quot;Anything !&quot;, she answered.<br>
+&quot;Such a beautiful and proud creature you are, but still you would rather die old and decrepit like we are ? &quot;<br>
+&quot;Yes, yes I'd rather die old and decrepit ! Please help me !&quot;<br>
+The hags then stole away her youthfulness and her beauty and left her to die in the snow.</p>
+</div></div>
+<h2 id="np-cs-secrets" tabindex="-1">NPCs' secrets</h2>
+<p>Those secrets can be uncovered while the PCs interrogate the travellers, don't hesitate to give to your PCs some secrets of their own too !</p>
+<h3 id="daetor-avaro" tabindex="-1">Daetor Avaro</h3>
+<p>Full of himself, he loves power and being in control.</p>
+<p>He was declared a Coward by the Princ of Nelatar. He awaits imprisonnement in Nelataren and judgement by the Prince. He may face execution.</p>
+<h3 id="fidal-avarami" tabindex="-1">Fidal Avarami</h3>
+<p>She lived a sheltered life and doesn't understand the struggles of people who are not of noble birth, but she is open to learn and has a kind hearth.</p>
+<p>She is horrified at the death of her husband even if she did not love him.</p>
+<p>She has an affair with <strong>Dagan</strong>.</p>
+<h3 id="dagan" tabindex="-1">Dagan</h3>
+<p>They have served Daetor and his family for most of their life. Daetor used to make fun of them and their &quot;feminine ways&quot;. They stayed in his service despite the humiliations, because they have been having an affair with <strong>Fidala</strong>.</p>
+<h3 id="nerena" tabindex="-1">Nerena</h3>
+<p>She is not a human, but an <a class="internal-link" target="" data-note-icon="" href="/neldardhen-world/species/essedir/">Esseret</a> (Yuan-ti). She is a member of the <a class="internal-link is-unresolved" href="/404" target="">Masked Ones</a> and a worshiper of the <a class="internal-link is-unresolved" href="/404" target="">Black Snake</a>.<br>
+She wants to end the corrupt &quot;reign&quot; of the <a class="internal-link" target="" data-note-icon="" href="/neldardhen-world/endea/cultures-nations/places/nelatar/#b8e726">Temple of Ordel</a>. She had orders to kill <strong>Ekanro the Laft Hand</strong>, but she decided to hold her hand when she learnt that he has been excommunicated.<br>
+Her reasoning being that she was ordered to kill &quot;Ekanro the Left Hand&quot; not &quot;Ekanro the Wandering Priest&quot;.</p>
+<h3 id="ekanro" tabindex="-1">Ekanro</h3>
+<p>Former Left Hand of the High Priest of Ordel, he was excommunicated by the Temple.<br>
+He wants to go back to the roots of the priest-healers and help the common people.<br>
+He still hold some prejudices against the Masked Ones, but is starting to recognised that they are helping the common people more than the current priests of the Temple.</p>
+<div class="callout" data-callout="gm"><div class="callout-title"><div class="callout-title-inner"> The Left Hand<br></div></div>
+<div class="callout-content">
+<p>
+The High Priest of Ordel holds more power than the Prince of Nelatar himself. The High Priest of Ordel traditionally choose two men as advisors The Right Hand and the Left Hand. As where the Right Hand acts as a public figure for the Hight Priest and enjoy his fair share of autonomy and power, the Left Hand is often tasked with more dirty work. The position has barely any practical power at all and was often used by High Priest to keep a political opponent in check.<br>
+You can choose if Ekanro was named to this position as a way to stripped him from power or if he was tasked to conduct some morally questionable deeds.<br>
+The important thing is that Ekanro eventually rebelled against this system and got himself excommunicated.</p>
+</div></div>
+<h3 id="sila" tabindex="-1">Sila</h3>
+<p>Orphan from the street of Ordelen, she was taken in by the Temple and treated as a slave.<br>
+(In their effort to &quot;Empty the streets of Ordelen from the sad view of children without homes&quot; the Temple used them as free labour for various tasks, mainly in helping building and maintaining the various temples of the city.)<br>
+Realising the horrible conditions the orphan was living in, <strong>Ekanro</strong> took her as an apprentice.<br>
+<strong>Ekanro</strong> is the only person who show her kindness so far and the only one she trusts.<br>
+When she became apprentice priest-healer, she was given a nice light blue cloak (as the custom wants it), but the Temple refused to replace her rags with better clothes. Furious, Ekanro spoke out during the ceremony and this is the inciting incident that lead to his excommunication and Sila and him adopting a humble nomadic lifestyle as itinerant healers.<br>
+(Sila still doesn't have better clothes, because <strong>Ekanro</strong> had to pay the Temple heavy fine for even being allowed to leave...)<br>
+Since helping the three old ladies in the wood, <strong>Sila</strong> has been talking to her iron ring seeing in <strong>Moelle</strong> the mother figure that she lacks.</p>
+<h3 id="arlas-and-quicksilver" tabindex="-1">Arlas and Quicksilver</h3>
+<p>They are the travellers guide. They know the region quite well, because they belive that there is a portal to the <a class="internal-link is-unresolved" href="/404" target="">Dusk World</a> somewhere in the mountains. They are looking for it and have spend a significant amount of time axploring the mountains.<br>
+The have a snow leopard beast companion named <strong>Quicksilver</strong>.</p>
+<h2 id="statblocks" tabindex="-1">Statblocks</h2>
+<ul>
+<li><strong>Nimwen</strong> <a href="https://2014.5e.tools/bestiary.html#banshee_mm" target="_blank" class="external-link">Banshee</a></li>
+<li><strong>Moelle</strong> <a href="https://2014.5e.tools/bestiary.html#annis%20hag_mpmm" target="_blank" class="external-link">Annis Hag</a></li>
+<li><strong>Engelure</strong> <a href="https://2014.5e.tools/bestiary.html#bheur%20hag_mpmm" target="_blank" class="external-link">Bheur Hag</a></li>
+<li><strong>Miasme</strong> <a href="https://2014.5e.tools/bestiary.html#green%20hag_mm" target="_blank" class="external-link">Green Hag</a></li>
+</ul>
+<p><strong>Travellers</strong></p>
+<ul>
+<li><strong>Arlas</strong> Ranger Beast Master level 5 Quicksilver is their Beast Companion</li>
+<li><strong>Nerena</strong> Rogue Assassin level 5</li>
+<li><strong>Fidala</strong>, <strong>Dagan</strong>, <strong>Ekanro</strong> and <strong>Sila</strong> (Commoners)</li>
+</ul>
+<h1 id="possible-endings" tabindex="-1">Possible Endings</h1>
+<h2 id="the-p-cs-find-the-correct-culprit-and-understand-that-hags-are-truely-behind-it-all" tabindex="-1">The PCs find the correct culprit and understand that hags are truely behind it all.</h2>
+<p>The PCs can decided to go fins the hag coven or the hags themselves come to the refuge when the PCs confront Sila.<br>
+The hags are contantly listening through the Iron Token and watching the PCs through various other magical means (Scrying, Hag Eye ) and can arrive at the most (in)convenient moment...</p>
+<p>Depending on your PCs group and abilities the hags can be in a coven or not and can have a lair in the region or not.<br>
+For low level PCs consider replacing the three hags by only one.</p>
+<h2 id="the-p-cs-find-the-correct-culprit-but-don-t-understand-that-hags-are-involved" tabindex="-1">The PCs find the correct culprit but don't understand that hags are involved.</h2>
+<p>The adults of the group (PCs + NPCs) can decide together what fate should befall <strong>Sila</strong>. The NPCs all have their personal beliefs, but will easily go with the decision of the PCs, except if the PCs want to execute <strong>Sila</strong> here and there, this will start a fight with at least <strong>Arlas</strong>, <strong>Quicksilver</strong> and <strong>Nerena</strong> with the hags (or only one hag depending on the PCs level) arriving <strong>1 round</strong> after the fight start (<strong>Sila</strong> used the Iron Token to ask for their help).<br>
+If the PCs decide on any other fate for <strong>Sila</strong>, the hags will take her away during the next night. (<strong>Miasme</strong> will use Invisible Passage and/or Illusory Appearance, <strong>Engelure</strong> can use her Graystaff to fly)<br>
+<strong>Sila</strong> can then be found in the hags' lair, if the PCs don't go rescue her, she will grow up to become a hag herself.</p>
+<h2 id="the-p-cs-don-t-find-the-correct-culprit-and-accuse-someone-else" tabindex="-1">The PCs don't find the correct culprit and accuse someone else.</h2>
+<p>Frankly, this should not happen, you should try to give enough clues that your PCs can at least partially piece out what happened. Don't hesitate to have NPCs give the information the PCs need if the latter are completely stuck.</p>
+<ul>
+<li><strong>Arlas</strong> could come to the PCs saying that they talk with <strong>Quicksilver</strong> and reveal some of the information <strong>Quicksilver</strong> has.</li>
+<li><strong>Nerena</strong> could say that she knows that some of the herbs and plants used by priest-healer could potentially also be used as poison.</li>
+<li><strong>Dagan</strong> could say that <strong>Daetor</strong> was not treating <strong>Sila</strong> according to her rank (priest-healer apprentice) and that it seemd to get to the poor girl. They also noticed that she has been talking to herself when she thought she was alone.</li>
+</ul>
+<h3 id="if-the-p-cs-still-accuse-dagan-and-or-fidala" tabindex="-1">If the PCs still accuse Dagan and/or Fidala</h3>
+<p><strong>Ekanro</strong> will leave the group, taking <strong>Sila</strong> with him not wanting to have anything to do with murderers, but not wanting to push the matter any further. He will declare that their own guilty conscience will be their punishment. The mountains having proven impassable, he will try to go back to Nelatar only for <strong>Sila</strong> to disapear two days after <strong>Ekanro</strong> and her left the group.</p>
+<p><strong>Arlas</strong> will agree to keep guiding Fidala and Dagan to Alfir. They know that Sila was the murderer, Quicksiler told them about seeing Sila during the night of the murder, but they won't say anything. They did not like Daetor anyways...</p>
+<p><strong>Nerena</strong> doesn't really care. She will go back to Serna as soon as the weather clears.</p>
+<p><strong>Dagan</strong> and <strong>Fidala</strong> will insist on their innocence, if the PCs push the matter, <strong>Fidala</strong>, as the current owner of their contract, will dismiss them without paying them and ask them to leave them alone.</p>
+<p>If the PCs insist on killing Dagan and/or Fidala on the spot the gleeful cackle of the hags can be heard as the PCs commit murder themselves.<br>
+&quot;Murderers, Killers, you who have taken innocent lives come join the dance ! &quot; The hags will then appear and dance around them to taunt them ! (If the PCs attack the hags, don't hold back, try to kill them, at this point they deserve it !)</p>
+<h3 id="if-the-p-cs-accuse-ekanro" tabindex="-1">If the PCs accuse Ekanro</h3>
+<p><strong>Sila</strong> will intervene and reveal the truth, she doesn't want <strong>Ekanro</strong> to be accused and pay in her place in the end.</p>
+<h3 id="if-the-p-cs-accuse-arlas-or-nerena" tabindex="-1">If the PCs accuse Arlas or Nerena</h3>
+<p>Both of them will feint compliance only to try to flee at the first opportunity.<br>
+If the PCs kill one of them then the hags will join in as in the paragraph above if the PCs kill <strong>Dagan</strong> and/or <strong>Fidala</strong>.</p>
+</main>
+<aside>
+<div class="sidebar">
+<div class="sidebar-container">
+<div class="toc">
+<div class="toc-title-container">
+<div class="toc-title">
+On this page
+</div>
+</div>
+<div class="toc-container">
+<nav class="toc">
+<ol>
+<li><a href="#gm-summary-death-in-the-snow">GM Summary : Death in the Snow</a>
+</li>
+<li><a href="#the-night-of-the-murder">The Night of the Murder</a>
+<ol>
+<li><a href="#speak-with-dead">Speak with Dead</a>
+</li>
+<li><a href="#clues">Clues</a>
+<ol>
+<li><a href="#daetor-was-poison-before-being-stabbed-and-the-poison-was-the-cause-of-death">Daetor was poison before being stabbed and the poison was the cause of death</a>
+</li>
+<li><a href="#sila-is-the-poisoner">Sila is the poisoner</a>
+</li>
+<li><a href="#hags-are-involved">Hags are involved</a>
+</li>
+</ol>
+</li>
+<li><a href="#the-well-and-the-singing">The Well and the Singing</a>
+</li>
+<li><a href="#np-cs-secrets">NPCs' secrets</a>
+<ol>
+<li><a href="#daetor-avaro">Daetor Avaro</a>
+</li>
+<li><a href="#fidal-avarami">Fidal Avarami</a>
+</li>
+<li><a href="#dagan">Dagan</a>
+</li>
+<li><a href="#nerena">Nerena</a>
+</li>
+<li><a href="#ekanro">Ekanro</a>
+</li>
+<li><a href="#sila">Sila</a>
+</li>
+<li><a href="#arlas-and-quicksilver">Arlas and Quicksilver</a>
+</li>
+</ol>
+</li>
+<li><a href="#statblocks">Statblocks</a>
+</li>
+</ol>
+</li>
+<li><a href="#possible-endings">Possible Endings</a>
+<ol>
+<li><a href="#the-p-cs-find-the-correct-culprit-and-understand-that-hags-are-truely-behind-it-all">The PCs find the correct culprit and understand that hags are truely behind it all.</a>
+</li>
+<li><a href="#the-p-cs-find-the-correct-culprit-but-don-t-understand-that-hags-are-involved">The PCs find the correct culprit but don't understand that hags are involved.</a>
+</li>
+<li><a href="#the-p-cs-don-t-find-the-correct-culprit-and-accuse-someone-else">The PCs don't find the correct culprit and accuse someone else.</a>
+<ol>
+<li><a href="#if-the-p-cs-still-accuse-dagan-and-or-fidala">If the PCs still accuse Dagan and/or Fidala</a>
+</li>
+<li><a href="#if-the-p-cs-accuse-ekanro">If the PCs accuse Ekanro</a>
+</li>
+<li><a href="#if-the-p-cs-accuse-arlas-or-nerena">If the PCs accuse Arlas or Nerena</a>
+</li>
+</ol>
+</li>
+</ol>
+</li>
+</ol>
+</nav>
+</div>
+</div>
+</div>
+</div>
+</aside>
+<style>#tooltip-wrapper{background:var(--background-primary);padding:1em;border-radius:4px;overflow:hidden;position:fixed;width:80%;max-width:400px;height:auto;max-height:300px;font-size:.8em;box-shadow:0 5px 10px rgba(0,0,0,.1);opacity:0;transition:opacity .1s;unicode-bidi:plaintext;overflow-y:scroll;z-index:10}#tooltip-wrapper:after{content:"";position:absolute;z-index:1;bottom:0;left:0;pointer-events:none;width:100%;unicode-bidi:plaintext;height:75px}</style>
+<div style="opacity:0;display:none" id="tooltip-wrapper">
+<div id="tooltip-content">
+</div>
+</div>
+<iframe style="display:none;height:0;width:0" id="link-preview-iframe" src="">
+</iframe>
+<script>var opacityTimeout,contentTimeout,transitionDurationMs=100,iframe=document.getElementById("link-preview-iframe"),tooltipWrapper=document.getElementById("tooltip-wrapper"),tooltipContent=document.getElementById("tooltip-content"),linkHistories={};function hideTooltip(){opacityTimeout=setTimeout((function(){tooltipWrapper.style.opacity=0,contentTimeout=setTimeout((function(){tooltipContent.innerHTML="",tooltipWrapper.style.display="none"}),transitionDurationMs+1)}),transitionDurationMs)}function showTooltip(t){var e=t.target,o=e.getClientRects()[e.getClientRects().length-1],i=window.pageYOffset||document.documentElement.scrollTop,n=t.target.getAttribute("href");if(-1===n.indexOf("http")||-1!==n.indexOf(window.location.host)){let t=n.split("#")[0];linkHistories[t]?(tooltipContent.innerHTML=linkHistories[t],tooltipWrapper.style.display="block",setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)):(iframe.src=t,iframe.onload=function(){tooltipContentHtml="",tooltipContentHtml+='<div style="font-weight: bold; unicode-bidi: plaintext;">'+iframe.contentWindow.document.querySelector("h1").innerHTML+"</div>",tooltipContentHtml+=iframe.contentWindow.document.querySelector(".content").innerHTML,tooltipContent.innerHTML=tooltipContentHtml,linkHistories[t]=tooltipContentHtml,tooltipWrapper.style.display="block",tooltipWrapper.scrollTop=0,setTimeout((function(){if(tooltipWrapper.style.opacity=1,-1!=n.indexOf("#")){let t=n.split("#")[1];const e=tooltipWrapper.querySelector(`[id='${t}']`);e.classList.add("referred"),console.log(e),e.scrollIntoView({behavior:"smooth"},!0)}else tooltipWrapper.scroll(0,0)}),1)}),tooltipWrapper.style.left=o.left-tooltipWrapper.offsetWidth/2+o.width/2+"px",window.innerHeight-o.top<tooltipWrapper.offsetHeight?tooltipWrapper.style.top=o.top+i-tooltipWrapper.offsetHeight-10+"px":window.innerHeight-o.top>tooltipWrapper.offsetHeight&&(tooltipWrapper.style.top=o.top+i+35+"px"),o.left+o.width/2<tooltipWrapper.offsetWidth/2?tooltipWrapper.style.left="10px":document.body.clientWidth-o.left-o.width/2<tooltipWrapper.offsetWidth/2&&(tooltipWrapper.style.left=document.body.clientWidth-tooltipWrapper.offsetWidth-20+"px")}}function setupListeners(t){t.addEventListener("mouseleave",(function(t){hideTooltip()})),tooltipWrapper.addEventListener("mouseleave",(function(t){hideTooltip()})),t.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout),showTooltip(t)})),tooltipWrapper.addEventListener("mouseenter",(function(t){clearTimeout(opacityTimeout),clearTimeout(contentTimeout)}))}window.addEventListener("load",(function(t){document.querySelectorAll(".internal-link").forEach(setupListeners),document.querySelectorAll(".backlink-card a").forEach(setupListeners)}))</script>
+<script>window.location.hash&&document.getElementById(window.location.hash.slice(1)).classList.add("referred"),window.addEventListener("hashchange",(e=>{const t=e.oldURL.split("#");t[1]&&document.getElementById(t[1]).classList.remove("referred");const n=e.newURL.split("#");n[1]&&document.getElementById(n[1]).classList.add("referred")}),!1);const url_parts=window.location.href.split("#"),url=url_parts[0],referrence=url_parts[1];document.querySelectorAll(".cm-s-obsidian > *[id]").forEach((function(e){e.ondblclick=function(e){const t=url+"#"+e.target.id;navigator.clipboard.writeText(t)}}))</script>
+<script src="https://fastly.jsdelivr.net/npm/luxon@3.2.1/build/global/luxon.min.js"></script>
+<script defer="defer">TIMESTAMP_FORMAT="MMM dd, yyyy h:mm a",document.querySelectorAll(".human-date").forEach((function(e){date=e.getAttribute("data-date")||e.innerText,parsed_date=luxon.DateTime.fromISO(date),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromSQL(date)),null!=parsed_date.invalid&&(parsed_date=luxon.DateTime.fromHTML(date)),e.innerHTML=parsed_date.toFormat(TIMESTAMP_FORMAT)}))</script>
+<script>lucide.createIcons({attrs:{class:["svg-icon"]}})</script>
+</body>
+</html>
