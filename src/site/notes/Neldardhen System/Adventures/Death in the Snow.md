@@ -14,7 +14,43 @@ You began your journey shortly after the beginning of summer, but soon after you
 
 > [!gm] GM Only
 > [[Neldardhen System/Adventures/Death in the Snow - GM Summary\|Death in the Snow - GM Summary]]
-## NPCs
+
+
+## Character Creation
+**Level** : recommended  5 (very low combat adventure, can easily be adapted to lower or higher level PCs)
+### Lore friendly races and classes 
+If the character comes from [[Neldardhen World/Endëa/Cultures_Nations/Places/Nelatar\|Nelatar]]
+**Races** : 
+- Human
+- [[Neldardhen World/Species/Essedir\|Esseret]] (yuan-ti) (if from [[Neldardhen World/Endëa/Cultures_Nations/Places/Serna\|Serna]])
+- Halfling
+**Classes** :
+- Fighter
+- Ranger
+- Rogue
+- Cleric (if from West Nelatar and affiliated to the Temple of Ordel)
+- Paladin (if from West Nelatar and affiliated to the Temple of Ordel)
+- Warlock (if from [[Neldardhen World/Endëa/Cultures_Nations/Places/Serna\|Serna]], patron [[DnD Specific/Otherworldly Patrons/Daor, the Black Snake\|Daor, the Black Snake]])
+- Bard
+
+If the character comes from [[Neldardhen World/Endëa/Cultures_Nations/Places/Egerot\|Egerot]]
+**Races** : 
+- Halfling
+- Human
+- Dwarves
+- Gnomes
+
+**Classes** :
+- Paladin 
+- Fighter
+- Cleric (most probably a Light Cleric of Solia)
+- Bard
+
+If the character come from further away
+- Any other from the [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species List]], see also [[DnD Specific/Races equivalence\|Races equivalence]] from the DnD species to the Neldardhen universe.
+- Any class for Dnd 2014 except Artificier or Blood Hunter
+
+## NPCs : The Travellers
 ### Daetor Avaro
 
 ![Daetor.jpg|200](/img/user/Images/NPCs/Daetor.jpg)

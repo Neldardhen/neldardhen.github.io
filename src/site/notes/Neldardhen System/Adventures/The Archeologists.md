@@ -16,11 +16,9 @@ You will be paid 100gp upon completion of all three task on your return to Inras
 ![Laugsuil-map.jpg|400](/img/user/Laugsuil-map.jpg)
 
 ## Character Creation
-### Starting level
-This Adventure was written for level 5 PCs and later adapted for level 1 to 2.
-
-**Class** : Any (DnD 2014)
-**Races** : 
+**Level** : This Adventure was written for level 5 PCs and later adapted for level 1 to 2.
+**Class** : Any (DnD 2014) except Artificier or Blood Hunter
+### Lore friendly races
 If the character comes from [[Neldardhen World/Endëa/Cultures_Nations/Places/Uruithel\|Uruithel]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Laugsuil\|Laugsuil]] or [[Neldardhen World/Endëa/Cultures_Nations/Places/Rhuk\|Rhuk]]
 - [[Neldardhen World/Species/Behemes\|Behemes]] (Giffs)
 - [[Boscides\|Boscides]] (Loxodons)
