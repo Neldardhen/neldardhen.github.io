@@ -6,7 +6,7 @@
 { #62609b}
 
 
-_Main location of the [[Neldardhen System/Adventures/The Cursed Island\|The Cursed Island]] [[Neldardhen System/Adventures/Adventures\|Adventure]]._
+_Main location of the [[Neldardhen System/Adventures/The Cursed Island/The Cursed Island\|The Cursed Island]] [[Neldardhen System/Adventures/Adventures\|Adventure]]._
 
 In the year 1917 of the Flowering Age, a new island suddenly appeared in the middle of the Enedaeron ocean.
 

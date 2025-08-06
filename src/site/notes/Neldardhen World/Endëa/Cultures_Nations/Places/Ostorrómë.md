@@ -5,7 +5,7 @@
 # Ostorrómë
 While [[Macarmentë\|Macarmentë]] is the Capital of [[Neldardhen World/Endëa/Cultures_Nations/Places/Talarún\|Talarún]], its biggest city is Ostorrómë on the coast of the Anoraer sea.
 
-Ostorrómë is the main location of the [[Neldardhen System/Adventures/Mystery in Ostorrómë\|Mystery in Ostorrómë]] adventure.
+Ostorrómë is the main location of the [[Neldardhen System/Adventures/Mystery in Ostorrómë/Mystery in Ostorrómë\|Mystery in Ostorrómë]] adventure.
 
 ![Ostorrome.jpg|500](/img/user/Neldardhen%20World/Maps/Cities/Ostorrome.jpg)
 The city of Ostorrómë is well known for its port and its university. Doing well in academia is one of the rare way for commoners to gain access to a noble title in time of peace. The city is run by a council of nobles who elect three representatives every five years.
