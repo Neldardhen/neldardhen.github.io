@@ -11,7 +11,7 @@ Gm only summary for the [[Neldardhen System/Adventures/Adventures\|adventure]] [
 
 
 > [!wip] _Work in Progress_
-> This is still a work in progress, some section are missing
+> This is still a work in progress, some sections are missing
 
 The PCs are on (somewhat) of a timed clock as a rival group paid by a particular, Lord Barnnon a [[Neldardhen World/Species/Behemes\|Behemes]] (Giff), is already on site trying to excavate a direct path to the tomb. Digging through the rocky hills would take weeks or even month, but they have sent a messenger back to the city of Inrast to request enough black powder to make explosives. 
 
@@ -41,7 +41,7 @@ Notes and letters in the encampment reveal the following information :
 > Let's be honest, the Society of Archeology has no moral high ground over Lord Barnnon, they are grave robbers in all but name. They do however have some legal ground (in Uruithel at least).
 > That's why they asked the PCs for an inventory of the tomb as detailed as possible. If the group comes back with the official papers all fill up, then the Society can claim the tomb as property of the museum and contest any item in Lord Barnnon' possession that would match one of the descripiton given by the PCs in their inventory of the place.
 
-See [[Neldardhen System/Adventures/The Archeologists/The Archeologists - NPCs#^111ebd\|NPcs - Rival Group]]
+See [[Neldardhen System/Adventures/The Archeologists/The Archeologists - NPCs#^111ebd\|NPCs - Rival Group]]
 
 ## Caerfaldir encampment
 TODO
@@ -56,17 +56,26 @@ See  [[Neldardhen System/Adventures/The Archeologists/The Archeologists - NPCs#^
 What they know about :
 **The Oasis**
 - public Oasis, anyone can drink their fill and take as much as 2 waterskin of water per day to do as they please with it, but no more.
-- There is creature who claim the oasis as her own recently, she seems angry at something but has not beeen agressive towards the tribe.
+- There is creature who claim the oasis as her own recently, she seems angry at something but has not beeen agressive towards the tribe. It seems wise not to anger her further, she seems powerful.
 
 **Cikryu**
-- They react with fear to the name, but try to hide it
-- The will answer with bland "Caerfal problems are for Caerfaldir to solve" if pushed, they won't elaborate any further.
+- They react with fear to the name, but try to hide it.
+- The will answer with a bland "Caerfal problems are for Caerfaldir to solve" if pushed, they won't elaborate any further.
+- A **DC 20** *Persuasion* check (**DC 25** if talking to the chief **Inaa** or the star-reader **Ehor**. **Ugnela** "the one-who-counts" cannot be convinced to talk in any circumstances), will convinced them to elaborate :
+	- It seems to be a creature out of this world
+	- It has beeen tormoenting the tribes for a while now, it has not kill anybody yet, because it "enjoy seeing your fear grow and your tribe slowly fall apart."
+	- Hunter were sent to kill it, none were successful
+	- The star-readers and the "one-who-counts" (see. [[Neldardhen System/Adventures/The Archeologists/The Archeologists - NPCs#^08d488\|Trube's members]]) think that there is a way to sent it back to were it truely belongs.
+	- **Inaa** or **Ehor** knows a bit more :
+		- They will whisper the word "devil", but only once.
+		- They tell that they think that particular spear was once belonging to an ancestor of the tribe and that it's their best shot at banishing the creature out of this world.
 
 **The Tomb**
 - They know of a cave entrance further away which leads to the tomb.
+- Most of the tribe are not very happy about strangers robbing the tombs of their ancestors, but they are also very pragmatic and they really need the help of the PCs to acquire the spear.
 
 **The Spear** ([[Neldardhen System/Adventures/The Archeologists/The Archeologists - Magic Items#^bf30ff\|Ahiir's Spear]])
-- It is magical, but otherwise look exactely like any other soldier spear of the time. Made in wood with a bronze head and the name of the wielder inscribed in the handle.
+- It is magical, but otherwise looks exactely like any other soldier spear of the time. Made in wood with a bronze head and the name of the wielder inscribed in the handle.
 - The name inscribed into it is : Ahiir
 
 ## Cikryu, the Rakshasa
@@ -74,7 +83,7 @@ What they know about :
 DC 10 Perception check to notice he has inverted hands
 DC 20 History or Religion check to know that he is a Devil
 
-During his dialog Cikryu will often the term "contract" or "deal" and will be adamant that he do not say lies and upholds his promises.
+During his dialog Cikryu will often use the terms "contract" or "deal" and will be adamant that he do not say lies (the word "say" is important there. He will still lie by omission or try to decieve) and upholds his promises.
 Character that notice that can retry a DC 15 History or Religion check to gather that he is a Devil.
 ## The Museum (Tribe's route)
 
