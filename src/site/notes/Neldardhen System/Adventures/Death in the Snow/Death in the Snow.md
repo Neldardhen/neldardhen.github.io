@@ -2,7 +2,6 @@
 {"dg-publish":true,"permalink":"/neldardhen-system/adventures/death-in-the-snow/death-in-the-snow/"}
 ---
 
-
 # Death in the Snow
 #Adventure/oneShot, #Adventure/whodunnit, #Adventure/low_combat
 [[Neldardhen System/Adventures/Adventures\|Adventure]] taking place in [[Neldardhen World/Endëa/Cultures_Nations/Places/Nelatar\|Nelatar]] in 1898 during the [[Neldardhen World/Endëa/History/History of the Palanian Continent#^a8d4c6\|2nd Frontiers War]]

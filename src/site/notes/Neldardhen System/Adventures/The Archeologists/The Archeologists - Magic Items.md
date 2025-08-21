@@ -44,5 +44,14 @@ For almost anyone [Ring of Resistance - Necrotic](https://2014.5e.tools/items.ht
 
 
 The PCs can potentially find this items during the adventure.
+
+It has an inscription carved on the handle :
+
+![spear-inscription.png](/img/user/Images/Scripts/spear-inscription.png)
+
+Translate to "Aghiir" ([[Neldardhen World/Endëa/Cultures_Nations/Languages/Ancient Laugsuil Language\|Ancient Laugsuil]]) or "Ahiir" in Lósúl.
+
+It has an aura of ancient magic, no school in particular, maybe some similarities with Transmutation and Evocation magic, but it is its own thing.
+
 It can be used in the Banishment ritual to send [[Neldardhen System/Adventures/The Archeologists/The Archeologists - NPCs\|Cikryu]] back to the Nine Hells.
 ![Ahiir-spear-stats.png|600](/img/user/Images/Magic%20Items/Ahiir-spear-stats.png)

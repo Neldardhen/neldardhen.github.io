@@ -17,17 +17,28 @@ Autognomes
 Hadozee
 Plasmoid
 
+There are no Half-Race, in Neldardhen different Species cannot reproduce together, mainly because of their vastly different way to reproduce (Dwarves grow in geodes, Orcs and Goblins shape clay statuette mixed with their blood, Elves gorw in trees and Halflings grow in the garden !)
+This means no:
+Half-elves
+Half-orcs
+
+Underdark races/subraces are a work in progress right now, this will include :
+Drow
+Druegar
+Derro -- (Maybe)
+Svirfneblin
+
 Other species that currenlty don't exist in Neldardhen are :
-Warforgeds
-Dhampirs -- Are not view as a specie, but modification of one.
-Hexbloods
-Changlings
+Warforgeds -- Will probably never exist in Neldradhen
+Dhampirs -- Are not viewed as a specie, but modification of one.
+Hexbloods -- I will create some sort of Fey Species at some point
+Changlings -- Will probably never exist in Neldradhen
 Kalashtars -- Maybe could correspond to [[Neldardhen World/Species/Shinrens\|Shinrens]] 
-Minautors
-Centaurs
-Kenders
-Satyrs
-Shifters
+Minautors -- Will probably never exist in Neldradhen
+Centaurs -- Will probably never exist in Neldradhen
+Kenders -- Will probably never exist in Neldradhen
+Satyrs -- I will create some sort of Satyr or Faun species at some point
+Shifters -- I will probably give access to some of the Shifters features in the form of Feats
 
 ### From [[Neldardhen World/Endëa/Endëa\|Endëa]]
 
@@ -64,7 +75,7 @@ Firling -- Fire Genasi? Tiefling?
 
 ### From [[Neldardhen World/Nyalë/Nyalë\|Nyalë]] :
 
-[[Neldardhen World/Species/Gremns\|Gremns]] -- Bugbears (kinda)
+[[Neldardhen World/Species/Gremns\|Gremns]] -- Bugbears/Firbolg (kinda)
 [[Neldardhen World/Species/Hobcors\|Hobcors]] -- NONE
 [[Neldardhen World/Species/Hobgoblins\|Hobgoblins]] -- Hobgoblins
 [[Neldardhen World/Species/Goblins\|Goblins]] -- Goblins

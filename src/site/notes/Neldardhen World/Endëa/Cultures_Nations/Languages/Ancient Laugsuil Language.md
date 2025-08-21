@@ -12,6 +12,12 @@ The language is a dead one, but has a modern descendant in the form or Lósúl s
 
 ![ancient_laugsuil_alphabet.jpg|500](/img/user/Images/Scripts/ancient_laugsuil_alphabet.jpg)
 
+Notably the "gh" sounds became a "h" in Lósúl
+
+## Declinaison
+
+TODO
+
 *Exemple of a partially translated text* 
 ![Page1.png|300](/img/user/Images/Scripts/Page1.png) ![Page2.png|220](/img/user/Images/Scripts/Page2.png)
 ### Font 

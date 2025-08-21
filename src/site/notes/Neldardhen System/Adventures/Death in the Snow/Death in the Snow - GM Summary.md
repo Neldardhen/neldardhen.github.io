@@ -78,7 +78,7 @@ Both **Ekanro** and **Nerena** are in possession of monkshood, both possess vari
 > 
 
 ## Clues
-### Daetor was poison before being stabbed and the poison was the cause of death
+### Daetor was poisoned before being stabbed and the poison was the cause of death
 - He complained to his wife that the potion was bitter this time (**Fidala**)
 - The knife wound was not lethal (**DC 15** *Medicine* check or **DC 20** *Survival* check, fighters or rogues have a DC of **5 less** than other characters)
 - He had difficulty breathing when he woke up in the middle of the night and complain of a headache and needing fresh air (**Fidala**)
@@ -196,14 +196,14 @@ Frankly, this should not happen, you should try to give enough clues that your P
 ### If the PCs still accuse Dagan and/or Fidala
 **Ekanro** will leave the group, taking **Sila** with him not wanting to have anything to do with murderers, but not wanting to push the matter any further. He will declare that their own guilty conscience will be their punishment. The mountains having proven impassable, he will try to go back to Nelatar only for **Sila** to disapear two days after **Ekanro** and her left the group.
 
-**Arlas** will agree to keep guiding Fidala and Dagan to Alfir. They know that Sila was the murderer, Quicksiler told them about seeing Sila during the night of the murder, but they won't say anything. They did not like Daetor anyways...
+**Arlas** will agree to keep guiding **Fidala** and **Dagan** to Alfir. They know that **Sila** was the murderer, **Quicksiler** told them about seeing **Sila** during the night of the murder, but they won't say anything. They did not like **Daetor** anyways...
 
 **Nerena** doesn't really care. She will go back to Serna as soon as the weather clears.
 
 **Dagan** and **Fidala** will insist on their innocence, if the PCs push the matter, **Fidala**, as the current owner of their contract, will dismiss them without paying them and ask them to leave them alone.
 
-If the PCs insist on killing Dagan and/or Fidala on the spot the gleeful cackle of the hags can be heard as the PCs commit murder themselves. 
-"Murderers, Killers, you who have taken innocent lives come join the dance ! " The hags will then appear and dance around them to taunt them ! (If the PCs attack the hags, don't hold back, try to kill them, at this point they deserve it !)
+If the PCs insist on killing **Dagan** and/or **Fidala** on the spot the gleeful cackle of the hags can be heard as the PCs commit murder themselves. 
+"Killers, Murderers, you who have taken innocent lives come join the dance ! " The hags will then appear and dance around them to taunt them ! (If the PCs attack the hags, don't hold back, try to kill them, at this point they deserve it !)
 
 ### If the PCs accuse Ekanro
 **Sila** will intervene and reveal the truth, she doesn't want **Ekanro** to be accused and pay in her place in the end.
