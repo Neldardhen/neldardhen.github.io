@@ -32,12 +32,12 @@ Elves are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|
 > | Eat       | 1/2 ration |     | Swimming   | 2m  |
 > | Dream     | 6 hours    |     | Flying     | 0m  |
 > 
-> 
 | **Senses**          |            |     |                |         |     |
 | ------------------- | ---------- | --- | -------------- | ------- | --- |
 | Vision in the sun   | Bad        | 2d6 | Hearing        | Good    | 4d6 |
 | Low light vision    | Very Good  | 5d6 | Sense of Smell | Neutral | 3d6 |
 | Infrared Perception | Inexistant | 0   | Magic Affinity | Good    | 4d6 |
+
 
 #### Subspecies
 - [[Neldardhen World/Species/SubSpecies/Beech Elves\|Beech Elves]]

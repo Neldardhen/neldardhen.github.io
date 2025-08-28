@@ -144,7 +144,7 @@ She can be heard saying with anger "Where is he ? Where is he ? How can he keep 
 > 
 > If the Lamia is killed the only comment from Cikryu will be "Oh, what a shame! She had potential", but he doesn't seem sad nor angry.
 
-If she sees the PCs, already angry and not at all in a mood to talk, she will exclaim : "You will make decent slaves for now ! " and attack.
+If she sees the PCs, already angry and not at all in a mood to talk, she will exclaim : "You will make decent slaves ! " and attacks.
 
 > [!gm] Adaptation for level 2
 > The Lamia has 70 HP and an AC of 12
