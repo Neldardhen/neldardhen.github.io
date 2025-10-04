@@ -5,7 +5,7 @@
 
 # Character Creation - Species 
 The first step of [[Neldardhen System/Rules/Character Creation/Character Creation\|Character Creation]] is to choose your [[Neldardhen System/Rules/Character Creation/Playable Species List\|Species]].
-Your Species defines your character's type, perception bonuses/maluses, resistances, vulnerabilities and immunities and needs.
+Your Species defines your character's type, perception pools, resistances, vulnerabilities and immunities and needs.
 ### Type 
 Species have three different types :
 - A blood type : either **Cold-blooded** or **Warm-blooded**

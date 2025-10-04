@@ -12,7 +12,7 @@ Character Creation  rules for the  [[Neldardhen System/Neldar System\|Neldar Sys
 First you will choose your [[Neldardhen System/Rules/Character Creation/Playable Species List\|Species]].
 
 The different species can be found in the Item tabs. You can drag and drop your chosen species onto your character sheet.  
-Your species will define your character's type, perception bonuses/maluses and needs.
+Your species will define your character's type, perception pools and needs.
 
 See [[Neldardhen System/Rules/Character Creation/Character Creation - Species\|Character Creation - Species]].
 

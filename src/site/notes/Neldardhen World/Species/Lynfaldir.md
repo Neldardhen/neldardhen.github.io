@@ -28,7 +28,7 @@ Lynfaldir are a [[Neldardhen System/Rules/Character Creation/Playable Species Li
 > 
 > | **Senses**          |            |     |                |           |     |
 > | ------------------- | ---------- | --- | -------------- | --------- | --- |
-> | Vision in the sun   | Neutral    | 2d6 | Hearing        | Very Good | 5d6 |
+> | Vision in the sun   | Neutral    | 3d6 | Hearing        | Very Good | 5d6 |
 > | Low light vision    | Good       | 4d6 | Sense of Smell | Neutral   | 3d6 |
 > | Infrared Perception | Inexistant | 0   | Magic Affinity | Bad       | 2d6 |
 

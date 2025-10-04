@@ -4,7 +4,15 @@
 
 # TODO
 
-- [ ]  Switch From CSB to proper Foundry System
+### Rework / redesign
+- [ ] Rework Spellcasting System ?
+- [ ] Rework Ward/Armour/Veil system ?
+	- Add damage mitigation / resistance instead of bonus to dodge ?
+
+### VTT
+- [ ]  Switch From CSB to proper Foundry System ?
+- [ ] Check CSB 4.8.1 ???
+	- [ ] Create Active Effects for Species/Subspecies/Creature Traits and Equipment
 
 ### Neldar System
 Create Subspecies (Obsidian) for
@@ -35,6 +43,12 @@ Create more Feats
 	- At least 1 power feat for each suite of the [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Neledhîr\|Neledhîr]] ?
 
 Create Runes for [[Neldardhen System/Rules/Spells\|spellcasting]]
+
+### Physical sheets
+- [ ] Character Sheet
+- [ ] Species Cards ?
+- [ ] Spell Rune template ?
+- [ ] Creature sheet / template
 
 ### Adventures
 - [x] Death in the Snow
