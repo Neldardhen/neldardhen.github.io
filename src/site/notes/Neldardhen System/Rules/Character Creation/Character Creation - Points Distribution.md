@@ -45,7 +45,7 @@ You can spend points to increase the die of an attribute or buy rank in a skill.
 You may spend **50 points** at level 1. 
 
 Increasing an attribute die by one category (d4 -> d6) costs **5 points**. 
-Increasing a skill from (**n-1**) to **n** costs **n points**. Increasing a skill from **0** to **n** costs **((n-1) * n) / 2**.
+Increasing a skill from $(n-1)$ to $n$ costs **n points**. Increasing a skill from **0** to **n** costs $((n+1) * n) / 2$.
 
 | Skill Rank |              |                                                         |
 | ---------- | ------------ | ------------------------------------------------------- |
