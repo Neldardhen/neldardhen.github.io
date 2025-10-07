@@ -16,6 +16,7 @@ The [[Neldardhen World/Neldardhen\|Neldardhen Worlds]] are the settings in which
 	- [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities\|Recovery, Rest and Resourcing Activities]]
 - [[Neldardhen System/Rules/Character Creation/Character Creation\|Character Creation]]
 	- [[Neldardhen System/Rules/Character Creation/Quick Build Reference\|Quick Build Reference]]
+	- [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]]
 
 ### Worlds
 - Main world [[Neldardhen World/Endëa/Endëa\|Endëa]]
