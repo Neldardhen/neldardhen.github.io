@@ -37,7 +37,7 @@ Gremnet
 
 ????
 ---- ????
----- ---- [[Neldardhen World/Endëa/Cultures_Nations/Languages/Ancient Laugsuil Language\|Anciant Laugsuil]]
+---- ---- [[Neldardhen World/Endëa/Cultures_Nations/Languages/Ancient Laugsuil Language\|Ancient Laugsuil]]
 ---- ---- ---- Losul ([[Neldardhen World/Endëa/Cultures_Nations/Places/Laugsuil\|Laugsuil]])
 ---- Meromic ([[Neldardhen World/Endëa/Cultures_Nations/Places/Faelrim Forest\|Faelrim Forest]])
 ---- ??? 
