@@ -46,3 +46,18 @@ A nice walk in nature might gives you a **+1d4** to _resilience_ ![resilience.pn
 >[!gm] Advice for GMs
  >As the adventure progress it is advised to emphasis to your players the discovery or creation of new Resourcing Activities for their characters. Activities that help them with their Permanent Injuries and tie into their character's narrative arc.
  >The idea of this game is to keep going, healing what can be healed and learning to manage what cannot.
+
+#### Rule of thumb for creating Resourcing Activities
+
+>[!wip] Work in Progress
+This is still a work in progress, the specifics values might change
+
+<table>
+<tr><th>Costs </th><th>Benefits </th></tr>
+<tr><td>-2 resource </td><td> +1d4 resource </td></tr>
+<tr><td> 30 min + condition (ie. access to water) </td><td> + 2 resources </td></tr>
+<tr><td> 1h + conditions</td><td>+2 reousrce1, +2 resource2 </td></tr>
+<tr><td> 5 Seeds</td><td> +1d4 resources </td></tr>
+<tr><td> 10 Seeds </td><td> +1d4 resource1, +1d4 resource2 </td></tr>
+<tr><td> 15 Seeds</td><td> +2d4 resource </td></tr>
+</table>
