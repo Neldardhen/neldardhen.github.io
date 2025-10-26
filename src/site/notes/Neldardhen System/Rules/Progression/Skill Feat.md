@@ -60,7 +60,7 @@ Once per round, when it's not your turn, you can attack a target within your rea
 > [!wip] _Work In Progress_ 
 > **Prerequisite** : Rank 3 in Raw Magic and Rank 3 in Occultism 
 >_Passive_ ??? 
- -> You can make magical effect happens with your Raw Magic skill with _resilience_ instead of Arcane Magic with _focus_
+ -> You can make some magical effect happens with your Raw Magic skill with _resilience_ instead of Arcane Magic with _focus_
 ## Level 8
 ### Expertise (skill)
 **Prerequisite** : Rank 4 in a skill, already have the Competency Feat for that skill

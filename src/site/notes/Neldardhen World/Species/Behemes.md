@@ -5,7 +5,7 @@
 # Behemes
 *Behemos, plur. Behemes*
 
-Aranlindir are a [[Neldardhen World/Species/Species\|Species]] of large humanoids native to [[Neldardhen World/Endëa/Endëa\|Endëa]]. They have greyish-purple skin and no hair.  They have a proeminent jaw and nose vaguely reminisent of hippos.
+Behemes are a [[Neldardhen World/Species/Species\|Species]] of large humanoids native to [[Neldardhen World/Endëa/Endëa\|Endëa]]. They have greyish-purple skin and no hair.  They have a proeminent jaw and nose vaguely reminisent of hippos.
 The skin of a Behemos slightly changes in colour depending on the climat. Behemes in hot wet environment will have brighter purple skin where Behemes in more colder or dryer environment will display more grey skin.
 
 
