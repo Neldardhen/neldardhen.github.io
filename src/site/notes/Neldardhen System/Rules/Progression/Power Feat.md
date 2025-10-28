@@ -37,5 +37,5 @@ You summon a [[Pegasus\|Pegasus]] to act as your mount. You cannot summon an oth
 ### Three in One
 **Prerequisite** : Body score 20, already has the Swipe Attack Feat
 _At will_
-With 1 attack you can target up to three creature adjacent to each other that are within 2m of you.
+With 1 attack you can target up to three creature adjacent to each other that are within 4m of you.
 You attack normaly and each creatures must Dodge or Resist your attack, you then roll damage once for all of them.

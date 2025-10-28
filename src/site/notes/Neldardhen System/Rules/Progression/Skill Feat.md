@@ -10,7 +10,7 @@ For Feats gained at other levels see [[Neldardhen System/Rules/Progression/Chara
 
 ## Level 2
 ### Competency (skill*)
-**Prerequisite** : Rank 2 in a skill
+**Prerequisite** : Rank 3 in a skill
 _Passive_
 You have attained a good level of competency in \[ skill \].
 Every time you roll a  \[ skill \]. check, you can re-roll any **1**s once.
@@ -27,10 +27,10 @@ Once per round, when it's not your turn, you can attack a target within your rea
 { #150996}
 
 
-> [!wip] _Work In Progress_ 
-> **Prerequisite** : Rank 3 in Linguistic/rhetoric
->_At will_ 
- -> If you have time to prepare, you can use Rhetoric with _focus_ instead of Persuasion with _resilience_ to try to convince someone.
+### Demagogue
+**Prerequisite** : Rank 3 in Linguistic/rhetoric
+_At will_ 
+ -> If you have time to prepare, you can use Rhetoric on Knowledge with _focus_ instead of Persuasion on Charisma with _resilience_ to try to convince someone (deception or persuasion).
 
 > [!wip] _Work In Progress_ 
 > **Prerequisite** : Rank 3 in Linguistic/rhetoric
@@ -63,7 +63,7 @@ Once per round, when it's not your turn, you can attack a target within your rea
  -> You can make some magical effect happens with your Raw Magic skill with _resilience_ instead of Arcane Magic with _focus_
 ## Level 8
 ### Expertise (skill)
-**Prerequisite** : Rank 4 in a skill, already have the Competency Feat for that skill
+**Prerequisite** : Rank 5 in a skill, already have the Competency Feat for that skill
 _Passive_
 You have attained an expert level of competency in \[ skill \].
 Every time you roll a  \[ skill \]. check, you can re-roll any **2**s or lower once.
@@ -83,7 +83,7 @@ You can add 1 die for every 10 point you have in your Body score on the damage y
 ### Heavy Damage (Instruments)
 **Prerequisite** : Raw Magic Rank 4 
 _Passive_
-You can add 1 die for every 10 point you have in your Spirit score on the damage or healing you deal with Instrument.
+You can add 1 die for every 10 point you have in your Spirit score on the damage or healing you deal with Instruments.
 
 ### Stop Right Here
 **Prerequisite** : Rank 5 in Fighting, already has the Attack of Opportunity Feat
@@ -108,7 +108,7 @@ You are no longer limited to 1 Attack of Opportunity per round.
 
 ## Level 14
 ### Mastery (skill)
-**Prerequisite** : Rank 5 in a skill, already have the Competency and Expertise Feats for that skill
+**Prerequisite** : Rank 6 in a skill, already have the Competency and Expertise Feats for that skill
 _Passive_
 You have attained a master level of competency in \[ skill \].
 Every time you roll a  \[ skill \]. check, you can re-roll any **3**s or lower once.
