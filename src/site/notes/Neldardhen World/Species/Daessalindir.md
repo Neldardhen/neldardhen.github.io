@@ -22,6 +22,8 @@ Daessalindir are a [[Neldardhen System/Rules/Character Creation/Playable Species
 > 
 > **Despair Resistance** : As a Daessalin, you gain a Resistance to **Despair** damage equals to half your Spirit score rounded down.
 > 
+> **Hollow Bones** : You suffer from a vulnerabillity to **Bludgeoning/Force** damage equals to your Level.
+>  
 > | **Needs** |            |     | **Speeds** |     |
 > | --------- | ---------- | --- | ---------- | --- |
 > | Sun       | 2 hours    |     | Walking    | 10m |
