@@ -109,12 +109,11 @@ _At will_
 
 ## ![Vobarus.png|40](/img/user/Images/Species/Vobarus.png) Caergandir
 
->[!wip] _Work In Progress_
-> ### Hard Scales
-> **Prerequisite** : Level 3, Caergandir
-> _Passive_
-> You have very hardy scales. Your gain a Resistance to Piercing / Slashing damage equals to half of your Body score rounded down.
-> The scales impair your movement in and out of water. You loose **-2**m on your walking and swimming speeds.   
+### Hard Scales
+**Prerequisite** : Level 3, Caergandir, Dragonéns, Draconians
+ _Passive_
+ You have very hardy scales. Your gain a Resistance to Piercing / Slashing damage equals to your Body score rounded down.
+ The scales impair your movement in and out of water. You loose **-2**m on your walking and swimming speeds.   
 
 ## ![Ahiir.png|40](/img/user/Images/Species/Ahiir.png) Caerfaldir and ![tabaxibard-closeup.png|40](/img/user/Images/Species/tabaxibard-closeup.png) Lynfaldir
 
