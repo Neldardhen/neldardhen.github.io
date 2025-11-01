@@ -23,6 +23,8 @@ Dracobolds are a [[Neldardhen System/Rules/Character Creation/Playable Species L
 > 
 > **Slashing/Piercing Resistance** : You gain a Resistance to **Slashing/Piercing**  damage equals to half your Body score rounded down.
 > 
+> **Winged** : You are a winged creature, you gain a flying speed equal to your walking speed, but you also suffer from a Vulnerability to **Bludgeoning/Force** damage equal to your Level.
+> 
 > | **Needs** |                      |     | **Speeds** |     |
 > | --------- | -------------------- | --- | ---------- | --- |
 > | Sun       | Doesn't need the sun |     | Walking    | 10m |

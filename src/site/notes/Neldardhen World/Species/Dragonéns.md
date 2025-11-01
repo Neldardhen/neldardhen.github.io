@@ -18,29 +18,31 @@ Dragonéns lay eggs with hard shell. They typically hatch after 3 to 4 months. T
 #### System Details
 Dragonénes are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
 
-#Cold_Blooded #Scales #Terrestiral 
-
-As Dragonén, you are col-blooded, this means that your body adapt (to a point) to the temperature around you.
-
-Creatures with Infrared perception have a harder time finding you, but you become slower when your body temperature drops below a certain point.
-
-You impart a **-2d6** malus on the _Infrared Perception_ check of creature trying to locate you.  
+> [!sys] System Details
+>Types : cold-blooded, scales, terrestiral 
+>
+>As Dragonén, you are col-blooded, this means that your body adapt (to a point) to the temperature around you.
+>
+>Creatures with Infrared perception have a harder time finding you, but you become slower when your body temperature drops below a certain point.
+>
+>You impart a **-2d6** malus on the _Infrared Perception_ check of creature trying to locate you.  
 You suffer a **-1d6** on your _Physic_ and _Coordination_ after every hour spent in an environement with a temperature below 0°C without apropriate clothing.
-
-You gain a Resistance to **Slashing/Piercing**  damage equals to half your Body score rounded down.
-
-
+>
+>You gain a Resistance to **Slashing/Piercing**  damage equals to half your Body score rounded down.
+>
+>
 | **Needs** |          |     | **Speeds** |     |
 | --------- | -------- | --- | ---------- | --- |
 | Sun       | 4 hours  |     | Walking    | 10m |
 | Eat       | 1 ration |     | Swimming   | 2m  |
 | Dream     | 4 hours  |     | Flying     | 0m  |
-
+>
 | **Senses**          |            |     |                |         |     |
 | ------------------- | ---------- | --- | -------------- | ------- | --- |
 | Vision in the sun   | Neutral    | 3d6 | Hearing        | Good    | 4d6 |
 | Low light vision    | Neutral    | 3d6 | Sense of Smell | Good    | 4d6 |
 | Infrared Perception | Inexistant | 0   | Magic Affinity | Neutral | 3d6 |
+
 
 ### Subspecies 
 - [[Neldardhen World/Species/SubSpecies/Black Dragonéns\|Black Dragonéns]]
