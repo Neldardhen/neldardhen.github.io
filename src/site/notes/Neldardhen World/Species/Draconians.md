@@ -14,7 +14,7 @@ Draconians are a [[Neldardhen System/Rules/Character Creation/Playable Species L
  > [!sys] System Details
  > **Types** : cold-blooded, scales, terrestiral
  > 
-> **Ectotherm** : As Draconian, you are col-blooded, this means that your body adapt (to a point) to the temperature around you.
+> **Ectotherm** : As Draconian, you are cold-blooded, this means that your body adapt (to a point) to the temperature around you.
 > Creatures with Infrared perception have a harder time finding you, but you become slower when your body temperature drops below a certain point.
 > You impart a **-2d6** malus on the _Infrared Perception_ check of creature trying to locate you.  
 > You suffer a **-1d6** on your _Physic_ and _Coordination_ after every hour spent in an environement with a temperature below 0°C without apropriate clothing.

@@ -10,4 +10,4 @@ They have a very thin skin that scars easily. They are however, more resistant t
 > [!sys] System Details
 > **Slashing / Piercing Vulnerability** : As a Beech Elf, you suffer from a Slashing/Piercing Vulnerability equal to half of your level (min 1)
 > 
-> **Greater Poison Resistance** : As a Beech Elf, you gain a Resistance to Poison equals to your Body score. 
+> **Greater Poison Resistance** : As a Beech Elf, you gain a Resistance to Poison equals to your Mind, Body or Spirit score (depending on the poison type). 

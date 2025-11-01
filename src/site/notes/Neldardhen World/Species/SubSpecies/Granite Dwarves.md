@@ -5,7 +5,7 @@
 # Granite Dwarves
 A Subspecie of [[Neldardhen World/Species/Dwarves\|Dwarves]].
 
-They suffer are more resistant than their cousins.
+They are more resistant than their cousins.
 
 Their skin has a noticeable grain to it and comes in a variety of different colourations.
 

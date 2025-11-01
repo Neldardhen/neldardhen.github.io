@@ -21,7 +21,7 @@ Dragonénes are a [[Neldardhen System/Rules/Character Creation/Playable Species 
 > [!sys] System Details
 >Types : cold-blooded, scales, terrestiral 
 >
->As Dragonén, you are col-blooded, this means that your body adapt (to a point) to the temperature around you.
+>As Dragonén, you are cold-blooded, this means that your body adapt (to a point) to the temperature around you.
 >
 >Creatures with Infrared perception have a harder time finding you, but you become slower when your body temperature drops below a certain point.
 >
