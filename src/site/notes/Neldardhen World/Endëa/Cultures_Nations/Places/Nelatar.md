@@ -13,7 +13,7 @@ The capital city of the Southern Province, Vierna is renown for its wine product
 Lastly the capital of the Northern Province recently changed from Avorel to [[Neldardhen World/Endëa/Cultures_Nations/Places/Serna\|Serna]].
 
 >[!sys] System Details
-> The long winter and short days of Nelatar might impact the need for sun of the characters. (see. [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities#^d14e53\|Rest and Needs]])
+> The long winter and short days of Nelatar might impact the need for sun of the characters. (see. [[Neldardhen System/Rules/Rest, Resourcing Activities and Downtime#^d14e53\|Rest and Needs]])
 > The characters are also more likley to encounter snow terrains. (see. [[Neldardhen System/Rules/Terrain and Environment#^94cb9d\|Terrain]])
 ### Languages
 People in the Principality speaks Nessegarian, the same [[Neldardhen World/Endëa/Cultures_Nations/Languages/Languages\|language]] that is spoken in Egerot.

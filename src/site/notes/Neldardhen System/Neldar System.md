@@ -11,7 +11,7 @@ For the Players
 - The [[Neldardhen System/Rules/Basics\|Basics]]
 - [[Neldardhen System/Rules/Character Creation/Character Creation\|Character Creation]]
 - [[Neldardhen System/Rules/Combat and Injuries\|Combat and Injuries]]
-- [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities\|Recovery, Rest and Resourcing Activities]]
+- [[Neldardhen System/Rules/Rest, Resourcing Activities and Downtime\|Rest, Resourcing Activities and Downtime]]
 - Magic Systems
 	- [[Neldardhen System/Rules/Spells\|Runes]] -> Allow to cast spells with instantaneous effects
 	- [[Neldardhen System/Rules/Alchemy\|Alchemy]] -> Allow to create Potions that can "store" magical effects

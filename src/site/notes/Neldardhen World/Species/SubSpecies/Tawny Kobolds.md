@@ -9,4 +9,4 @@ A Subspecies of [[Neldardhen World/Species/Kobolds\|Kobolds]].
 > [!sys] System Details
 > **Coward !** : You loose any Fear Resistance given by your base species.
 >
-> **Warded Spirit** : You gain **1d4** of natural ward.
+> **Warded Mind** : You gain **1d4** of natural ward.

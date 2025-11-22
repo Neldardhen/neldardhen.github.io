@@ -12,7 +12,7 @@ Every character and creature in the game has three Fundamental values representi
 For each Fundamental value a resource is associated. You can see it as having three separated health bars.
 _Focus_ ![focus.png|15](/img/user/Images/focus.png) which is the resource of the _Mind_, _endurance ![endurance.png|15](/img/user/Images/endurance.png)_ the resource of the _Body_ and _resilience ![resilience.png|15](/img/user/Images/resilience.png)_ the resource of the _Spirit_. The maximum of each resource cannot be higher than three times its corresponding Fundamental Value.
 
-Each Resource has some Recovery Dice associated with it. Those dice will be used while [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities\|Resting]]. (see. [[Neldardhen System/Rules/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]] for how to set the recovery dice)
+Each Resource has some Recovery Dice associated with it. Those dice will be used while [[Neldardhen System/Rules/Rest, Resourcing Activities and Downtime\|Resting]]. (see. [[Neldardhen System/Rules/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]] for how to set the recovery dice)
 
 Resources are used in Combat (see. [[Neldardhen System/Rules/Combat and Injuries\|Combat and Injuries]]) or when making Skill CHecks (see. below)
 ### Attributes

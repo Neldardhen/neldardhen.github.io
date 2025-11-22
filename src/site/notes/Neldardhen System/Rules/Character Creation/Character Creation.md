@@ -36,7 +36,7 @@ To write your backstory you can get some inspiration by answering some of the fo
 - Do you have dreams or long term goals ? What are your current situation and your short term goals.
 
 ## Resourcing Activities
-(see also [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities\|Recovery, Rest and Resourcing Activities]])
+(see also [[Neldardhen System/Rules/Rest, Resourcing Activities and Downtime\|Rest, Resourcing Activities and Downtime]])
 Almost anything you will do will cost you either _focus_, _endurance_ or _resilience._ The main way to replenish those resources is to rest while having met all of your _Needs_ for the day.
 
 Some activities can replenish one resource for some cost. The cost can be other resources, time or simple money. Each resourcing activity is personal to each character, their cost and benefice may vary from character to character.

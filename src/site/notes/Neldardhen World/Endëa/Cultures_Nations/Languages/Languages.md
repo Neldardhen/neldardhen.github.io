@@ -8,6 +8,9 @@ Main languages on the [[Neldardhen World/Endëa/Continents/Palanian Continent\|P
 ![languages-NW-Neldardhen.png|600](/img/user/Neldardhen%20World/Maps/languages-NW-Neldardhen.png)
 
 ## Languages Tree
+{ #b6cf64}
+
+
 Palanian
 ---- West Palanian ([[Neldardhen World/Endëa/Cultures_Nations/Places/Dogarot\|Dogarot]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Algassia\|Algassia]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Lobor\|Lobor]])
 { #5fb47d}

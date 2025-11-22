@@ -13,7 +13,7 @@ The [[Neldardhen World/Neldardhen\|Neldardhen Worlds]] are the settings in which
 - [[Neldardhen System/Philosophy\|Philosophy]]
 - [[Neldardhen System/Rules/Basics\|Basics]]
 	- [[Neldardhen System/Rules/Combat and Injuries\|Combat and Injuries]]
-	- [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities\|Recovery, Rest and Resourcing Activities]]
+	- [[Neldardhen System/Rules/Rest, Resourcing Activities and Downtime\|Rest, Resourcing Activities and Downtime]]
 - [[Neldardhen System/Rules/Character Creation/Character Creation\|Character Creation]]
 	- [[Neldardhen System/Rules/Character Creation/Quick Build Reference\|Quick Build Reference]]
 	- [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]]

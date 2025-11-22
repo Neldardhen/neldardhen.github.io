@@ -9,7 +9,7 @@ How to adapt some rules for the [[Neldardhen System/Neldar System\|Neldar System
 
 You have a character idea with a specific DnD Race ? See if there is an equivalent Species in Neldardhen : [[DnD Specific/Races equivalence\|Races equivalence]].
 ## Short Rest
-- ->Resourcing Activities (see [[Neldardhen System/Rules/Recovery, Rest and Resourcing Activities\|Recovery, Rest and Resourcing Activities]])
+- ->Resourcing Activities (see [[Neldardhen System/Rules/Rest, Resourcing Activities and Downtime\|Rest, Resourcing Activities and Downtime]])
 ## Saving Throws
 In both DnD and Pathfinder the concept of saves plays an important role.
 
