@@ -35,14 +35,18 @@ East of the Palanian Continent, across the [[Neldardhen World/Endëa/Continents/
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Dogarot\|Dogarot]]
 - [[Neldardhen World/Endëa/Cultures_Nations/Places/Percaras\|Percaras]]
 - [[Lingwaino\|Lingwaino]]
+
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Lobor\|Lobor]]
 - Alcarin
 - Roquenost
+
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Ered\|Ered]]
 - Enered
+
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Talarún\|Talarún]]
 - Macarmentë
 - [[Neldardhen World/Endëa/Cultures_Nations/Places/Ostorrómë\|Ostorrómë]]
+
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Algassia\|Algassia]]
 - Anarost
 - Lísirin
@@ -53,6 +57,7 @@ East of the Palanian Continent, across the [[Neldardhen World/Endëa/Continents/
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Alfir\|Alfir]]
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Rhauwrim Forest\|Rhauwrim Forest]]
 - [[The City of Bronze\|The City of Bronze]]
+
 [[The Plateau\|The Plateau]]
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Urîdzâyan\|Urîdzâyan]]
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Braig\|Braig]]
@@ -63,13 +68,14 @@ East of the Palanian Continent, across the [[Neldardhen World/Endëa/Continents/
 #### The East and South
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Côfûl\|Côfûl]]
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Rhuk\|Rhuk]]
-	Att-Ur
-	Zarid
-	Urug
+- Att-Ur
+- Zarid
+- Urug
+
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Laugsuil\|Laugsuil]]
 [[Neldardhen World/Endëa/Cultures_Nations/Places/Uruithel\|Uruithel]]
-	Incaras
-	Inrast
-	[[Neldardhen World/Endëa/Cultures_Nations/Places/Silvola\|Silvola]]
+- Incaras
+- Inrast
+- [[Neldardhen World/Endëa/Cultures_Nations/Places/Silvola\|Silvola]]
 
 ### Other Places of Interest

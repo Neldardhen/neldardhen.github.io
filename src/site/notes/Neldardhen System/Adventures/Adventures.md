@@ -13,10 +13,11 @@ Adventures using [[Neldardhen System/Rules/Old v1 rules/The Neldardhen System (v
 
 [[Neldardhen System/Adventures/The Archeologists/The Archeologists\|The Archeologists]] taking place in [[Neldardhen World/Endëa/Cultures_Nations/Places/Laugsuil\|Laugsuil]] in around 1900 of the Flowering Age (using DnD5e 2014 System)
 
-[[Neldardhen System/Adventures/The Giants Lost to Time/The Giants Lost to Time\|The Giants Lost to Time]] taking place in [[Neldardhen World/Endëa/Cultures_Nations/Places/Rancanad\|Rancanad]] in around 1900 of the Flowering Age (using DnD5e 2014 System)
+[[Neldardhen System/Adventures/Following the Leading Stone\|Following the Leading Stone]] (using [[Neldardhen System/Neldar System\|V2]])
+
 ## Short Campaigns
 [[Neldardhen System/Adventures/The Cursed Island/The Cursed Island\|The Cursed Island]] taking place in [[Neldardhen World/Endëa/Cultures_Nations/Places/Húnatol\|Húnatol]] in 1932 of the Flowering Age (using [[Neldardhen System/Neldar System\|V2]])
 
-
+[[Neldardhen System/Adventures/The Giants Lost to Time/The Giants Lost to Time\|The Giants Lost to Time]] taking place in [[Neldardhen World/Endëa/Cultures_Nations/Places/Rancanad\|Rancanad]] in around 1900 of the Flowering Age (using DnD5e 2014 System)
 ## Long Campaigns
 [[Neldardhen System/Adventures/Core Memory/Core Memory\|Core Memory]] taking place in the [[Neldardhen World/Cosmologies/The Land Aftrer Death\|GM only]]
