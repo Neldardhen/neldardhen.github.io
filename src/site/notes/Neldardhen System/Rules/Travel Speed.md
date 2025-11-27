@@ -9,16 +9,17 @@ Rules for Travel for the [[Neldardhen System/Neldar System\|Neldar System]].
 ## Travel times / speed
 A day of travel is roughly 12h.
 
-| Method               | Speed in km per day   | Speed in mile per day      |
-| -------------------- | --------------------- | -------------------------- |
-| On foot              | 30 km/day             | ~18.6 miles/day            |
-| Horseback            | 50 km/day             | ~56 miles/day              |
-| Fast carriage        | 65 km/day             | ~40 miles/day              |
-| Ship (with stops)    | 60 km/day             | ~37 miles/day              |
-| Ship (fast)          | 120 km/day            | ~75 miles/day              |
-| Rapid military march | 60 km/day             | ~37 miles/day              |
-| Horse Relay          | 250 km/day            | ~155 miles/day             |
-| Homing pigeon        | 965 km / day (97km/h) | ~600 miles/day (60miles/h) |
+| Method               | Speed in km per day                                | Speed in mile per day      |
+| -------------------- | -------------------------------------------------- | -------------------------- |
+| On foot              | 30 km/day                                          | ~18.6 miles/day            |
+| Horseback            | 50 km/day                                          | ~56 miles/day              |
+| Fast carriage        | 65 km/day                                          | ~40 miles/day              |
+| Ship (with stops)    | 60 km/day                                          | ~37 miles/day              |
+| Ship (fast)          | 120 km/day                                         | ~75 miles/day              |
+| Rapid military march | 60 km/day                                          | ~37 miles/day              |
+| Horse Relay          | 250 km/day                                         | ~155 miles/day             |
+| Homing pigeon        | 965 km/day (97km/h)                                | ~600 miles/day (60miles/h) |
+| Dog Sled             | 80km/day<br>*ignore difficult terrain due to snow* | ~50 miles/day              |
 
 ## Travel cost
 

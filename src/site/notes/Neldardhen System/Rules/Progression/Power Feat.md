@@ -33,7 +33,7 @@ When you cast a spell targeting a single creature, you can target a second one w
 ### Summon Pegasus
 **Prerequisite** : Spirit score 20, already has the Summon Pegasus' Power Feat
 _Once per Story_
-You summon a [[Pegasus\|Pegasus]] to act as your mount. You cannot summon an other Pegasus if your mount get killed in battle, so take care of it !
+You summon a [[Neldardhen World/Endëa/Creatures (Endëa)/Pegasus\|Pegasus]] to act as your mount. You cannot summon an other Pegasus if your mount get killed in battle, so take care of it !
 ### Three in One
 **Prerequisite** : Body score 20, already has the Swipe Attack Feat
 _At will_

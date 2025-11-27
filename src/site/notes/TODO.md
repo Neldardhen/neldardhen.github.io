@@ -4,16 +4,6 @@
 
 # TODO
 
-### Rework / redesign
-- [ ] Rework Spellcasting System ?
-- [ ] Rework Ward/Armour/Veil system ?
-	- Add damage mitigation / resistance instead of bonus to dodge ?
-
-### VTT
-- [ ]  Switch From CSB to proper Foundry System ?
-- [ ] Check CSB 4.8.1 ???
-	- [ ] Create Active Effects for Species/Subspecies/Creature Traits and Equipment
-
 ### Neldar System
 Create Subspecies (Obsidian) for
 - [ ]  [[Neldardhen World/Species/Ælamar\|Ælamar]] (Acacia, Jacandra, Mahogany, Redwood, Sycamore)
@@ -64,4 +54,4 @@ Create Runes for [[Neldardhen System/Rules/Spells\|spellcasting]]
 
 ### Digital Garden
 - [ ] Add System Details for places 
-- [ ] Add pictures for Subspecies
+
