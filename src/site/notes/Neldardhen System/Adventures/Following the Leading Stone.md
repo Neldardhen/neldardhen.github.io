@@ -5,7 +5,7 @@
 
 # Following the Leading Stone
 #Adventure/oneShot, #Adventure/survival
-[[Neldardhen System/Adventures/Adventures\|Adventure]] through the Northen Polar Desert.
+[[Neldardhen System/Adventures/Adventures\|Adventure]] through the Northern Polar Desert.
 
 ## Hook
 Nina Kesta a scientist, wizard, researcher and explorer wants to find where the needle of black stone in the compasses truely leads. She knows that it is not the same place as the Noth marked by the stars and she suspect that something of importance can be find there, otherwise why would have someone went to such lengths as to enchant those particular stones to point the way ?
