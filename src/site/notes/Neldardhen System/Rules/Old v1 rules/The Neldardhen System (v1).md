@@ -17,7 +17,7 @@ For the Players
 - Magic Systems
 	- [[Neldardhen System/Rules/Old v1 rules/Spells (v1)\|Runes]] -> Allow to cast spells with instantaneous effects
 	- [[Neldardhen System/Rules/Alchemy\|Alchemy]] -> Allow to create Potions that can "store" magical effects
-	- [[Neldardhen System/Rules/Magical Items and Crafting\|Magical Items and Crafting]] -> Allow to create or enchant magical items
+	- [[Neldardhen System/Rules/Magical Items and Crafting of Legendary Items\|Magical Items and Crafting of Legendary Items]] -> Allow to create or enchant magical items
 	- [[Neldardhen System/Rules/Rituals\|Rituals]] -> Allow for stronger and longer lasting effects
 
 

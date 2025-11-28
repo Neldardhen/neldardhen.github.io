@@ -12,11 +12,12 @@ For the Players
 - [[Neldardhen System/Rules/Character Creation/Character Creation\|Character Creation]]
 - [[Neldardhen System/Rules/Combat and Injuries\|Combat and Injuries]]
 - [[Neldardhen System/Rules/Rest, Resourcing Activities and Downtime\|Rest, Resourcing Activities and Downtime]]
+- [[Crafting System\|Crafting System]] -> Creation of equipment, including basic magical items
 - Magic Systems
 	- [[Neldardhen System/Rules/Spells\|Runes]] -> Allow to cast spells with instantaneous effects
 	- [[Neldardhen System/Rules/Alchemy\|Alchemy]] -> Allow to create Potions that can "store" magical effects or Enchantement scrolls
 	- [[Enchanting\|Enchanting]] -> Allow to imbue Equipment with temporary magical effects 
-	- [[Neldardhen System/Rules/Magical Items and Crafting\|Magical Items and Crafting]] -> Allow to create or permenantly enchant magical items
+	- [[Neldardhen System/Rules/Magical Items and Crafting of Legendary Items\|Magical Items and Crafting of Legendary Items]] -> Allow to create or permenantly enchant magical items
 	- [[Neldardhen System/Rules/Rituals\|Rituals]] -> Allow for stronger and longer lasting effects
 - [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]] after level 1.
 
