@@ -54,7 +54,7 @@ A character affected by the curse of a feral dhampir gains the following traits 
 	- Need for sun is set to 0.
 - **Unnatural Regeneration** : your body regenerates at an unnatural fast pace. You gain Fast Recovery (Body)
 
-Additionnally, character with the Feral Dhampir curse have access to special Feral Dhampir Feats when leveling up.
+Additionnally, character with the Feral Dhampir curse have access to special [[Neldardhen System/Rules/Progression/Species Feat#^a581a2\|Feats]] when leveling up.
 
 #### Soul Parasite
 > [!wip] _Work In Progress_

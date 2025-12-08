@@ -231,3 +231,24 @@ You get **+1d4** on your Resist checks based on Pain Tolerance.
 _Passive_
 You get __\*2__ modifier on your [[Neldardhen System/Rules/Terrain and Environment#^21a908\|Long]] and [[Neldardhen System/Rules/Terrain and Environment#^649a55\|High]] jumps distances. 
 { #b29c7f}
+
+
+## Feral Dhampir
+{ #a581a2}
+
+
+### Stronger Regeneration
+**Prerequisite** : Level 6
+_Passive_
+You gain Fast Recovery (Body) **2**
+
+### Feral Fury
+**Prerequisite** : Level 6
+_At will_
+You can use both of your Actions to make an unarmed attack. If you hit it's an automatic critical. If you crit you deal quadruple damage.
+
+### A Thirst for Blood
+**Prerequisite** : Level 9
+_Passive_
+If you drink the blood of a still living humanoid, all of your needs are considered met for the next week and you gain a luck bonus of **+1** on all of your skill checks.
+If you kill the humanoid the bonus becomes a **+2**.
