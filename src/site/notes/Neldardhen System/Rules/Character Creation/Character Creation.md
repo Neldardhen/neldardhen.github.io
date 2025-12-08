@@ -11,19 +11,27 @@ Character Creation  rules for the  [[Neldardhen System/Neldar System\|Neldar Sys
 ## Species
 First you will choose your [[Neldardhen System/Rules/Character Creation/Playable Species List\|Species]].
 
-The different species can be found in the Item tabs. You can drag and drop your chosen species onto your character sheet.  
 Your species will define your character's type, perception pools and needs.
+
+**Using Foundry**
+>The different species can be found in the Item tabs. You can drag and drop your chosen species onto your character sheet.  
+
+**Using the Character App**
+> Click on the Edit button on the top left of your character sheet to enter Edit Mode, you should be able to select your Species from a dropdown button.
 
 See [[Neldardhen System/Rules/Character Creation/Character Creation - Species\|Character Creation - Species]].
 
 ## Points Distribution
 The second step is to distribute your points in your Fundamental values (Mind Body and Spirit), your Attributes and Skills.
 
+**Using the Character App**
+> Adding skill points is one of the slowest operation (because skills affects the rest of the sheet and everything must be re-calculated). So give it half a second to a second between each click.
+
 See [[Neldardhen System/Rules/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]].
 
 ## Origin and Backstory
 Once you chose your Origin (see. [[Neldardhen System/Rules/Character Creation/Character Creation - Origins\|Character Creation - Origins]]) you will have a better understanding in which environment your character grew up, it can then help you write your Backstory.
-This is also the step where you can choose the language you speak. You can choose 1 native language and 1 additional language per rank in your Rhetoric / Linguistic skill.
+This is also the step where you can choose the language you speak. You can choose 1 native language and 1 additional language per rank in your *Rhetoric / Linguistic* skill.
 
 ### Backstory
 To write your backstory you can get some inspiration by answering some of the following questions :

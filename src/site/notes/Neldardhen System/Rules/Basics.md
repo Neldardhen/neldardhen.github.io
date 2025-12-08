@@ -41,10 +41,10 @@ There are 18 skills separated in three catagories linked to Mind, Body and Spiri
 
 Three of the skills are Defense skills, **Aracane Magic**, **Fighting** and **Raw Magic** are taken into account when defending against attacks or damage affecting the corresponding part of the being. 
 
-Each skill as a rank - ranks can be bought with points at character creation or after a level up (see [[Neldardhen System/Rules/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]]).
+Each skill has a rank - ranks can be bought with points at character creation or after a level up (see [[Neldardhen System/Rules/Character Creation/Character Creation - Points Distribution\|Character Creation - Points Distribution]]).
 A rank in a skill cannot be higher than the score in the Fundamental value (Mind, Body or Spirit).
 
-> If Ayrina has a Mind score of 4 and Spirit score of 2, she can buy up to 4 ranks in Arcane Magic, but only 2 ranks in Persuasion.
+> If Ayrina has a Mind score of **4** and Spirit score of **2**, she can buy up to **4** ranks in Arcane Magic, but only **2** ranks in Persuasion.
 
 ### Skill Checks
 A skill check is done by combining a skill with an attribute. The rank of the skill determine the number of dice that can be bought and the attribute determine the type of the dice.
@@ -79,7 +79,7 @@ If a character has a rank high enough in a skill to buy more dice, but not enoug
 #### Helping on a skill check
 Some skill checks can benefit from the help of one or more other characters.
 To help on a skill checks, every character that want to help must make a check with the same skill and attribute as the main check, but with a set Difficulty of **10**.
-For every success, the person making the main check will be able to re-roll a die in there pool.
+For every success, the person making the main check will be able to re-roll a die in their pool.
 If the roll for helping was a critical success, a die can be re-roll until it is no longer a 1.
 
 #### Fatigue, Exhaustion and Stress
@@ -117,7 +117,7 @@ Perception checks are always free. They use dice pools determined by the species
 | Trivial    | 2+        | Garanteed succeess when either having a specialty or buying 1 die.                                                                                                                                                                                     |
 | Very Easy  | 4+        |                                                                                                                                                                                                                                                        |
 | Easy       | 6+        |                                                                                                                                                                                                                                                        |
-| Medium     | 8+        | Roughly 50% chance of succees with 2d6 or 2d8 (at least 1 buy should be bought, signifying that a bit of effort must be put into the task. Alternatively, can sometimes be done effortlessly - without buyind dice - if the character has a specialty) |
+| Medium     | 8+        | Roughly 50% chance of succees with 2d6 or 2d8 (at least 1 die should be bought, signifying that a bit of effort must be put into the task. Alternatively, can sometimes be done effortlessly - without buying dice - if the character has a specialty) |
 | Hard       | 12+       | Required to have at least 1 rank in the skill to succeed (or be very lucky with a d12 attribute)                                                                                                                                                       |
 | Very Hard  | 16+       |                                                                                                                                                                                                                                                        |
 | Impossible | 20+       |                                                                                                                                                                                                                                                        |
