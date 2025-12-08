@@ -123,7 +123,10 @@ Immunities reduce any damage of that type to 0.
 > Her opponent rolls the damage and get a result of **5** Bludgeoning + **2** Fire.
 > Her Resistance to Bludgeoning has a value of (8/2 = 4), so she will only take **5 - 4** = **1** Bludgeoning damage.
 > On the other hand, her Vulnerability to Fire has a value of (4/2 = 2) so she will take **2 + 2** = **4** Fire damage.
-## Injuries{ #5a0385}
+## Injuries
+{ #b641f0}
+
+{ #5a0385}
 
 Every times someone does a task without the necessary resources to pay the cost of said task their _Fatigue_, _Exhaustion_ or _Stress_ level increases by **1**, depending on the part of their _Being_ the skill is associated with.  
 It is also the case if a creature takes damage on a resource (_focus_, _endurance_ or _resilience_) which is already at 0.
@@ -133,7 +136,7 @@ Free dice never increase those counters.
 If the damage received are greater than **9** then the _Fatigue_, _Exhaustion_ or _Stress_ level increments by **2**, similarly if the cost or damage is greater than **19** then the level increment by **3**, and so on and so forth.
 
 Every time the _Fatigue_, _Exhaustion_ or _Stress_ level of a creature increments it must roll on the corresponding Injury table.
-
+[[Neldardhen System/Rules/Injuries and Curses\|Injuries and Curses]]
 ### Injuries Rolltables
 A roll for an Injury is done in two steps. The first step will define if the Injury will be Temporary or Permanent. It is done by roll **1d6** and adding the corresponding *Fatigue*, *Exhaustion* or *Stress* level.
 A result of **7** or lower gives a Temporary Injury, any result strictly higher than **7** means that the Injury will be Permanent.
