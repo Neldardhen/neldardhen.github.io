@@ -51,6 +51,7 @@ A character affected by the curse of a feral dhampir gains the following traits 
 - **Feral Dhampir Hunger** : You need raw meat... and you need to kill it yourself. At the end of the week, roll a **d6** for every week you went by without eating raw meat, if the result is greater than your current focus you loose control and go on a hunt.
 	- Treated as an Addiction and counts as a Mind need.
 - **Sun Sensitivity** : Spend too long in the sun and it will start to burn you. You take 1d4 endurance damage at the end of the day for every 2 hours you spent in the sun.
+	- Need for sun is set to 0.
 - **Unnatural Regeneration** : your body regenerates at an unnatural fast pace. You gain Fast Recovery (Body)
 
 Additionnally, character with the Feral Dhampir curse have access to special Feral Dhampir Feats when leveling up.
@@ -66,6 +67,7 @@ A character affected by the curse of a soul parasite gains the following traits 
 > - Treated as an Addiction and counts as a Mind need.
 
 - **Sun Sensitivity** : Spend too long in the sun and it will start to burn you. You take 1d4 endurance damage at the end of the day for every 2 hours you spent in the sun.
+	- Need for sun is set to 0.
 
 > [!wip] _Work In Progress_
 > - **Unnatural Composure** : You have a natural poker face, some call it a resting bitch face...

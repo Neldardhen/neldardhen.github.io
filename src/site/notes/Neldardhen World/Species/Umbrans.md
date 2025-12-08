@@ -8,6 +8,7 @@
 ![Umbran.png|100](/img/user/Images/Species/Umbran.png)
 
 Umbrans are a [[Neldardhen World/Species/Species\|Species]] resulting from a [[Neldardhen World/Nyalë/Creatures (Nyalë)/Daessiak\|Daessiak]] tricking or making a pact with an other sentient humanoïd to share or take over their body.
+The Umbran resulting from the union of a Deassiak and an intelligent humanoid is an entirely new creature with their own new Mind, Body and Spirit. They might or not retain some memories form both of their previous lives.
 
 They have eyes with light coloured, cyan, pink or pale yellow and dark hair. They have black veins apparent on some part of their bodies.
 
