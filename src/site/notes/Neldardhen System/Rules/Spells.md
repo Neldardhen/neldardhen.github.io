@@ -10,7 +10,7 @@ Rules for spellcasting in [[Neldardhen System/Neldar System\|Neldar System]].
 Arcane magic refers both to the study of magic and the structured approached to its practice (as opposed to Raw Magic). It is the type of magic the Player Characters can have access to if they choose to.
 A practitioner of magic can only have a limited number of active spells at any given time. This number is dictated by their rank in the Arcane Magic skill.
 
-> Number of parallel spells = Arcane Magic Rank
+> Number of parallel spells = Arcane Magic Rank - *1*
 
 Spells are constructed by combining different runes together. 
 ### Runes

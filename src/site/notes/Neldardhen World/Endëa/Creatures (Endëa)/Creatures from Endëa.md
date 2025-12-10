@@ -9,9 +9,13 @@ See also [[Neldardhen World/Amaurëa/Creatures (Amaurëa)/Creatures from Amaurë
 ### Beasts
 Giant Snake
 Wolf
+[[Neldardhen World/Endëa/Creatures (Endëa)/Giant Wolverine\|Giant Wolverine]]
 ### Magical Beasts
 Cú Sidhe
 Maen's cat
+[[Neldardhen World/Endëa/Creatures (Endëa)/Fire Snake\|Fire Snake]]
+[[Neldardhen World/Endëa/Creatures (Endëa)/Blue Salamander\|Blue Salamander]]
+[[Neldardhen World/Endëa/Creatures (Endëa)/Falijen\|Falijen]]
 ### Spirits and Ghost
 Dame Blanche
 
@@ -27,3 +31,4 @@ Ankou
 Hecate
 Vanth
 [[Neldardhen World/Endëa/Creatures (Endëa)/Pegasus\|Pegasus]]
+[[Neldardhen World/Endëa/Creatures (Endëa)/Krampus\|Krampus]]

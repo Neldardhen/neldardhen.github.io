@@ -3,7 +3,7 @@
 ---
 
 # GM Summary : The Archeologists
-Gm only summary for the [[Neldardhen System/Adventures/Adventures\|adventure]] [[Neldardhen System/Adventures/The Archeologists/The Archeologists\|The Archeologists]].
+GM only summary for the [[Neldardhen System/Adventures/Adventures\|adventure]] [[Neldardhen System/Adventures/The Archeologists/The Archeologists\|The Archeologists]].
 
 
 > [!warning] GM Only information !
