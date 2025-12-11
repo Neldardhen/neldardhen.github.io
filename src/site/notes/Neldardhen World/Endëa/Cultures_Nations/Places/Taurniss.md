@@ -5,7 +5,7 @@
 # Taurniss
 A vast taiga forest on the North of the [[Neldardhen World/Endëa/Continents/Dragonén Continent\|Dragonén Continent]] inhabited by [[Neldardhen World/Species/Hólindir\|Hólindir]].
 
-Taurniss culture was extremely competitive.
+Taurniss culture (called Kagatos) was extremely competitive.
 
 
 ### Languages

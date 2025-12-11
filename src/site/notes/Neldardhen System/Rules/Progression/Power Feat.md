@@ -39,3 +39,8 @@ You summon a [[Neldardhen World/Endëa/Creatures (Endëa)/Pegasus\|Pegasus]] to 
 _At will_
 With 1 attack you can target up to three creature adjacent to each other that are within 4m of you.
 You attack normaly and each creatures must Dodge or Resist your attack, you then roll damage once for all of them.
+
+>[!wip] Wrok in Progress
+>**Prerequisite** : Body score 20 ? 
+>_At will_
+>You can take 3 Actions per turn. 

@@ -5,11 +5,13 @@
 # Thee Worlds Cosmology
 The more widely accepted of the [[Neldardhen World/Cosmologies/Cosmologies\|Cosmologies]].
 
-| World       | Other names                                                                                 |                                                                                                                                   |
-| ----------- | ------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------- |
-| [[Neldardhen World/Amaurëa/Amaurëa\|Amaurëa]] | The Dawn World<br><br>The Day World<br><br>The Sun World<br><br>The Warm World              | A world of perpetual day. The sun moves in the sky without ever setting.  <br>Most of the world is covered by huge rocky deserts. |
-| [[Neldardhen World/Endëa/Endëa\|Endëa]]   | The Middle World<br><br>The Balanced World<br><br>The World of Seas<br><br>The Kinder World | A world similar to our own with day and night cycle.                                                                              |
-| [[Neldardhen World/Nyalë/Nyalë\|Nyalë]]   | The Dusk World<br><br>The Night World<br><br>The Moon World<br><br>The Cold World           | A world of perpetual night. Most of the world is covered by dense forests.                                                        |
+| World       | Other names                                                                     |                                                                                                                                                                                                          |
+| ----------- | ------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| [[Neldardhen World/Amaurëa/Amaurëa\|Amaurëa]] | The Dawn World<br>The Day World<br>The Sun World<br>The Warm World              | A world of perpetual day. The sun moves in the sky without ever setting.  <br>Most of the world is covered by rocky deserts contrasting with occasional green and flowering plains of incredible beauty. |
+| [[Neldardhen World/Endëa/Endëa\|Endëa]]   | The Middle World<br>The Balanced World<br>The World of Seas<br>The Kinder World | A world similar to our own with day and night cycle.                                                                                                                                                     |
+| [[Neldardhen World/Nyalë/Nyalë\|Nyalë]]   | The Dusk World<br>The Night World<br>The Moon World<br>The Cold World           | A world of perpetual night. Most of the world is covered by dense forests.<br>Most creatures and plants have some sort of bioluminessence.                                                               |
+
+
 ![neldardhen-cosmology-main-text.png](/img/user/Images/Cosmologies/neldardhen-cosmology-main-text.png)
 
 Three fundamental Energies are recognised : Heat, Cold (not shown above, respectively on the far left and far right) and Life that act on two fundamental state of matter Rock and Air or Void (not shown either, respectively at the bottom and top pf the graph).
