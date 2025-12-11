@@ -57,7 +57,7 @@ The Iris Countries use the [[Neldardhen World/Endëa/Cultures_Nations/Languages/
 ### Games
 Most cards games use the [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Neledhîr\|Neledhîr]] deck.
 
-[[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/The Werewolf's Hunt\|The Werewolf's Hunt]] is a children game that only uses a subset of the deck.
+[[The Werewolf's Hunt\|The Werewolf's Hunt]] is a children game that only uses a subset of the deck.
 
 A variant of [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Jass\|Jass]] is one of the most popular card game.
 

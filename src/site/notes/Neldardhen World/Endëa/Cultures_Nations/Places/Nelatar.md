@@ -66,7 +66,7 @@ see [[Neldardhen World/Endëa/Cultures_Nations/Places/Egerot#^2bb3f0\|Egerot - T
 
 ### Games
 [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Best Die\|Best Die]] played with a d12 where 1 is seen as the best result.
-[[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/The Werewolf's Hunt\|The Werewolf's Hunt]] played with a subset of the [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Neledhîr\|Neledhîr]] deck.
+[[The Werewolf's Hunt\|The Werewolf's Hunt]] played with a subset of the [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Neledhîr\|Neledhîr]] deck.
 
 ### Calendar
 Nelatar and Egerot share the same calendar( see [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Calendars/Nelatar-Egerot Calendar\|Nelatar-Egerot Calendar]])
