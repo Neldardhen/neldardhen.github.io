@@ -32,10 +32,16 @@ For the rules about Injuries see [[Neldardhen System/Rules/Combat and Injuries#^
 > [!wip] _Work In Progress_
 > 
 ## Curses
+{ #a7fc0a}
+
+
 Curses are permanent effect of magical origin that affects an individual greatly.
 There sometime exists way to lift a curse, but the ritual necessary is specific to the curse and must often be additional tailored to the individual.
 There are some curses for which there exist no known way to lift them.
 ### Dhampir Curses
+{ #1d3809}
+
+
 There are two different type of Dhampir curses known as the Feral Dhampir and the Soul Parasite.
 
 #### Feral Dhampir

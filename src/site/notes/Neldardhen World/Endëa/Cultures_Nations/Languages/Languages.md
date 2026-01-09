@@ -34,19 +34,19 @@ Gremnet
 ---- Kethet
 ---- ---- Rhukethet (Talked by [[Neldardhen World/Species/Orcs\|Orcs]] and [[Neldardhen World/Species/Dwarves\|Dwarves]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Rhuk\|Rhuk]])
 ---- ---- Uridkethet (Talked by [[Neldardhen World/Species/Goblins\|Goblins]], [[Neldardhen World/Species/Orcs\|Orcs]] and [[Neldardhen World/Species/Hobgoblins\|Hobgoblins]]  in [[Neldardhen World/Endëa/Cultures_Nations/Places/Urîdzâyan\|Urîdzâyan]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Braig\|Braig]])
----- ???
+---- Old Obet
 ---- ---- Obet (Talked by [[Neldardhen World/Species/Goblins\|Goblins]], [[Neldardhen World/Species/Orcs\|Orcs]] and [[Neldardhen World/Species/Hobgoblins\|Hobgoblins]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Braig\|Braig]] and [[Neldardhen World/Endëa/Cultures_Nations/Places/Côfûl\|Côfûl]])
 
 
-????
----- ????
+Proto-Falwic (not attested only theorised)
+---- Pre Ancient Laugsuil
 ---- ---- [[Neldardhen World/Endëa/Cultures_Nations/Languages/Ancient Laugsuil Language\|Ancient Laugsuil]]
 ---- ---- ---- Losul ([[Neldardhen World/Endëa/Cultures_Nations/Places/Laugsuil\|Laugsuil]])
 ---- Meromic ([[Neldardhen World/Endëa/Cultures_Nations/Places/Faelrim Forest\|Faelrim Forest]])
----- ??? 
+---- Proto Mewennic (not attested)
 ---- ---- Mewic	(Talked by [[Neldardhen World/Species/Lynfaldir\|Lynfaldir]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Arnediadyrn\|Arnediadyrn]])
 ---- ---- ---- Mewithen (Influenced by Uruithen, talked by [[Neldardhen World/Species/Lynfaldir\|Lynfaldir]] and [[Neldardhen World/Species/Aranlindir\|Aranlindir]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Silvola\|Silvola]])
----- ---- Ennewic
+---- ---- Ennewic or Old Gnewic (disputed if they are the same language or not)
 ---- ---- ---- Gnewic (Talked by [[Neldardhen World/Species/Gnolls\|Gnolls]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Côfûl\|Côfûl]] and [[Neldardhen World/Endëa/Cultures_Nations/Places/Rhuk\|Rhuk]])
 
 
@@ -56,7 +56,7 @@ Gremnet
 ---- ---- [[Neldardhen World/Endëa/Cultures_Nations/Languages/Eferian\|Eferian]] ([[Neldardhen World/Endëa/Cultures_Nations/Places/Rhauwrim Forest\|Rhauwrim Forest]])
 
 
-Linanfir ??
+Proto-Linanfir (partially reconstructed - not attested)
 ---- Anvir
 ---- ---- Palanvir
 ---- ---- ---- Ansolanvir ---	Ansovir (Talked by [[Neldardhen World/Species/Angessedir\|Angessedir]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Côfûl\|Côfûl]])
@@ -66,13 +66,14 @@ Linanfir ??
 ---- ---- ---- Rancanvir ([[Neldardhen World/Endëa/Cultures_Nations/Places/Rancanad\|Rancanad]])
 ---- ---- ---- Orambir ([[Neldardhen World/Endëa/Cultures_Nations/Places/Thandnûr\|Thandnûr]])
 ---- ---- ---- ---- Oranithen (dialect influanced by Uruithen, talked by the [[Borangedir\|Borangedir]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Uruithel\|Uruithel]])
----- ???
+---- Primitive Deasfir (attested only fragmentally)
 ---- ---- Daesfir (Talked in the Ancient [[Neldardhen World/Endëa/History/Corvid Empire\|Corvid Empire]])
 ---- ---- ---- Nyalfir	(Talked by [[Neldardhen World/Species/Hólindir\|Hólindir]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Taurniss\|Taurniss]] and by [[Neldardhen World/Species/Dragonéns\|Dragonéns]], [[Neldardhen World/Species/Kobolds\|Kobolds]] and [[Neldardhen World/Species/Hólindir\|Hólindir]] during the night in [[Neldardhen World/Endëa/Cultures_Nations/Places/Calendôr\|Calendôr]])	
 ---- ---- ---- Aranfir (Talked by [[Neldardhen World/Species/Aranlindir\|Aranlindir]] in ([[Neldardhen World/Endëa/Cultures_Nations/Places/Arnediadyrn\|Arnediadyrn]]))
 ---- ---- ---- ---- Linifir (Talked by [[Neldardhen World/Species/Aranlindir\|Aranlindir]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Rhuk\|Rhuk]])
 
-Uruithen (Talked by [[Neldardhen World/Species/Behemes\|Behemes]], [[Neldardhen World/Species/Caergandir\|Caergandir]], [[Neldardhen World/Species/Lynfaldir\|Lynfaldir]] and [[Neldardhen World/Species/Aranlindir\|Aranlindir]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Uruithel\|Uruithel]])
+Old Uruithen (Oldest Uruithen text found written in this dialect)
+--- Uruithen (Talked by [[Neldardhen World/Species/Behemes\|Behemes]], [[Neldardhen World/Species/Caergandir\|Caergandir]], [[Neldardhen World/Species/Lynfaldir\|Lynfaldir]] and [[Neldardhen World/Species/Aranlindir\|Aranlindir]] in [[Neldardhen World/Endëa/Cultures_Nations/Places/Uruithel\|Uruithel]])
 { #8f3ce9}
 
 

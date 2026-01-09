@@ -37,7 +37,7 @@ In Endëa
 - [[Neldardhen World/Species/SubSpecies/Grenat Gnomes\|Grenat Gnomes]]
 - [[Neldardhen World/Species/SubSpecies/Lapis-lazuli Gnomes\|Lapis-lazuli Gnomes]]
 - [[Neldardhen World/Species/SubSpecies/Peridot Gnomes\|Peridot Gnomes]]
-- [[Tiger's eye Gnomes\|Tiger's eye Gnomes]]
+- [[Neldardhen World/Species/SubSpecies/Tiger's eye Gnomes\|Tiger's eye Gnomes]]
 - [[Neldardhen World/Species/SubSpecies/Topaz Gnomes\|Topaz Gnomes]]
 
 In Amaurëa exclusively

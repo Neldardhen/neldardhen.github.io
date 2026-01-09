@@ -47,6 +47,8 @@ List of available species for player characters with the [[Neldardhen System/Nel
 - ![glirmegil-fire-hair.png|50](/img/user/Images/Species/glirmegil-fire-hair.png) [[Neldardhen World/Species/Ælamar\|Ælamar]]
 
 ### Living in  [[Neldardhen World/Nyalë/Nyalë\|Nyalë]] :
+{ #c644fa}
+
 
 - ![Gremn.png|50](/img/user/Images/Species/Gremn.png) [[Neldardhen World/Species/Gremns\|Gremns]]
 - [[Neldardhen World/Species/Hobgoblins\|Hobgoblins]] 

@@ -22,15 +22,16 @@ This means no:
 Half-elves
 Half-orcs
 
-Underdark races/subraces are a work in progress right now, this will include :
-Drow
+Underdark races/subraces that are somewhat inherently evil don't exist. For species that live in a world of night see the [[Neldardhen System/Rules/Character Creation/Playable Species List#^c644fa\|species from Nyalë]].
+They are no
+Drow -- Closest thing to a drow might be an [[Neldardhen World/Species/Umbrans\|Umbran]], but it's a stretch.
 Druegar
-Derro -- (Maybe)
+Derro
 Svirfneblin
 
 Other species that currenlty don't exist in Neldardhen are :
 Warforgeds -- Will probably never exist in Neldradhen
-Dhampirs -- Are not viewed as a specie, but modification of one.
+Dhampirs -- Are not viewed as a specie, but modification of one through a [[Neldardhen System/Rules/Injuries and Curses#^1d3809\|curse]].
 Hexbloods -- I will create some sort of Fey Species at some point
 Changlings -- Will probably never exist in Neldradhen
 Kalashtars -- Maybe could correspond to [[Neldardhen World/Species/Shinrens\|Shinrens]] 
@@ -38,7 +39,7 @@ Minautors -- Will probably never exist in Neldradhen
 Centaurs -- Will probably never exist in Neldradhen
 Kenders -- Will probably never exist in Neldradhen
 Satyrs -- I will create some sort of Satyr or Faun species at some point
-Shifters -- I will probably give access to some of the Shifters features in the form of Feats
+Shifters -- I will probably give access to some of the Shifters features in the form of Feats or through a curse [[Neldardhen System/Rules/Injuries and Curses#^a7fc0a\|curse]]
 
 ### From [[Neldardhen World/Endëa/Endëa\|Endëa]]
 
@@ -82,7 +83,7 @@ Firling -- Fire Genasi? Tiefling?
 [[Neldardhen World/Species/Agarwéns\|Agarwéns]] -- NONE
 [[Neldardhen World/Species/Orcs\|Orcs]] -- Orcs
 
-[[Neldardhen World/Species/Tyndir\|Tyndir]] -- NONE
+[[Neldardhen World/Species/Tyndir\|Tyndir]] -- NONE Half Dragon maybe ?
 [[Neldardhen World/Nyalë/Creatures (Nyalë)/Daessiak\|Daessiak]] -- Shadow?
 [[Neldardhen World/Species/Umbrans\|Umbrans]] -- Shadar-kai
 [[Neldardhen World/Nyalë/Creatures (Nyalë)/Sissiak\|Sissiak]] -- NONE
@@ -93,7 +94,7 @@ Firling -- Fire Genasi? Tiefling?
 [[Dragons\|Dragons]] -- Dragons
 [[Neldardhen World/Species/Draconians\|Draconians]] -- Dragonborns
 [[Neldardhen World/Species/Dragonéns\|Dragonéns]] -- Dragonborns
- [[Neldardhen World/Species/Dracobolds\|Dracobolds]] -- Dragonborns
+[[Neldardhen World/Species/Dracobolds\|Dracobolds]] -- Dragonborns
 [[Neldardhen World/Species/Kobolds\|Kobolds]] -- Kobolds
 
 [[Ældir\|Ældir]] -- Eladrins? (kinda)

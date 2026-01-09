@@ -17,8 +17,8 @@ In both DnD and Pathfinder the concept of saves plays an important role.
 Raw Strength-> Athletics check on Physics
 
 ### Dexterity saves / Reflex Saves
-Avoid something -> Dodge check (Fighting or Athletics on Reaction Speed)
-Keeping balance -> Athletics check on Physics or Reaction Speed
+Avoid something -> Any appropriate skill on Reaction Speed
+Actively keeping balance -> Athletics check on Physics
 
 ### Constitution Saves / Fortitude Saves
 Resisting the effect of an attack -> Fighting check on Pain Tolerance 
@@ -45,6 +45,6 @@ Once a character reaches 0 focus, endurance or resilience they start accumulatin
 ## Classes and class abilities
 Classes don't exist, instead player create their own specialisation by choosing the skills that their character has trained.
 
-Class abilites are somewhat replaced by weapons special traits. A character with a skill high enough can start using the special traits of weapons associated with said skill.
+Class abilites are somewhat replaced by weapons special traits. A character with a skill high enough can start using the special traits of weapons associated with said skills.
 
 Skill-, Species- and General- Feats give an other layer of customisation to the characters (see [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]])

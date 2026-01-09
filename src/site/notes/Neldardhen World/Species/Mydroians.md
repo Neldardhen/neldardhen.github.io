@@ -7,11 +7,13 @@
 
 ![galwargoldskin.png|100](/img/user/Images/Species/galwargoldskin.png)
 
-Mydroians are a [[Neldardhen World/Species/Species\|Species]] of tall humanoids with metallic skin and gems for eyes native to [[Neldardhen World/Amaurëa/Amaurëa\|Amaurëa]]. They live in a millitaristic society based on a caste system.
+Mydroians are a genderless [[Neldardhen World/Species/Species\|Species]] of tall humanoids with metallic skin and gems for eyes native to [[Neldardhen World/Amaurëa/Amaurëa\|Amaurëa]]. They live in a millitaristic society based on a caste system.
 - Brass-skin are servants.
 - Copper-skin are artisants and merchants.
 - Bronze-skin are soldiers.
 - Gold-skin are rulers and priests.
+
+There are some very rare case of an individual born with purple or black-violet skin. They are called shakudo or hepatizon and are either revered or shuned depending on the particular culture of the society they were born in.
 #### Reproduction
 *unknown*
 

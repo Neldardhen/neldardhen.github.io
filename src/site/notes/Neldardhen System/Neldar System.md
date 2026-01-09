@@ -12,6 +12,8 @@ For the Players
 - [[Neldardhen System/Rules/Character Creation/Character Creation\|Character Creation]]
 - [[Neldardhen System/Rules/Combat and Injuries\|Combat and Injuries]]
 - [[Neldardhen System/Rules/Rest, Resourcing Activities and Downtime\|Rest, Resourcing Activities and Downtime]]
+
+Advanced
 - [[Neldardhen System/Rules/Crafting System\|Crafting System]] -> Creation of equipment, including basic magical items
 - Magic Systems
 	- [[Neldardhen System/Rules/Spells\|Runes]] -> Allow to cast spells with instantaneous effects

@@ -17,7 +17,7 @@ The values in each suites are :
 
 [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Neledhîr - Common Cards\|Neledhîr - Common Cards]]
 
-The Commn Deck or smaller variant of it are used to play a variant of [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Jass\|Jass]] and the very popular with children [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Games\|game]] of [[The Werewolf's Hunt\|The Werewolf's Hunt]].
+The Commn Deck or smaller variant of it are used to play a variant of [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Jass\|Jass]] and the very popular with children [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Games\|game]] of [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/The Werewolf's Hunt\|The Werewolf's Hunt]].
 ### The Unaligned Cards
 
 There are 9 unaligned cards. Those cards are subdivided in three faces (one for each corner) with each face showing a different picture. The only exception being the last card (Death) being an all black card or showing the representation of a single horse skull.

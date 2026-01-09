@@ -21,7 +21,7 @@ If one is seen by the washerwomen they will ask for help. They will drown the on
 
 ### Games
 [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Best Die\|Best Die]] played with a d12, where 12 is seen as the best result
-[[The Werewolf's Hunt\|The Werewolf's Hunt]] played with the [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Neledhîr\|Neledhîr]] deck
+[[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/The Werewolf's Hunt\|The Werewolf's Hunt]] played with the [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Games/Neledhîr\|Neledhîr]] deck
 
 ### Calendar
 Egerot and Nelatar share the same calendar. (see [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Calendars/Nelatar-Egerot Calendar\|Nelatar-Egerot Calendar]])
