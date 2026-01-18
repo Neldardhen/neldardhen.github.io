@@ -6,6 +6,8 @@
 Culture shared by the five nations that used to formed the [[Neldardhen World/Endëa/History/Iris Empire\|Iris Empire]].
 The nations are [[Neldardhen World/Endëa/Cultures_Nations/Places/Dogarot\|Dogarot]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Algassia\|Algassia]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Ered\|Ered]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Lobor\|Lobor]] and [[Neldardhen World/Endëa/Cultures_Nations/Places/Talarún\|Talarún]]
 
+### Calendar
+[[Neldardhen World/Endëa/Cultures_Nations/Cultures/Calendars/Iris Calendar\|Iris Calendar]]
 ### Religion
 The official religion of the most of the Iris countries is the [[Neldardhen World/Endëa/Cultures_Nations/Religions/Iris Pantheon\|Iris Pantheon]].
 Algassia rejected the pantheon and is now a laïc state.

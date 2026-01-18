@@ -30,7 +30,10 @@ A withdrawal check is made in the same manner as the original addiction check. T
 
 Of course the GM and players are encouraged to find creative alternative ways to cure a character's addiction. They might want to try to get rid of their drinking habit by instead going for a walk with a friend or finding a new hobby. As a GM consider giving bonus on the relapse checks when players come up with alternatives way to manage or heal their character's addiction.
 
-## Additional Effect of Damage
+## Conditions
+{ #6c6dc1}
+
+
 Some attacks can afflict characters with some staus conditions. Usually an additional condition from an attack can be avoided by Resisting the attack. (Text of specific attacks override the general rule.)
 
 | **Mind (reduces focus)** | Condition          | **Body (reduces endurance)** | Condition            | **Spirit (reduces resilience)** | Condition   |

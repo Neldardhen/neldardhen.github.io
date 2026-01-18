@@ -3,7 +3,7 @@
 ---
 
 # Iris Calendar
-Calendar used in the nations sharing the [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Iris Culture\|Iris Culture]] ([[Neldardhen World/Endëa/Cultures_Nations/Places/Dogarot\|Dogarot]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Algassia\|Algassia]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Ered\|Ered]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Lobor\|Lobor]] and [[Neldardhen World/Endëa/Cultures_Nations/Places/Talarún\|Talarún]]).
+[[Neldardhen World/Endëa/Cultures_Nations/Cultures/Calendars/Calendars\|Calendar]] used in the nations sharing the [[Neldardhen World/Endëa/Cultures_Nations/Cultures/Iris Culture\|Iris Culture]] ([[Neldardhen World/Endëa/Cultures_Nations/Places/Dogarot\|Dogarot]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Algassia\|Algassia]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Ered\|Ered]], [[Neldardhen World/Endëa/Cultures_Nations/Places/Lobor\|Lobor]] and [[Neldardhen World/Endëa/Cultures_Nations/Places/Talarún\|Talarún]]).
 Even if the nation of [[Neldardhen World/Endëa/Cultures_Nations/Places/Algassia\|Algassia]] proposed its own calendar when leaving the [[Neldardhen World/Endëa/History/Iris Empire\|Iris Empire]] only few are using it and most Algassiens refer to the Iris Calendar in their day to day life.
 
 The Iris calendar has 13 months of 28 days each + 1 day.

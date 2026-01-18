@@ -20,8 +20,9 @@ Maen's cat
 Dame Blanche
 
 ### Other Undead
-The Unbreathing
-
+[[Neldardhen World/Endëa/Creatures (Endëa)/The Unbreathing\|The Unbreathing]] and [[Neldardhen World/Endëa/Creatures (Endëa)/The Rotting Unbreathing\|The Rotting Unbreathing]]
+[[Neldardhen World/Endëa/Creatures (Endëa)/The Drowned\|The Drowned]]
+[[Ancient Guard\|Ancient Guard]]
 ### Abominations
 Deep One
 Deep One Guard
