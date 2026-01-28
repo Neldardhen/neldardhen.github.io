@@ -14,8 +14,10 @@ Mydroians are a genderless [[Neldardhen World/Species/Species\|Species]] of tall
 - Gold-skin are rulers and priests.
 
 There are some very rare case of an individual born with purple or black-violet skin. They are called shakudo or hepatizon and are either revered or shuned depending on the particular culture of the society they were born in.
+See [[Neldardhen World/Amaurëa/Cultures_Nations/Mydroian Cultures\|Mydroian Cultures]]
 #### Reproduction
-*unknown*
+Mydroians reproduce assexually, but 4 different individual are needed for the process.
+Goldskin Mydroian are rarer than all other variant except for Hepatizon.
 
 
 Mydroians are a [[Neldardhen System/Rules/Character Creation/Playable Species List\|Playable Species]].
@@ -34,7 +36,7 @@ Mydroians are a [[Neldardhen System/Rules/Character Creation/Playable Species Li
 > 
 > | **Senses**          |            |     |                |          |     |
 > | ------------------- | ---------- | --- | -------------- | -------- | --- |
-> | Vision in the sun   | Very Good  | 5d6 | Hearing        | Good     | 4d6 |
+> | Vision in the sun   | Very Good  | 5d6 | Hearing        | Neutral     | 3d6 |
 > | Low light vision    | Very Bad   | 1d6 | Sense of Smell | Neutral  | 3d6 |
 > | Infrared Perception | Inexistant | 0   | Magic Affinity | Very Bad | 1d6 |
 ### Subspecies
