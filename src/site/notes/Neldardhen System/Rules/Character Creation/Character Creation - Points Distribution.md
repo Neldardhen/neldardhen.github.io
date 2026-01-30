@@ -45,7 +45,7 @@ You can spend points to increase the die of an attribute or buy rank in a skill.
 You may spend **50 points** at level 1. 
 
 Increasing an attribute die by one category (d4 -> d6) costs **5 points**. 
-Increasing a skill from $(n-1)$ to $n$ costs **n points**. Increasing a skill from **0** to **n** costs $((n+1) * n) / 2$.
+Increasing a skill from $(n-1)$ to $n$ costs **n points**. Increasing a skill from **0** to **n** costs $((n+1) * n) / 2$
 
 | Skill Rank |              |                                                         |
 | ---------- | ------------ | ------------------------------------------------------- |
@@ -58,8 +58,34 @@ Increasing a skill from $(n-1)$ to $n$ costs **n points**. Increasing a skill fr
 
 Every time you gain a level, you will gain **10** additional points. (see [[Neldardhen System/Rules/Progression/Character Progression\|Character Progression]])
 
-**Specialities**
+### Specialisations
 You get **1** free specialisation in a skill of your choice at level 1.
 You get <strong>1</strong> specialisation in Rhetoric / Linguistic,  Culture / History,  Research / Sciences,  Athletic,  Fighting and Performance when you reach <strong>rank 1</strong> in those skills.
 
 You get <strong>1</strong> specialisation when you reach <strong>rank 3</strong> in any skill.
+
+**Specialisation examples**
+
+| Skill             | Example                                                                                                                     |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------- |
+| **Mind Skills**   |                                                                                                                             |
+| Arcane Magic      | Fire, Illusions, Teleportation, Light and vision, Ice                                                                       |
+| Investigation     | Find hidden object, Find secret passage, Estimate time of death                                                             |
+| Linguistic        | Write discourse, talk without saying anything of value, find logical flaw, find cagnitive bias                              |
+| Culture           | A specific culture or a theme across various culture like Religions, Magical Practices, History, Trade, Etiquette, Politics |
+| Sciences          | Modern sciences, but also what used to seen as science in ancient times. Medicine, Geology, Astronomy, Alchemy              |
+| Mysticism/Occult  | Knowledge about real or imaginary eldritch power or secret cults. Might be a bit more campaign dependent                    |
+| **Body Skills**   |                                                                                                                             |
+| Athletics         | Running, Jumping, Swimming, but also Balance, Coordiation                                                                   |
+| Crafts            | Leatherworking, Blacksmithing, Stonework, Woodwork, Magical Infusion                                                        |
+| Fighting          | A style of fighting or a specific weapon                                                                                    |
+| Performance       | Singin, Dancing, Comedic Improvisation, Voice acting, Miming                                                                |
+| Stealth/Hunting   | Moving silently, Moving unseen, Hunting in a certain terrain type                                                           |
+| Thievery          | Lockpicking, Finding marks, Street knowledge, Thieves slang                                                                 |
+| **Spirit Skills** |                                                                                                                             |
+| Animal Affinity   | A certain type of animals or certain activities, Taming, Breeding, Training                                                 |
+| Deception         | Lying, Missleading(without staight lies), Overpricing, Faking Emotions                                                      |
+| Intimidation      | Looking imposing, Death threaths, Connections (I'm friend with the king)<br>Giving ultimatums                               |
+| Persuasion        | Bribe, Flatter, Appeal to emotions, Appeal to logic                                                                         |
+| Empathy           | Detect lies, detect true emotions,                                                                                          |
+| Raw Magic         | Charm, Fear, Anxiety, Despair,                                                                                              |
