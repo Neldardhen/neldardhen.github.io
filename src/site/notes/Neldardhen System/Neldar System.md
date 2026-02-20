@@ -26,6 +26,7 @@ Advanced
 Situational Rules
 - [[Neldardhen System/Rules/Travel Speed\|Travel Speed]]
 - [[Neldardhen System/Rules/Terrain and Environment\|Terrain and Environment]]
+- [[Neldardhen System/Rules/Swarm Mechanics\|Swarm Mechanics]]
 
 
 For the Game Master - Storyteller
