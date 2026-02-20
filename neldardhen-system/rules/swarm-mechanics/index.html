@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
 <head>
-<title>Travel Speed</title>
+<title>Swarm Mechanics</title>
 <meta name="viewport" content="width=device-width,initial-scale=1">
 <script async type="module">import mermaid from"https://cdn.jsdelivr.net/npm/mermaid@10/dist/mermaid.esm.min.mjs"</script>
 <script async src="https://cdnjs.cloudflare.com/ajax/libs/prism/1.25.0/prism.min.js" integrity="sha512-hpZ5pDCF2bRCweL5WoA0/N1elet1KYL5mx3LP555Eg/0ZguaHawxNvEjF6O3rufAChs16HVNhEc6blF/rZoowQ==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
@@ -68,115 +68,17 @@ CTRL + K
 <div class="header-meta">
 </div>
 </header>
-<h1 id="travel-speed" tabindex="-1">Travel Speed</h1>
-<p>Rules for Travel for the <a class="internal-link" target="" data-note-icon="" href="/neldardhen-system/neldar-system/">Neldar System</a>.</p>
-<h2 id="travel-times-speed" tabindex="-1">Travel times / speed</h2>
-<p>A day of travel is roughly 12h.</p>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th>Method</th>
-<th>Speed in km per day</th>
-<th>Speed in mile per day</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>On foot</td>
-<td>30 km/day</td>
-<td>~18.6 miles/day</td>
-</tr>
-<tr>
-<td>Horseback</td>
-<td>50 km/day</td>
-<td>~56 miles/day</td>
-</tr>
-<tr>
-<td>Fast carriage</td>
-<td>65 km/day</td>
-<td>~40 miles/day</td>
-</tr>
-<tr>
-<td>Ship (with stops)</td>
-<td>60 km/day</td>
-<td>~37 miles/day</td>
-</tr>
-<tr>
-<td>Ship (fast)</td>
-<td>120 km/day</td>
-<td>~75 miles/day</td>
-</tr>
-<tr>
-<td>Rapid military march</td>
-<td>60 km/day</td>
-<td>~37 miles/day</td>
-</tr>
-<tr>
-<td>Horse Relay</td>
-<td>250 km/day</td>
-<td>~155 miles/day</td>
-</tr>
-<tr>
-<td>Homing pigeon</td>
-<td>965 km/day (97km/h)</td>
-<td>~600 miles/day (60miles/h)</td>
-</tr>
-<tr>
-<td>Dog Sled</td>
-<td>80km/day<br><em>ignore difficult terrain due to snow</em></td>
-<td>~50 miles/day</td>
-</tr>
-</tbody>
-</table></div>
-<h2 id="travel-cost" tabindex="-1">Travel cost</h2>
-<div class="callout" data-callout="gm"><div class="callout-title"><div class="callout-title-inner"> Note<br></div></div>
-<div class="callout-content">
-<p>
-The cost are given in the <a class="internal-link" target="" data-note-icon="" href="/neldardhen-world/endea/cultures-nations/currencies/#708d38">Iris Currency</a>, the main currency for the <a class="internal-link" target="" data-note-icon="" href="/neldardhen-world/neldardhen/">Neldardhen Worlds</a> setting.<br>
-If you are more used to D&amp;D gold pieces 1 Iris ~= 5 gold pieces.</p>
-</div></div>
-<div class="table-wrapper"><table>
-<thead>
-<tr>
-<th></th>
-<th>Monetary cost</th>
-<th>Additional costs</th>
-<th>Endurance cost</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>On foot</td>
-<td>wheat if donkey for luggages 1 seed per day per animal</td>
-<td>tolls on maintained roads and bridges : 1 -5 seeds</td>
-<td><strong>1d4</strong> !<a class="internal-link is-unresolved" href="/404" target="">15</a> per day<br><strong>2d4</strong> !<a class="internal-link is-unresolved" href="/404" target="">15</a> per day for a fast pace</td>
-</tr>
-<tr>
-<td>Horseback</td>
-<td>wheat :  1 seed per day per animal</td>
-<td>tolls on maintained roads and bridges : 1 -5 seeds</td>
-<td></td>
-</tr>
-<tr>
-<td>Fast carriage</td>
-<td>cost per passenger 1 petal / day + tolls</td>
-<td>tolls on maintained roads and bridges :  1 -5 seeds</td>
-<td></td>
-</tr>
-<tr>
-<td>Ship (slow)</td>
-<td>2 petals / day (~1 petal / 30 km)</td>
-<td></td>
-<td></td>
-</tr>
-<tr>
-<td>Ship (fast)</td>
-<td>1 iris / day  (~1 iris / 100-120 km)</td>
-<td></td>
-<td></td>
-</tr>
-</tbody>
-</table></div>
+<h1 id="swarm-mechanics" tabindex="-1">Swarm Mechanics</h1>
+<p>Some monsters or creature can form Swarms.</p>
+<p>Swarm are composed of individuals with base stats that are added together.<br>
+<em>ie a Swarm of <a class="internal-link is-unresolved" href="/404" target="">Kuîjens</a> is compose of individuals with Mind 2, Body 1, Spirit 1, therefore a swarm of 12 individuals has Mind 12, Body 6 and Spirit 6</em> for a result of 48 focus, 18 endurance and 18 resilience.</p>
+<p>Everytime enough damage is done to the swarm to kill 1 individual it looses the corresponding stats.<br>
+<em>Dealing 3 endurance damage to a Swarm of Kuîjens also reduces its focus by 6 and its resilience by 3.</em></p>
+<p>However, the damage is done if and only if an individual is killed !<br>
+<em>If an attack deals 10 endurance damage, then it's enough to kill 3 Kuîjens from the Swarm. Its stat will be reduce by 18 focus, 9 endurance and 9 resilience. In this case, 1 point of endurance damage is &quot;lost&quot;, because 1 individual was &quot;overkilled&quot;.</em></p>
+<p>Additionnally, a Swarm can have a Swarm Stage level. This level is used in its stat sheet to either increased some of its stats or damage or give it new abilities.<br>
+Swarm Stage are defined on top of the stats sheet listing the minimum number of individuals needed to reach each Stage.<br>
+<em>A Sawarm of Kuîjens reach Swarm Stage 2 at 5 individuals. Its Bitte attack changes from a 2d4 to a 3d4 and it deals an additional 1d2 of Piercing damage. It also gains access to the Psychic Spike attack.</em></p>
 </main>
 <aside>
 <div class="sidebar">
@@ -190,13 +92,7 @@ On this page
 <div class="toc-container">
 <nav class="toc">
 <ol>
-<li><a href="#travel-speed">Travel Speed</a>
-<ol>
-<li><a href="#travel-times-speed">Travel times / speed</a>
-</li>
-<li><a href="#travel-cost">Travel cost</a>
-</li>
-</ol>
+<li><a href="#swarm-mechanics">Swarm Mechanics</a>
 </li>
 </ol>
 </nav>
