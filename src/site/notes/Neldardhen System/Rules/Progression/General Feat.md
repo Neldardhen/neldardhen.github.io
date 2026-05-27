@@ -29,19 +29,28 @@ Your _resilience_ ![resilience.png|15](/img/user/Images/resilience.png) maximum 
 _Once per day_
 Once per day, you can negate the effects of a Critical Failure, turning it into a regular Failure instead.
 
+## Trained Swimmer
+**Prerequisite** : Body score 5
+_Passive_
+Your swimming speed increased by +**2**m (can stack with Species Feats that increase/decrease swimming speed )
+You can now hold your breath for for up to your pain tolerance die in minutes instead of the usual  (pain tolerance die / 2) in minutes.
+
+
 > [!wip] Work In Progress
 > Non-Addictive Personality (more resistant to addiction)
-> Diver (can hold breath for longer)
 > Jumper (can jump higer/further)
 > Thrower (can throw further)
-> Swimmer (can swim faster)
+
 ## Level 7
 
+## Advanced Swimmer
+**Prerequisite** : Body score 7, Trained Swimmer Feat
+_Passive_
+Your swimming speed increased by +**2**m (can stack with Species Feats that increase/decrease swimming speed )
+You can now hold your breath for for up to your (pain tolerance die + 2) in minutes.
+
 > [!wip] _Work In Progress_
-> GM Intervention
-> **Prerequisite** : Being very unlucky...
->  _Passive_
->  You are so unlucky has a player that the GM must  intervene to make things fair for your character. You always re-roll any **1**s
+
 ## Level 13
 
 > [!wip] _Work In Progress_

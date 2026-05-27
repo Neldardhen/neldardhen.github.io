@@ -60,6 +60,11 @@ Once per day you can decide to re-roll all the **1**s from a dice pool you have 
 _At will_
 _Work In Progress : Probably will give an unarmed attack dealing 1d4 Piercing_
 
+### Good Swimmer
+**Prerequisite** : Level 3, Osprey Aranlindir
+_Passive_
+You gain a **+4**m swimming speed.
+
 > [!wip] _Work In Progress_
 > **Prerequisite** : Level 3 Any Hólindir
 > _At will_
@@ -114,6 +119,15 @@ _At will_
  _Passive_
  You have very hardy scales. Your gain a Resistance to Piercing / Slashing damage equals to your Body score rounded down.
  The scales impair your movement in and out of water. You loose **-2**m on your walking and swimming speeds.   
+
+### Strong Jaw
+> [!wip] _Work In Progress_
+**Prerequisite** : Level 6, Caergandir
+_At will_
+>Your unarmed attack is a Bite that inflicts **1d4** Piercing Damage and doubles as a **grapple**. As long as your prey is grappled in this way, you cannot attack.
+>When your grappled is contested, you can multiply your athletic check by **1.5** (rounded down)  if out of water and by **2** time if in water.
+>If you are in water and your prey is a breathing creature, it takes **1d4** *endurance* damage at the starts of its turn.
+
 
 ## ![Ahiir.png|40](/img/user/Images/Species/Ahiir.png) Caerfaldir and ![tabaxibard-closeup.png|40](/img/user/Images/Species/tabaxibard-closeup.png) Lynfaldir
 
@@ -193,6 +207,11 @@ You have an eye for stone. You can spot any weakness in a stone structure. Any c
 _Passive_
 You gain a Bite unarmed attack that deals **2** Piercing damage on _endurance_ and has a chance to inflict a mild Poison.  
 The Poison inflict **1d2** endurance damage at the start of the creature turn for **2** rounds. (As with all poison, it also reduces every movement speed by half.)
+
+### Good Swimmer
+**Prerequisite** : Level 3, Anaconda Essedir
+_Passive_
+You gain a **+4**m swimming speed.
 
 ### Constrictor Body
 **Prerequisite** : Level 9, Anaconda Esserdir

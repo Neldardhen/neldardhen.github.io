@@ -10,7 +10,7 @@ Dwarves that want to excape the strict castes system tend to flee to [[Neldardhe
 
 ### Castes
 There exists 10 different castes in Fulk-Gathol
-1. Shepherd and Lumberjacks
+1. Shepherds and Lumberjacks
 2. Hunters
 3. Cheesmakers and Woodworkers
 4. Merchants

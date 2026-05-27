@@ -5,10 +5,17 @@
 
 # Lynyal
 Beast from [[Neldardhen World/Nyalë/Creatures (Nyalë)/Creatures from Nyalë\|Nyalë]]
+_Can swarm see [[Neldardhen System/Rules/Swarm Mechanics\|Swarm Mechanics]]_
+Swarm stage 1 1-2
+Swarm stage 2 3-4
+Swarm stage 3 5-6
+Swarm stage 4 7+
 
 ![shadow-cat.jpg|200](/img/user/Images/Creatures/shadow-cat.jpg)
 
 Lynyal are diminutive creatures almost entirely made of shadows. They usually take the form of small predatory animals like cats, stoats or beech martens. They have bright colourful eyes ranging from white blue to deep emerald green.
+
+TODO : Swarm abilities
 ### Fundamentals
 Level 2
 

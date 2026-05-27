@@ -31,6 +31,7 @@ An **Action** is :
 	- **Disengage** (use both of your Actions to move up to your speed, but without provoking [[Neldardhen System/Rules/Progression/Skill Feat#^150996\|Attacks of Opportunity]])
 - **Attack** (make a melee or ranged attack)
 	- **Grapple** (No damage, but reduces any speed to 0. - needs a free hand)
+	- **Contesting a grapple** requires a contested Athletic check and **2** Actions. If your athletic check is a critical success (Your opponent result is half or less of yours) then you only need **1** Action to get out of the grapple.
 	- **Shove** (No damage but push the target 2m away - needs a free hand or shield)
 	- **Throw** (A character can throw a light weapon up to **2** times their physics die in meters)
 	- **Take Aim** (Next ranged attack action will gain a free die of 1 category less)
