@@ -26,6 +26,10 @@ Rules for the particular effects of Terrain and Environment in the [[Neldardhen 
 { #52b532}
 
 
+**Swimming** : The swimming speed on a character sheet assume that the character is swimming in a combat situation, with a weapon and clothes on them, maybe even some armour.
+If a characters is swimming in ideal conditions (naked or with only a few pieces of clothing on them, without shoes) you can add **+2**m to their swimming speed.
+Equipment and clothings that are specifically aimed at increasing swim speed, like swimming fins, add an other **+2**m to the base movement speed of the character.
+
 > [!wip] _Work In Progress_
 > **Flying** : _Cannot fly while encumbered, cannot fly with heavy armour ? Add weight category to armour ?_ 
 { #cfad21}
