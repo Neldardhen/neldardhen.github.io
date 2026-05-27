@@ -66,26 +66,26 @@ You get <strong>1</strong> specialisation when you reach <strong>rank 3</strong>
 
 **Specialisation examples**
 
-| Skill             | Example                                                                                                                     |
-| ----------------- | --------------------------------------------------------------------------------------------------------------------------- |
-| **Mind Skills**   |                                                                                                                             |
-| Arcane Magic      | Fire, Illusions, Teleportation, Light and vision, Ice                                                                       |
-| Investigation     | Find hidden object, Find secret passage, Estimate time of death                                                             |
-| Linguistic        | Write discourse, talk without saying anything of value, find logical flaw, find cagnitive bias                              |
-| Culture           | A specific culture or a theme across various culture like Religions, Magical Practices, History, Trade, Etiquette, Politics |
-| Sciences          | Modern sciences, but also what used to seen as science in ancient times. Medicine, Geology, Astronomy, Alchemy              |
-| Mysticism/Occult  | Knowledge about real or imaginary eldritch power or secret cults. Might be a bit more campaign dependent                    |
-| **Body Skills**   |                                                                                                                             |
-| Athletics         | Running, Jumping, Swimming, but also Balance, Coordiation                                                                   |
-| Crafts            | Leatherworking, Blacksmithing, Stonework, Woodwork, Magical Infusion                                                        |
-| Fighting          | A style of fighting or a specific weapon                                                                                    |
-| Performance       | Singin, Dancing, Comedic Improvisation, Voice acting, Miming                                                                |
-| Stealth/Hunting   | Moving silently, Moving unseen, Hunting in a certain terrain type                                                           |
-| Thievery          | Lockpicking, Finding marks, Street knowledge, Thieves slang                                                                 |
-| **Spirit Skills** |                                                                                                                             |
-| Animal Affinity   | A certain type of animals or certain activities, Taming, Breeding, Training                                                 |
-| Deception         | Lying, Missleading(without staight lies), Overpricing, Faking Emotions                                                      |
-| Intimidation      | Looking imposing, Death threaths, Connections (I'm friend with the king)<br>Giving ultimatums                               |
-| Persuasion        | Bribe, Flatter, Appeal to emotions, Appeal to logic                                                                         |
-| Empathy           | Detect lies, detect true emotions,                                                                                          |
-| Raw Magic         | Charm, Fear, Anxiety, Despair,                                                                                              |
+| Skill             | Example                                                                                                                                    |
+| ----------------- | ------------------------------------------------------------------------------------------------------------------------------------------ |
+| **Mind Skills**   |                                                                                                                                            |
+| Arcane Magic      | Fire, Illusions, Teleportation, Light and vision, Ice                                                                                      |
+| Investigation     | Find hidden object, Find secret passage, Estimate time of death                                                                            |
+| Linguistic        | Write discourse, talk without saying anything of value, find logical flaw, find cagnitive bias                                             |
+| Culture           | A specific culture or a theme across various culture like Religions, Magical Practices, History, Trade, Etiquette, Politics                |
+| Sciences          | Modern sciences, but also what used to seen as science in ancient times. Medicine, Geology, Astronomy, Alchemy                             |
+| Mysticism/Occult  | Knowledge about real or imaginary eldritch power or secret cults. Might be a bit more campaign dependent                                   |
+| **Body Skills**   |                                                                                                                                            |
+| Athletics         | Running, Jumping, Swimming, but also Balance, Coordiation                                                                                  |
+| Crafts            | Leatherworking, Blacksmithing, Stonework, Woodwork, Magical Infusion                                                                       |
+| Fighting          | A style of fighting or a specific weapon, Grappled target                                                                                  |
+| Performance       | Singing, Dancing, Comedic Improvisation, Voice acting, Miming                                                                              |
+| Stealth/Hunting   | Moving silently, Moving unseen, Hunting in a certain terrain type of terrains or certain type of creatures                                 |
+| Thievery          | Lockpicking, Finding marks, Street knowledge, Thieves slang                                                                                |
+| **Spirit Skills** |                                                                                                                                            |
+| Animal Affinity   | A certain type of animals or certain activities, Taming, Breeding, Training                                                                |
+| Deception         | Lying, Missleading(without staight lies), Overpricing, Faking Emotions                                                                     |
+| Intimidation      | Looking imposing, Death threaths, Connections (I'm friend with the king)<br>Giving ultimatums                                              |
+| Persuasion        | Bribe, Flatter, Appeal to emotions, Appeal to logic                                                                                        |
+| Empathy           | Detect lies, detect true emotions, empathy with children, empathy with people from a certain background (cultural/ religious / geographic) |
+| Raw Magic         | Charm, Fear, Anxiety, Despair, (Raw magic is honestly still a bit of a work in progress skill)                                             |
