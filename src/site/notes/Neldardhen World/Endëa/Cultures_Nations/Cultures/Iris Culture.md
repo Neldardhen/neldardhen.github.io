@@ -14,11 +14,11 @@ Algassia rejected the pantheon and is now a laïc state.
 
 #### Folklore
 *The tradition of Shassleever*
-The name of this tradition is a corruption of "Chasse l' Hiver" (Chase away the winter)
-Begins ten nights before Spring, ends the end of the month "Bonhomme" of winter.
+The name of this tradition is a corruption of "Chasse l'Hiver" (Chase away the winter)
+Its a celebration that begins ten nights before Spring.
 Socials norms are loosen, there are parades in the streets, *guggenmusik*, people are encourage to eat and drink and make a mess !
-Methenor the intercalary day before the first month of Spring is a day of cleaning. People help clean the streets then put their home in order to welcome the new year.
-On leap years, Annenor the leap day is often called "The Welcome rest" and is a rest day for everyone.
+*Methenor* the intercalary day before the first month of Spring is a day of cleaning. People help clean the streets then put their home in order to welcome the new year.
+On leap years, *Annenor* the leap day is often called "The Welcome Rest" and is a rest day for everyone.
 
 *Dames Blanches*
 Dames Blanches are the ghosts of women who died while travelling. They appear at night, guarding bridges or other places of passage.
