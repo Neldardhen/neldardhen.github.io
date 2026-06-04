@@ -16,7 +16,7 @@ Algassia rejected the pantheon and is now a laïc state.
 *The tradition of Shassleever*
 The name of this tradition is a corruption of "Chasse l'Hiver" (Chase away the winter)
 Its a celebration that begins ten nights before Spring.
-Socials norms are loosen, there are parades in the streets, *guggenmusik*, people are encourage to eat and drink and make a mess !
+Socials norms are loosen, there are parades in the streets, *guggenmusik*, people are encourage to eat, drink and make a mess !
 *Methenor* the intercalary day before the first month of Spring is a day of cleaning. People help clean the streets then put their home in order to welcome the new year.
 On leap years, *Annenor* the leap day is often called "The Welcome Rest" and is a rest day for everyone.
 
