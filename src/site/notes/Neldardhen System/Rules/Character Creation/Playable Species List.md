@@ -10,7 +10,7 @@ List of available species for player characters with the [[Neldardhen System/Nel
 - ![Agarwén.png|50](/img/user/Images/Species/Agarw%C3%A9n.png) [[Neldardhen World/Species/Agarwéns\|Agarwéns]] (rare)
 - ![Wyr-closeup.png|50](/img/user/Images/Species/Wyr-closeup.png) [[Neldardhen World/Species/Angessedir\|Angessedir]] (sing. Angessë) 
 - ![Aranlin.png|50](/img/user/Images/Species/Aranlin.png) [[Neldardhen World/Species/Aranlindir\|Aranlindir]] 
-- [[Neldardhen World/Species/Behemes\|Behemes]] (sing. Behemos)
+- ![behemos.png|50](/img/user/Images/Species/behemos.png) [[Neldardhen World/Species/Behemes\|Behemes]] (sing. Behemos)
 - [[Borangedir\|Borangedir]] 
 - [[Boscides\|Boscides]] (sing. Boscidos) 
 - ![Ahiir.png|50](/img/user/Images/Species/Ahiir.png) [[Neldardhen World/Species/Caerfaldir\|Caerfaldir]] 
@@ -25,7 +25,7 @@ List of available species for player characters with the [[Neldardhen System/Nel
 - ![the_librarian.png|50](/img/user/Images/Species/the_librarian.png) [[Neldardhen World/Species/Gnomes\|Gnomes]]
 - ![Oatley-closeup.png|50](/img/user/Images/Species/Oatley-closeup.png) [[Neldardhen World/Species/Halflings\|Halflings]]
 - [[Neldardhen World/Species/Hobgoblins\|Hobgoblins]] 
-- ![holin.jpg|50](/img/user/Images/Species/holin.jpg) [[Neldardhen World/Species/Hólindir\|Hólindir]] 
+- ![holin.png|50](/img/user/Images/Species/holin.png) [[Neldardhen World/Species/Hólindir\|Hólindir]] 
 - ![Ara.png|50](/img/user/Images/Species/Ara.png) [[Neldardhen World/Species/Humans\|Humans]]
 - ![Kobold-head.png|50](/img/user/Images/Species/Kobold-head.png) [[Neldardhen World/Species/Kobolds\|Kobolds]]
 - ![tabaxibard-closeup.png|50](/img/user/Images/Species/tabaxibard-closeup.png) [[Neldardhen World/Species/Lynfaldir\|Lynfaldir]] 
@@ -56,7 +56,7 @@ List of available species for player characters with the [[Neldardhen System/Nel
 - ![Lorta-bust.png|50](/img/user/Images/Species/Lorta-bust.png) [[Neldardhen World/Species/Orcs\|Orcs]] (rare)
 - ![Arelion-archfey-closeup.png|50](/img/user/Images/Species/Arelion-archfey-closeup.png) [[Neldardhen World/Species/Tyndir\|Tyndir]] (sing. Tyndar) (extremely rare)
 - ![Umbran.png|50](/img/user/Images/Species/Umbran.png) [[Neldardhen World/Species/Umbrans\|Umbrans]] (rare)
-- ![TheSeer-token.png|50](/img/user/Images/Species/TheSeer-token.png) [[Neldardhen World/Species/Shinrens\|Shinrens]] (rare)
+- ![shinren.png|50](/img/user/Images/Species/shinren.png) [[Neldardhen World/Species/Shinrens\|Shinrens]] (rare)
 - ![Kobold-head.png|50](/img/user/Images/Species/Kobold-head.png) [[Neldardhen World/Species/Kobolds\|Kobolds]]
 - [[Neldardhen World/Species/Dracobolds\|Dracobolds]] 
 - ![tindurstareyescloseup.png|50](/img/user/Images/Species/tindurstareyescloseup.png) [[Neldardhen World/Species/Ældenyn\|Ældenyn]]

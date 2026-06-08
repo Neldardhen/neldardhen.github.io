@@ -5,7 +5,7 @@
 # Shinrens
 *Shinren, plur. Shinrens*
 
-![TheSeer-token.png|100](/img/user/Images/Species/TheSeer-token.png)
+![shinren.png|100](/img/user/Images/Species/shinren.png)
 
 Shinren are a [[Neldardhen World/Species/Species\|Species]] resulting from a [[Neldardhen World/Nyalë/Creatures (Nyalë)/Sissiak\|Sissiak]] making a pact with an other sentient humanoïd to share or take over their body.
 The Shinren resulting from the union of a Sissiak and an intelligent humanoid is an entirely new creature with their own new Mind, Body and Spirit. They might or not retain some memories form both of their previous lives.

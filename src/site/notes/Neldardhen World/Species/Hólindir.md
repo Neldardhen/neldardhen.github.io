@@ -5,8 +5,7 @@
 # Hólindir
 *Hólin, plur. Hólindir*
 
-![christinakraus-wizard-holin.jpg|250](/img/user/Images/Species/christinakraus-wizard-holin.jpg)
-  *Illustration by Christina Kraus*
+![holin.png|100](/img/user/Images/Species/holin.png)
   
 Hólindir are a [[Neldardhen World/Species/Species\|Species]] of anthropomorphic owls native to [[Neldardhen World/Endëa/Endëa\|Endëa]]. They live in the North of the [[Neldardhen World/Endëa/Continents/Dragonén Continent\|Dragonén Continent]] in the forests of [[Neldardhen World/Endëa/Cultures_Nations/Places/Taurniss\|Taurniss]] and in the Dragonén Kingdom of [[Neldardhen World/Endëa/Cultures_Nations/Places/Calendôr\|Calendôr]]. 
 
