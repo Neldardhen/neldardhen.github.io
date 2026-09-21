@@ -199,6 +199,11 @@ You have an eye for metals. Any checks made to appraise or create tools or jewel
 _Passive_
 You have an eye for stone. You can spot any weakness in a stone structure. Any check to destroy, weaken or reinforce a stone structure as a Difficulty of -**4** for you.
 
+### Tremorsense
+**Prerequisite** : Level 3, All Dwarves Subspecies
+_At Will_
+You are used to live underground or in complete darkness. You have learnt to orientate yourself and detect other cretures by using the vibrations in the ground.
+
 
 ## ![Sertass.png|40](/img/user/Images/Species/Sertass.png) Essedir
 
@@ -252,22 +257,22 @@ You get __\*2__ modifier on your [[Neldardhen System/Rules/Terrain and Environme
 { #b29c7f}
 
 
-## Feral Dhampir
+## Feral Dhampir (Curse)
 { #a581a2}
 
 
 ### Stronger Regeneration
-**Prerequisite** : Level 6
+**Prerequisite** : Level 6, Curse of the Feral Dhampir
 _Passive_
 You gain Fast Recovery (Body) **2**
 
 ### Feral Fury
-**Prerequisite** : Level 6
+**Prerequisite** : Level 6, Curse of the Feral Dhampir
 _At will_
-You can use both of your Actions to make an unarmed attack. If you hit it's an automatic critical. If you crit you deal quadruple damage.
+You can use both of your Actions to make an unarmed attack. If you hit it's an automatic critical success. If you have a natural critical success already, you deal quadruple damage.
 
 ### A Thirst for Blood
-**Prerequisite** : Level 9
+**Prerequisite** : Level 9, Curse of the Feral Dhampir
 _Passive_
 If you drink the blood of a still living humanoid, all of your needs are considered met for the next week and you gain a luck bonus of **+1** on all of your skill checks.
 If you kill the humanoid the bonus becomes a **+2**.

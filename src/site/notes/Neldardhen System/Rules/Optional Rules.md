@@ -4,6 +4,12 @@
 
 # Optional Rules
 Optional Rules ofr [[Neldardhen System/Neldar System\|Neldar System]].
+
+## Fixed Defense
+Instead of rolling to Dodge or Resist an attack or a spell, the value can be calculated once as being **(Skill + 1) * half the Attribute die + half of the corresponding armour die + the modificators**.
+
+
+
 ## Addictions
 Some Resourcing Activities might have a risk of Addiction. The Addiction risk must be defined at the creation of the Activity by the player and the GM.
 

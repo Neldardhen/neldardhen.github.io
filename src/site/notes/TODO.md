@@ -43,7 +43,6 @@ Create Runes for [[Neldardhen System/Rules/Spells\|spellcasting]]
 ### Adventures
 - [x] Death in the Snow
 - [ ] The Archeologists - GM Summary
-- [ ] The Lost Giants - everything
 - [ ] Finish Cursed Island campaign
 	- [ ] Creatures and Statblocks
 	- [ ] Objectives

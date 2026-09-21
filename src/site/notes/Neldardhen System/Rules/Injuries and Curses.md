@@ -35,8 +35,8 @@ For the rules about Injuries see [[Neldardhen System/Rules/Combat and Injuries#^
 { #a7fc0a}
 
 
-Curses are permanent effect of magical origin that affects an individual greatly.
-There sometime exists way to lift a curse, but the ritual necessary is specific to the curse and must often be additional tailored to the individual.
+Curses are permanent effects of magical origin that affects an individual greatly.
+There sometime exists ways to lift a curse, but the ritual necessary is specific to the curse and must often be additionally tailored to the individual.
 There are some curses for which there exist no known way to lift them.
 ### Dhampir Curses
 { #1d3809}
@@ -62,7 +62,7 @@ A character affected by the curse of a feral dhampir gains the following traits 
 
 Additionnally, character with the Feral Dhampir curse have access to special [[Neldardhen System/Rules/Progression/Species Feat#^a581a2\|Feats]] when leveling up.
 
-#### Soul Parasite
+#### Soul Parasite Dhampire
 > [!wip] _Work In Progress_
 > Specific values are subject to change for balancing purpose.
 
@@ -76,8 +76,9 @@ A character affected by the curse of a soul parasite gains the following traits 
 	- Need for sun is set to 0.
 
 > [!wip] _Work In Progress_
-> - **Unnatural Composure** : You have a natural poker face, some call it a resting bitch face...
+> - **Unnatural Composure** : You have a natural poker face, to the point of being unsetteling...
 > - gain 1d6 on Mind Resistance check with Composure
+
 
 
 > [!wip] _Work In Progress_
@@ -86,3 +87,13 @@ A character affected by the curse of a soul parasite gains the following traits 
 
 
 Additionnally, character with the Soul Parasite curse have access to special Soul Parasite Feats when leveling up.
+
+### Enlightnen Curse (Watchman's Curse)
+- need less to eat and drink
+- curiosity and hunger for knowledge to a fault
+- les empathy
+- rigid rules
+- emit light (always / at will ?)
+- less substance ? resist piercing(slashing/bludgeoning ?)
+- fear oblivion ? vulnerability to Oblivin dmg
+- 

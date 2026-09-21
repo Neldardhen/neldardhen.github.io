@@ -30,12 +30,18 @@ Once per round, when it's not your turn, you can attack a target within your rea
 ### Demagogue
 **Prerequisite** : Rank 3 in Linguistic/rhetoric
 _At will_ 
- -> If you have time to prepare, you can use Rhetoric on Knowledge with _focus_ instead of Persuasion on Charisma with _resilience_ to try to convince someone (deception or persuasion).
+If you have time to prepare, you can use Rhetoric on Knowledge with _focus_ instead of Persuasion on Charisma with _resilience_ to try to convince someone (deception or persuasion).
 
 > [!wip] _Work In Progress_ 
 > **Prerequisite** : Rank 3 in Linguistic/rhetoric
 >_Passive_ 
  -> You can choose 2 additional languages that you can speak and read.
+ 
+ > [!wip] _Work In Progress_ 
+ > Careful Crafter
+> **Prerequisite** : Rank 3 in Crafting
+>_Passive_ 
+ -> You only loose half of the components used when you fail a crafting check.
  
 > [!wip] _Work In Progress_ 
 > **Prerequisite** : Rank 3 in Investigation

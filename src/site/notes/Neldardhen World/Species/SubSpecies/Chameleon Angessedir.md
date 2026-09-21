@@ -5,8 +5,6 @@
 # Chameleon Angessedir
 A Subspecie of [[Neldardhen World/Species/Angessedir\|Angessedir]].
 
- ![Chameleon.jpg|400](/img/user/Images/Species/Subspecies/Chameleon.jpg)
- _Photo by Wikipedia user [Suyash Dwivedi](https://commons.wikimedia.org/wiki/User:Suyash.dwivedi) [CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/ )_
 
 > [!sys] System Details
 > **Bad Hearing** : **-1d6** on Hearing
