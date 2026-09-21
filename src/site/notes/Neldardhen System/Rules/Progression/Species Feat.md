@@ -129,7 +129,7 @@ _At will_
 >If you are in water and your prey is a breathing creature, it takes **1d4** *endurance* damage at the starts of its turn.
 
 
-## ![Ahiir.png|40](/img/user/Images/Species/Ahiir.png) Caerfaldir and ![tabaxibard-closeup.png|40](/img/user/Images/Species/tabaxibard-closeup.png) Lynfaldir
+## ![caerfal.png|40](/img/user/Images/Species/caerfal.png) Caerfaldir and ![tabaxibard-closeup.png|40](/img/user/Images/Species/tabaxibard-closeup.png) Lynfaldir
 
 ### Sharp Claws
 **Prerequisite** : Level 3, All Subspecies

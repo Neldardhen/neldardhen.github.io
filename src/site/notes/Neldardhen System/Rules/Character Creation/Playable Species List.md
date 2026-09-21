@@ -2,7 +2,7 @@
 {"dg-publish":true,"permalink":"/neldardhen-system/rules/character-creation/playable-species-list/"}
 ---
 
-# Playable Specie List
+# Playable Species List
 
 List of available species for player characters with the [[Neldardhen System/Neldar System\|Neldar System]] (see. [[Neldardhen System/Rules/Character Creation/Character Creation - Species\|Character Creation - Species]] for a general explanation of their attributes)
 ### Living in [[Neldardhen World/Endëa/Endëa\|Endëa]]
@@ -13,7 +13,7 @@ List of available species for player characters with the [[Neldardhen System/Nel
 - ![behemos.png|50](/img/user/Images/Species/behemos.png) [[Neldardhen World/Species/Behemes\|Behemes]] (sing. Behemos)
 - [[Borangedir\|Borangedir]] 
 - [[Boscides\|Boscides]] (sing. Boscidos) 
-- ![Ahiir.png|50](/img/user/Images/Species/Ahiir.png) [[Neldardhen World/Species/Caerfaldir\|Caerfaldir]] 
+- ![caerfal.png|50](/img/user/Images/Species/caerfal.png) [[Neldardhen World/Species/Caerfaldir\|Caerfaldir]] 
 - ![Vobarus.png|50](/img/user/Images/Species/Vobarus.png) [[Neldardhen World/Species/Caergandir\|Caergandir]] (sing. Caerang) or [[Neldardhen World/Species/Nilacei\|Nilacei]] (sing Nilaceus) 
 - ![Daessalin.png|50](/img/user/Images/Species/Daessalin.png) [[Neldardhen World/Species/Daessalindir\|Daessalindir]] (rare)
 - [[Neldardhen World/Species/Dragonéns\|Dragonéns]]
@@ -35,7 +35,7 @@ List of available species for player characters with the [[Neldardhen System/Nel
 ## Living in [[Neldardhen World/Amaurëa/Amaurëa\|Amaurëa]]
 
 - ![Ancalduri-closeup.png|50](/img/user/Images/Species/Ancalduri-closeup.png) [[Neldardhen World/Species/Ancalduri\|Ancalduri]]
-- ![Ahiir.png|50](/img/user/Images/Species/Ahiir.png) [[Neldardhen World/Species/Caerfaldir\|Caerfaldir]] (uncommon) 
+- ![caerfal.png|50](/img/user/Images/Species/caerfal.png) [[Neldardhen World/Species/Caerfaldir\|Caerfaldir]] (uncommon) 
 - [[Neldardhen World/Species/Leporidir\|Leporidir]] (sing. Leporid) 
 - ![Beriagond.png|50](/img/user/Images/Species/Beriagond.png) [[Neldardhen World/Species/Dwarves\|Dwarves]] 
 - ![Gemelian-darkblue.png|50](/img/user/Images/Species/Gemelian-darkblue.png) [[Neldardhen World/Species/Gemelians\|Gemelians]] (rare)
